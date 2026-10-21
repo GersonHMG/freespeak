@@ -1,0 +1,6 @@
+Example sentences from Tatoeba (https://tatoeba.org), by its contributors.
+
+Licensed under the Creative Commons Attribution 2.0 France licence
+(CC BY 2.0 FR): https://creativecommons.org/licenses/by/2.0/fr/
+
+The sentences may have been shortened, filtered or regrouped for this app.

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
+import 'data/credits.dart';
 import 'screens/loading_screen.dart';
 import 'theme/lingo_theme.dart';
 
 void main() {
+  registerCreditLicenses();
   runApp(const FreeSpeakApp());
 }
 

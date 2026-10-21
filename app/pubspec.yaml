@@ -110,6 +110,9 @@ flutter:
     # (lib/decks/seed_deck.dart's kStarterDeckAssets).
     - assets/decks/
     - assets/branding/icon.png
+    # Licence texts for the credits on the About screen (lib/data/credits.dart).
+    - assets/licenses/
+    - assets/fonts/OFL.txt
     # Phonon (phonon-31m-en, Apache-2.0), ~65 MB, copied out to app support
     # on first launch: its C library reads files, not the asset bundle.
     - assets/models/phonon/
