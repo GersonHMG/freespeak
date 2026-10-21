@@ -1,0 +1,988 @@
+{
+  "name": "Phrasal verbs",
+  "source": "starter",
+  "native_lang": "hi",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "figure out",
+      "native": "मैं समझ नहीं पा रहा कि यह मशीन कैसे काम करती है।",
+      "references": [
+        "I can't figure out how this machine works."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "figure out",
+      "native": "हमें एक बेहतर योजना सोचनी होगी।",
+      "references": [
+        "We need to figure out a better plan."
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "run into",
+      "native": "सुपरमार्केट में अचानक मेरी मुलाक़ात अपने पुराने टीचर से हो गई।",
+      "references": [
+        "I ran into my old teacher at the supermarket."
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "run into",
+      "native": "हमें कार में कुछ दिक़्क़तें आईं।",
+      "references": [
+        "We ran into some problems with the car."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "put up with",
+      "native": "मैं अब यह शोर और बर्दाश्त नहीं कर सकता।",
+      "references": [
+        "I can't put up with this noise anymore."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "put up with",
+      "native": "वह काम पर बहुत कुछ सहती है।",
+      "references": [
+        "She puts up with a lot at work."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "look forward to",
+      "native": "मैं तुमसे फिर मिलने का इंतज़ार कर रहा हूँ।",
+      "references": [
+        "I'm looking forward to seeing you again."
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "look forward to",
+      "native": "हमें आपके जवाब का इंतज़ार रहेगा।",
+      "references": [
+        "We look forward to hearing from you."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "give up",
+      "native": "हार मत मानो, तुम बस पहुँचने ही वाले हो।",
+      "references": [
+        "Don't give up, you're almost there."
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "give up",
+      "native": "आख़िरकार पिछले साल उसने सिगरेट पीना छोड़ दिया।",
+      "references": [
+        "He finally gave up smoking last year."
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "pick up",
+      "native": "क्या तुम मुझे एयरपोर्ट से ले आओगे?",
+      "references": [
+        "Can you pick me up from the airport?"
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "pick up",
+      "native": "अपनी यात्रा में मैंने थोड़ी स्पेनिश सीख ली।",
+      "references": [
+        "I picked up a little Spanish on my trip."
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "turn down",
+      "native": "क्या तुम गाना थोड़ा धीमा कर दोगे, प्लीज़?",
+      "references": [
+        "Could you turn down the music, please?"
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "turn down",
+      "native": "उसने नौकरी का प्रस्ताव ठुकरा दिया।",
+      "references": [
+        "She turned down the job offer."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "come up with",
+      "native": "हमें कोई नया आइडिया सोचना होगा।",
+      "references": [
+        "We need to come up with a new idea."
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "come up with",
+      "native": "यह नाम किसने सोचा?",
+      "references": [
+        "Who came up with this name?"
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "find out",
+      "native": "मुझे अभी पता चला कि दुकान बंद है।",
+      "references": [
+        "I just found out that the store is closed."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "find out",
+      "native": "मैं पता करता हूँ कि ट्रेन कितने बजे निकलती है।",
+      "references": [
+        "Let me find out what time the train leaves."
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "get along with",
+      "native": "मेरी अपने पड़ोसियों से अच्छी बनती है।",
+      "references": [
+        "I get along well with my neighbors."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "get along with",
+      "native": "क्या तुम्हारी अपने भाई से बनती है?",
+      "references": [
+        "Do you get along with your brother?"
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "look after",
+      "native": "क्या तुम इस वीकेंड मेरे कुत्ते का ध्यान रख सकते हो?",
+      "references": [
+        "Could you look after my dog this weekend?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "look after",
+      "native": "वह हर दिन अपनी दादी की देखभाल करती है।",
+      "references": [
+        "She looks after her grandmother every day."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "look up",
+      "native": "मैं यह शब्द शब्दकोश में देख लूँगा।",
+      "references": [
+        "I'll look up the word in the dictionary."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "look up",
+      "native": "मैं अपने फ़ोन पर पता देख लेता हूँ।",
+      "references": [
+        "Let me look up the address on my phone."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "set up",
+      "native": "क्या तुम मेरा नया लैपटॉप सेट करने में मदद करोगे?",
+      "references": [
+        "Can you help me set up my new laptop?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "set up",
+      "native": "उन्होंने पिछले साल अपनी कंपनी शुरू की।",
+      "references": [
+        "They set up their own company last year."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "take off",
+      "native": "अंदर आने से पहले प्लीज़ जूते उतार दो।",
+      "references": [
+        "Please take off your shoes before you come in."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "take off",
+      "native": "हमारा प्लेन सुबह नौ बजे उड़ान भरता है।",
+      "references": [
+        "Our plane takes off at nine in the morning."
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "show up",
+      "native": "वह मीटिंग में नहीं आया।",
+      "references": [
+        "He didn't show up for the meeting."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "show up",
+      "native": "वह हमेशा क्लास में देर से आती है।",
+      "references": [
+        "She always shows up late to class."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "call off",
+      "native": "बारिश की वजह से उन्होंने मैच रद्द कर दिया।",
+      "references": [
+        "They called off the game because of the rain."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "call off",
+      "native": "हमें शादी रद्द करनी पड़ी।",
+      "references": [
+        "We had to call off the wedding."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "carry on",
+      "native": "टोकने के लिए माफ़ करना, तुम बोलते रहो।",
+      "references": [
+        "Sorry for interrupting, please carry on."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "carry on",
+      "native": "हम अँधेरा होने तक चलते रहे।",
+      "references": [
+        "We carried on walking until it got dark."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "check in",
+      "native": "हमें छह बजे से पहले होटल में चेक-इन करना है।",
+      "references": [
+        "We need to check in at the hotel before six."
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "check in",
+      "native": "तुम फ़्लाइट से एक दिन पहले ऑनलाइन चेक-इन कर सकते हो।",
+      "references": [
+        "You can check in online the day before your flight."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "check out",
+      "native": "तुम्हें वह नया रेस्टोरेंट ज़रूर आज़माना चाहिए।",
+      "references": [
+        "You should check out that new restaurant."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "check out",
+      "native": "हमें होटल से कितने बजे चेक-आउट करना है?",
+      "references": [
+        "What time do we have to check out of the hotel?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "fill out",
+      "native": "प्लीज़ यह फ़ॉर्म भरिए और उस पर साइन कीजिए।",
+      "references": [
+        "Please fill out this form and sign it."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "fill out",
+      "native": "मैंने कल रात आवेदन भर दिया।",
+      "references": [
+        "I filled out the application last night."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "get over",
+      "native": "मुझे फ़्लू से उबरने में हफ़्ते लग गए।",
+      "references": [
+        "It took me weeks to get over the flu."
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "get over",
+      "native": "वह अब तक ब्रेकअप से उबर नहीं पाया है।",
+      "references": [
+        "He still hasn't gotten over the breakup."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "go on",
+      "native": "यहाँ क्या चल रहा है?",
+      "references": [
+        "What's going on here?"
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "go on",
+      "native": "बोलते रहो, मैं सुन रहा हूँ।",
+      "references": [
+        "Please go on, I'm listening."
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "hang out",
+      "native": "क्या इस वीकेंड साथ में घूमना चाहोगे?",
+      "references": [
+        "Do you want to hang out this weekend?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "hang out",
+      "native": "हम स्कूल के बाद पार्क में साथ समय बिताते थे।",
+      "references": [
+        "We used to hang out at the park after school."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "hold on",
+      "native": "एक सेकंड रुको, मैं अभी आया।",
+      "references": [
+        "Hold on a second, I'll be right back."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "hold on",
+      "native": "कसकर पकड़ लो, सड़क ऊबड़-खाबड़ है।",
+      "references": [
+        "Hold on tight, the road is bumpy."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "keep up with",
+      "native": "सारी ख़बरों से अपडेट रहना मुश्किल है।",
+      "references": [
+        "It's hard to keep up with all the news."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "keep up with",
+      "native": "धीरे चलो, मैं तुम्हारे साथ नहीं चल पा रहा।",
+      "references": [
+        "Slow down, I can't keep up with you."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "let down",
+      "native": "मैं वादा करता हूँ कि तुम्हें निराश नहीं करूँगा।",
+      "references": [
+        "I promise I won't let you down."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "let down",
+      "native": "फ़िल्म के अंत से मुझे बहुत निराशा हुई।",
+      "references": [
+        "I felt really let down by the ending of the movie."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "look into",
+      "native": "मैनेजर ने कहा कि वह समस्या की जाँच करेगी।",
+      "references": [
+        "The manager said she would look into the problem."
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "look into",
+      "native": "हम नई कार ख़रीदने के बारे में सोच रहे हैं।",
+      "references": [
+        "We're looking into buying a new car."
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "make up",
+      "native": "उसने देर से आने का बहाना बना दिया।",
+      "references": [
+        "He made up an excuse for being late."
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "make up",
+      "native": "उनकी लड़ाई हुई थी, लेकिन अगले दिन सुलह हो गई।",
+      "references": [
+        "They had a fight, but they made up the next day."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "point out",
+      "native": "मेरी गलती बताने के लिए शुक्रिया।",
+      "references": [
+        "Thanks for pointing out my mistake."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "point out",
+      "native": "उसने बताया कि दुकान रविवार को बंद रहती है।",
+      "references": [
+        "She pointed out that the store was closed on Sundays."
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "put off",
+      "native": "अपना होमवर्क टालना बंद करो।",
+      "references": [
+        "Stop putting off your homework."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "put off",
+      "native": "हमने यात्रा अगली गर्मियों तक टाल दी।",
+      "references": [
+        "We put off the trip until next summer."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "run out of",
+      "native": "हमारा दूध फिर से ख़त्म हो गया है।",
+      "references": [
+        "We have run out of milk again."
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "run out of",
+      "native": "मेरे पास समय कम पड़ रहा है, मुझे जल्दी करनी होगी।",
+      "references": [
+        "I'm running out of time, I need to hurry."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "sort out",
+      "native": "चिंता मत करो, हम कल इसे सुलझा लेंगे।",
+      "references": [
+        "Don't worry, we'll sort it out tomorrow."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "sort out",
+      "native": "यात्रा से पहले मुझे अपने काग़ज़ात ठीक करने हैं।",
+      "references": [
+        "I need to sort out my papers before I travel."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "take care of",
+      "native": "क्या तुम आज रात बच्चों को संभाल सकते हो?",
+      "references": [
+        "Can you take care of the kids tonight?"
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "take care of",
+      "native": "बिल मैं देख लूँगा।",
+      "references": [
+        "I'll take care of the bill."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "throw away",
+      "native": "वह डिब्बा मत फेंकना, मुझे अभी उसकी ज़रूरत है।",
+      "references": [
+        "Don't throw away that box, I still need it."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "throw away",
+      "native": "मैंने अपने सारे पुराने कपड़े फेंक दिए।",
+      "references": [
+        "I threw away all my old clothes."
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "turn up",
+      "native": "क्या तुम आवाज़ थोड़ी तेज़ कर दोगे?",
+      "references": [
+        "Could you turn up the volume a little?"
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "turn up",
+      "native": "मेरी खोई हुई चाबियाँ मेरी जैकेट की जेब में मिल गईं।",
+      "references": [
+        "My lost keys turned up in my jacket pocket."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "work out",
+      "native": "मैं हफ़्ते में तीन बार जिम में कसरत करता हूँ।",
+      "references": [
+        "I work out at the gym three times a week."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "work out",
+      "native": "चिंता मत करो, सब ठीक हो जाएगा।",
+      "references": [
+        "Don't worry, everything will work out fine."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "break down",
+      "native": "हमारी कार हाईवे पर ख़राब हो गई।",
+      "references": [
+        "Our car broke down on the highway."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "break down",
+      "native": "ख़बर सुनकर वह फूट-फूटकर रोने लगी।",
+      "references": [
+        "She broke down in tears when she heard the news."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "bring up",
+      "native": "प्लीज़ खाने पर राजनीति की बात मत छेड़ना।",
+      "references": [
+        "Please don't bring up politics at dinner."
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "bring up",
+      "native": "उसे उसके दादा-दादी ने पाला था।",
+      "references": [
+        "She was brought up by her grandparents."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "calm down",
+      "native": "शांत हो जाओ, यह कोई बड़ी बात नहीं है।",
+      "references": [
+        "Calm down, it's not a big deal."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "calm down",
+      "native": "बच्चे को शांत होने में एक घंटा लग गया।",
+      "references": [
+        "It took the baby an hour to calm down."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "catch up",
+      "native": "चलो जल्दी ही कॉफ़ी पर मिलते हैं और हालचाल लेते हैं।",
+      "references": [
+        "Let's get coffee and catch up soon."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "catch up",
+      "native": "मेरी एक हफ़्ते की क्लास छूट गई और मुझे पढ़ाई पूरी करनी है।",
+      "references": [
+        "I missed a week of class and need to catch up."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "cheer up",
+      "native": "ख़ुश हो जाओ, कल का दिन बेहतर होगा।",
+      "references": [
+        "Cheer up, tomorrow will be a better day."
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "cheer up",
+      "native": "यह गाना हमेशा मेरा मूड अच्छा कर देता है।",
+      "references": [
+        "This song always cheers me up."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "drop off",
+      "native": "क्या तुम मुझे स्टेशन पर छोड़ दोगे?",
+      "references": [
+        "Can you drop me off at the station?"
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "drop off",
+      "native": "मैंने पार्सल डाकघर में दे दिया।",
+      "references": [
+        "I dropped off the package at the post office."
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "end up",
+      "native": "आख़िर में हम पूरा वीकेंड घर पर ही रहे।",
+      "references": [
+        "We ended up staying at home all weekend."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "end up",
+      "native": "अगर तुम ऐसा करते रहे, तो आख़िर में चोट खा बैठोगे।",
+      "references": [
+        "If you keep doing that, you'll end up hurt."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "get back",
+      "native": "तुम अपनी यात्रा से कब लौटे?",
+      "references": [
+        "When did you get back from your trip?"
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "get back",
+      "native": "मैं हफ़्ते के आख़िर तक तुम्हें जवाब दूँगा।",
+      "references": [
+        "I'll get back to you by the end of the week."
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "go over",
+      "native": "चलो एक बार फिर से योजना पर नज़र डालते हैं।",
+      "references": [
+        "Let's go over the plan one more time."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "go over",
+      "native": "क्या तुम मेरा निबंध जमा करने से पहले एक बार देख लोगे?",
+      "references": [
+        "Could you go over my essay before I hand it in?"
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "grow up",
+      "native": "मैं समुद्र किनारे एक छोटे से शहर में बड़ा हुआ।",
+      "references": [
+        "I grew up in a small town by the sea."
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "grow up",
+      "native": "तुम बड़े होकर क्या बनना चाहते हो?",
+      "references": [
+        "What do you want to be when you grow up?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "pass out",
+      "native": "इतनी गर्मी थी कि ट्रेन में एक आदमी बेहोश हो गया।",
+      "references": [
+        "It was so hot that a man passed out on the train."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "pass out",
+      "native": "टीचर ने नौ बजे परीक्षा के पर्चे बाँटे।",
+      "references": [
+        "The teacher passed out the exams at nine."
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "slow down",
+      "native": "प्लीज़ धीरे चलाओ, तुम बहुत तेज़ गाड़ी चला रहे हो।",
+      "references": [
+        "Please slow down, you're driving too fast."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "slow down",
+      "native": "डॉक्टर ने मुझसे कहा कि थोड़ा आराम करूँ और भागदौड़ कम करूँ।",
+      "references": [
+        "The doctor told me to slow down and rest."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "try on",
+      "native": "क्या मैं ये जूते एक बड़े साइज़ में पहनकर देख सकता हूँ?",
+      "references": [
+        "Can I try on these shoes in a bigger size?"
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "try on",
+      "native": "एक ड्रेस चुनने से पहले उसने पाँच ड्रेस पहनकर देखीं।",
+      "references": [
+        "She tried on five dresses before she chose one."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "wake up",
+      "native": "मैं आमतौर पर साढ़े छह बजे उठता हूँ।",
+      "references": [
+        "I usually wake up at six thirty."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "wake up",
+      "native": "प्लीज़ जाने से पहले मुझे जगा देना।",
+      "references": [
+        "Please wake me up before you leave."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "show up",
+      "native": "जब तुम देर से आते हो तो मैं चिंता किए बिना नहीं रह पाता।",
+      "references": [
+        "I can't help worrying when you show up late."
+      ],
+      "starter_pattern": "I can't help…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "make up",
+      "native": "जब वह बेवकूफ़ी भरी कहानियाँ बनाता है तो मैं हँसे बिना नहीं रह पाता।",
+      "references": [
+        "I can't help laughing when he makes up silly stories."
+      ],
+      "starter_pattern": "I can't help…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "work out",
+      "native": "तुम जितनी ज़्यादा कसरत करोगे, उतनी ज़्यादा ऊर्जा रहेगी।",
+      "references": [
+        "The more you work out, the more energy you'll have."
+      ],
+      "starter_pattern": "The more… the more…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "put off",
+      "native": "मैं जितना होमवर्क टालता हूँ, उतना ही ज़्यादा तनाव में आ जाता हूँ।",
+      "references": [
+        "The more I put off my homework, the more stressed I get."
+      ],
+      "starter_pattern": "The more… the more…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "give up",
+      "native": "अगर तुम न होते, तो मैं हार मान चुका होता।",
+      "references": [
+        "If it hadn't been for you, I'd have given up."
+      ],
+      "starter_pattern": "If it hadn't been for…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "figure out",
+      "native": "अगर मेरी माँ न होतीं, तो मैं यह कभी समझ न पाता।",
+      "references": [
+        "If it hadn't been for my mom, I wouldn't have figured it out."
+      ],
+      "starter_pattern": "If it hadn't been for…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "throw away",
+      "native": "तुम्हारी हिम्मत कैसे हुई मेरी चिट्ठियाँ फेंकने की!",
+      "references": [
+        "How dare you throw away my letters!"
+      ],
+      "starter_pattern": "How dare you…!"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "bring up",
+      "native": "तुम्हारी हिम्मत कैसे हुई खाने पर मेरे एक्स की बात छेड़ने की!",
+      "references": [
+        "How dare you bring up my ex at dinner!"
+      ],
+      "starter_pattern": "How dare you…!"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "call off",
+      "native": "हमने यात्रा रद्द कर दी, लेकिन इसका मतलब यह नहीं कि हम अगले साल नहीं जा सकते।",
+      "references": [
+        "We called off the trip, but this doesn't mean that we can't go next year."
+      ],
+      "starter_pattern": "But this doesn't mean that…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "grow up",
+      "native": "वह पेरिस में बड़ी हुई, लेकिन इसका मतलब यह नहीं कि वह फ़्रेंच बोलती है।",
+      "references": [
+        "She grew up in Paris, but this doesn't mean that she speaks French."
+      ],
+      "starter_pattern": "But this doesn't mean that…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "get over",
+      "native": "ज़ुकाम से ठीक होने में कितना समय लगता है?",
+      "references": [
+        "How long does it take to get over a cold?"
+      ],
+      "starter_pattern": "How long does it take…?"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "set up",
+      "native": "नया प्रिंटर सेट करने में कितना समय लगता है?",
+      "references": [
+        "How long does it take to set up the new printer?"
+      ],
+      "starter_pattern": "How long does it take…?"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "wake up",
+      "native": "तुम्हें हैरानी होगी, लेकिन मैं हर दिन पाँच बजे उठता हूँ।",
+      "references": [
+        "It may surprise you, but I wake up at five every day."
+      ],
+      "starter_pattern": "It may surprise you, but…"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "get along with",
+      "native": "तुम्हें हैरानी होगी, लेकिन अब मेरी अपने बॉस से अच्छी बनती है।",
+      "references": [
+        "It may surprise you, but I get along with my boss now."
+      ],
+      "starter_pattern": "It may surprise you, but…"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "show up",
+      "native": "हम रेस्टोरेंट पहुँचे तो पता चला कि वह बंद है।",
+      "references": [
+        "We showed up at the restaurant only to find it was closed."
+      ],
+      "starter_pattern": "… only to find…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "look up",
+      "native": "मैंने पता खोजा तो पता चला कि वह गलत था।",
+      "references": [
+        "I looked up the address only to find it was wrong."
+      ],
+      "starter_pattern": "… only to find…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "hang out",
+      "native": "आज रात मेरे घर पर मिलें तो कैसा रहेगा?",
+      "references": [
+        "How about we hang out at my place tonight?"
+      ],
+      "starter_pattern": "How about…?"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "check out",
+      "native": "वह नया कैफ़े देखने चलें तो कैसा रहेगा?",
+      "references": [
+        "How about checking out that new cafe?"
+      ],
+      "starter_pattern": "How about…?"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "break down",
+      "native": "अगर रात में तुम्हारी कार ख़राब हो जाए तो तुम क्या करोगे?",
+      "references": [
+        "What would you do if your car broke down at night?"
+      ],
+      "starter_pattern": "What would you do if…?"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "run out of",
+      "native": "अगर विदेश में तुम्हारे पैसे ख़त्म हो जाएँ तो तुम क्या करोगे?",
+      "references": [
+        "What would you do if you ran out of money abroad?"
+      ],
+      "starter_pattern": "What would you do if…?"
+    }
+  ]
+}

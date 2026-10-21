@@ -1,0 +1,988 @@
+{
+  "name": "Work & meetings",
+  "source": "starter",
+  "native_lang": "ar",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Starting a meeting",
+      "native": "صباح الخير جميعًا، لنبدأ.",
+      "references": [
+        "Good morning everyone, let's get started."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Starting a meeting",
+      "native": "شكرًا لانضمامكم إلى المكالمة اليوم.",
+      "references": [
+        "Thanks for joining the call today."
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Starting a meeting",
+      "native": "هل الجميع هنا، أم أننا ننتظر أحدًا؟",
+      "references": [
+        "Is everyone here, or are we waiting for someone?"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Starting a meeting",
+      "native": "الهدف الرئيسي من هذا الاجتماع هو التخطيط للإطلاق.",
+      "references": [
+        "The main goal of this meeting is to plan the launch."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Starting a meeting",
+      "native": "لنمرّ على الجميع ويقدّم كل واحد تحديثًا سريعًا.",
+      "references": [
+        "Let's go around and give a quick update."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Starting a meeting",
+      "native": "لدينا ثلاثة بنود على جدول الأعمال اليوم.",
+      "references": [
+        "We have three things on the agenda today."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Starting a meeting",
+      "native": "هل يرى الجميع شاشتي؟",
+      "references": [
+        "Can everyone see my screen?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Starting a meeting",
+      "native": "سأجعل هذا الاجتماع قصيرًا.",
+      "references": [
+        "I'll keep this meeting short."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Starting a meeting",
+      "native": "من يرغب في تدوين الملاحظات اليوم؟",
+      "references": [
+        "Who would like to take notes today?"
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Starting a meeting",
+      "native": "قبل أن نبدأ، هل هناك أي أسئلة؟",
+      "references": [
+        "Before we begin, are there any questions?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Giving updates",
+      "native": "أنهيت التقرير بعد ظهر أمس.",
+      "references": [
+        "I finished the report yesterday afternoon."
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Giving updates",
+      "native": "ما زلنا نعمل على التصميم الجديد.",
+      "references": [
+        "We're still working on the new design."
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Giving updates",
+      "native": "المشروع يسير وفق الخطة ليوم الجمعة القادم.",
+      "references": [
+        "The project is on track for next Friday."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Giving updates",
+      "native": "واجهتنا مشكلة في الخادم.",
+      "references": [
+        "We ran into a problem with the server."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Giving updates",
+      "native": "أنهيت نحو نصف الاختبارات.",
+      "references": [
+        "I'm about halfway through the testing."
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Giving updates",
+      "native": "ارتفعت المبيعات بنسبة عشرة بالمئة هذا الشهر.",
+      "references": [
+        "Sales went up by ten percent this month."
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Giving updates",
+      "native": "أنتظر ملاحظات العميل.",
+      "references": [
+        "I'm waiting for feedback from the client."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Giving updates",
+      "native": "لا جديد من جهتي هذا الأسبوع.",
+      "references": [
+        "There's nothing new on my side this week."
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Giving updates",
+      "native": "نحن متأخرون قليلًا عن الجدول الزمني.",
+      "references": [
+        "We're a little behind schedule."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Giving updates",
+      "native": "الخبر السار هو أن الخلل تم إصلاحه.",
+      "references": [
+        "The good news is that the bug is fixed."
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Asking for clarification",
+      "native": "هل يمكنك شرح ذلك بتفصيل أكثر؟",
+      "references": [
+        "Could you explain that in more detail?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Asking for clarification",
+      "native": "ماذا تقصد بذلك بالضبط؟",
+      "references": [
+        "What exactly do you mean by that?"
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Asking for clarification",
+      "native": "للتوضيح فقط، الموعد النهائي هو يوم الاثنين؟",
+      "references": [
+        "Just to be clear, the deadline is Monday?"
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Asking for clarification",
+      "native": "هل يمكنك أن تعطيني مثالًا؟",
+      "references": [
+        "Could you give me an example?"
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "Asking for clarification",
+      "native": "عذرًا، فاتني الجزء الأخير.",
+      "references": [
+        "Sorry, I missed the last part."
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "Asking for clarification",
+      "native": "من المسؤول عن هذه المهمة؟",
+      "references": [
+        "Who's responsible for this task?"
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Asking for clarification",
+      "native": "إذن إن فهمت جيدًا، نحتاج إلى مزيد من الوقت.",
+      "references": [
+        "So if I understand correctly, we need more time."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Asking for clarification",
+      "native": "هل يمكنك إرسال ذلك لي كتابيًا؟",
+      "references": [
+        "Could you send that to me in writing?"
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Asking for clarification",
+      "native": "ما ميزانية هذا المشروع؟",
+      "references": [
+        "What's the budget for this project?"
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Asking for clarification",
+      "native": "كيف يؤثر هذا على فريقنا؟",
+      "references": [
+        "How does this affect our team?"
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Polite opinions",
+      "native": "برأيي، يجب أن ننتظر قليلًا بعد.",
+      "references": [
+        "In my opinion, we should wait a little longer."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Polite opinions",
+      "native": "أفهم وجهة نظرك، لكن لديّ فكرة مختلفة.",
+      "references": [
+        "I see your point, but I have a different idea."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Polite opinions",
+      "native": "أخشى أنني لا أتفق مع تلك الخطة.",
+      "references": [
+        "I'm afraid I don't agree with that plan."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Polite opinions",
+      "native": "هذه فكرة رائعة، لنجربها.",
+      "references": [
+        "That's a great idea, let's try it."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Polite opinions",
+      "native": "هل فكرنا في التكاليف؟",
+      "references": [
+        "Have we thought about the costs?"
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Polite opinions",
+      "native": "أقترح أن نسأل العميل أولًا.",
+      "references": [
+        "I'd suggest we ask the client first."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "Polite opinions",
+      "native": "أظن أننا نغفل شيئًا هنا.",
+      "references": [
+        "I think we're missing something here."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "Polite opinions",
+      "native": "هل يمكننا النظر إلى هذا من زاوية أخرى؟",
+      "references": [
+        "Could we look at this from another angle?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Polite opinions",
+      "native": "أنا أؤيد سارة في هذه النقطة.",
+      "references": [
+        "I'm with Sarah on this one."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Polite opinions",
+      "native": "قد ينجح ذلك، لكنه محفوف بالمخاطر قليلًا.",
+      "references": [
+        "That might work, but it's a little risky."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Scheduling",
+      "native": "هل أنت متاح صباح الخميس؟",
+      "references": [
+        "Are you available on Thursday morning?"
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Scheduling",
+      "native": "هل يمكننا تأجيل مكالمتنا إلى الأسبوع القادم؟",
+      "references": [
+        "Can we reschedule our call to next week?"
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Scheduling",
+      "native": "سأرسل لك دعوة في التقويم.",
+      "references": [
+        "I'll send you a calendar invite."
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Scheduling",
+      "native": "هل تناسبك الساعة الثالثة؟",
+      "references": [
+        "Does three o'clock work for you?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Scheduling",
+      "native": "جدولي ممتلئ اليوم، ما رأيك في الغد؟",
+      "references": [
+        "I'm fully booked today, how about tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Scheduling",
+      "native": "لنحدد اجتماع متابعة.",
+      "references": [
+        "Let's set up a follow-up meeting."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Scheduling",
+      "native": "عذرًا، لديّ ارتباط آخر في ذلك الوقت.",
+      "references": [
+        "Sorry, I have a conflict at that time."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Scheduling",
+      "native": "نُقل الاجتماع إلى القاعة رقم خمسة.",
+      "references": [
+        "The meeting has been moved to room five."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "Scheduling",
+      "native": "كم تتوقع أن يستغرق الاجتماع؟",
+      "references": [
+        "How long do you think the meeting will take?"
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "Scheduling",
+      "native": "سأكون خارج المكتب يوم الاثنين القادم.",
+      "references": [
+        "I'll be out of the office next Monday."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Calls and video",
+      "native": "هل تسمعني جيدًا؟",
+      "references": [
+        "Can you hear me okay?"
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Calls and video",
+      "native": "عذرًا، الميكروفون عندك مكتوم.",
+      "references": [
+        "Sorry, you're on mute."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Calls and video",
+      "native": "الفيديو عندك متجمد، هل يمكنك إطفاؤه وتشغيله مرة أخرى؟",
+      "references": [
+        "Your video is frozen, could you turn it off and on?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Calls and video",
+      "native": "أظن أننا فقدنا الاتصال لثانية.",
+      "references": [
+        "I think we lost the connection for a second."
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Calls and video",
+      "native": "هل يمكن للجميع كتم الميكروفونات، من فضلكم؟",
+      "references": [
+        "Could everyone mute their microphones, please?"
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Calls and video",
+      "native": "هناك ضوضاء كثيرة في الخلفية عندك.",
+      "references": [
+        "There's a lot of background noise on your side."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Calls and video",
+      "native": "سأشارك شاشتي الآن.",
+      "references": [
+        "I'm going to share my screen now."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Calls and video",
+      "native": "سأعاود الاتصال بك بعد خمس دقائق.",
+      "references": [
+        "Let me call you back in five minutes."
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Calls and video",
+      "native": "عذرًا، أواجه بعض المشاكل التقنية.",
+      "references": [
+        "Sorry, I'm having some technical problems."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Calls and video",
+      "native": "هل يمكنك وضع الرابط في الدردشة؟",
+      "references": [
+        "Can you drop the link in the chat?"
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Job interviews",
+      "native": "شكرًا لدعوتي إلى هذه المقابلة.",
+      "references": [
+        "Thank you for inviting me to this interview."
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Job interviews",
+      "native": "لديّ خمس سنوات من الخبرة في التسويق.",
+      "references": [
+        "I have five years of experience in marketing."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Job interviews",
+      "native": "أكبر نقاط قوتي هي حل المشكلات.",
+      "references": [
+        "My biggest strength is solving problems."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Job interviews",
+      "native": "أبحث عن تحدٍّ جديد.",
+      "references": [
+        "I'm looking for a new challenge."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Job interviews",
+      "native": "أعمل جيدًا بمفردي وضمن فريق على حد سواء.",
+      "references": [
+        "I work well both alone and in a team."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Job interviews",
+      "native": "لماذا تركت عملك السابق؟",
+      "references": [
+        "Why did you leave your last job?"
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "Job interviews",
+      "native": "أين ترى نفسك بعد خمس سنوات؟",
+      "references": [
+        "Where do you see yourself in five years?"
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "Job interviews",
+      "native": "كيف يبدو يوم العمل المعتاد في هذا المنصب؟",
+      "references": [
+        "What does a typical day look like in this role?"
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Job interviews",
+      "native": "متى يمكنك أن تبدأ؟",
+      "references": [
+        "When can you start?"
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Job interviews",
+      "native": "متى أتوقع أن أسمع ردكم؟",
+      "references": [
+        "When can I expect to hear back from you?"
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Asking colleagues for help",
+      "native": "هل لديك دقيقة لتلقي نظرة على هذا؟",
+      "references": [
+        "Do you have a minute to look at this?"
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Asking colleagues for help",
+      "native": "هل يمكنك مساعدتي في جدول البيانات هذا؟",
+      "references": [
+        "Could you help me with this spreadsheet?"
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Asking colleagues for help",
+      "native": "أنا عالق في هذه المشكلة، هل لديك أي فكرة؟",
+      "references": [
+        "I'm stuck on this problem, any ideas?"
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Asking colleagues for help",
+      "native": "هل تمانع مراجعة بريدي الإلكتروني قبل أن أرسله؟",
+      "references": [
+        "Would you mind reviewing my email before I send it?"
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Asking colleagues for help",
+      "native": "مع من يجب أن أتحدث بشأن هذه المسألة؟",
+      "references": [
+        "Who should I talk to about this issue?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Asking colleagues for help",
+      "native": "هل يمكنك أن تريني كيف تعمل هذه الأداة؟",
+      "references": [
+        "Can you show me how this tool works?"
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "Asking colleagues for help",
+      "native": "هل يمكنك أن تنوب عني يوم الجمعة؟",
+      "references": [
+        "Could you cover for me on Friday?"
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "Asking colleagues for help",
+      "native": "أخبرني إن احتجت إلى أي شيء مني.",
+      "references": [
+        "Let me know if you need anything from me."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Asking colleagues for help",
+      "native": "أنا مدين لك، شكرًا على مساعدتك.",
+      "references": [
+        "I owe you one, thanks for your help."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Asking colleagues for help",
+      "native": "لا تتردد في سؤالي إن كانت لديك أسئلة.",
+      "references": [
+        "Feel free to ask me if you have questions."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Deadlines and tasks",
+      "native": "متى الموعد النهائي لهذا المشروع؟",
+      "references": [
+        "When is the deadline for this project?"
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Deadlines and tasks",
+      "native": "أحتاج هذا التقرير قبل نهاية اليوم.",
+      "references": [
+        "I need this report by the end of the day."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Deadlines and tasks",
+      "native": "سيكون جاهزًا بحلول يوم الأربعاء.",
+      "references": [
+        "I'll have it ready by Wednesday."
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Deadlines and tasks",
+      "native": "هل يمكنني الحصول على بضعة أيام إضافية لإنهاء هذا؟",
+      "references": [
+        "Could I get a few more days to finish this?"
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Deadlines and tasks",
+      "native": "هذه أولويتنا القصوى الآن.",
+      "references": [
+        "This is our top priority right now."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Deadlines and tasks",
+      "native": "من فضلك أخبرني إن تغيّر أي شيء.",
+      "references": [
+        "Please let me know if anything changes."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Deadlines and tasks",
+      "native": "أعمل عليه في هذه اللحظة.",
+      "references": [
+        "I'm working on it as we speak."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Deadlines and tasks",
+      "native": "هل يمكننا تأجيل الموعد النهائي أسبوعًا؟",
+      "references": [
+        "Can we push the deadline back a week?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Deadlines and tasks",
+      "native": "آسف، لن ألحق بالموعد النهائي.",
+      "references": [
+        "I'm sorry, I won't make the deadline."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Deadlines and tasks",
+      "native": "أرسلت لك النسخة النهائية للتو.",
+      "references": [
+        "I just sent you the final version."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Closing a meeting",
+      "native": "لنختم هنا.",
+      "references": [
+        "Let's wrap up here."
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Closing a meeting",
+      "native": "باختصار، اتفقنا على ثلاثة أمور.",
+      "references": [
+        "To sum up, we agreed on three things."
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Closing a meeting",
+      "native": "سأرسل ملخصًا للجميع بعد المكالمة.",
+      "references": [
+        "I'll send everyone a summary after the call."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Closing a meeting",
+      "native": "هل هناك أي أسئلة أخيرة؟",
+      "references": [
+        "Are there any final questions?"
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Closing a meeting",
+      "native": "شكرًا للجميع، كان هذا مفيدًا حقًا.",
+      "references": [
+        "Thanks everyone, this was really helpful."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Closing a meeting",
+      "native": "لنلتقِ مجددًا في الوقت نفسه الأسبوع القادم.",
+      "references": [
+        "Let's meet again at the same time next week."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Closing a meeting",
+      "native": "إذن الخطوة التالية هي التحدث مع العميل.",
+      "references": [
+        "So the next step is to talk to the client."
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Closing a meeting",
+      "native": "أظن أننا غطينا كل شيء لهذا اليوم.",
+      "references": [
+        "I think we covered everything for today."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Closing a meeting",
+      "native": "من فضلكم أرسلوا لي ملاحظاتكم قبل يوم الجمعة.",
+      "references": [
+        "Please send me your feedback by Friday."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Closing a meeting",
+      "native": "أتمنى لكم جميعًا بقية يوم رائعة.",
+      "references": [
+        "Have a great rest of your day, everyone."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Scheduling",
+      "native": "أتساءل إن كان بإمكاننا نقل الاجتماع إلى يوم الجمعة.",
+      "references": [
+        "I wonder if we could move the meeting to Friday."
+      ],
+      "starter_pattern": "I wonder if…?"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Asking colleagues for help",
+      "native": "أتساءل إن كان بإمكانك مساعدتي في هذا التقرير.",
+      "references": [
+        "I wonder if you could help me with this report."
+      ],
+      "starter_pattern": "I wonder if…?"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Polite opinions",
+      "native": "أجرؤ على القول إن العميل سيحب التصميم الجديد.",
+      "references": [
+        "I dare say the client will like the new design."
+      ],
+      "starter_pattern": "I dare say…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Giving updates",
+      "native": "أجرؤ على القول إننا سننتهي قبل الموعد المحدد.",
+      "references": [
+        "I dare say we'll finish ahead of schedule."
+      ],
+      "starter_pattern": "I dare say…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Job interviews",
+      "native": "شكرًا لتخصيصك الوقت للقائي.",
+      "references": [
+        "Thank you for taking the time to meet with me."
+      ],
+      "starter_pattern": "Thank you for…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Closing a meeting",
+      "native": "شكرًا لكم على كل جهودكم هذا الأسبوع.",
+      "references": [
+        "Thank you for all your hard work this week."
+      ],
+      "starter_pattern": "Thank you for…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Job interviews",
+      "native": "هل سبق لك أن أدرت فريقًا؟",
+      "references": [
+        "Have you ever managed a team before?"
+      ],
+      "starter_pattern": "Have you ever…?"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Calls and video",
+      "native": "هل سبق لك أن استخدمت تطبيق الفيديو هذا؟",
+      "references": [
+        "Have you ever used this video app before?"
+      ],
+      "starter_pattern": "Have you ever…?"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Giving updates",
+      "native": "لا أطيق الانتظار لأريكم النسخة الجديدة.",
+      "references": [
+        "I can't wait to show you the new version."
+      ],
+      "starter_pattern": "I cannot wait to…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Starting a meeting",
+      "native": "لا أطيق الانتظار لسماع أفكاركم اليوم.",
+      "references": [
+        "I can't wait to hear your ideas today."
+      ],
+      "starter_pattern": "I cannot wait to…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Deadlines and tasks",
+      "native": "لا يجوز لكم مشاركة هذه الأرقام خارج الفريق.",
+      "references": [
+        "You're not to share these numbers outside the team."
+      ],
+      "starter_pattern": "You are not to…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "Calls and video",
+      "native": "لا يجوز لكم تسجيل هذه المكالمة بدون إذن.",
+      "references": [
+        "You're not to record this call without permission."
+      ],
+      "starter_pattern": "You are not to…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Calls and video",
+      "native": "ما مشكلة الميكروفون عندي اليوم؟",
+      "references": [
+        "What's the matter with my microphone today?"
+      ],
+      "starter_pattern": "What's the matter with…?"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Asking colleagues for help",
+      "native": "ما مشكلة الطابعة مرة أخرى؟",
+      "references": [
+        "What's the matter with the printer again?"
+      ],
+      "starter_pattern": "What's the matter with…?"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Polite opinions",
+      "native": "ما أحاول قوله هو أننا نحتاج إلى مزيد من الوقت.",
+      "references": [
+        "What I'm trying to say is that we need more time."
+      ],
+      "starter_pattern": "What I'm trying to say is…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Asking for clarification",
+      "native": "ما أحاول قوله هو أن الميزانية صغيرة جدًا.",
+      "references": [
+        "What I'm trying to say is that the budget is too small."
+      ],
+      "starter_pattern": "What I'm trying to say is…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Job interviews",
+      "native": "أحب كثيرًا الوظائف التي أتعلم فيها أشياء جديدة.",
+      "references": [
+        "I really go for jobs where I can learn new things."
+      ],
+      "starter_pattern": "I really go for…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Polite opinions",
+      "native": "أحب كثيرًا التصاميم البسيطة مثل هذا.",
+      "references": [
+        "I really go for simple designs like this one."
+      ],
+      "starter_pattern": "I really go for…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Giving updates",
+      "native": "مقارنةً بالشهر الماضي، المبيعات أفضل بكثير.",
+      "references": [
+        "Compared to last month, sales are much better."
+      ],
+      "starter_pattern": "Compared to…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Deadlines and tasks",
+      "native": "مقارنةً بالمشروع السابق، هذا الموعد النهائي ضيق جدًا.",
+      "references": [
+        "Compared to the last project, this deadline is very tight."
+      ],
+      "starter_pattern": "Compared to…"
+    }
+  ]
+}

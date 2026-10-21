@@ -1,0 +1,988 @@
+{
+  "name": "Common phrases",
+  "source": "starter",
+  "native_lang": "hi",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Greetings",
+      "native": "सुप्रभात, रात को नींद कैसी आई?",
+      "references": [
+        "Good morning, how did you sleep?"
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Greetings",
+      "native": "हाय, कैसा चल रहा है?",
+      "references": [
+        "Hi there, how is it going?"
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Greetings",
+      "native": "अरे, बहुत दिनों बाद मिले!",
+      "references": [
+        "Hey, long time no see!"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Greetings",
+      "native": "नमस्ते, उम्मीद है आप ठीक होंगे।",
+      "references": [
+        "Good afternoon, I hope you're doing well."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Greetings",
+      "native": "सभी को शुभ संध्या, आने के लिए धन्यवाद।",
+      "references": [
+        "Good evening, everyone, thanks for coming."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Greetings",
+      "native": "हैलो, क्या अभी बात करने का सही समय है?",
+      "references": [
+        "Hello, is this a good time to talk?"
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Greetings",
+      "native": "हाय, तुम्हारा वीकेंड कैसा रहा?",
+      "references": [
+        "Hi, how was your weekend?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Greetings",
+      "native": "अरे, आजकल क्या चल रहा है?",
+      "references": [
+        "Hey, what have you been up to lately?"
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Greetings",
+      "native": "तुम्हें फिर से देखकर बहुत अच्छा लगा।",
+      "references": [
+        "It's so good to see you again."
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Greetings",
+      "native": "गुड मॉर्निंग! तुम्हारा सफ़र अच्छा रहा?",
+      "references": [
+        "Morning! Did you have a good trip?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Introductions",
+      "native": "आपसे मिलकर अच्छा लगा, मैं डैनियल हूँ।",
+      "references": [
+        "Nice to meet you, I'm Daniel."
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Introductions",
+      "native": "मैं तुम्हें अपनी बहन से मिलवाता हूँ।",
+      "references": [
+        "Let me introduce you to my sister."
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Introductions",
+      "native": "मैंने आपके बारे में बहुत कुछ सुना है।",
+      "references": [
+        "I have heard so much about you."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Introductions",
+      "native": "आप मूल रूप से कहाँ से हैं?",
+      "references": [
+        "Where are you from originally?"
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Introductions",
+      "native": "आप क्या काम करते हैं?",
+      "references": [
+        "What do you do for a living?"
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Introductions",
+      "native": "मैं यहाँ के अस्पताल में नर्स का काम करती हूँ।",
+      "references": [
+        "I work as a nurse at the local hospital."
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Introductions",
+      "native": "मैं कुछ महीने पहले ही यहाँ आया हूँ।",
+      "references": [
+        "I just moved here a few months ago."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Introductions",
+      "native": "आप पार्टी के मेज़बान को कैसे जानते हैं?",
+      "references": [
+        "How do you know the host of the party?"
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Introductions",
+      "native": "माफ़ कीजिए, क्या आप अपना नाम फिर से बता सकते हैं?",
+      "references": [
+        "Sorry, could you tell me your name again?"
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Introductions",
+      "native": "आखिरकार आपसे आमने-सामने मिलकर बहुत खुशी हुई।",
+      "references": [
+        "It's a pleasure to finally meet you in person."
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Saying goodbye",
+      "native": "तुमसे बात करके सच में अच्छा लगा।",
+      "references": [
+        "It was really nice talking to you."
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Saying goodbye",
+      "native": "मुझे अब जाना होगा, कल मिलते हैं।",
+      "references": [
+        "I have to go now, see you tomorrow."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Saying goodbye",
+      "native": "अपना ख़याल रखना और सही-सलामत घर पहुँचना।",
+      "references": [
+        "Take care and get home safe."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Saying goodbye",
+      "native": "अपने परिवार के साथ वीकेंड बढ़िया बिताना।",
+      "references": [
+        "Have a great weekend with your family."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "Saying goodbye",
+      "native": "संपर्क में रहना, ठीक है?",
+      "references": [
+        "Let's keep in touch, okay?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "Saying goodbye",
+      "native": "अपने माता-पिता को मेरी तरफ़ से नमस्ते कहना।",
+      "references": [
+        "Say hi to your parents for me."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Saying goodbye",
+      "native": "सोमवार को मीटिंग में मिलते हैं।",
+      "references": [
+        "I'll see you at the meeting on Monday."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Saying goodbye",
+      "native": "बुलाने के लिए शुक्रिया, मुझे बहुत मज़ा आया।",
+      "references": [
+        "Thanks for having me, I had a great time."
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Saying goodbye",
+      "native": "घर पहुँचकर मुझे मैसेज कर देना।",
+      "references": [
+        "Text me when you get home."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Saying goodbye",
+      "native": "अभी के लिए अलविदा, मैं तुम्हें बाद में फ़ोन करूँगा।",
+      "references": [
+        "Goodbye for now, I'll call you later."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Thanking",
+      "native": "आपकी मदद के लिए बहुत-बहुत धन्यवाद।",
+      "references": [
+        "Thank you so much for your help."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Thanking",
+      "native": "तुमने मेरे लिए यह किया, मैं सच में आभारी हूँ।",
+      "references": [
+        "I really appreciate you doing this for me."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Thanking",
+      "native": "इतने स्वादिष्ट खाने के लिए बहुत शुक्रिया।",
+      "references": [
+        "Thanks a lot for the lovely dinner."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Thanking",
+      "native": "यह आपकी बड़ी मेहरबानी है, धन्यवाद।",
+      "references": [
+        "That's very kind of you, thank you."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Thanking",
+      "native": "हर चीज़ के लिए मैं तुम्हारा जितना शुक्रिया करूँ, कम है।",
+      "references": [
+        "I can't thank you enough for everything."
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Thanking",
+      "native": "मेरा इंतज़ार करने के लिए शुक्रिया।",
+      "references": [
+        "Thanks for waiting for me."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "Thanking",
+      "native": "मेरे साथ इतना धैर्य रखने के लिए धन्यवाद।",
+      "references": [
+        "Thank you for being so patient with me."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "Thanking",
+      "native": "कोई बात नहीं, इसमें कोई तकलीफ़ नहीं हुई।",
+      "references": [
+        "You're welcome, it was no trouble at all."
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Thanking",
+      "native": "इसकी कोई ज़रूरत नहीं, मुझे मदद करके खुशी हुई।",
+      "references": [
+        "Don't mention it, I was happy to help."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Thanking",
+      "native": "इतनी जल्दी बताने के लिए शुक्रिया।",
+      "references": [
+        "Thanks for letting me know so quickly."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Apologizing",
+      "native": "देर से आने के लिए मुझे बहुत अफ़सोस है।",
+      "references": [
+        "I'm so sorry for being late."
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Apologizing",
+      "native": "माफ़ करना, मेरा इरादा तुम्हें टोकने का नहीं था।",
+      "references": [
+        "Sorry, I didn't mean to interrupt you."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Apologizing",
+      "native": "पहले हुई गड़बड़ी के लिए मैं माफ़ी चाहता हूँ।",
+      "references": [
+        "I apologize for the confusion earlier."
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Apologizing",
+      "native": "माफ़ कीजिए, क्या मैं आगे निकल सकता हूँ?",
+      "references": [
+        "Excuse me, can I get past you?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Apologizing",
+      "native": "परेशान करने के लिए माफ़ करना, क्या तुम्हारे पास एक मिनट है?",
+      "references": [
+        "Sorry to bother you, but do you have a minute?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Apologizing",
+      "native": "मेरी गलती है, मैं इसे अभी ठीक करता हूँ।",
+      "references": [
+        "My mistake, I'll fix it right away."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Apologizing",
+      "native": "माफ़ करना, मैं बिल्कुल भूल गया।",
+      "references": [
+        "I'm sorry, I completely forgot about it."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Apologizing",
+      "native": "मुझे माफ़ कर दो, वह मेरी बदतमीज़ी थी।",
+      "references": [
+        "Please forgive me, that was rude of me."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "Apologizing",
+      "native": "चिंता मत करो, ऐसा हो जाता है।",
+      "references": [
+        "Don't worry about it, these things happen."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "Apologizing",
+      "native": "कोई बात नहीं, कुछ नुकसान नहीं हुआ।",
+      "references": [
+        "It's all right, no harm done."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Not understanding",
+      "native": "माफ़ कीजिए, मैं ठीक से सुन नहीं पाया।",
+      "references": [
+        "Sorry, I didn't catch that."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Not understanding",
+      "native": "क्या आप फिर से बोल सकते हैं, प्लीज़?",
+      "references": [
+        "Could you say that again, please?"
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Not understanding",
+      "native": "क्या आप थोड़ा धीरे बोल सकते हैं?",
+      "references": [
+        "Could you speak a little more slowly?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Not understanding",
+      "native": "उस शब्द का क्या मतलब है?",
+      "references": [
+        "What does that word mean?"
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Not understanding",
+      "native": "आपके सरनेम की स्पेलिंग क्या है?",
+      "references": [
+        "How do you spell your last name?"
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Not understanding",
+      "native": "मुझे पक्का नहीं पता कि मैं आपकी बात समझ पाया हूँ।",
+      "references": [
+        "I'm not sure I understand what you mean."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Not understanding",
+      "native": "क्या आप इसे मेरे लिए लिख सकते हैं?",
+      "references": [
+        "Could you write that down for me?"
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Not understanding",
+      "native": "इसे अंग्रेज़ी में कैसे कहते हैं?",
+      "references": [
+        "How do you say this in English?"
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Not understanding",
+      "native": "क्या आपका मतलब बाईं तरफ़ वाले से है?",
+      "references": [
+        "Do you mean the one on the left?"
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Not understanding",
+      "native": "माफ़ कीजिए, मेरी अंग्रेज़ी अभी बहुत अच्छी नहीं है।",
+      "references": [
+        "Sorry, my English is still not very good."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "How are you",
+      "native": "आज तुम कैसे हो?",
+      "references": [
+        "How are you doing today?"
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "How are you",
+      "native": "मैं बहुत बढ़िया हूँ, पूछने के लिए शुक्रिया।",
+      "references": [
+        "I'm doing great, thanks for asking."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "How are you",
+      "native": "ठीक-ठाक, बस थोड़ा थका हुआ हूँ।",
+      "references": [
+        "Not bad, just a little tired."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "How are you",
+      "native": "इस हफ़्ते मैं बहुत व्यस्त रहा।",
+      "references": [
+        "I have been really busy this week."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "How are you",
+      "native": "अब मैं काफ़ी बेहतर महसूस कर रहा हूँ।",
+      "references": [
+        "I'm feeling much better now."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "How are you",
+      "native": "सच कहूँ तो आज का दिन बहुत लंबा रहा।",
+      "references": [
+        "Honestly, today has been a long day."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "How are you",
+      "native": "तुम्हारे साथ सब ठीक है?",
+      "references": [
+        "Is everything okay with you?"
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "How are you",
+      "native": "तुम खुश लग रहे हो, क्या अच्छी ख़बर है?",
+      "references": [
+        "You look happy, what's the good news?"
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "How are you",
+      "native": "मैं अपनी परीक्षाओं को लेकर थोड़ा तनाव में हूँ।",
+      "references": [
+        "I'm a bit stressed about my exams."
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "How are you",
+      "native": "आजकल सब कुछ काफ़ी अच्छा चल रहा है।",
+      "references": [
+        "Things are going pretty well lately."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Weather small talk",
+      "native": "आज कितना सुहाना दिन है, है ना?",
+      "references": [
+        "It's a beautiful day today, isn't it?"
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Weather small talk",
+      "native": "लगता है बारिश होने वाली है।",
+      "references": [
+        "It looks like it's going to rain."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Weather small talk",
+      "native": "आज सुबह बाहर बहुत ठंड है।",
+      "references": [
+        "It's freezing outside this morning."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Weather small talk",
+      "native": "यक़ीन नहीं होता कि आज कितनी गर्मी है।",
+      "references": [
+        "I can't believe how hot the weather is today."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Weather small talk",
+      "native": "क्या तुम्हें पता है कल मौसम कैसा रहेगा?",
+      "references": [
+        "Do you know what the weather will be like tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Weather small talk",
+      "native": "मुझे साल का यह समय बहुत पसंद है।",
+      "references": [
+        "I love this time of the year."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "Weather small talk",
+      "native": "छाता ले जाना मत भूलना।",
+      "references": [
+        "Don't forget to bring an umbrella."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "Weather small talk",
+      "native": "आज हवा बहुत तेज़ है।",
+      "references": [
+        "The wind is really strong today."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Weather small talk",
+      "native": "उम्मीद है वीकेंड पर धूप बनी रहेगी।",
+      "references": [
+        "I hope it stays sunny for the weekend."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Weather small talk",
+      "native": "पूरे हफ़्ते बारिश होती रही है।",
+      "references": [
+        "It has been raining all week long."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Agreeing and disagreeing",
+      "native": "मैं तुमसे पूरी तरह सहमत हूँ।",
+      "references": [
+        "I totally agree with you."
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Agreeing and disagreeing",
+      "native": "मैं भी बिल्कुल यही सोच रहा था।",
+      "references": [
+        "That's exactly what I was thinking."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Agreeing and disagreeing",
+      "native": "तुम्हारी बात में दम है।",
+      "references": [
+        "You have a good point there."
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Agreeing and disagreeing",
+      "native": "मुझे इस बारे में इतना यक़ीन नहीं है।",
+      "references": [
+        "I'm not so sure about that."
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Agreeing and disagreeing",
+      "native": "मैं तुम्हारी बात समझता हूँ, लेकिन मैं सहमत नहीं हूँ।",
+      "references": [
+        "I see what you mean, but I disagree."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Agreeing and disagreeing",
+      "native": "यह बात मुझे बिल्कुल सही लगती है।",
+      "references": [
+        "That makes a lot of sense to me."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Agreeing and disagreeing",
+      "native": "मुझे नहीं लगता कि यह अच्छा विचार है।",
+      "references": [
+        "I don't think that's a good idea."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Agreeing and disagreeing",
+      "native": "शायद आख़िरकार तुम सही हो।",
+      "references": [
+        "Maybe you're right after all."
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Agreeing and disagreeing",
+      "native": "मैं एक हद तक तुमसे सहमत हूँ।",
+      "references": [
+        "I agree with you up to a point."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Agreeing and disagreeing",
+      "native": "चलो मान लेते हैं कि हमारी राय अलग है।",
+      "references": [
+        "Let's just agree to disagree."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Making plans",
+      "native": "क्या तुम इस शनिवार दोपहर खाली हो?",
+      "references": [
+        "Are you free this Saturday afternoon?"
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Making plans",
+      "native": "कभी कॉफ़ी पीने चलोगे?",
+      "references": [
+        "Do you want to grab a coffee sometime?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Making plans",
+      "native": "चलो सात बजे सिनेमा के सामने मिलते हैं।",
+      "references": [
+        "Let's meet in front of the cinema at seven."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Making plans",
+      "native": "तुम्हारे लिए कौन-सा समय सबसे अच्छा रहेगा?",
+      "references": [
+        "What time works best for you?"
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Making plans",
+      "native": "माफ़ करना, आज रात मेरा पहले से प्लान है।",
+      "references": [
+        "I'm sorry, I already have plans tonight."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Making plans",
+      "native": "कल समुद्र किनारे चलें तो कैसा रहेगा?",
+      "references": [
+        "How about we go to the beach tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Making plans",
+      "native": "क्या हम इसे अगले हफ़्ते कर सकते हैं?",
+      "references": [
+        "Can we move it to next week instead?"
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Making plans",
+      "native": "मैं तुम्हें पता बाद में भेज दूँगा।",
+      "references": [
+        "I'll send you the address later."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Making plans",
+      "native": "मैं भी चलूँगा, मज़ेदार लग रहा है।",
+      "references": [
+        "Count me in, that sounds like fun."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Making plans",
+      "native": "मैं अपना कैलेंडर देखकर तुम्हें बताता हूँ।",
+      "references": [
+        "Let me check my calendar and get back to you."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Weather small talk",
+      "native": "अगर कोई एक चीज़ मुझे परेशान करती है, तो वह है बारिश वाले सोमवार।",
+      "references": [
+        "If there's one thing that bothers me, it's rainy Mondays."
+      ],
+      "starter_pattern": "If there is one thing that… me, it's…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Apologizing",
+      "native": "अगर कोई एक चीज़ मुझे बुरी लगती है, तो वह हैं ऐसे लोग जो कभी माफ़ी नहीं माँगते।",
+      "references": [
+        "If there's one thing that upsets me, it's people who never say sorry."
+      ],
+      "starter_pattern": "If there is one thing that… me, it's…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Making plans",
+      "native": "वैसे, क्या तुम शुक्रवार को डिनर के लिए खाली हो?",
+      "references": [
+        "By the way, are you free for dinner on Friday?"
+      ],
+      "starter_pattern": "By the way…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Introductions",
+      "native": "वैसे, यह मेरे ऑफ़िस की दोस्त मारिया है।",
+      "references": [
+        "By the way, this is my friend Maria from work."
+      ],
+      "starter_pattern": "By the way…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Making plans",
+      "native": "हम कार के बिना बेहतर रहेंगे, वहाँ पार्किंग बहुत मुश्किल है।",
+      "references": [
+        "We'd be better off without the car, parking is terrible there."
+      ],
+      "starter_pattern": "We'd be better off without…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Agreeing and disagreeing",
+      "native": "सच कहूँ तो, मुझे लगता है हम उसकी मदद के बिना बेहतर रहेंगे।",
+      "references": [
+        "Honestly, I think we'd be better off without his help."
+      ],
+      "starter_pattern": "We'd be better off without…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Saying goodbye",
+      "native": "ध्यान रखना कि आज रात सही-सलामत घर पहुँचो।",
+      "references": [
+        "See that you get home safe tonight."
+      ],
+      "starter_pattern": "See that…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Weather small talk",
+      "native": "ध्यान रखना कि गर्म कोट ले जाओ, बाहर बहुत ठंड है।",
+      "references": [
+        "See that you take a warm coat, it's freezing outside."
+      ],
+      "starter_pattern": "See that…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Not understanding",
+      "native": "जहाँ तक मुझे पता है, यहाँ उस शब्द का मतलब कुछ और है।",
+      "references": [
+        "As far as I know, that word has a different meaning here."
+      ],
+      "starter_pattern": "As far as…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Making plans",
+      "native": "जहाँ तक मुझे पता है, पार्टी आठ बजे शुरू होगी।",
+      "references": [
+        "As far as I know, the party starts at eight."
+      ],
+      "starter_pattern": "As far as…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Making plans",
+      "native": "मैं शनिवार को आ पाऊँगा या नहीं, तुम्हें बता दूँगा।",
+      "references": [
+        "I'll let you know if I can make it on Saturday."
+      ],
+      "starter_pattern": "I'll let you know…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "Saying goodbye",
+      "native": "सफ़र से लौटकर मैं तुम्हें बता दूँगा।",
+      "references": [
+        "I'll let you know when I get back from my trip."
+      ],
+      "starter_pattern": "I'll let you know…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Not understanding",
+      "native": "मुझे अंग्रेज़ी का एक अच्छा शब्दकोश कहाँ मिलेगा?",
+      "references": [
+        "Where can I find a good English dictionary?"
+      ],
+      "starter_pattern": "Where can I…?"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Introductions",
+      "native": "मैं तुम्हें सोशल मीडिया पर कहाँ ढूँढ सकता हूँ?",
+      "references": [
+        "Where can I find you on social media?"
+      ],
+      "starter_pattern": "Where can I…?"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Introductions",
+      "native": "मेरा भाई न सिर्फ़ मेरा सबसे अच्छा दोस्त है, बल्कि मेरा रूममेट भी है।",
+      "references": [
+        "My brother is not only my best friend but also my roommate."
+      ],
+      "starter_pattern": "He is not only… but also…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Thanking",
+      "native": "तुम न सिर्फ़ दयालु थे, बल्कि मेरे साथ बहुत धैर्य भी रखा।",
+      "references": [
+        "You were not only kind but also very patient with me."
+      ],
+      "starter_pattern": "He is not only… but also…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Introductions",
+      "native": "क्या तुम पहले इस मोहल्ले में रहते थे?",
+      "references": [
+        "Did you use to live in this neighborhood?"
+      ],
+      "starter_pattern": "Did you use to…?"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "How are you",
+      "native": "क्या तुम पहले भी काम के बाद इतना थक जाते थे?",
+      "references": [
+        "Did you use to feel this tired after work?"
+      ],
+      "starter_pattern": "Did you use to…?"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Saying goodbye",
+      "native": "चाहे कुछ भी हो, संपर्क में रहना।",
+      "references": [
+        "No matter what happens, let's stay in touch."
+      ],
+      "starter_pattern": "No matter what…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Agreeing and disagreeing",
+      "native": "तुम कुछ भी कहो, मुझे अब भी लगता है कि यह बुरा विचार है।",
+      "references": [
+        "No matter what you say, I still think it's a bad idea."
+      ],
+      "starter_pattern": "No matter what…"
+    }
+  ]
+}

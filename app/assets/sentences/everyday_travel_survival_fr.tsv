@@ -1,0 +1,121 @@
+id	text
+1	Excusez-moi, où est la station de métro la plus proche ?
+2	Comment je fais pour aller au centre-ville d'ici ?
+3	C'est loin d'ici, ou je peux y aller à pied ?
+4	Vous pouvez me montrer sur la carte ?
+5	Allez tout droit et tournez à gauche au feu.
+6	C'est au coin de la rue, à côté de la banque.
+7	Je crois que je suis perdu, vous pouvez m'aider ?
+8	La gare, c'est par où ?
+9	Il faut combien de temps pour y aller à pied ?
+10	Il y a une pharmacie dans le coin ?
+11	Quel bus va à l'aéroport ?
+12	Où est-ce que je peux acheter un billet de train ?
+13	Un aller-retour pour Boston, s'il vous plaît.
+14	Est-ce que ce train s'arrête à la gare centrale ?
+15	Le bus passe tous les combien ?
+16	Excusez-moi, cette place est prise ?
+17	À quelle heure part le dernier train ?
+18	Est-ce que je dois changer de train ?
+19	Vous pouvez me prévenir quand on arrive à mon arrêt ?
+20	Combien coûte un pass journée pour le métro ?
+21	Où est le comptoir d'enregistrement pour mon vol ?
+22	Je voudrais une place côté hublot, s'il vous plaît.
+23	Je peux prendre ce sac avec moi dans l'avion ?
+24	Mon vol a deux heures de retard.
+25	De quelle porte part le vol pour Londres ?
+26	Voici mon passeport et ma carte d'embarquement.
+27	Je n'ai rien à déclarer.
+28	Où est-ce que je peux récupérer mes bagages ?
+29	Ma valise n'est pas arrivée.
+30	Je suis ici en vacances pour deux semaines.
+31	J'ai une réservation au nom de Garcia.
+32	Vous avez des chambres disponibles pour ce soir ?
+33	À quelle heure faut-il libérer la chambre demain ?
+34	Le petit-déjeuner est compris dans le prix ?
+35	Je pourrais avoir une chambre avec vue sur la mer ?
+36	La climatisation de ma chambre ne marche pas.
+37	Vous pourriez me réveiller à six heures ?
+38	Je peux laisser mes bagages ici après le départ ?
+39	C'est quoi le mot de passe du wifi ?
+40	Je pourrais avoir des serviettes en plus, s'il vous plaît ?
+41	Vous pourriez m'appeler un taxi, s'il vous plaît ?
+42	Emmenez-moi à cette adresse, s'il vous plaît.
+43	Ça va coûter combien pour aller au centre-ville ?
+44	Vous pouvez mettre le compteur, s'il vous plaît ?
+45	Arrêtez-vous ici, s'il vous plaît, c'est très bien.
+46	Vous pourriez attendre ici cinq minutes ?
+47	Je suis pressé, vous pourriez aller un peu plus vite ?
+48	Je peux payer par carte ?
+49	Gardez la monnaie, merci.
+50	Mon chauffeur arrive dans trois minutes.
+51	Combien ça coûte ?
+52	Vous acceptez les cartes de crédit ici ?
+53	Où est-ce que je peux changer de l'argent ?
+54	Il y a un distributeur près d'ici ?
+55	Je peux l'essayer, s'il vous plaît ?
+56	Vous l'avez dans une taille plus petite ?
+57	C'est un peu trop cher pour moi.
+58	Je pourrais avoir un reçu, s'il vous plaît ?
+59	Je voudrais rendre ceci, ça ne me va pas.
+60	Je regarde seulement, merci.
+61	Au secours ! Appelez une ambulance !
+62	Appelez la police tout de suite, s'il vous plaît.
+63	Quelqu'un m'a volé mon portefeuille dans le train.
+64	Il y a eu un accident sur la route.
+65	J'ai perdu mon passeport.
+66	Où est l'hôpital le plus proche ?
+67	Mon ami est blessé et a besoin d'un médecin.
+68	Il y a quelqu'un ici qui parle espagnol ?
+69	Je dois contacter mon ambassade.
+70	Il y a un incendie dans l'immeuble !
+71	J'ai besoin de quelque chose contre le mal de tête.
+72	J'ai de la fièvre depuis hier.
+73	J'ai mal au ventre après avoir mangé.
+74	Je suis allergique à la pénicilline.
+75	Il faut une ordonnance pour ce médicament ?
+76	Je dois le prendre combien de fois par jour ?
+77	Je voudrais prendre rendez-vous avec un médecin.
+78	Je me suis coupé la main et ça n'arrête pas de saigner.
+79	Je crois que je me suis tordu la cheville.
+80	Vous avez quelque chose contre le mal de gorge ?
+81	Où est-ce que je peux acheter une carte SIM locale ?
+82	Mon téléphone n'a presque plus de batterie.
+83	Il y a un endroit où je peux recharger mon téléphone ?
+84	Il y a du wifi gratuit dans ce café ?
+85	La connexion internet est très lente ici.
+86	Je peux emprunter ton téléphone une minute ?
+87	Je n'ai pas de réseau ici.
+88	Tu pourrais me donner ton numéro de téléphone ?
+89	Je t'envoie ma position tout de suite.
+90	Ce forfait inclut des données mobiles ?
+91	Quels sont les meilleurs endroits à visiter dans cette ville ?
+92	À quelle heure ouvre le musée ?
+93	Combien coûte l'entrée ?
+94	Il y a des réductions pour les étudiants ?
+95	Vous pourriez nous prendre en photo, s'il vous plaît ?
+96	Il y a une visite guidée en anglais ?
+97	Est-ce qu'on a le droit de prendre des photos à l'intérieur ?
+98	Où est-ce que je peux trouver un plan de la ville ?
+99	C'est sûr de se promener par ici la nuit ?
+100	Vous pouvez me conseiller un bon endroit pour voir le coucher de soleil ?
+101	Là où il y a une plage, il y a toujours un bon restaurant de fruits de mer.
+102	Là où il y a un grand hôtel, il y a souvent une station de taxis.
+103	La chambre est aussi belle que sur les photos.
+104	Le métro de cette ville est aussi rapide qu'un taxi.
+105	Servez-vous en café dans le hall tous les matins.
+106	Prenez un plan gratuit à l'entrée.
+107	La file au contrôle de sécurité était si longue que j'ai failli rater mon vol.
+108	Le chauffeur était si sympa que je lui ai laissé un gros pourboire.
+109	Quel est ton endroit préféré à visiter dans cette ville ?
+110	Quel est ton marché préféré pour acheter des souvenirs ?
+111	Le musée n'ouvre pas avant dix heures du matin.
+112	Ne prenez pas ce médicament avant d'avoir mangé quelque chose.
+113	Je ne suis pas vraiment satisfait de la chambre, elle sent la fumée.
+114	Je ne suis pas vraiment satisfait de cette carte SIM, elle perd tout le temps le réseau.
+115	Il suffit de passer ta carte pour monter dans le bus.
+116	Il suffit de scanner ce code pour te connecter au wifi.
+117	Que le vol soit retardé ou non, on devrait arriver tôt.
+118	Que ce soit grave ou non, appelez le numéro d'urgence.
+119	C'est dommage que le pont soit fermé, on doit faire le tour.
+120	C'est dommage que ce magasin n'accepte pas les cartes.

@@ -1,0 +1,988 @@
+{
+  "name": "Travel & survival",
+  "source": "starter",
+  "native_lang": "ar",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Asking for directions",
+      "native": "عفوًا، أين أقرب محطة مترو؟",
+      "references": [
+        "Excuse me, where is the nearest subway station?"
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Asking for directions",
+      "native": "كيف أصل إلى وسط المدينة من هنا؟",
+      "references": [
+        "How do I get to the city center from here?"
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Asking for directions",
+      "native": "هل المكان بعيد من هنا، أم يمكنني المشي؟",
+      "references": [
+        "Is it far from here, or can I walk?"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Asking for directions",
+      "native": "هل يمكنك أن تريني على الخريطة؟",
+      "references": [
+        "Could you show me on the map?"
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Asking for directions",
+      "native": "امشِ مباشرة ثم انعطف يسارًا عند الإشارة.",
+      "references": [
+        "Go straight and turn left at the traffic lights."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Asking for directions",
+      "native": "إنه على الزاوية، بجانب البنك.",
+      "references": [
+        "It's on the corner, next to the bank."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Asking for directions",
+      "native": "أظن أنني تائه، هل يمكنك مساعدتي؟",
+      "references": [
+        "I think I'm lost, can you help me?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Asking for directions",
+      "native": "من أي اتجاه محطة القطار؟",
+      "references": [
+        "Which way is the train station?"
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Asking for directions",
+      "native": "كم يستغرق المشي إلى هناك؟",
+      "references": [
+        "How long does it take to walk there?"
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Asking for directions",
+      "native": "هل توجد صيدلية قريبة من هنا؟",
+      "references": [
+        "Is there a pharmacy around here?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Public transport",
+      "native": "أي حافلة تذهب إلى المطار؟",
+      "references": [
+        "Which bus goes to the airport?"
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Public transport",
+      "native": "أين يمكنني شراء تذكرة قطار؟",
+      "references": [
+        "Where can I buy a ticket for the train?"
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Public transport",
+      "native": "تذكرة ذهاب وعودة إلى بوسطن، من فضلك.",
+      "references": [
+        "A return ticket to Boston, please."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Public transport",
+      "native": "هل يتوقف هذا القطار في المحطة المركزية؟",
+      "references": [
+        "Does this train stop at Central Station?"
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Public transport",
+      "native": "كل كم دقيقة تأتي الحافلة؟",
+      "references": [
+        "How often does the bus come?"
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Public transport",
+      "native": "عفوًا، هل هذا المقعد محجوز؟",
+      "references": [
+        "Excuse me, is this seat taken?"
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Public transport",
+      "native": "متى يغادر آخر قطار؟",
+      "references": [
+        "What time does the last train leave?"
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Public transport",
+      "native": "هل يجب أن أغيّر القطار؟",
+      "references": [
+        "Do I need to change trains?"
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Public transport",
+      "native": "هل يمكنك أن تخبرني عندما نصل إلى محطتي؟",
+      "references": [
+        "Could you tell me when we get to my stop?"
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Public transport",
+      "native": "كم سعر التذكرة اليومية للمترو؟",
+      "references": [
+        "How much is a day pass for the subway?"
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "At the airport",
+      "native": "أين مكتب تسجيل الوصول لرحلتي؟",
+      "references": [
+        "Where is the check-in desk for my flight?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "At the airport",
+      "native": "أريد مقعدًا بجانب النافذة، من فضلك.",
+      "references": [
+        "I'd like a window seat, please."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "At the airport",
+      "native": "هل يمكنني أخذ هذه الحقيبة معي إلى الطائرة؟",
+      "references": [
+        "Can I take this bag on the plane with me?"
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "At the airport",
+      "native": "تأخرت رحلتي ساعتين.",
+      "references": [
+        "My flight has been delayed by two hours."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "At the airport",
+      "native": "من أي بوابة تغادر الرحلة إلى لندن؟",
+      "references": [
+        "Which gate does the flight to London leave from?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "At the airport",
+      "native": "هذا جواز سفري وبطاقة الصعود.",
+      "references": [
+        "Here's my passport and boarding pass."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "At the airport",
+      "native": "ليس لديّ ما أصرّح به.",
+      "references": [
+        "I have nothing to declare."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "At the airport",
+      "native": "أين يمكنني استلام أمتعتي؟",
+      "references": [
+        "Where can I pick up my luggage?"
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "At the airport",
+      "native": "حقيبتي لم تصل.",
+      "references": [
+        "My suitcase didn't arrive."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "At the airport",
+      "native": "أنا هنا في إجازة لمدة أسبوعين.",
+      "references": [
+        "I'm here on vacation for two weeks."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "At the hotel",
+      "native": "لديّ حجز باسم غارسيا.",
+      "references": [
+        "I have a reservation under the name Garcia."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "At the hotel",
+      "native": "هل لديكم غرف متاحة الليلة؟",
+      "references": [
+        "Do you have any rooms available for tonight?"
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "At the hotel",
+      "native": "متى موعد المغادرة غدًا؟",
+      "references": [
+        "What time is check-out tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "At the hotel",
+      "native": "هل الإفطار مشمول في السعر؟",
+      "references": [
+        "Is breakfast included in the price?"
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "At the hotel",
+      "native": "هل يمكنني الحصول على غرفة مطلة على البحر؟",
+      "references": [
+        "Could I get a room with a view of the sea?"
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "At the hotel",
+      "native": "المكيّف في غرفتي لا يعمل.",
+      "references": [
+        "The air conditioning in my room isn't working."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "At the hotel",
+      "native": "هل يمكنكم الاتصال بي لإيقاظي في السادسة؟",
+      "references": [
+        "Could you give me a wake-up call at six?"
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "At the hotel",
+      "native": "هل يمكنني ترك حقائبي هنا بعد المغادرة؟",
+      "references": [
+        "Can I leave my bags here after check-out?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "At the hotel",
+      "native": "ما كلمة سر الواي فاي؟",
+      "references": [
+        "What's the password for the wifi?"
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "At the hotel",
+      "native": "هل يمكنني الحصول على بعض المناشف الإضافية، من فضلك؟",
+      "references": [
+        "Could I have some extra towels, please?"
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Taxis and rides",
+      "native": "هل يمكنك أن تطلب لي سيارة أجرة، من فضلك؟",
+      "references": [
+        "Could you call a taxi for me, please?"
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Taxis and rides",
+      "native": "خذني إلى هذا العنوان، من فضلك.",
+      "references": [
+        "Take me to this address, please."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Taxis and rides",
+      "native": "كم ستكلف الرحلة إلى وسط المدينة؟",
+      "references": [
+        "How much will it cost to get downtown?"
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Taxis and rides",
+      "native": "هل يمكنك تشغيل العدّاد، من فضلك؟",
+      "references": [
+        "Can you turn on the meter, please?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Taxis and rides",
+      "native": "توقف هنا من فضلك، هذا جيد.",
+      "references": [
+        "Please stop here, this is fine."
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Taxis and rides",
+      "native": "هل يمكنك الانتظار هنا خمس دقائق؟",
+      "references": [
+        "Could you wait here for five minutes?"
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Taxis and rides",
+      "native": "أنا مستعجل، هل يمكنك أن تسرع قليلًا؟",
+      "references": [
+        "I'm in a hurry, could you go a bit faster?"
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Taxis and rides",
+      "native": "هل يمكنني الدفع بالبطاقة؟",
+      "references": [
+        "Can I pay by card?"
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "Taxis and rides",
+      "native": "احتفظ بالباقي، شكرًا.",
+      "references": [
+        "Keep the change, thank you."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "Taxis and rides",
+      "native": "سائقي سيصل خلال ثلاث دقائق.",
+      "references": [
+        "My driver is arriving in three minutes."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Money and shopping",
+      "native": "كم سعر هذا؟",
+      "references": [
+        "How much does this cost?"
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Money and shopping",
+      "native": "هل تقبلون بطاقات الائتمان هنا؟",
+      "references": [
+        "Do you accept credit cards here?"
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Money and shopping",
+      "native": "أين يمكنني تصريف بعض النقود؟",
+      "references": [
+        "Where can I exchange some money?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Money and shopping",
+      "native": "هل يوجد صرّاف آلي قريب من هنا؟",
+      "references": [
+        "Is there an ATM near here?"
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Money and shopping",
+      "native": "هل يمكنني تجربة هذا، من فضلك؟",
+      "references": [
+        "Can I try this on, please?"
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Money and shopping",
+      "native": "هل لديكم هذا بمقاس أصغر؟",
+      "references": [
+        "Do you have this in a smaller size?"
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Money and shopping",
+      "native": "هذا غالٍ قليلًا بالنسبة لي.",
+      "references": [
+        "That's a little too expensive for me."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Money and shopping",
+      "native": "هل يمكنني الحصول على إيصال، من فضلك؟",
+      "references": [
+        "Could I get a receipt, please?"
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Money and shopping",
+      "native": "أريد إرجاع هذا، مقاسه غير مناسب.",
+      "references": [
+        "I'd like to return this, it doesn't fit."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Money and shopping",
+      "native": "أنا أتفرج فقط، شكرًا.",
+      "references": [
+        "I'm just looking, thank you."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Emergencies",
+      "native": "النجدة! فليتصل أحد بالإسعاف!",
+      "references": [
+        "Help! Somebody call an ambulance!"
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Emergencies",
+      "native": "اتصل بالشرطة الآن من فضلك.",
+      "references": [
+        "Please call the police right now."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Emergencies",
+      "native": "سرق أحدهم محفظتي في القطار.",
+      "references": [
+        "Someone stole my wallet on the train."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Emergencies",
+      "native": "وقع حادث على الطريق.",
+      "references": [
+        "There has been an accident on the road."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Emergencies",
+      "native": "لقد أضعت جواز سفري.",
+      "references": [
+        "I have lost my passport."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Emergencies",
+      "native": "أين أقرب مستشفى؟",
+      "references": [
+        "Where is the nearest hospital?"
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "Emergencies",
+      "native": "صديقي مصاب ويحتاج إلى طبيب.",
+      "references": [
+        "My friend is hurt and needs a doctor."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "Emergencies",
+      "native": "هل يوجد أحد هنا يتحدث الإسبانية؟",
+      "references": [
+        "Is there anyone here who speaks Spanish?"
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Emergencies",
+      "native": "أحتاج إلى التواصل مع سفارتي.",
+      "references": [
+        "I need to contact my embassy."
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Emergencies",
+      "native": "هناك حريق في المبنى!",
+      "references": [
+        "There's a fire in the building!"
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "At the pharmacy and doctor",
+      "native": "أحتاج إلى شيء لعلاج الصداع.",
+      "references": [
+        "I need something for a headache."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "At the pharmacy and doctor",
+      "native": "عندي حمّى منذ أمس.",
+      "references": [
+        "I have had a fever since yesterday."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "At the pharmacy and doctor",
+      "native": "تؤلمني معدتي بعد الأكل.",
+      "references": [
+        "My stomach hurts after eating."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "At the pharmacy and doctor",
+      "native": "عندي حساسية من البنسلين.",
+      "references": [
+        "I'm allergic to penicillin."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "At the pharmacy and doctor",
+      "native": "هل أحتاج إلى وصفة طبية لهذا الدواء؟",
+      "references": [
+        "Do I need a prescription for this medicine?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "At the pharmacy and doctor",
+      "native": "كم مرة في اليوم يجب أن آخذ هذا؟",
+      "references": [
+        "How many times a day should I take this?"
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "At the pharmacy and doctor",
+      "native": "أريد أن أحجز موعدًا مع طبيب.",
+      "references": [
+        "I'd like to make an appointment with a doctor."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "At the pharmacy and doctor",
+      "native": "جرحت يدي ولا يتوقف النزيف.",
+      "references": [
+        "I cut my hand and it won't stop bleeding."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "At the pharmacy and doctor",
+      "native": "أظن أنني لويت كاحلي.",
+      "references": [
+        "I think I twisted my ankle."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "At the pharmacy and doctor",
+      "native": "هل لديكم شيء لالتهاب الحلق؟",
+      "references": [
+        "Do you have anything for a sore throat?"
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Phone and internet",
+      "native": "أين يمكنني شراء شريحة اتصال محلية؟",
+      "references": [
+        "Where can I buy a local SIM card?"
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Phone and internet",
+      "native": "بطارية هاتفي على وشك النفاد.",
+      "references": [
+        "My phone battery is almost dead."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Phone and internet",
+      "native": "هل يوجد مكان يمكنني فيه شحن هاتفي؟",
+      "references": [
+        "Is there somewhere I can charge my phone?"
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Phone and internet",
+      "native": "هل يوجد واي فاي مجاني في هذا المقهى؟",
+      "references": [
+        "Is there free wifi in this cafe?"
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Phone and internet",
+      "native": "الاتصال بالإنترنت بطيء جدًا هنا.",
+      "references": [
+        "The internet connection is very slow here."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Phone and internet",
+      "native": "هل يمكنني استعارة هاتفك لدقيقة؟",
+      "references": [
+        "Can I borrow your phone for a minute?"
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Phone and internet",
+      "native": "لا توجد لديّ أي إشارة هنا.",
+      "references": [
+        "I don't have any signal here."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Phone and internet",
+      "native": "هل يمكنك أن تعطيني رقم هاتفك؟",
+      "references": [
+        "Could you give me your phone number?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Phone and internet",
+      "native": "سأرسل لك موقعي الآن.",
+      "references": [
+        "I'll send you my location now."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Phone and internet",
+      "native": "هل تشمل هذه الباقة بيانات الجوال؟",
+      "references": [
+        "Does this plan include mobile data?"
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Sightseeing",
+      "native": "ما أفضل الأماكن لزيارتها في هذه المدينة؟",
+      "references": [
+        "What are the best places to visit in this city?"
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Sightseeing",
+      "native": "متى يفتح المتحف؟",
+      "references": [
+        "What time does the museum open?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Sightseeing",
+      "native": "كم سعر تذكرة الدخول؟",
+      "references": [
+        "How much is the entrance fee?"
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Sightseeing",
+      "native": "هل توجد خصومات للطلاب؟",
+      "references": [
+        "Are there any discounts for students?"
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Sightseeing",
+      "native": "هل يمكنك أن تلتقط لنا صورة، من فضلك؟",
+      "references": [
+        "Could you take a picture of us, please?"
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Sightseeing",
+      "native": "هل توجد جولة بإرشاد باللغة الإنجليزية؟",
+      "references": [
+        "Is there a guided tour in English?"
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Sightseeing",
+      "native": "هل يُسمح بالتصوير في الداخل؟",
+      "references": [
+        "Am I allowed to take photos inside?"
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Sightseeing",
+      "native": "أين يمكنني الحصول على خريطة للمدينة؟",
+      "references": [
+        "Where can I get a map of the city?"
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Sightseeing",
+      "native": "هل المشي هنا في الليل آمن؟",
+      "references": [
+        "Is it safe to walk around here at night?"
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Sightseeing",
+      "native": "هل يمكنك أن تقترح مكانًا جميلًا لمشاهدة الغروب؟",
+      "references": [
+        "Can you recommend a good place to watch the sunset?"
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Sightseeing",
+      "native": "حيث يوجد شاطئ، يوجد دائمًا مطعم مأكولات بحرية جيد.",
+      "references": [
+        "Where there's a beach, there's always a good seafood restaurant."
+      ],
+      "starter_pattern": "Where there is… there is…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Taxis and rides",
+      "native": "حيث يوجد فندق كبير، يوجد عادةً موقف لسيارات الأجرة.",
+      "references": [
+        "Where there's a big hotel, there's usually a taxi stand."
+      ],
+      "starter_pattern": "Where there is… there is…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "At the hotel",
+      "native": "الغرفة جميلة كما بدت في الصور.",
+      "references": [
+        "The room is as nice as it looked in the photos."
+      ],
+      "starter_pattern": "He is as… as…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Public transport",
+      "native": "المترو في هذه المدينة سريع مثل سيارة الأجرة.",
+      "references": [
+        "The subway in this city is as fast as a taxi."
+      ],
+      "starter_pattern": "He is as… as…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "At the hotel",
+      "native": "تفضّل بالقهوة في الردهة كل صباح.",
+      "references": [
+        "Help yourself to coffee in the lobby every morning."
+      ],
+      "starter_pattern": "Help yourself to…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Sightseeing",
+      "native": "تفضّل بخريطة مجانية عند المدخل.",
+      "references": [
+        "Help yourself to a free map at the entrance."
+      ],
+      "starter_pattern": "Help yourself to…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "At the airport",
+      "native": "كان طابور التفتيش الأمني طويلًا جدًا لدرجة أنني كدت أفوّت رحلتي.",
+      "references": [
+        "The line at security was so long that I almost missed my flight."
+      ],
+      "starter_pattern": "He is so… that…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Taxis and rides",
+      "native": "كان السائق لطيفًا جدًا لدرجة أنني أعطيته بقشيشًا كبيرًا.",
+      "references": [
+        "The driver was so friendly that I gave him a big tip."
+      ],
+      "starter_pattern": "He is so… that…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Sightseeing",
+      "native": "ما مكانك المفضل لزيارته في هذه المدينة؟",
+      "references": [
+        "What's your favorite place to visit in this city?"
+      ],
+      "starter_pattern": "What's your favorite…?"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Money and shopping",
+      "native": "ما سوقك المفضل لشراء الهدايا التذكارية؟",
+      "references": [
+        "What's your favorite market for souvenirs?"
+      ],
+      "starter_pattern": "What's your favorite…?"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Sightseeing",
+      "native": "لا يفتح المتحف قبل العاشرة صباحًا.",
+      "references": [
+        "The museum doesn't open until ten in the morning."
+      ],
+      "starter_pattern": "Not… until…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "At the pharmacy and doctor",
+      "native": "لا تأخذ هذا الدواء قبل أن تأكل شيئًا.",
+      "references": [
+        "Don't take this medicine until you have eaten something."
+      ],
+      "starter_pattern": "Not… until…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "At the hotel",
+      "native": "لست راضيًا تمامًا عن الغرفة، فيها رائحة دخان.",
+      "references": [
+        "I'm not really happy with the room, it smells of smoke."
+      ],
+      "starter_pattern": "I'm not really happy with…"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Phone and internet",
+      "native": "لست راضيًا تمامًا عن هذه الشريحة، فهي تفقد الإشارة باستمرار.",
+      "references": [
+        "I'm not really happy with this SIM card, it keeps losing signal."
+      ],
+      "starter_pattern": "I'm not really happy with…"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Public transport",
+      "native": "كل ما عليك هو تمرير بطاقتك لكي تركب الحافلة.",
+      "references": [
+        "You only have to tap your card in order to get on the bus."
+      ],
+      "starter_pattern": "You only have to… in order to…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Phone and internet",
+      "native": "كل ما عليك هو مسح هذا الرمز لكي تتصل بالواي فاي.",
+      "references": [
+        "You only have to scan this code in order to connect to the wifi."
+      ],
+      "starter_pattern": "You only have to… in order to…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "At the airport",
+      "native": "سواء تأخرت الرحلة أم لا، يجب أن نصل مبكرًا.",
+      "references": [
+        "Whether or not the flight is delayed, we should get there early."
+      ],
+      "starter_pattern": "Whether or not…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Emergencies",
+      "native": "سواء كان الأمر خطيرًا أم لا، اتصل برقم الطوارئ.",
+      "references": [
+        "Whether or not it's serious, call the emergency number."
+      ],
+      "starter_pattern": "Whether or not…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Asking for directions",
+      "native": "من المؤسف أن الجسر مغلق، علينا أن نلتف حوله.",
+      "references": [
+        "It's too bad that the bridge is closed, we have to go around."
+      ],
+      "starter_pattern": "It's too bad that…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Money and shopping",
+      "native": "من المؤسف أن هذا المتجر لا يقبل البطاقات.",
+      "references": [
+        "It's too bad that this shop doesn't take cards."
+      ],
+      "starter_pattern": "It's too bad that…"
+    }
+  ]
+}

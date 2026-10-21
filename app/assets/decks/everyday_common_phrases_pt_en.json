@@ -1,0 +1,988 @@
+{
+  "name": "Common phrases",
+  "source": "starter",
+  "native_lang": "pt",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Greetings",
+      "native": "Bom dia, como você dormiu?",
+      "references": [
+        "Good morning, how did you sleep?"
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Greetings",
+      "native": "Oi, tudo bem com você?",
+      "references": [
+        "Hi there, how is it going?"
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Greetings",
+      "native": "Nossa, quanto tempo!",
+      "references": [
+        "Hey, long time no see!"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Greetings",
+      "native": "Boa tarde, espero que você esteja bem.",
+      "references": [
+        "Good afternoon, I hope you're doing well."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Greetings",
+      "native": "Boa noite a todos, obrigado por virem.",
+      "references": [
+        "Good evening, everyone, thanks for coming."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Greetings",
+      "native": "Oi, é uma boa hora para conversar?",
+      "references": [
+        "Hello, is this a good time to talk?"
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Greetings",
+      "native": "Oi, como foi o seu fim de semana?",
+      "references": [
+        "Hi, how was your weekend?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Greetings",
+      "native": "E aí, o que você tem feito ultimamente?",
+      "references": [
+        "Hey, what have you been up to lately?"
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Greetings",
+      "native": "É tão bom te ver de novo.",
+      "references": [
+        "It's so good to see you again."
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Greetings",
+      "native": "Bom dia! Fez uma boa viagem?",
+      "references": [
+        "Morning! Did you have a good trip?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Introductions",
+      "native": "Prazer em te conhecer, eu sou o Daniel.",
+      "references": [
+        "Nice to meet you, I'm Daniel."
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Introductions",
+      "native": "Deixa eu te apresentar a minha irmã.",
+      "references": [
+        "Let me introduce you to my sister."
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Introductions",
+      "native": "Já ouvi falar muito de você.",
+      "references": [
+        "I have heard so much about you."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Introductions",
+      "native": "De onde você é, originalmente?",
+      "references": [
+        "Where are you from originally?"
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Introductions",
+      "native": "O que você faz da vida?",
+      "references": [
+        "What do you do for a living?"
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Introductions",
+      "native": "Eu trabalho como enfermeira no hospital daqui.",
+      "references": [
+        "I work as a nurse at the local hospital."
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Introductions",
+      "native": "Eu me mudei para cá há alguns meses.",
+      "references": [
+        "I just moved here a few months ago."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Introductions",
+      "native": "Como você conhece o dono da festa?",
+      "references": [
+        "How do you know the host of the party?"
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Introductions",
+      "native": "Desculpa, pode me dizer seu nome de novo?",
+      "references": [
+        "Sorry, could you tell me your name again?"
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Introductions",
+      "native": "É um prazer finalmente te conhecer pessoalmente.",
+      "references": [
+        "It's a pleasure to finally meet you in person."
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Saying goodbye",
+      "native": "Foi muito bom conversar com você.",
+      "references": [
+        "It was really nice talking to you."
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Saying goodbye",
+      "native": "Tenho que ir agora, até amanhã.",
+      "references": [
+        "I have to go now, see you tomorrow."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Saying goodbye",
+      "native": "Se cuida e chega bem em casa.",
+      "references": [
+        "Take care and get home safe."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Saying goodbye",
+      "native": "Tenha um ótimo fim de semana com a sua família.",
+      "references": [
+        "Have a great weekend with your family."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "Saying goodbye",
+      "native": "Vamos manter contato, tá?",
+      "references": [
+        "Let's keep in touch, okay?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "Saying goodbye",
+      "native": "Manda um oi para os seus pais por mim.",
+      "references": [
+        "Say hi to your parents for me."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Saying goodbye",
+      "native": "Te vejo na reunião de segunda.",
+      "references": [
+        "I'll see you at the meeting on Monday."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Saying goodbye",
+      "native": "Obrigado por me receber, eu me diverti muito.",
+      "references": [
+        "Thanks for having me, I had a great time."
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Saying goodbye",
+      "native": "Me manda uma mensagem quando chegar em casa.",
+      "references": [
+        "Text me when you get home."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Saying goodbye",
+      "native": "Tchau por enquanto, te ligo mais tarde.",
+      "references": [
+        "Goodbye for now, I'll call you later."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Thanking",
+      "native": "Muito obrigado pela sua ajuda.",
+      "references": [
+        "Thank you so much for your help."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Thanking",
+      "native": "Eu agradeço muito você fazer isso por mim.",
+      "references": [
+        "I really appreciate you doing this for me."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Thanking",
+      "native": "Muito obrigado pelo jantar delicioso.",
+      "references": [
+        "Thanks a lot for the lovely dinner."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Thanking",
+      "native": "Que gentileza a sua, obrigado.",
+      "references": [
+        "That's very kind of you, thank you."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Thanking",
+      "native": "Não tenho como te agradecer por tudo.",
+      "references": [
+        "I can't thank you enough for everything."
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Thanking",
+      "native": "Obrigado por me esperar.",
+      "references": [
+        "Thanks for waiting for me."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "Thanking",
+      "native": "Obrigado por ter tanta paciência comigo.",
+      "references": [
+        "Thank you for being so patient with me."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "Thanking",
+      "native": "De nada, não foi incômodo nenhum.",
+      "references": [
+        "You're welcome, it was no trouble at all."
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Thanking",
+      "native": "Imagina, fiquei feliz em ajudar.",
+      "references": [
+        "Don't mention it, I was happy to help."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Thanking",
+      "native": "Obrigado por me avisar tão rápido.",
+      "references": [
+        "Thanks for letting me know so quickly."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Apologizing",
+      "native": "Me desculpa muito pelo atraso.",
+      "references": [
+        "I'm so sorry for being late."
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Apologizing",
+      "native": "Desculpa, não queria te interromper.",
+      "references": [
+        "Sorry, I didn't mean to interrupt you."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Apologizing",
+      "native": "Peço desculpas pela confusão de antes.",
+      "references": [
+        "I apologize for the confusion earlier."
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Apologizing",
+      "native": "Com licença, posso passar?",
+      "references": [
+        "Excuse me, can I get past you?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Apologizing",
+      "native": "Desculpa incomodar, mas você tem um minuto?",
+      "references": [
+        "Sorry to bother you, but do you have a minute?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Apologizing",
+      "native": "Foi erro meu, vou corrigir agora mesmo.",
+      "references": [
+        "My mistake, I'll fix it right away."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Apologizing",
+      "native": "Desculpa, eu esqueci completamente.",
+      "references": [
+        "I'm sorry, I completely forgot about it."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Apologizing",
+      "native": "Por favor, me perdoa, isso foi falta de educação.",
+      "references": [
+        "Please forgive me, that was rude of me."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "Apologizing",
+      "native": "Não se preocupa, essas coisas acontecem.",
+      "references": [
+        "Don't worry about it, these things happen."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "Apologizing",
+      "native": "Tudo bem, não foi nada.",
+      "references": [
+        "It's all right, no harm done."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Not understanding",
+      "native": "Desculpa, não entendi.",
+      "references": [
+        "Sorry, I didn't catch that."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Not understanding",
+      "native": "Pode repetir, por favor?",
+      "references": [
+        "Could you say that again, please?"
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Not understanding",
+      "native": "Pode falar um pouco mais devagar?",
+      "references": [
+        "Could you speak a little more slowly?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Not understanding",
+      "native": "O que essa palavra significa?",
+      "references": [
+        "What does that word mean?"
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Not understanding",
+      "native": "Como se escreve o seu sobrenome?",
+      "references": [
+        "How do you spell your last name?"
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Not understanding",
+      "native": "Não tenho certeza se entendi o que você quis dizer.",
+      "references": [
+        "I'm not sure I understand what you mean."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Not understanding",
+      "native": "Pode escrever isso para mim?",
+      "references": [
+        "Could you write that down for me?"
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Not understanding",
+      "native": "Como se diz isso em inglês?",
+      "references": [
+        "How do you say this in English?"
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Not understanding",
+      "native": "Você quer dizer o da esquerda?",
+      "references": [
+        "Do you mean the one on the left?"
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Not understanding",
+      "native": "Desculpa, meu inglês ainda não é muito bom.",
+      "references": [
+        "Sorry, my English is still not very good."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "How are you",
+      "native": "Como você está hoje?",
+      "references": [
+        "How are you doing today?"
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "How are you",
+      "native": "Estou ótimo, obrigado por perguntar.",
+      "references": [
+        "I'm doing great, thanks for asking."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "How are you",
+      "native": "Nada mal, só um pouco cansado.",
+      "references": [
+        "Not bad, just a little tired."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "How are you",
+      "native": "Estive muito ocupado esta semana.",
+      "references": [
+        "I have been really busy this week."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "How are you",
+      "native": "Estou me sentindo bem melhor agora.",
+      "references": [
+        "I'm feeling much better now."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "How are you",
+      "native": "Sinceramente, hoje foi um dia longo.",
+      "references": [
+        "Honestly, today has been a long day."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "How are you",
+      "native": "Está tudo bem com você?",
+      "references": [
+        "Is everything okay with you?"
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "How are you",
+      "native": "Você parece feliz, qual é a boa notícia?",
+      "references": [
+        "You look happy, what's the good news?"
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "How are you",
+      "native": "Estou um pouco estressado com as provas.",
+      "references": [
+        "I'm a bit stressed about my exams."
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "How are you",
+      "native": "As coisas estão indo bem ultimamente.",
+      "references": [
+        "Things are going pretty well lately."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Weather small talk",
+      "native": "Está um dia lindo hoje, né?",
+      "references": [
+        "It's a beautiful day today, isn't it?"
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Weather small talk",
+      "native": "Parece que vai chover.",
+      "references": [
+        "It looks like it's going to rain."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Weather small talk",
+      "native": "Está um frio de congelar lá fora hoje de manhã.",
+      "references": [
+        "It's freezing outside this morning."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Weather small talk",
+      "native": "Não acredito no calor que está fazendo hoje.",
+      "references": [
+        "I can't believe how hot the weather is today."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Weather small talk",
+      "native": "Você sabe como vai estar o tempo amanhã?",
+      "references": [
+        "Do you know what the weather will be like tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Weather small talk",
+      "native": "Eu adoro esta época do ano.",
+      "references": [
+        "I love this time of the year."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "Weather small talk",
+      "native": "Não esquece de levar um guarda-chuva.",
+      "references": [
+        "Don't forget to bring an umbrella."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "Weather small talk",
+      "native": "O vento está muito forte hoje.",
+      "references": [
+        "The wind is really strong today."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Weather small talk",
+      "native": "Espero que continue fazendo sol no fim de semana.",
+      "references": [
+        "I hope it stays sunny for the weekend."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Weather small talk",
+      "native": "Choveu a semana inteira.",
+      "references": [
+        "It has been raining all week long."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Concordo totalmente com você.",
+      "references": [
+        "I totally agree with you."
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Era exatamente isso que eu estava pensando.",
+      "references": [
+        "That's exactly what I was thinking."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Nisso você tem razão.",
+      "references": [
+        "You have a good point there."
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Não tenho tanta certeza disso.",
+      "references": [
+        "I'm not so sure about that."
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Entendo o que você quer dizer, mas discordo.",
+      "references": [
+        "I see what you mean, but I disagree."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Isso faz muito sentido para mim.",
+      "references": [
+        "That makes a lot of sense to me."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Não acho que seja uma boa ideia.",
+      "references": [
+        "I don't think that's a good idea."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Talvez você tenha razão, afinal.",
+      "references": [
+        "Maybe you're right after all."
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Concordo com você até certo ponto.",
+      "references": [
+        "I agree with you up to a point."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Vamos só aceitar que pensamos diferente.",
+      "references": [
+        "Let's just agree to disagree."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Making plans",
+      "native": "Você está livre neste sábado à tarde?",
+      "references": [
+        "Are you free this Saturday afternoon?"
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Making plans",
+      "native": "Quer tomar um café qualquer dia?",
+      "references": [
+        "Do you want to grab a coffee sometime?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Making plans",
+      "native": "Vamos nos encontrar na frente do cinema às sete.",
+      "references": [
+        "Let's meet in front of the cinema at seven."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Making plans",
+      "native": "Que horário é melhor para você?",
+      "references": [
+        "What time works best for you?"
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Making plans",
+      "native": "Desculpa, já tenho planos para hoje à noite.",
+      "references": [
+        "I'm sorry, I already have plans tonight."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Making plans",
+      "native": "Que tal irmos à praia amanhã?",
+      "references": [
+        "How about we go to the beach tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Making plans",
+      "native": "Podemos passar para a semana que vem?",
+      "references": [
+        "Can we move it to next week instead?"
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Making plans",
+      "native": "Te mando o endereço mais tarde.",
+      "references": [
+        "I'll send you the address later."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Making plans",
+      "native": "Pode contar comigo, parece divertido.",
+      "references": [
+        "Count me in, that sounds like fun."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Making plans",
+      "native": "Deixa eu ver minha agenda e te dou um retorno.",
+      "references": [
+        "Let me check my calendar and get back to you."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Weather small talk",
+      "native": "Se tem uma coisa que me incomoda, são segundas-feiras chuvosas.",
+      "references": [
+        "If there's one thing that bothers me, it's rainy Mondays."
+      ],
+      "starter_pattern": "If there is one thing that… me, it's…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Apologizing",
+      "native": "Se tem uma coisa que me chateia, são pessoas que nunca pedem desculpa.",
+      "references": [
+        "If there's one thing that upsets me, it's people who never say sorry."
+      ],
+      "starter_pattern": "If there is one thing that… me, it's…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Making plans",
+      "native": "Aliás, você está livre para jantar na sexta?",
+      "references": [
+        "By the way, are you free for dinner on Friday?"
+      ],
+      "starter_pattern": "By the way…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Introductions",
+      "native": "Aliás, esta é a minha amiga Maria, do trabalho.",
+      "references": [
+        "By the way, this is my friend Maria from work."
+      ],
+      "starter_pattern": "By the way…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Making plans",
+      "native": "A gente estaria melhor sem o carro, estacionar lá é horrível.",
+      "references": [
+        "We'd be better off without the car, parking is terrible there."
+      ],
+      "starter_pattern": "We'd be better off without…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Sinceramente, acho que estaríamos melhor sem a ajuda dele.",
+      "references": [
+        "Honestly, I think we'd be better off without his help."
+      ],
+      "starter_pattern": "We'd be better off without…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Saying goodbye",
+      "native": "Veja se chega bem em casa hoje à noite.",
+      "references": [
+        "See that you get home safe tonight."
+      ],
+      "starter_pattern": "See that…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Weather small talk",
+      "native": "Veja se leva um casaco quente, está congelando lá fora.",
+      "references": [
+        "See that you take a warm coat, it's freezing outside."
+      ],
+      "starter_pattern": "See that…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Not understanding",
+      "native": "Que eu saiba, essa palavra tem outro significado aqui.",
+      "references": [
+        "As far as I know, that word has a different meaning here."
+      ],
+      "starter_pattern": "As far as…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Making plans",
+      "native": "Que eu saiba, a festa começa às oito.",
+      "references": [
+        "As far as I know, the party starts at eight."
+      ],
+      "starter_pattern": "As far as…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Making plans",
+      "native": "Te aviso se eu puder ir no sábado.",
+      "references": [
+        "I'll let you know if I can make it on Saturday."
+      ],
+      "starter_pattern": "I'll let you know…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "Saying goodbye",
+      "native": "Te aviso quando eu voltar da viagem.",
+      "references": [
+        "I'll let you know when I get back from my trip."
+      ],
+      "starter_pattern": "I'll let you know…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Not understanding",
+      "native": "Onde posso encontrar um bom dicionário de inglês?",
+      "references": [
+        "Where can I find a good English dictionary?"
+      ],
+      "starter_pattern": "Where can I…?"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Introductions",
+      "native": "Onde posso te encontrar nas redes sociais?",
+      "references": [
+        "Where can I find you on social media?"
+      ],
+      "starter_pattern": "Where can I…?"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Introductions",
+      "native": "Meu irmão não é só meu melhor amigo, mas também meu colega de quarto.",
+      "references": [
+        "My brother is not only my best friend but also my roommate."
+      ],
+      "starter_pattern": "He is not only… but also…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Thanking",
+      "native": "Você não foi só gentil, mas também muito paciente comigo.",
+      "references": [
+        "You were not only kind but also very patient with me."
+      ],
+      "starter_pattern": "He is not only… but also…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Introductions",
+      "native": "Você morava neste bairro antes?",
+      "references": [
+        "Did you use to live in this neighborhood?"
+      ],
+      "starter_pattern": "Did you use to…?"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "How are you",
+      "native": "Você costumava ficar tão cansado assim depois do trabalho?",
+      "references": [
+        "Did you use to feel this tired after work?"
+      ],
+      "starter_pattern": "Did you use to…?"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Saying goodbye",
+      "native": "Aconteça o que acontecer, vamos manter contato.",
+      "references": [
+        "No matter what happens, let's stay in touch."
+      ],
+      "starter_pattern": "No matter what…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Agreeing and disagreeing",
+      "native": "Diga o que disser, eu ainda acho que é uma má ideia.",
+      "references": [
+        "No matter what you say, I still think it's a bad idea."
+      ],
+      "starter_pattern": "No matter what…"
+    }
+  ]
+}

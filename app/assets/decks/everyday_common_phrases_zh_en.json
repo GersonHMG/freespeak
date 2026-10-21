@@ -1,0 +1,988 @@
+{
+  "name": "Common phrases",
+  "source": "starter",
+  "native_lang": "zh",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Greetings",
+      "native": "早上好，你睡得怎么样？",
+      "references": [
+        "Good morning, how did you sleep?"
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Greetings",
+      "native": "嗨，最近怎么样？",
+      "references": [
+        "Hi there, how is it going?"
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Greetings",
+      "native": "嘿，好久不见！",
+      "references": [
+        "Hey, long time no see!"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Greetings",
+      "native": "下午好，希望你一切都好。",
+      "references": [
+        "Good afternoon, I hope you're doing well."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Greetings",
+      "native": "大家晚上好，谢谢大家来。",
+      "references": [
+        "Good evening, everyone, thanks for coming."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Greetings",
+      "native": "你好，现在方便说话吗？",
+      "references": [
+        "Hello, is this a good time to talk?"
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Greetings",
+      "native": "嗨，你周末过得怎么样？",
+      "references": [
+        "Hi, how was your weekend?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Greetings",
+      "native": "嘿，你最近在忙什么？",
+      "references": [
+        "Hey, what have you been up to lately?"
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Greetings",
+      "native": "再次见到你真是太好了。",
+      "references": [
+        "It's so good to see you again."
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Greetings",
+      "native": "早！你旅途顺利吗？",
+      "references": [
+        "Morning! Did you have a good trip?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Introductions",
+      "native": "很高兴认识你，我是丹尼尔。",
+      "references": [
+        "Nice to meet you, I'm Daniel."
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Introductions",
+      "native": "我来给你介绍一下我妹妹。",
+      "references": [
+        "Let me introduce you to my sister."
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Introductions",
+      "native": "久仰大名。",
+      "references": [
+        "I have heard so much about you."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Introductions",
+      "native": "你老家是哪里的？",
+      "references": [
+        "Where are you from originally?"
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Introductions",
+      "native": "你是做什么工作的？",
+      "references": [
+        "What do you do for a living?"
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Introductions",
+      "native": "我在本地的医院当护士。",
+      "references": [
+        "I work as a nurse at the local hospital."
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Introductions",
+      "native": "我几个月前刚搬到这里。",
+      "references": [
+        "I just moved here a few months ago."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Introductions",
+      "native": "你是怎么认识派对主人的？",
+      "references": [
+        "How do you know the host of the party?"
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Introductions",
+      "native": "不好意思，能再告诉我一遍你的名字吗？",
+      "references": [
+        "Sorry, could you tell me your name again?"
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Introductions",
+      "native": "很荣幸终于见到你本人了。",
+      "references": [
+        "It's a pleasure to finally meet you in person."
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Saying goodbye",
+      "native": "跟你聊天真的很开心。",
+      "references": [
+        "It was really nice talking to you."
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Saying goodbye",
+      "native": "我得走了，明天见。",
+      "references": [
+        "I have to go now, see you tomorrow."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Saying goodbye",
+      "native": "保重，路上注意安全。",
+      "references": [
+        "Take care and get home safe."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Saying goodbye",
+      "native": "祝你和家人周末愉快。",
+      "references": [
+        "Have a great weekend with your family."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "Saying goodbye",
+      "native": "我们保持联系，好吗？",
+      "references": [
+        "Let's keep in touch, okay?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "Saying goodbye",
+      "native": "替我向你父母问好。",
+      "references": [
+        "Say hi to your parents for me."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Saying goodbye",
+      "native": "周一开会的时候见。",
+      "references": [
+        "I'll see you at the meeting on Monday."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Saying goodbye",
+      "native": "谢谢你的招待，我玩得很开心。",
+      "references": [
+        "Thanks for having me, I had a great time."
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Saying goodbye",
+      "native": "到家了给我发个消息。",
+      "references": [
+        "Text me when you get home."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Saying goodbye",
+      "native": "先再见了，我晚点给你打电话。",
+      "references": [
+        "Goodbye for now, I'll call you later."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Thanking",
+      "native": "非常感谢你的帮助。",
+      "references": [
+        "Thank you so much for your help."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Thanking",
+      "native": "你为我做这些，我真的很感激。",
+      "references": [
+        "I really appreciate you doing this for me."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Thanking",
+      "native": "非常感谢你这顿美味的晚餐。",
+      "references": [
+        "Thanks a lot for the lovely dinner."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Thanking",
+      "native": "你真是太好了，谢谢。",
+      "references": [
+        "That's very kind of you, thank you."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Thanking",
+      "native": "我对你的一切真是感激不尽。",
+      "references": [
+        "I can't thank you enough for everything."
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Thanking",
+      "native": "谢谢你等我。",
+      "references": [
+        "Thanks for waiting for me."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "Thanking",
+      "native": "谢谢你对我这么有耐心。",
+      "references": [
+        "Thank you for being so patient with me."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "Thanking",
+      "native": "不客气，一点也不麻烦。",
+      "references": [
+        "You're welcome, it was no trouble at all."
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Thanking",
+      "native": "别客气，我很乐意帮忙。",
+      "references": [
+        "Don't mention it, I was happy to help."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Thanking",
+      "native": "谢谢你这么快通知我。",
+      "references": [
+        "Thanks for letting me know so quickly."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Apologizing",
+      "native": "非常抱歉我迟到了。",
+      "references": [
+        "I'm so sorry for being late."
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Apologizing",
+      "native": "不好意思，我不是故意打断你的。",
+      "references": [
+        "Sorry, I didn't mean to interrupt you."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Apologizing",
+      "native": "刚才造成了误会，我很抱歉。",
+      "references": [
+        "I apologize for the confusion earlier."
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Apologizing",
+      "native": "不好意思，能让我过一下吗？",
+      "references": [
+        "Excuse me, can I get past you?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Apologizing",
+      "native": "抱歉打扰一下，你有空吗？",
+      "references": [
+        "Sorry to bother you, but do you have a minute?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Apologizing",
+      "native": "是我的错，我马上改。",
+      "references": [
+        "My mistake, I'll fix it right away."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Apologizing",
+      "native": "对不起，我完全忘了。",
+      "references": [
+        "I'm sorry, I completely forgot about it."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Apologizing",
+      "native": "请原谅我，我刚才太没礼貌了。",
+      "references": [
+        "Please forgive me, that was rude of me."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "Apologizing",
+      "native": "别担心，这种事难免会发生。",
+      "references": [
+        "Don't worry about it, these things happen."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "Apologizing",
+      "native": "没关系，没什么大不了的。",
+      "references": [
+        "It's all right, no harm done."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Not understanding",
+      "native": "不好意思，我没听清楚。",
+      "references": [
+        "Sorry, I didn't catch that."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Not understanding",
+      "native": "请你再说一遍好吗？",
+      "references": [
+        "Could you say that again, please?"
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Not understanding",
+      "native": "你能说得慢一点吗？",
+      "references": [
+        "Could you speak a little more slowly?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Not understanding",
+      "native": "那个词是什么意思？",
+      "references": [
+        "What does that word mean?"
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Not understanding",
+      "native": "你的姓怎么拼？",
+      "references": [
+        "How do you spell your last name?"
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Not understanding",
+      "native": "我不太确定我明白你的意思。",
+      "references": [
+        "I'm not sure I understand what you mean."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Not understanding",
+      "native": "你能帮我写下来吗？",
+      "references": [
+        "Could you write that down for me?"
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Not understanding",
+      "native": "这个用英语怎么说？",
+      "references": [
+        "How do you say this in English?"
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Not understanding",
+      "native": "你是说左边那个吗？",
+      "references": [
+        "Do you mean the one on the left?"
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Not understanding",
+      "native": "不好意思，我的英语还不太好。",
+      "references": [
+        "Sorry, my English is still not very good."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "How are you",
+      "native": "你今天怎么样？",
+      "references": [
+        "How are you doing today?"
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "How are you",
+      "native": "我很好，谢谢关心。",
+      "references": [
+        "I'm doing great, thanks for asking."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "How are you",
+      "native": "还不错，就是有点累。",
+      "references": [
+        "Not bad, just a little tired."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "How are you",
+      "native": "这周我真的很忙。",
+      "references": [
+        "I have been really busy this week."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "How are you",
+      "native": "我现在感觉好多了。",
+      "references": [
+        "I'm feeling much better now."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "How are you",
+      "native": "说实话，今天真是漫长的一天。",
+      "references": [
+        "Honestly, today has been a long day."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "How are you",
+      "native": "你一切都还好吗？",
+      "references": [
+        "Is everything okay with you?"
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "How are you",
+      "native": "你看起来很开心，有什么好消息？",
+      "references": [
+        "You look happy, what's the good news?"
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "How are you",
+      "native": "我对考试有点紧张。",
+      "references": [
+        "I'm a bit stressed about my exams."
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "How are you",
+      "native": "最近一切都挺顺利的。",
+      "references": [
+        "Things are going pretty well lately."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Weather small talk",
+      "native": "今天天气真好，是吧？",
+      "references": [
+        "It's a beautiful day today, isn't it?"
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Weather small talk",
+      "native": "看起来要下雨了。",
+      "references": [
+        "It looks like it's going to rain."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Weather small talk",
+      "native": "今天早上外面冷得要命。",
+      "references": [
+        "It's freezing outside this morning."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Weather small talk",
+      "native": "真不敢相信今天这么热。",
+      "references": [
+        "I can't believe how hot the weather is today."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Weather small talk",
+      "native": "你知道明天天气怎么样吗？",
+      "references": [
+        "Do you know what the weather will be like tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Weather small talk",
+      "native": "我很喜欢一年中的这个时候。",
+      "references": [
+        "I love this time of the year."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "Weather small talk",
+      "native": "别忘了带伞。",
+      "references": [
+        "Don't forget to bring an umbrella."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "Weather small talk",
+      "native": "今天风真大。",
+      "references": [
+        "The wind is really strong today."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Weather small talk",
+      "native": "希望周末一直是晴天。",
+      "references": [
+        "I hope it stays sunny for the weekend."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Weather small talk",
+      "native": "这一整个星期都在下雨。",
+      "references": [
+        "It has been raining all week long."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Agreeing and disagreeing",
+      "native": "我完全同意你的看法。",
+      "references": [
+        "I totally agree with you."
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Agreeing and disagreeing",
+      "native": "我也正是这么想的。",
+      "references": [
+        "That's exactly what I was thinking."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Agreeing and disagreeing",
+      "native": "你说得有道理。",
+      "references": [
+        "You have a good point there."
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Agreeing and disagreeing",
+      "native": "这个我不太确定。",
+      "references": [
+        "I'm not so sure about that."
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Agreeing and disagreeing",
+      "native": "我明白你的意思，但我不同意。",
+      "references": [
+        "I see what you mean, but I disagree."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Agreeing and disagreeing",
+      "native": "我觉得这很有道理。",
+      "references": [
+        "That makes a lot of sense to me."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Agreeing and disagreeing",
+      "native": "我觉得这不是个好主意。",
+      "references": [
+        "I don't think that's a good idea."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Agreeing and disagreeing",
+      "native": "也许你终究是对的。",
+      "references": [
+        "Maybe you're right after all."
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Agreeing and disagreeing",
+      "native": "我在一定程度上同意你。",
+      "references": [
+        "I agree with you up to a point."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Agreeing and disagreeing",
+      "native": "我们就求同存异吧。",
+      "references": [
+        "Let's just agree to disagree."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Making plans",
+      "native": "你这个星期六下午有空吗？",
+      "references": [
+        "Are you free this Saturday afternoon?"
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Making plans",
+      "native": "改天要不要一起喝杯咖啡？",
+      "references": [
+        "Do you want to grab a coffee sometime?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Making plans",
+      "native": "我们七点在电影院门口见吧。",
+      "references": [
+        "Let's meet in front of the cinema at seven."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Making plans",
+      "native": "你什么时间最方便？",
+      "references": [
+        "What time works best for you?"
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Making plans",
+      "native": "不好意思，我今晚已经有安排了。",
+      "references": [
+        "I'm sorry, I already have plans tonight."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Making plans",
+      "native": "明天我们去海边怎么样？",
+      "references": [
+        "How about we go to the beach tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Making plans",
+      "native": "我们能改到下周吗？",
+      "references": [
+        "Can we move it to next week instead?"
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Making plans",
+      "native": "我晚点把地址发给你。",
+      "references": [
+        "I'll send you the address later."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Making plans",
+      "native": "算我一个，听起来很好玩。",
+      "references": [
+        "Count me in, that sounds like fun."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Making plans",
+      "native": "我看一下日程，然后回复你。",
+      "references": [
+        "Let me check my calendar and get back to you."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Weather small talk",
+      "native": "要说有什么让我烦的，那就是下雨的星期一。",
+      "references": [
+        "If there's one thing that bothers me, it's rainy Mondays."
+      ],
+      "starter_pattern": "If there is one thing that… me, it's…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Apologizing",
+      "native": "要说有什么让我不爽的，那就是从不道歉的人。",
+      "references": [
+        "If there's one thing that upsets me, it's people who never say sorry."
+      ],
+      "starter_pattern": "If there is one thing that… me, it's…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Making plans",
+      "native": "对了，你星期五有空一起吃晚饭吗？",
+      "references": [
+        "By the way, are you free for dinner on Friday?"
+      ],
+      "starter_pattern": "By the way…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Introductions",
+      "native": "对了，这是我同事玛丽亚。",
+      "references": [
+        "By the way, this is my friend Maria from work."
+      ],
+      "starter_pattern": "By the way…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Making plans",
+      "native": "没有车我们反而更好，那里停车太难了。",
+      "references": [
+        "We'd be better off without the car, parking is terrible there."
+      ],
+      "starter_pattern": "We'd be better off without…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Agreeing and disagreeing",
+      "native": "说实话，我觉得没有他帮忙我们反而更好。",
+      "references": [
+        "Honestly, I think we'd be better off without his help."
+      ],
+      "starter_pattern": "We'd be better off without…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Saying goodbye",
+      "native": "今晚一定要平安到家。",
+      "references": [
+        "See that you get home safe tonight."
+      ],
+      "starter_pattern": "See that…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Weather small talk",
+      "native": "一定要带件厚外套，外面冷得要命。",
+      "references": [
+        "See that you take a warm coat, it's freezing outside."
+      ],
+      "starter_pattern": "See that…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Not understanding",
+      "native": "据我所知，那个词在这里有别的意思。",
+      "references": [
+        "As far as I know, that word has a different meaning here."
+      ],
+      "starter_pattern": "As far as…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Making plans",
+      "native": "据我所知，派对八点开始。",
+      "references": [
+        "As far as I know, the party starts at eight."
+      ],
+      "starter_pattern": "As far as…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Making plans",
+      "native": "星期六能不能去，我再告诉你。",
+      "references": [
+        "I'll let you know if I can make it on Saturday."
+      ],
+      "starter_pattern": "I'll let you know…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "Saying goodbye",
+      "native": "我旅行回来再告诉你。",
+      "references": [
+        "I'll let you know when I get back from my trip."
+      ],
+      "starter_pattern": "I'll let you know…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Not understanding",
+      "native": "我在哪里能找到一本好的英语词典？",
+      "references": [
+        "Where can I find a good English dictionary?"
+      ],
+      "starter_pattern": "Where can I…?"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Introductions",
+      "native": "我在社交媒体上怎么找到你？",
+      "references": [
+        "Where can I find you on social media?"
+      ],
+      "starter_pattern": "Where can I…?"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Introductions",
+      "native": "我哥哥不仅是我最好的朋友，还是我的室友。",
+      "references": [
+        "My brother is not only my best friend but also my roommate."
+      ],
+      "starter_pattern": "He is not only… but also…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Thanking",
+      "native": "你不仅很友善，而且对我非常有耐心。",
+      "references": [
+        "You were not only kind but also very patient with me."
+      ],
+      "starter_pattern": "He is not only… but also…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Introductions",
+      "native": "你以前住在这个街区吗？",
+      "references": [
+        "Did you use to live in this neighborhood?"
+      ],
+      "starter_pattern": "Did you use to…?"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "How are you",
+      "native": "你以前下班后也会这么累吗？",
+      "references": [
+        "Did you use to feel this tired after work?"
+      ],
+      "starter_pattern": "Did you use to…?"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Saying goodbye",
+      "native": "不管发生什么，我们都保持联系吧。",
+      "references": [
+        "No matter what happens, let's stay in touch."
+      ],
+      "starter_pattern": "No matter what…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Agreeing and disagreeing",
+      "native": "不管你怎么说，我还是觉得这是个坏主意。",
+      "references": [
+        "No matter what you say, I still think it's a bad idea."
+      ],
+      "starter_pattern": "No matter what…"
+    }
+  ]
+}

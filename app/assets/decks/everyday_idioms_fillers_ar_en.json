@@ -1,0 +1,988 @@
+{
+  "name": "Idioms & fillers",
+  "source": "starter",
+  "native_lang": "ar",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "No worries",
+      "native": "لا تقلق، يمكنني الانتظار بضع دقائق أخرى.",
+      "references": [
+        "No worries, I can wait a few more minutes."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "No worries",
+      "native": "لا مشكلة أبدًا، يمكننا فعلها غدًا.",
+      "references": [
+        "No worries at all, we can do it tomorrow."
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Fair enough",
+      "native": "معك حق، أنت تعمل طوال اليوم.",
+      "references": [
+        "Fair enough, you have been working all day."
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Fair enough",
+      "native": "إن كنت متعبًا جدًا ولا تستطيع المجيء، فلا بأس.",
+      "references": [
+        "If you're too tired to come, fair enough."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "I'm on it",
+      "native": "التقرير متأخر؟ حسنًا، سأتولى الأمر.",
+      "references": [
+        "The report is late? Okay, I'm on it."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "I'm on it",
+      "native": "لا تقلق بشأن الأطباق، سأتولاها.",
+      "references": [
+        "Don't worry about the dishes, I'm on it."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Kind of",
+      "native": "أنا جائع نوعًا ما، وأنت؟",
+      "references": [
+        "I'm kind of hungry, are you?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Kind of",
+      "native": "بصراحة، كان الفيلم مملًا نوعًا ما.",
+      "references": [
+        "The movie was kind of boring, to be honest."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "To be honest",
+      "native": "بصراحة، لم يعجبني الطعام.",
+      "references": [
+        "To be honest, I didn't like the food."
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "To be honest",
+      "native": "بصراحة، نسيت الأمر تمامًا.",
+      "references": [
+        "To be honest, I forgot all about it."
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "By the way",
+      "native": "بالمناسبة، اتصلت أختك هذا الصباح.",
+      "references": [
+        "By the way, your sister called this morning."
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "By the way",
+      "native": "بالمناسبة، هل وصلك بريدي الإلكتروني؟",
+      "references": [
+        "By the way, did you get my email?"
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "You know what",
+      "native": "أتعرف ماذا؟ لنطلب بيتزا فقط.",
+      "references": [
+        "You know what, let's just order pizza."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "You know what",
+      "native": "أتعرف ماذا؟ أظن أنك على حق.",
+      "references": [
+        "You know what, I think you're right."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "I mean",
+      "native": "يعجبني، أقصد، ليس مثاليًا.",
+      "references": [
+        "I like it, I mean, it's not perfect."
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "I mean",
+      "native": "المكان بعيد، أقصد، بعيد جدًا.",
+      "references": [
+        "It's far away, I mean, really far."
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Anyway",
+      "native": "على أي حال، يكفي حديثًا عني.",
+      "references": [
+        "Anyway, that's enough about me."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Anyway",
+      "native": "على أي حال، يجب أن أذهب الآن.",
+      "references": [
+        "Anyway, I should get going now."
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "It's up to you",
+      "native": "بيتزا أم معكرونة؟ القرار لك.",
+      "references": [
+        "Pizza or pasta? It's up to you."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "It's up to you",
+      "native": "يمكننا المغادرة الآن أو لاحقًا، القرار لك.",
+      "references": [
+        "We can leave now or later, it's up to you."
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Never mind",
+      "native": "لا عليك، وجدت مفاتيحي.",
+      "references": [
+        "Never mind, I found my keys."
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Never mind",
+      "native": "آه، لا عليك، الأمر ليس مهمًا.",
+      "references": [
+        "Oh, never mind, it's not important."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Sounds good",
+      "native": "الغداء عند الظهر؟ يناسبني.",
+      "references": [
+        "Lunch at noon? Sounds good to me."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Sounds good",
+      "native": "تبدو فكرة جيدة، لنفعلها.",
+      "references": [
+        "That sounds good, let's do it."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "I'll keep that in mind",
+      "native": "شكرًا على النصيحة، سأضعها في اعتباري.",
+      "references": [
+        "Thanks for the advice, I'll keep that in mind."
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "I'll keep that in mind",
+      "native": "المتجر يغلق مبكرًا أيام الأحد، ضع ذلك في اعتبارك.",
+      "references": [
+        "The store closes early on Sundays, keep that in mind."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Piece of cake",
+      "native": "كان الامتحان سهلًا جدًا.",
+      "references": [
+        "The exam was a piece of cake."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Piece of cake",
+      "native": "لا تقلق، إصلاح هذا أسهل ما يكون.",
+      "references": [
+        "Don't worry, fixing this is a piece of cake."
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Break the ice",
+      "native": "ألقى نكتة ليكسر الجليد.",
+      "references": [
+        "He told a joke to break the ice."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Break the ice",
+      "native": "الألعاب طريقة جيدة لكسر الجليد في الحفلات.",
+      "references": [
+        "Games are a good way to break the ice at parties."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Under the weather",
+      "native": "أشعر بتوعك بسيط اليوم.",
+      "references": [
+        "I'm feeling a bit under the weather today."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Under the weather",
+      "native": "بقيت في البيت لأنها كانت متوعكة.",
+      "references": [
+        "She stayed home because she was under the weather."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Hit the road",
+      "native": "الوقت يتأخر، يجب أن ننطلق.",
+      "references": [
+        "It's getting late, we should hit the road."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Hit the road",
+      "native": "انطلقنا مبكرًا لنتجنب الزحام.",
+      "references": [
+        "We hit the road early to avoid the traffic."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Call it a day",
+      "native": "كلنا متعبون، لنكتفِ بهذا القدر اليوم.",
+      "references": [
+        "We're all tired, let's call it a day."
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Call it a day",
+      "native": "أنهيت عملي، لذلك سأكتفي بهذا القدر اليوم.",
+      "references": [
+        "I finished my work, so I'm calling it a day."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "On the same page",
+      "native": "لنتأكد أننا جميعًا متفقون على الفهم نفسه.",
+      "references": [
+        "Let's make sure we're all on the same page."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "On the same page",
+      "native": "لا أظن أننا متفقون على الفهم نفسه في هذا الأمر.",
+      "references": [
+        "I don't think we're on the same page about this."
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Better late than never",
+      "native": "وصلت أخيرًا، أن تأتي متأخرًا خير من ألا تأتي أبدًا.",
+      "references": [
+        "You finally arrived, better late than never."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Better late than never",
+      "native": "بدأت تعلم الإنجليزية في الخمسين، أن تأتي متأخرًا خير من ألا تأتي أبدًا.",
+      "references": [
+        "I started learning English at fifty, better late than never."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Cost an arm and a leg",
+      "native": "ذلك الهاتف الجديد ثمنه باهظ جدًا.",
+      "references": [
+        "That new phone costs an arm and a leg."
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Cost an arm and a leg",
+      "native": "كلّفنا إصلاح السقف مبلغًا باهظًا.",
+      "references": [
+        "Fixing the roof cost us an arm and a leg."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Once in a blue moon",
+      "native": "لا آكل الوجبات السريعة إلا نادرًا جدًا.",
+      "references": [
+        "I only eat fast food once in a blue moon."
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Once in a blue moon",
+      "native": "لا يتصل بوالديه إلا نادرًا جدًا.",
+      "references": [
+        "He calls his parents once in a blue moon."
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Get the hang of",
+      "native": "القيادة صعبة في البداية، لكنك ستتقنها.",
+      "references": [
+        "Driving is hard at first, but you'll get the hang of it."
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Get the hang of",
+      "native": "بدأت أخيرًا أتقن هذه اللعبة.",
+      "references": [
+        "I'm finally getting the hang of this game."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Sleep on it",
+      "native": "لا داعي لأن تقرر الآن، فكّر في الأمر الليلة.",
+      "references": [
+        "You don't have to decide now, sleep on it."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Sleep on it",
+      "native": "دعني أفكر في الأمر الليلة وأخبرك غدًا.",
+      "references": [
+        "Let me sleep on it and tell you tomorrow."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "The last straw",
+      "native": "تأخر مرة أخرى، وكانت تلك القشة التي قصمت ظهر البعير.",
+      "references": [
+        "He was late again, and that was the last straw."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "The last straw",
+      "native": "كان ضياع مفاتيحي القشة التي قصمت ظهر البعير اليوم.",
+      "references": [
+        "Losing my keys was the last straw today."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "In the same boat",
+      "native": "لا تقلق، كلنا في القارب نفسه.",
+      "references": [
+        "Don't worry, we're all in the same boat."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "In the same boat",
+      "native": "أنا أيضًا فقدت عملي، إذن نحن في القارب نفسه.",
+      "references": [
+        "I lost my job too, so we're in the same boat."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Keep an eye on",
+      "native": "هل يمكنك أن تراقب حقيبتي لدقيقة؟",
+      "references": [
+        "Could you keep an eye on my bag for a minute?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Keep an eye on",
+      "native": "راقب الأطفال بينما أطبخ.",
+      "references": [
+        "Keep an eye on the kids while I cook."
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Make up your mind",
+      "native": "أسرع واتخذ قرارك.",
+      "references": [
+        "Hurry up and make up your mind."
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Make up your mind",
+      "native": "لا أستطيع أن أقرر أيّها أشتري.",
+      "references": [
+        "I can't make up my mind about which one to buy."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Out of the blue",
+      "native": "اتصل بي صديقي القديم فجأة.",
+      "references": [
+        "My old friend called me out of the blue."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Out of the blue",
+      "native": "خطرت لي الفكرة فجأة.",
+      "references": [
+        "The idea came to me out of the blue."
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Take it easy",
+      "native": "على مهلك، لقد كنت تعمل أكثر من اللازم.",
+      "references": [
+        "Take it easy, you have been working too hard."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Take it easy",
+      "native": "سنرتاح فقط في عطلة نهاية الأسبوع هذه.",
+      "references": [
+        "We're just going to take it easy this weekend."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Ring a bell",
+      "native": "اسمه مألوف لي، لكنني لا أتذكره.",
+      "references": [
+        "His name rings a bell, but I can't remember him."
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Ring a bell",
+      "native": "هل تبدو لك هذه الأغنية مألوفة؟",
+      "references": [
+        "Does this song ring a bell?"
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Speak of the devil",
+      "native": "ذكرناه فحضر، ها هو توم قادم.",
+      "references": [
+        "Speak of the devil, here comes Tom now."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Speak of the devil",
+      "native": "كنا نتحدث عنك للتو، ذكرناك فحضرت.",
+      "references": [
+        "We were just talking about you, speak of the devil."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Beat around the bush",
+      "native": "توقف عن المراوغة وقل لي الحقيقة.",
+      "references": [
+        "Stop beating around the bush and tell me the truth."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Beat around the bush",
+      "native": "لا يراوغ أبدًا، إنه صريح جدًا.",
+      "references": [
+        "He never beats around the bush, he's very direct."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "A blessing in disguise",
+      "native": "كان تفويت تلك الحافلة نعمة في ثوب نقمة.",
+      "references": [
+        "Missing that bus was a blessing in disguise."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "A blessing in disguise",
+      "native": "كان فقدان تلك الوظيفة نعمة في ثوب نقمة.",
+      "references": [
+        "Losing that job was a blessing in disguise."
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Cut corners",
+      "native": "إذا تهاونت في العمل، فلن يدوم.",
+      "references": [
+        "If you cut corners, the work won't last."
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Cut corners",
+      "native": "لا يمكننا التهاون في السلامة.",
+      "references": [
+        "We can't cut corners on safety."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Easier said than done",
+      "native": "أسترخي فقط؟ القول أسهل من الفعل.",
+      "references": [
+        "Just relax? That's easier said than done."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Easier said than done",
+      "native": "توفير المال أسهل قولًا منه فعلًا.",
+      "references": [
+        "Saving money is easier said than done."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Get out of hand",
+      "native": "خرجت الحفلة عن السيطرة بعد منتصف الليل.",
+      "references": [
+        "The party got out of hand after midnight."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Get out of hand",
+      "native": "لا تدع المشكلة تخرج عن السيطرة.",
+      "references": [
+        "Don't let the problem get out of hand."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Hang in there",
+      "native": "اصمد، الامتحانات على وشك الانتهاء.",
+      "references": [
+        "Hang in there, the exams are almost over."
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Hang in there",
+      "native": "أعرف أن الأمر صعب، لكن اصمد.",
+      "references": [
+        "I know it's hard, but hang in there."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "It's not rocket science",
+      "native": "هيا، الأمر ليس معقدًا.",
+      "references": [
+        "Come on, it's not rocket science."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "It's not rocket science",
+      "native": "طبخ الأرز ليس أمرًا معقدًا.",
+      "references": [
+        "Cooking rice isn't rocket science."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Let it slide",
+      "native": "تأخرت مرة أخرى، لكنني سأتغاضى عن ذلك هذه المرة.",
+      "references": [
+        "You're late again, but I'll let it slide this time."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Let it slide",
+      "native": "كان خطأً بسيطًا، لذلك تغاضيت عنه.",
+      "references": [
+        "It was a small mistake, so I let it slide."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "My bad",
+      "native": "آه، كان هذا مقعدك؟ خطئي.",
+      "references": [
+        "Oh, that was your seat? My bad."
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "My bad",
+      "native": "خطئي، أرسلت البريد الإلكتروني إلى الشخص الخطأ.",
+      "references": [
+        "My bad, I sent the email to the wrong person."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "No big deal",
+      "native": "نسيت؟ ليست مشكلة كبيرة.",
+      "references": [
+        "You forgot? It's no big deal."
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "No big deal",
+      "native": "خسارة المباراة لم تكن مشكلة كبيرة.",
+      "references": [
+        "Losing the game was no big deal."
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "On second thought",
+      "native": "بعد التفكير، سآخذ الحساء.",
+      "references": [
+        "On second thought, I'll have the soup."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "On second thought",
+      "native": "بعد التفكير، لنبقَ في البيت الليلة.",
+      "references": [
+        "On second thought, let's stay home tonight."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Pull someone's leg",
+      "native": "اهدأ، أنا أمزح معك فقط.",
+      "references": [
+        "Relax, I'm just pulling your leg."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Pull someone's leg",
+      "native": "هل أنت جاد أم تمزح معي؟",
+      "references": [
+        "Are you serious or are you pulling my leg?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "So far so good",
+      "native": "كيف العمل الجديد؟ حتى الآن كل شيء جيد.",
+      "references": [
+        "How is the new job? So far so good."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "So far so good",
+      "native": "الرحلة رائعة، حتى الآن كل شيء جيد.",
+      "references": [
+        "The trip has been great so far, so good."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "That makes two of us",
+      "native": "أنت متعب؟ وأنا أيضًا.",
+      "references": [
+        "You're tired? That makes two of us."
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "That makes two of us",
+      "native": "أنت أيضًا لا تفهمه؟ ولا أنا.",
+      "references": [
+        "You don't understand it either? That makes two of us."
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Tell me about it",
+      "native": "هذا الزحام فظيع. لا تقل لي.",
+      "references": [
+        "This traffic is terrible. Tell me about it."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Tell me about it",
+      "native": "الجو حار جدًا اليوم. لا تقل لي.",
+      "references": [
+        "It's so hot today. Tell me about it."
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Up in the air",
+      "native": "خططنا للصيف ما زالت غير محسومة.",
+      "references": [
+        "Our plans for the summer are still up in the air."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Up in the air",
+      "native": "موعد الاجتماع ما زال غير محسوم.",
+      "references": [
+        "The date of the meeting is still up in the air."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "What a small world",
+      "native": "تعرف ابن عمي؟ ما أصغر العالم.",
+      "references": [
+        "You know my cousin? What a small world."
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "What a small world",
+      "native": "درسنا في المدرسة نفسها؟ ما أصغر العالم.",
+      "references": [
+        "We went to the same school? What a small world."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "You can say that again",
+      "native": "هذه القهوة رائعة. صدقت.",
+      "references": [
+        "This coffee is amazing. You can say that again."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "You can say that again",
+      "native": "كان الامتحان صعبًا جدًا. صدقت.",
+      "references": [
+        "The test was really hard. You can say that again."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Beat around the bush",
+      "native": "لماذا تراوغ؟",
+      "references": [
+        "What are you beating around the bush for?"
+      ],
+      "starter_pattern": "What… for?"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Take it easy",
+      "native": "لماذا أنت متوتر هكذا؟ على مهلك.",
+      "references": [
+        "What are you so stressed for? Take it easy."
+      ],
+      "starter_pattern": "What… for?"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Pull someone's leg",
+      "native": "إما أنه يمزح معك أو أنه جاد.",
+      "references": [
+        "He's either pulling your leg or he's serious."
+      ],
+      "starter_pattern": "He is either… or…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Call it a day",
+      "native": "إما أن نكتفي بهذا القدر اليوم أو نعمل طوال الليل.",
+      "references": [
+        "Either we call it a day or we work all night."
+      ],
+      "starter_pattern": "He is either… or…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Under the weather",
+      "native": "تبدو متوعكًا، ماذا يمكنني أن أفعل لك؟",
+      "references": [
+        "You look under the weather, what can I do for you?"
+      ],
+      "starter_pattern": "What can I do for…?"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "No worries",
+      "native": "لا مشكلة، ماذا يمكنني أن أفعل لك اليوم؟",
+      "references": [
+        "No worries, what can I do for you today?"
+      ],
+      "starter_pattern": "What can I do for…?"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Keep an eye on",
+      "native": "أريدك أن تراقب الأطفال.",
+      "references": [
+        "I'd like you to keep an eye on the kids."
+      ],
+      "starter_pattern": "I'd like you to…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Sleep on it",
+      "native": "أريدك أن تفكر في الأمر الليلة قبل أن تقرر.",
+      "references": [
+        "I'd like you to sleep on it before you decide."
+      ],
+      "starter_pattern": "I'd like you to…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Cost an arm and a leg",
+      "native": "من ناحية ثمنه باهظ جدًا، ومن ناحية أخرى يدوم إلى الأبد.",
+      "references": [
+        "On one hand it costs an arm and a leg, on the other hand it lasts forever."
+      ],
+      "starter_pattern": "On one hand… on the other hand…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Up in the air",
+      "native": "من ناحية أريد الذهاب، ومن ناحية أخرى خططنا ما زالت غير محسومة.",
+      "references": [
+        "On one hand I want to go, on the other hand our plans are still up in the air."
+      ],
+      "starter_pattern": "On one hand… on the other hand…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Make up your mind",
+      "native": "من فضلك اتخذ قرارك في أسرع وقت ممكن.",
+      "references": [
+        "Please make up your mind as soon as possible."
+      ],
+      "starter_pattern": "… as… as possible"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "On the same page",
+      "native": "لنتفق على الفهم نفسه في أسرع وقت ممكن.",
+      "references": [
+        "Let's get on the same page as quickly as possible."
+      ],
+      "starter_pattern": "… as… as possible"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Call it a day",
+      "native": "ما رأيك أن نكتفي بهذا القدر اليوم؟",
+      "references": [
+        "What do you say we call it a day?"
+      ],
+      "starter_pattern": "What do you say…?"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Hit the road",
+      "native": "ما رأيك أن ننطلق مبكرًا غدًا؟",
+      "references": [
+        "What do you say we hit the road early tomorrow?"
+      ],
+      "starter_pattern": "What do you say…?"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Get the hang of",
+      "native": "بمجرد أن تتقنها، تصبح سهلة جدًا.",
+      "references": [
+        "Once you get the hang of it, it's a piece of cake."
+      ],
+      "starter_pattern": "Once you…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Break the ice",
+      "native": "بمجرد أن تكسر الجليد، يصبح الباقي سهلًا.",
+      "references": [
+        "Once you break the ice, the rest is easy."
+      ],
+      "starter_pattern": "Once you…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Piece of cake",
+      "native": "أراهن أن الامتحان سيكون سهلًا جدًا.",
+      "references": [
+        "I bet the test will be a piece of cake."
+      ],
+      "starter_pattern": "I bet…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Ring a bell",
+      "native": "أراهن أن اسمه سيبدو لك مألوفًا.",
+      "references": [
+        "I bet his name will ring a bell."
+      ],
+      "starter_pattern": "I bet…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Cut corners",
+      "native": "سئمت من الناس الذين يتهاونون في عملهم.",
+      "references": [
+        "I've had enough of people cutting corners."
+      ],
+      "starter_pattern": "I've had enough of…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "The last straw",
+      "native": "سئمت من هذا، إنها القشة الأخيرة.",
+      "references": [
+        "I've had enough of this, it's the last straw."
+      ],
+      "starter_pattern": "I've had enough of…"
+    }
+  ]
+}

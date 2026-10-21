@@ -1,0 +1,988 @@
+{
+  "name": "Food & ordering",
+  "source": "starter",
+  "native_lang": "fr",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Booking a table",
+      "native": "Je voudrais réserver une table pour quatre personnes.",
+      "references": [
+        "I'd like to book a table for four people."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Booking a table",
+      "native": "Vous avez une table de libre pour ce soir à vingt heures ?",
+      "references": [
+        "Do you have a table available for tonight at eight?"
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Booking a table",
+      "native": "On pourrait s'installer dehors, en terrasse ?",
+      "references": [
+        "Could we sit outside on the terrace?"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Booking a table",
+      "native": "La réservation est au nom de Johnson.",
+      "references": [
+        "The reservation is under the name Johnson."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Booking a table",
+      "native": "On peut avoir une table près de la fenêtre ?",
+      "references": [
+        "Can we get a table by the window?"
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Booking a table",
+      "native": "Il faut attendre combien de temps pour avoir une table ?",
+      "references": [
+        "How long is the wait for a table?"
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Booking a table",
+      "native": "On n'a pas réservé, ça pose problème ?",
+      "references": [
+        "We don't have a reservation, is that okay?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Booking a table",
+      "native": "Je dois annuler ma réservation de demain.",
+      "references": [
+        "I need to cancel my reservation for tomorrow."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Booking a table",
+      "native": "On pourrait décaler notre réservation à dix-neuf heures trente ?",
+      "references": [
+        "Could we move our booking to seven thirty?"
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Booking a table",
+      "native": "Vous avez une table au calme, au fond ?",
+      "references": [
+        "Is there a quiet table in the back?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Ordering food",
+      "native": "On pourrait voir la carte, s'il vous plaît ?",
+      "references": [
+        "Could we see the menu, please?"
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Ordering food",
+      "native": "Qu'est-ce que vous nous conseillez aujourd'hui ?",
+      "references": [
+        "What do you recommend today?"
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Ordering food",
+      "native": "Je crois que je suis prêt à commander.",
+      "references": [
+        "I think I'm ready to order."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Ordering food",
+      "native": "Je vais prendre le poulet avec du riz, s'il vous plaît.",
+      "references": [
+        "I'll have the chicken with rice, please."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Ordering food",
+      "native": "Je pourrais avoir la salade en entrée ?",
+      "references": [
+        "Could I get the salad as a starter?"
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Ordering food",
+      "native": "Le steak est servi avec quoi ?",
+      "references": [
+        "What comes with the steak?"
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Ordering food",
+      "native": "Je voudrais mon steak saignant, s'il vous plaît.",
+      "references": [
+        "I'd like my steak medium rare, please."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Ordering food",
+      "native": "Je peux avoir la sauce à part ?",
+      "references": [
+        "Can I have the sauce on the side?"
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Ordering food",
+      "native": "Je vais prendre la même chose que mon ami.",
+      "references": [
+        "I'll have the same as my friend."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Ordering food",
+      "native": "On pourrait avoir un peu plus de pain, s'il vous plaît ?",
+      "references": [
+        "Could we get some more bread, please?"
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Dietary needs",
+      "native": "Je suis végétarien, qu'est-ce que vous avez sans viande ?",
+      "references": [
+        "I'm vegetarian, what do you have without meat?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Dietary needs",
+      "native": "Est-ce que ce plat contient des fruits à coque ?",
+      "references": [
+        "Does this dish have any nuts in it?"
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Dietary needs",
+      "native": "Je suis allergique aux fruits de mer.",
+      "references": [
+        "I'm allergic to shellfish."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Dietary needs",
+      "native": "Cette soupe est faite avec du bouillon de poulet ?",
+      "references": [
+        "Is this soup made with chicken stock?"
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "Dietary needs",
+      "native": "Vous avez des options sans gluten ?",
+      "references": [
+        "Do you have any gluten free options?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "Dietary needs",
+      "native": "Vous pouvez faire ce plat sans fromage ?",
+      "references": [
+        "Can you make this without cheese?"
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Dietary needs",
+      "native": "Je ne mange pas de porc, il y a du porc là-dedans ?",
+      "references": [
+        "I don't eat pork, is there pork in this?"
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Dietary needs",
+      "native": "C'est très épicé ?",
+      "references": [
+        "Is this very spicy?"
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Dietary needs",
+      "native": "Vous pourriez le faire un peu moins épicé ?",
+      "references": [
+        "Could you make it a little less spicy?"
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Dietary needs",
+      "native": "Vous avez quelque chose sans produits laitiers ?",
+      "references": [
+        "Do you have anything that's dairy free?"
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Drinks",
+      "native": "Je pourrais avoir un verre d'eau, s'il vous plaît ?",
+      "references": [
+        "Could I get a glass of water, please?"
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Drinks",
+      "native": "Quelles bières est-ce que vous avez ?",
+      "references": [
+        "What kind of beer do you have?"
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Drinks",
+      "native": "Je vais prendre un verre de vin rouge.",
+      "references": [
+        "I'll have a glass of red wine."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Drinks",
+      "native": "Je pourrais avoir une limonade sans glaçons ?",
+      "references": [
+        "Could I get a lemonade with no ice?"
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Drinks",
+      "native": "L'eau du robinet est potable ici ?",
+      "references": [
+        "Is the tap water safe to drink here?"
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Drinks",
+      "native": "Vous avez du jus de fruits frais ?",
+      "references": [
+        "Do you have any fresh juice?"
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "Drinks",
+      "native": "Une autre tournée pour la table, s'il vous plaît.",
+      "references": [
+        "Another round for the table, please."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "Drinks",
+      "native": "Je peux voir la carte des vins ?",
+      "references": [
+        "Can I see the wine list?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Drinks",
+      "native": "Je conduis, donc juste un soda pour moi.",
+      "references": [
+        "I'm driving, so just a soda for me."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Drinks",
+      "native": "Vous pourriez me resservir, s'il vous plaît ?",
+      "references": [
+        "Could I have a refill, please?"
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "At the cafe",
+      "native": "Je peux avoir un grand café au lait ?",
+      "references": [
+        "Can I get a large coffee with milk?"
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "At the cafe",
+      "native": "Je voudrais un cappuccino à emporter.",
+      "references": [
+        "I'd like a cappuccino to go."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "At the cafe",
+      "native": "Vous avez du lait d'avoine ?",
+      "references": [
+        "Do you have oat milk?"
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "At the cafe",
+      "native": "Je pourrais avoir une part de ce gâteau au chocolat ?",
+      "references": [
+        "Could I get a slice of that chocolate cake?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "At the cafe",
+      "native": "C'est sur place ou à emporter ?",
+      "references": [
+        "Is this for here or to go?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "At the cafe",
+      "native": "Je le bois sur place, merci.",
+      "references": [
+        "I'll drink it here, thank you."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "At the cafe",
+      "native": "Je peux avoir une dose d'espresso en plus ?",
+      "references": [
+        "Can I get an extra shot of espresso?"
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "At the cafe",
+      "native": "Vous avez quelque chose sans sucre ?",
+      "references": [
+        "Do you have anything without sugar?"
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "At the cafe",
+      "native": "Qu'est-ce qu'il y a dans le sandwich du petit-déjeuner ?",
+      "references": [
+        "What's in the breakfast sandwich?"
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "At the cafe",
+      "native": "Vous pourriez me réchauffer le croissant ?",
+      "references": [
+        "Could you warm up the croissant for me?"
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Problems with the order",
+      "native": "Excusez-moi, ce n'est pas ce que j'ai commandé.",
+      "references": [
+        "Excuse me, this isn't what I ordered."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Problems with the order",
+      "native": "Je crois que ma soupe est un peu froide.",
+      "references": [
+        "I think my soup is a little cold."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Problems with the order",
+      "native": "On attend depuis presque une heure.",
+      "references": [
+        "We have been waiting for almost an hour."
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Problems with the order",
+      "native": "Vous pourriez vérifier où en est notre commande ?",
+      "references": [
+        "Could you check on our order, please?"
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Problems with the order",
+      "native": "Il y a un cheveu dans mon assiette.",
+      "references": [
+        "There's a hair in my food."
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Problems with the order",
+      "native": "Ce steak est trop cuit, je l'avais demandé à point.",
+      "references": [
+        "This steak is overcooked, I asked for medium."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Problems with the order",
+      "native": "Pardon, il nous manque encore un plat.",
+      "references": [
+        "Sorry, we're still missing one dish."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Problems with the order",
+      "native": "Je pourrais avoir une fourchette propre, s'il vous plaît ?",
+      "references": [
+        "Could I get a clean fork, please?"
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Problems with the order",
+      "native": "Le poisson a un goût un peu bizarre.",
+      "references": [
+        "The fish tastes a bit strange."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Problems with the order",
+      "native": "Vous pourriez ramener ça en cuisine ?",
+      "references": [
+        "Could you take this back to the kitchen?"
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Paying the bill",
+      "native": "L'addition, s'il vous plaît.",
+      "references": [
+        "Could we get the check, please?"
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Paying the bill",
+      "native": "On peut payer séparément ?",
+      "references": [
+        "Can we pay separately?"
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Paying the bill",
+      "native": "C'est pour moi, je t'invite.",
+      "references": [
+        "I'll get this one, it's my treat."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Paying the bill",
+      "native": "Le service est compris ?",
+      "references": [
+        "Is the service charge included?"
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Paying the bill",
+      "native": "Vous prenez les cartes de crédit ?",
+      "references": [
+        "Do you take credit cards?"
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Paying the bill",
+      "native": "Je crois qu'il y a une erreur dans l'addition.",
+      "references": [
+        "I think there's a mistake on the bill."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "Paying the bill",
+      "native": "On n'a pas commandé de dessert.",
+      "references": [
+        "We didn't order the dessert."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "Paying the bill",
+      "native": "Partageons l'addition en parts égales.",
+      "references": [
+        "Let's split the bill evenly."
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Paying the bill",
+      "native": "Vous pourriez apporter le terminal de paiement ?",
+      "references": [
+        "Could you bring the card machine over?"
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Paying the bill",
+      "native": "Tout était délicieux, merci.",
+      "references": [
+        "Everything was delicious, thank you."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Takeout and delivery",
+      "native": "Je voudrais commander une pizza en livraison.",
+      "references": [
+        "I'd like to order a pizza for delivery."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Takeout and delivery",
+      "native": "La livraison va prendre combien de temps ?",
+      "references": [
+        "How long will the delivery take?"
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Takeout and delivery",
+      "native": "Je peux venir la chercher dans vingt minutes ?",
+      "references": [
+        "Can I pick it up in twenty minutes?"
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Takeout and delivery",
+      "native": "Mon adresse est vingt-deux, Park Street.",
+      "references": [
+        "My address is twenty two Park Street."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Takeout and delivery",
+      "native": "Vous pourriez rajouter du fromage ?",
+      "references": [
+        "Could you add extra cheese to that?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Takeout and delivery",
+      "native": "N'oubliez pas les serviettes, s'il vous plaît.",
+      "references": [
+        "Please don't forget the napkins."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "Takeout and delivery",
+      "native": "Il y a un minimum de commande pour la livraison ?",
+      "references": [
+        "Is there a minimum order for delivery?"
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "Takeout and delivery",
+      "native": "Ma commande est arrivée froide et en retard.",
+      "references": [
+        "My food arrived cold and late."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Takeout and delivery",
+      "native": "Je pourrais avoir les nouilles à emporter ?",
+      "references": [
+        "Could I get the noodles to take away?"
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Takeout and delivery",
+      "native": "J'appelle pour savoir où en est ma commande.",
+      "references": [
+        "I'm calling to check on my order."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Grocery shopping",
+      "native": "Où est-ce que je peux trouver les œufs ?",
+      "references": [
+        "Where can I find the eggs?"
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Grocery shopping",
+      "native": "Vous vendez du pain frais ici ?",
+      "references": [
+        "Do you sell fresh bread here?"
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Grocery shopping",
+      "native": "Je pourrais avoir un demi-kilo de tomates ?",
+      "references": [
+        "Could I have half a kilo of tomatoes?"
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Grocery shopping",
+      "native": "Ces pommes sont en promotion ?",
+      "references": [
+        "Are these apples on sale?"
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Grocery shopping",
+      "native": "Quelle est la date de péremption de ce lait ?",
+      "references": [
+        "When does this milk expire?"
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Grocery shopping",
+      "native": "Je peux avoir un sac en plastique, s'il vous plaît ?",
+      "references": [
+        "Can I get a plastic bag, please?"
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Grocery shopping",
+      "native": "J'ai apporté mes propres sacs aujourd'hui.",
+      "references": [
+        "I brought my own bags today."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Grocery shopping",
+      "native": "C'est bien la file pour la caisse ?",
+      "references": [
+        "Is this the line for the checkout?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Grocery shopping",
+      "native": "Vous avez des avocats mûrs ?",
+      "references": [
+        "Do you have any ripe avocados?"
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Grocery shopping",
+      "native": "On n'a presque plus de riz ni de café.",
+      "references": [
+        "We're almost out of rice and coffee."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Cooking at home",
+      "native": "Qu'est-ce qu'on fait pour le dîner ce soir ?",
+      "references": [
+        "What should we make for dinner tonight?"
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Cooking at home",
+      "native": "Tu pourrais couper les oignons pour moi ?",
+      "references": [
+        "Could you cut the onions for me?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Cooking at home",
+      "native": "L'eau bout, mets les pâtes maintenant.",
+      "references": [
+        "The water is boiling, add the pasta now."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Cooking at home",
+      "native": "Laisse cuire une dizaine de minutes.",
+      "references": [
+        "Let it cook for about ten minutes."
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Cooking at home",
+      "native": "Tu peux goûter et me dire s'il faut du sel ?",
+      "references": [
+        "Can you taste this and tell me if it needs salt?"
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Cooking at home",
+      "native": "Préchauffe le four à deux cents degrés.",
+      "references": [
+        "Preheat the oven to two hundred degrees."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Cooking at home",
+      "native": "J'ai encore fait brûler le riz.",
+      "references": [
+        "I burned the rice again."
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Cooking at home",
+      "native": "Tu pourrais mettre la table, s'il te plaît ?",
+      "references": [
+        "Could you set the table, please?"
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Cooking at home",
+      "native": "Cette recette est plus facile qu'elle n'en a l'air.",
+      "references": [
+        "This recipe is easier than it looks."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Cooking at home",
+      "native": "Le dîner est prêt, venez manger !",
+      "references": [
+        "Dinner is ready, come and eat!"
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Ordering food",
+      "native": "En ce qui me concerne, c'est la meilleure pizza de la ville.",
+      "references": [
+        "As far as I'm concerned, this is the best pizza in town."
+      ],
+      "starter_pattern": "As far as… (is/am/are) concerned,…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Dietary needs",
+      "native": "En ce qui concerne mon médecin, je devrais manger moins salé.",
+      "references": [
+        "As far as my doctor is concerned, I should eat less salt."
+      ],
+      "starter_pattern": "As far as… (is/am/are) concerned,…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Booking a table",
+      "native": "J'ai hâte de goûter leur nouveau menu.",
+      "references": [
+        "I'm looking forward to trying their new menu."
+      ],
+      "starter_pattern": "I'm looking forward to…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Cooking at home",
+      "native": "J'ai hâte de préparer le dîner avec toi ce soir.",
+      "references": [
+        "I'm looking forward to cooking dinner with you tonight."
+      ],
+      "starter_pattern": "I'm looking forward to…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Grocery shopping",
+      "native": "À quoi bon acheter autant de pain si personne ne le mange ?",
+      "references": [
+        "What's the use of buying so much bread if nobody eats it?"
+      ],
+      "starter_pattern": "What's the use of…?"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Takeout and delivery",
+      "native": "À quoi bon payer la livraison si les plats arrivent froids ?",
+      "references": [
+        "What's the use of paying for delivery if the food arrives cold?"
+      ],
+      "starter_pattern": "What's the use of…?"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Cooking at home",
+      "native": "Fais attention avec le couteau, il est très aiguisé.",
+      "references": [
+        "Be careful with the knife, it's very sharp."
+      ],
+      "starter_pattern": "Be careful with…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "At the cafe",
+      "native": "Fais attention avec ton café, il est très chaud.",
+      "references": [
+        "Be careful with your coffee, it's really hot."
+      ],
+      "starter_pattern": "Be careful with…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Problems with the order",
+      "native": "Comment se fait-il que nos plats mettent autant de temps ?",
+      "references": [
+        "How come our food is taking so long?"
+      ],
+      "starter_pattern": "How come…?"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Paying the bill",
+      "native": "Comment se fait-il que l'addition soit beaucoup plus chère que la dernière fois ?",
+      "references": [
+        "How come the bill is so much higher than last time?"
+      ],
+      "starter_pattern": "How come…?"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Ordering food",
+      "native": "Je n'ai aucune idée de ce que je vais commander, tout a l'air si bon.",
+      "references": [
+        "I have no idea what to order, everything looks so good."
+      ],
+      "starter_pattern": "I have no idea…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "Cooking at home",
+      "native": "Je n'ai aucune idée du temps de cuisson du poulet.",
+      "references": [
+        "I have no idea how long to cook the chicken."
+      ],
+      "starter_pattern": "I have no idea…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Problems with the order",
+      "native": "Ça fait vingt minutes qu'on attend nos boissons.",
+      "references": [
+        "We have been waiting for our drinks for twenty minutes."
+      ],
+      "starter_pattern": "I have been…"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Drinks",
+      "native": "Je bois moins de café ces derniers temps.",
+      "references": [
+        "I have been drinking less coffee lately."
+      ],
+      "starter_pattern": "I have been…"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Takeout and delivery",
+      "native": "Pourquoi ne pas commander thaï ce soir ?",
+      "references": [
+        "Why not order some Thai food tonight?"
+      ],
+      "starter_pattern": "Why not…?"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Grocery shopping",
+      "native": "Pourquoi ne pas prendre le grand sac s'il est moins cher ?",
+      "references": [
+        "Why not buy the bigger bag if it's cheaper?"
+      ],
+      "starter_pattern": "Why not…?"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Ordering food",
+      "native": "On dit que leur soupe est la meilleure de la ville.",
+      "references": [
+        "It's said that their soup is the best in the city."
+      ],
+      "starter_pattern": "It's said that…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Drinks",
+      "native": "On dit que le thé vert est bon pour la santé.",
+      "references": [
+        "It's said that green tea is good for your health."
+      ],
+      "starter_pattern": "It's said that…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Takeout and delivery",
+      "native": "C'est ma faute, j'ai commandé beaucoup trop.",
+      "references": [
+        "It's my fault for ordering so much food."
+      ],
+      "starter_pattern": "It's my fault for…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Paying the bill",
+      "native": "C'est ma faute, j'ai oublié mon portefeuille à la maison.",
+      "references": [
+        "It's my fault for forgetting my wallet at home."
+      ],
+      "starter_pattern": "It's my fault for…"
+    }
+  ]
+}

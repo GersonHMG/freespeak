@@ -1,0 +1,988 @@
+{
+  "name": "Travel & survival",
+  "source": "starter",
+  "native_lang": "hi",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Asking for directions",
+      "native": "माफ़ कीजिए, सबसे नज़दीकी मेट्रो स्टेशन कहाँ है?",
+      "references": [
+        "Excuse me, where is the nearest subway station?"
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Asking for directions",
+      "native": "यहाँ से शहर के बीच में कैसे पहुँचूँ?",
+      "references": [
+        "How do I get to the city center from here?"
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Asking for directions",
+      "native": "क्या यह यहाँ से दूर है, या मैं पैदल जा सकता हूँ?",
+      "references": [
+        "Is it far from here, or can I walk?"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Asking for directions",
+      "native": "क्या आप मुझे नक्शे पर दिखा सकते हैं?",
+      "references": [
+        "Could you show me on the map?"
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Asking for directions",
+      "native": "सीधे जाइए और ट्रैफ़िक लाइट पर बाएँ मुड़िए।",
+      "references": [
+        "Go straight and turn left at the traffic lights."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Asking for directions",
+      "native": "यह कोने पर है, बैंक के बगल में।",
+      "references": [
+        "It's on the corner, next to the bank."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Asking for directions",
+      "native": "मुझे लगता है मैं रास्ता भटक गया हूँ, क्या आप मेरी मदद करेंगे?",
+      "references": [
+        "I think I'm lost, can you help me?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Asking for directions",
+      "native": "रेलवे स्टेशन किस तरफ़ है?",
+      "references": [
+        "Which way is the train station?"
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Asking for directions",
+      "native": "वहाँ पैदल जाने में कितना समय लगता है?",
+      "references": [
+        "How long does it take to walk there?"
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Asking for directions",
+      "native": "क्या यहाँ आसपास कोई दवा की दुकान है?",
+      "references": [
+        "Is there a pharmacy around here?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Public transport",
+      "native": "कौन-सी बस हवाई अड्डे जाती है?",
+      "references": [
+        "Which bus goes to the airport?"
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Public transport",
+      "native": "ट्रेन का टिकट कहाँ से खरीद सकता हूँ?",
+      "references": [
+        "Where can I buy a ticket for the train?"
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Public transport",
+      "native": "बोस्टन का आने-जाने का एक टिकट, प्लीज़।",
+      "references": [
+        "A return ticket to Boston, please."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Public transport",
+      "native": "क्या यह ट्रेन सेंट्रल स्टेशन पर रुकती है?",
+      "references": [
+        "Does this train stop at Central Station?"
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Public transport",
+      "native": "बस कितनी-कितनी देर में आती है?",
+      "references": [
+        "How often does the bus come?"
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Public transport",
+      "native": "माफ़ कीजिए, क्या यह सीट किसी की है?",
+      "references": [
+        "Excuse me, is this seat taken?"
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Public transport",
+      "native": "आख़िरी ट्रेन कितने बजे निकलती है?",
+      "references": [
+        "What time does the last train leave?"
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Public transport",
+      "native": "क्या मुझे ट्रेन बदलनी पड़ेगी?",
+      "references": [
+        "Do I need to change trains?"
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Public transport",
+      "native": "जब मेरा स्टॉप आए तो क्या आप मुझे बता देंगे?",
+      "references": [
+        "Could you tell me when we get to my stop?"
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Public transport",
+      "native": "मेट्रो का एक दिन का पास कितने का है?",
+      "references": [
+        "How much is a day pass for the subway?"
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "At the airport",
+      "native": "मेरी फ़्लाइट का चेक-इन काउंटर कहाँ है?",
+      "references": [
+        "Where is the check-in desk for my flight?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "At the airport",
+      "native": "मुझे खिड़की वाली सीट चाहिए, प्लीज़।",
+      "references": [
+        "I'd like a window seat, please."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "At the airport",
+      "native": "क्या मैं यह बैग अपने साथ प्लेन में ले जा सकता हूँ?",
+      "references": [
+        "Can I take this bag on the plane with me?"
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "At the airport",
+      "native": "मेरी फ़्लाइट दो घंटे लेट है।",
+      "references": [
+        "My flight has been delayed by two hours."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "At the airport",
+      "native": "लंदन की फ़्लाइट किस गेट से जाएगी?",
+      "references": [
+        "Which gate does the flight to London leave from?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "At the airport",
+      "native": "यह रहा मेरा पासपोर्ट और बोर्डिंग पास।",
+      "references": [
+        "Here's my passport and boarding pass."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "At the airport",
+      "native": "मेरे पास बताने लायक कुछ नहीं है।",
+      "references": [
+        "I have nothing to declare."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "At the airport",
+      "native": "मैं अपना सामान कहाँ से ले सकता हूँ?",
+      "references": [
+        "Where can I pick up my luggage?"
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "At the airport",
+      "native": "मेरा सूटकेस नहीं आया।",
+      "references": [
+        "My suitcase didn't arrive."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "At the airport",
+      "native": "मैं यहाँ दो हफ़्ते की छुट्टी पर आया हूँ।",
+      "references": [
+        "I'm here on vacation for two weeks."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "At the hotel",
+      "native": "मेरी बुकिंग गार्सिया के नाम से है।",
+      "references": [
+        "I have a reservation under the name Garcia."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "At the hotel",
+      "native": "क्या आज रात के लिए कोई कमरा ख़ाली है?",
+      "references": [
+        "Do you have any rooms available for tonight?"
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "At the hotel",
+      "native": "कल चेक-आउट कितने बजे है?",
+      "references": [
+        "What time is check-out tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "At the hotel",
+      "native": "क्या नाश्ता कीमत में शामिल है?",
+      "references": [
+        "Is breakfast included in the price?"
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "At the hotel",
+      "native": "क्या मुझे समुद्र की तरफ़ वाला कमरा मिल सकता है?",
+      "references": [
+        "Could I get a room with a view of the sea?"
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "At the hotel",
+      "native": "मेरे कमरे का एसी काम नहीं कर रहा है।",
+      "references": [
+        "The air conditioning in my room isn't working."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "At the hotel",
+      "native": "क्या आप मुझे छह बजे फ़ोन करके जगा देंगे?",
+      "references": [
+        "Could you give me a wake-up call at six?"
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "At the hotel",
+      "native": "क्या चेक-आउट के बाद मैं अपना सामान यहाँ छोड़ सकता हूँ?",
+      "references": [
+        "Can I leave my bags here after check-out?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "At the hotel",
+      "native": "वाई-फ़ाई का पासवर्ड क्या है?",
+      "references": [
+        "What's the password for the wifi?"
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "At the hotel",
+      "native": "क्या मुझे कुछ और तौलिए मिल सकते हैं, प्लीज़?",
+      "references": [
+        "Could I have some extra towels, please?"
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Taxis and rides",
+      "native": "क्या आप मेरे लिए टैक्सी बुला देंगे, प्लीज़?",
+      "references": [
+        "Could you call a taxi for me, please?"
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Taxis and rides",
+      "native": "मुझे इस पते पर ले चलिए, प्लीज़।",
+      "references": [
+        "Take me to this address, please."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Taxis and rides",
+      "native": "शहर के बीच में जाने का कितना लगेगा?",
+      "references": [
+        "How much will it cost to get downtown?"
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Taxis and rides",
+      "native": "क्या आप मीटर चालू कर देंगे, प्लीज़?",
+      "references": [
+        "Can you turn on the meter, please?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Taxis and rides",
+      "native": "यहीं रोक दीजिए, यह ठीक है।",
+      "references": [
+        "Please stop here, this is fine."
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Taxis and rides",
+      "native": "क्या आप यहाँ पाँच मिनट रुक सकते हैं?",
+      "references": [
+        "Could you wait here for five minutes?"
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Taxis and rides",
+      "native": "मुझे जल्दी है, क्या आप थोड़ा तेज़ चला सकते हैं?",
+      "references": [
+        "I'm in a hurry, could you go a bit faster?"
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Taxis and rides",
+      "native": "क्या मैं कार्ड से पैसे दे सकता हूँ?",
+      "references": [
+        "Can I pay by card?"
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "Taxis and rides",
+      "native": "बाक़ी पैसे रख लीजिए, शुक्रिया।",
+      "references": [
+        "Keep the change, thank you."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "Taxis and rides",
+      "native": "मेरा ड्राइवर तीन मिनट में पहुँच रहा है।",
+      "references": [
+        "My driver is arriving in three minutes."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Money and shopping",
+      "native": "इसकी कीमत क्या है?",
+      "references": [
+        "How much does this cost?"
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Money and shopping",
+      "native": "क्या यहाँ क्रेडिट कार्ड चलता है?",
+      "references": [
+        "Do you accept credit cards here?"
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Money and shopping",
+      "native": "मैं पैसे कहाँ बदलवा सकता हूँ?",
+      "references": [
+        "Where can I exchange some money?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Money and shopping",
+      "native": "क्या यहाँ पास में कोई एटीएम है?",
+      "references": [
+        "Is there an ATM near here?"
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Money and shopping",
+      "native": "क्या मैं इसे पहनकर देख सकता हूँ?",
+      "references": [
+        "Can I try this on, please?"
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Money and shopping",
+      "native": "क्या यह छोटे साइज़ में है?",
+      "references": [
+        "Do you have this in a smaller size?"
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Money and shopping",
+      "native": "यह मेरे लिए थोड़ा ज़्यादा महँगा है।",
+      "references": [
+        "That's a little too expensive for me."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Money and shopping",
+      "native": "क्या मुझे रसीद मिल सकती है, प्लीज़?",
+      "references": [
+        "Could I get a receipt, please?"
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Money and shopping",
+      "native": "मैं इसे वापस करना चाहता हूँ, यह फ़िट नहीं आता।",
+      "references": [
+        "I'd like to return this, it doesn't fit."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Money and shopping",
+      "native": "मैं बस देख रहा हूँ, शुक्रिया।",
+      "references": [
+        "I'm just looking, thank you."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Emergencies",
+      "native": "बचाओ! कोई एम्बुलेंस बुलाओ!",
+      "references": [
+        "Help! Somebody call an ambulance!"
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Emergencies",
+      "native": "प्लीज़ अभी पुलिस को बुलाइए।",
+      "references": [
+        "Please call the police right now."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Emergencies",
+      "native": "ट्रेन में किसी ने मेरा बटुआ चुरा लिया।",
+      "references": [
+        "Someone stole my wallet on the train."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Emergencies",
+      "native": "सड़क पर एक दुर्घटना हुई है।",
+      "references": [
+        "There has been an accident on the road."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Emergencies",
+      "native": "मेरा पासपोर्ट खो गया है।",
+      "references": [
+        "I have lost my passport."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Emergencies",
+      "native": "सबसे नज़दीकी अस्पताल कहाँ है?",
+      "references": [
+        "Where is the nearest hospital?"
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "Emergencies",
+      "native": "मेरे दोस्त को चोट लगी है और उसे डॉक्टर चाहिए।",
+      "references": [
+        "My friend is hurt and needs a doctor."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "Emergencies",
+      "native": "क्या यहाँ कोई स्पेनिश बोलता है?",
+      "references": [
+        "Is there anyone here who speaks Spanish?"
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Emergencies",
+      "native": "मुझे अपने दूतावास से संपर्क करना है।",
+      "references": [
+        "I need to contact my embassy."
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Emergencies",
+      "native": "इमारत में आग लगी है!",
+      "references": [
+        "There's a fire in the building!"
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "At the pharmacy and doctor",
+      "native": "मुझे सिरदर्द के लिए कुछ चाहिए।",
+      "references": [
+        "I need something for a headache."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "At the pharmacy and doctor",
+      "native": "मुझे कल से बुख़ार है।",
+      "references": [
+        "I have had a fever since yesterday."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "At the pharmacy and doctor",
+      "native": "खाना खाने के बाद मेरे पेट में दर्द होता है।",
+      "references": [
+        "My stomach hurts after eating."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "At the pharmacy and doctor",
+      "native": "मुझे पेनिसिलिन से एलर्जी है।",
+      "references": [
+        "I'm allergic to penicillin."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "At the pharmacy and doctor",
+      "native": "क्या इस दवा के लिए पर्चे की ज़रूरत है?",
+      "references": [
+        "Do I need a prescription for this medicine?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "At the pharmacy and doctor",
+      "native": "यह दिन में कितनी बार लेनी चाहिए?",
+      "references": [
+        "How many times a day should I take this?"
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "At the pharmacy and doctor",
+      "native": "मैं डॉक्टर से मिलने का समय लेना चाहता हूँ।",
+      "references": [
+        "I'd like to make an appointment with a doctor."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "At the pharmacy and doctor",
+      "native": "मेरा हाथ कट गया है और ख़ून बंद नहीं हो रहा।",
+      "references": [
+        "I cut my hand and it won't stop bleeding."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "At the pharmacy and doctor",
+      "native": "मुझे लगता है मेरे टखने में मोच आ गई है।",
+      "references": [
+        "I think I twisted my ankle."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "At the pharmacy and doctor",
+      "native": "क्या आपके पास गले की ख़राश के लिए कुछ है?",
+      "references": [
+        "Do you have anything for a sore throat?"
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Phone and internet",
+      "native": "मैं लोकल सिम कार्ड कहाँ से खरीद सकता हूँ?",
+      "references": [
+        "Where can I buy a local SIM card?"
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Phone and internet",
+      "native": "मेरे फ़ोन की बैटरी लगभग ख़त्म हो गई है।",
+      "references": [
+        "My phone battery is almost dead."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Phone and internet",
+      "native": "क्या कहीं मैं अपना फ़ोन चार्ज कर सकता हूँ?",
+      "references": [
+        "Is there somewhere I can charge my phone?"
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Phone and internet",
+      "native": "क्या इस कैफ़े में फ़्री वाई-फ़ाई है?",
+      "references": [
+        "Is there free wifi in this cafe?"
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Phone and internet",
+      "native": "यहाँ इंटरनेट बहुत धीमा है।",
+      "references": [
+        "The internet connection is very slow here."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Phone and internet",
+      "native": "क्या मैं एक मिनट के लिए तुम्हारा फ़ोन ले सकता हूँ?",
+      "references": [
+        "Can I borrow your phone for a minute?"
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Phone and internet",
+      "native": "यहाँ मेरे फ़ोन में सिग्नल नहीं है।",
+      "references": [
+        "I don't have any signal here."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Phone and internet",
+      "native": "क्या तुम मुझे अपना फ़ोन नंबर दे सकते हो?",
+      "references": [
+        "Could you give me your phone number?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Phone and internet",
+      "native": "मैं अभी तुम्हें अपनी लोकेशन भेजता हूँ।",
+      "references": [
+        "I'll send you my location now."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Phone and internet",
+      "native": "क्या इस प्लान में मोबाइल डेटा शामिल है?",
+      "references": [
+        "Does this plan include mobile data?"
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Sightseeing",
+      "native": "इस शहर में घूमने की सबसे अच्छी जगहें कौन-सी हैं?",
+      "references": [
+        "What are the best places to visit in this city?"
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Sightseeing",
+      "native": "संग्रहालय कितने बजे खुलता है?",
+      "references": [
+        "What time does the museum open?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Sightseeing",
+      "native": "प्रवेश शुल्क कितना है?",
+      "references": [
+        "How much is the entrance fee?"
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Sightseeing",
+      "native": "क्या छात्रों के लिए कोई छूट है?",
+      "references": [
+        "Are there any discounts for students?"
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Sightseeing",
+      "native": "क्या आप हमारी एक फ़ोटो खींच देंगे, प्लीज़?",
+      "references": [
+        "Could you take a picture of us, please?"
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Sightseeing",
+      "native": "क्या अंग्रेज़ी में गाइडेड टूर है?",
+      "references": [
+        "Is there a guided tour in English?"
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Sightseeing",
+      "native": "क्या अंदर फ़ोटो लेने की इजाज़त है?",
+      "references": [
+        "Am I allowed to take photos inside?"
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Sightseeing",
+      "native": "मुझे शहर का नक्शा कहाँ मिलेगा?",
+      "references": [
+        "Where can I get a map of the city?"
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Sightseeing",
+      "native": "क्या रात को यहाँ घूमना सुरक्षित है?",
+      "references": [
+        "Is it safe to walk around here at night?"
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Sightseeing",
+      "native": "क्या आप सूर्यास्त देखने की कोई अच्छी जगह बता सकते हैं?",
+      "references": [
+        "Can you recommend a good place to watch the sunset?"
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Sightseeing",
+      "native": "जहाँ समुद्र तट होता है, वहाँ हमेशा एक अच्छा सीफ़ूड रेस्टोरेंट होता है।",
+      "references": [
+        "Where there's a beach, there's always a good seafood restaurant."
+      ],
+      "starter_pattern": "Where there is… there is…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Taxis and rides",
+      "native": "जहाँ बड़ा होटल होता है, वहाँ आमतौर पर टैक्सी स्टैंड होता है।",
+      "references": [
+        "Where there's a big hotel, there's usually a taxi stand."
+      ],
+      "starter_pattern": "Where there is… there is…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "At the hotel",
+      "native": "कमरा उतना ही अच्छा है जितना फ़ोटो में दिख रहा था।",
+      "references": [
+        "The room is as nice as it looked in the photos."
+      ],
+      "starter_pattern": "He is as… as…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Public transport",
+      "native": "इस शहर की मेट्रो टैक्सी जितनी ही तेज़ है।",
+      "references": [
+        "The subway in this city is as fast as a taxi."
+      ],
+      "starter_pattern": "He is as… as…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "At the hotel",
+      "native": "हर सुबह लॉबी में कॉफ़ी आप ख़ुद ले लीजिए।",
+      "references": [
+        "Help yourself to coffee in the lobby every morning."
+      ],
+      "starter_pattern": "Help yourself to…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Sightseeing",
+      "native": "प्रवेश द्वार पर मुफ़्त नक्शा ख़ुद ले लीजिए।",
+      "references": [
+        "Help yourself to a free map at the entrance."
+      ],
+      "starter_pattern": "Help yourself to…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "At the airport",
+      "native": "सिक्योरिटी की लाइन इतनी लंबी थी कि मेरी फ़्लाइट लगभग छूट गई।",
+      "references": [
+        "The line at security was so long that I almost missed my flight."
+      ],
+      "starter_pattern": "He is so… that…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Taxis and rides",
+      "native": "ड्राइवर इतना अच्छा था कि मैंने उसे बढ़िया टिप दी।",
+      "references": [
+        "The driver was so friendly that I gave him a big tip."
+      ],
+      "starter_pattern": "He is so… that…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Sightseeing",
+      "native": "इस शहर में तुम्हारी घूमने की पसंदीदा जगह कौन-सी है?",
+      "references": [
+        "What's your favorite place to visit in this city?"
+      ],
+      "starter_pattern": "What's your favorite…?"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Money and shopping",
+      "native": "यादगार चीज़ें खरीदने के लिए तुम्हारा पसंदीदा बाज़ार कौन-सा है?",
+      "references": [
+        "What's your favorite market for souvenirs?"
+      ],
+      "starter_pattern": "What's your favorite…?"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Sightseeing",
+      "native": "संग्रहालय सुबह दस बजे से पहले नहीं खुलता।",
+      "references": [
+        "The museum doesn't open until ten in the morning."
+      ],
+      "starter_pattern": "Not… until…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "At the pharmacy and doctor",
+      "native": "कुछ खाने से पहले यह दवा मत लेना।",
+      "references": [
+        "Don't take this medicine until you have eaten something."
+      ],
+      "starter_pattern": "Not… until…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "At the hotel",
+      "native": "मैं कमरे से ज़्यादा ख़ुश नहीं हूँ, इसमें धुएँ की बदबू है।",
+      "references": [
+        "I'm not really happy with the room, it smells of smoke."
+      ],
+      "starter_pattern": "I'm not really happy with…"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Phone and internet",
+      "native": "मैं इस सिम कार्ड से ज़्यादा ख़ुश नहीं हूँ, इसका सिग्नल बार-बार चला जाता है।",
+      "references": [
+        "I'm not really happy with this SIM card, it keeps losing signal."
+      ],
+      "starter_pattern": "I'm not really happy with…"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Public transport",
+      "native": "बस में चढ़ने के लिए तुम्हें बस अपना कार्ड टैप करना है।",
+      "references": [
+        "You only have to tap your card in order to get on the bus."
+      ],
+      "starter_pattern": "You only have to… in order to…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Phone and internet",
+      "native": "वाई-फ़ाई से जुड़ने के लिए तुम्हें बस यह कोड स्कैन करना है।",
+      "references": [
+        "You only have to scan this code in order to connect to the wifi."
+      ],
+      "starter_pattern": "You only have to… in order to…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "At the airport",
+      "native": "फ़्लाइट लेट हो या न हो, हमें जल्दी पहुँचना चाहिए।",
+      "references": [
+        "Whether or not the flight is delayed, we should get there early."
+      ],
+      "starter_pattern": "Whether or not…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Emergencies",
+      "native": "चाहे गंभीर हो या न हो, इमरजेंसी नंबर पर फ़ोन कीजिए।",
+      "references": [
+        "Whether or not it's serious, call the emergency number."
+      ],
+      "starter_pattern": "Whether or not…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Asking for directions",
+      "native": "अफ़सोस है कि पुल बंद है, हमें घूमकर जाना पड़ेगा।",
+      "references": [
+        "It's too bad that the bridge is closed, we have to go around."
+      ],
+      "starter_pattern": "It's too bad that…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Money and shopping",
+      "native": "अफ़सोस है कि यह दुकान कार्ड नहीं लेती।",
+      "references": [
+        "It's too bad that this shop doesn't take cards."
+      ],
+      "starter_pattern": "It's too bad that…"
+    }
+  ]
+}

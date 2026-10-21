@@ -1,0 +1,988 @@
+{
+  "name": "Food & ordering",
+  "source": "starter",
+  "native_lang": "hi",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Booking a table",
+      "native": "मैं चार लोगों के लिए एक टेबल बुक करना चाहता हूँ।",
+      "references": [
+        "I'd like to book a table for four people."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Booking a table",
+      "native": "क्या आज रात आठ बजे के लिए कोई टेबल ख़ाली है?",
+      "references": [
+        "Do you have a table available for tonight at eight?"
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Booking a table",
+      "native": "क्या हम बाहर छत पर बैठ सकते हैं?",
+      "references": [
+        "Could we sit outside on the terrace?"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Booking a table",
+      "native": "बुकिंग जॉनसन के नाम से है।",
+      "references": [
+        "The reservation is under the name Johnson."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Booking a table",
+      "native": "क्या हमें खिड़की के पास वाली टेबल मिल सकती है?",
+      "references": [
+        "Can we get a table by the window?"
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Booking a table",
+      "native": "टेबल के लिए कितना इंतज़ार करना पड़ेगा?",
+      "references": [
+        "How long is the wait for a table?"
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Booking a table",
+      "native": "हमारी बुकिंग नहीं है, क्या चलेगा?",
+      "references": [
+        "We don't have a reservation, is that okay?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Booking a table",
+      "native": "मुझे कल की अपनी बुकिंग रद्द करनी है।",
+      "references": [
+        "I need to cancel my reservation for tomorrow."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Booking a table",
+      "native": "क्या हम अपनी बुकिंग साढ़े सात बजे कर सकते हैं?",
+      "references": [
+        "Could we move our booking to seven thirty?"
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Booking a table",
+      "native": "क्या पीछे कोई शांत टेबल है?",
+      "references": [
+        "Is there a quiet table in the back?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Ordering food",
+      "native": "क्या हम मेन्यू देख सकते हैं, प्लीज़?",
+      "references": [
+        "Could we see the menu, please?"
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Ordering food",
+      "native": "आज आप क्या सुझाएँगे?",
+      "references": [
+        "What do you recommend today?"
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Ordering food",
+      "native": "मुझे लगता है मैं ऑर्डर करने के लिए तैयार हूँ।",
+      "references": [
+        "I think I'm ready to order."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Ordering food",
+      "native": "मैं चिकन और चावल लूँगा, प्लीज़।",
+      "references": [
+        "I'll have the chicken with rice, please."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Ordering food",
+      "native": "क्या मुझे स्टार्टर में सलाद मिल सकता है?",
+      "references": [
+        "Could I get the salad as a starter?"
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Ordering food",
+      "native": "स्टेक के साथ क्या आता है?",
+      "references": [
+        "What comes with the steak?"
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Ordering food",
+      "native": "मेरा स्टेक मीडियम रेयर चाहिए, प्लीज़।",
+      "references": [
+        "I'd like my steak medium rare, please."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Ordering food",
+      "native": "क्या सॉस अलग से मिल सकती है?",
+      "references": [
+        "Can I have the sauce on the side?"
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Ordering food",
+      "native": "मैं भी वही लूँगा जो मेरा दोस्त ले रहा है।",
+      "references": [
+        "I'll have the same as my friend."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Ordering food",
+      "native": "क्या हमें थोड़ी और ब्रेड मिल सकती है, प्लीज़?",
+      "references": [
+        "Could we get some more bread, please?"
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Dietary needs",
+      "native": "मैं शाकाहारी हूँ, आपके पास बिना मांस का क्या है?",
+      "references": [
+        "I'm vegetarian, what do you have without meat?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Dietary needs",
+      "native": "क्या इस डिश में मेवे हैं?",
+      "references": [
+        "Does this dish have any nuts in it?"
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Dietary needs",
+      "native": "मुझे शेलफ़िश से एलर्जी है।",
+      "references": [
+        "I'm allergic to shellfish."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Dietary needs",
+      "native": "क्या यह सूप चिकन स्टॉक से बना है?",
+      "references": [
+        "Is this soup made with chicken stock?"
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "Dietary needs",
+      "native": "क्या आपके पास ग्लूटेन-फ़्री विकल्प हैं?",
+      "references": [
+        "Do you have any gluten free options?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "Dietary needs",
+      "native": "क्या आप इसे बिना चीज़ के बना सकते हैं?",
+      "references": [
+        "Can you make this without cheese?"
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Dietary needs",
+      "native": "मैं सूअर का मांस नहीं खाता, क्या इसमें वह है?",
+      "references": [
+        "I don't eat pork, is there pork in this?"
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Dietary needs",
+      "native": "क्या यह बहुत तीखा है?",
+      "references": [
+        "Is this very spicy?"
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Dietary needs",
+      "native": "क्या आप इसे थोड़ा कम तीखा बना सकते हैं?",
+      "references": [
+        "Could you make it a little less spicy?"
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Dietary needs",
+      "native": "क्या आपके पास कुछ ऐसा है जिसमें डेयरी न हो?",
+      "references": [
+        "Do you have anything that's dairy free?"
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Drinks",
+      "native": "क्या मुझे एक गिलास पानी मिल सकता है, प्लीज़?",
+      "references": [
+        "Could I get a glass of water, please?"
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Drinks",
+      "native": "आपके पास कौन-कौन सी बीयर है?",
+      "references": [
+        "What kind of beer do you have?"
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Drinks",
+      "native": "मैं एक गिलास रेड वाइन लूँगा।",
+      "references": [
+        "I'll have a glass of red wine."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Drinks",
+      "native": "क्या मुझे बिना बर्फ़ का नींबू पानी मिल सकता है?",
+      "references": [
+        "Could I get a lemonade with no ice?"
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Drinks",
+      "native": "क्या यहाँ नल का पानी पीने लायक है?",
+      "references": [
+        "Is the tap water safe to drink here?"
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Drinks",
+      "native": "क्या आपके पास ताज़ा जूस है?",
+      "references": [
+        "Do you have any fresh juice?"
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "Drinks",
+      "native": "टेबल के लिए एक राउंड और, प्लीज़।",
+      "references": [
+        "Another round for the table, please."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "Drinks",
+      "native": "क्या मैं वाइन की लिस्ट देख सकता हूँ?",
+      "references": [
+        "Can I see the wine list?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Drinks",
+      "native": "मुझे गाड़ी चलानी है, तो मेरे लिए बस एक सोडा।",
+      "references": [
+        "I'm driving, so just a soda for me."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Drinks",
+      "native": "क्या आप इसे फिर से भर देंगे, प्लीज़?",
+      "references": [
+        "Could I have a refill, please?"
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "At the cafe",
+      "native": "क्या मुझे दूध वाली एक बड़ी कॉफ़ी मिल सकती है?",
+      "references": [
+        "Can I get a large coffee with milk?"
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "At the cafe",
+      "native": "मुझे एक कैपुचीनो पैक करके चाहिए।",
+      "references": [
+        "I'd like a cappuccino to go."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "At the cafe",
+      "native": "क्या आपके पास ओट मिल्क है?",
+      "references": [
+        "Do you have oat milk?"
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "At the cafe",
+      "native": "क्या मुझे उस चॉकलेट केक का एक टुकड़ा मिल सकता है?",
+      "references": [
+        "Could I get a slice of that chocolate cake?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "At the cafe",
+      "native": "यहीं पिएँगे या ले जाएँगे?",
+      "references": [
+        "Is this for here or to go?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "At the cafe",
+      "native": "मैं यहीं पिऊँगा, शुक्रिया।",
+      "references": [
+        "I'll drink it here, thank you."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "At the cafe",
+      "native": "क्या इसमें एस्प्रेसो का एक एक्स्ट्रा शॉट डाल सकते हैं?",
+      "references": [
+        "Can I get an extra shot of espresso?"
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "At the cafe",
+      "native": "क्या आपके पास बिना चीनी का कुछ है?",
+      "references": [
+        "Do you have anything without sugar?"
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "At the cafe",
+      "native": "ब्रेकफ़ास्ट सैंडविच में क्या-क्या है?",
+      "references": [
+        "What's in the breakfast sandwich?"
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "At the cafe",
+      "native": "क्या आप मेरे लिए क्रोसाँ गरम कर देंगे?",
+      "references": [
+        "Could you warm up the croissant for me?"
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Problems with the order",
+      "native": "माफ़ कीजिए, मैंने यह ऑर्डर नहीं किया था।",
+      "references": [
+        "Excuse me, this isn't what I ordered."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Problems with the order",
+      "native": "मुझे लगता है मेरा सूप थोड़ा ठंडा है।",
+      "references": [
+        "I think my soup is a little cold."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Problems with the order",
+      "native": "हम लगभग एक घंटे से इंतज़ार कर रहे हैं।",
+      "references": [
+        "We have been waiting for almost an hour."
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Problems with the order",
+      "native": "क्या आप हमारा ऑर्डर देख लेंगे, प्लीज़?",
+      "references": [
+        "Could you check on our order, please?"
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Problems with the order",
+      "native": "मेरे खाने में एक बाल है।",
+      "references": [
+        "There's a hair in my food."
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Problems with the order",
+      "native": "यह स्टेक ज़्यादा पक गया है, मैंने मीडियम माँगा था।",
+      "references": [
+        "This steak is overcooked, I asked for medium."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Problems with the order",
+      "native": "माफ़ कीजिए, हमारी एक डिश अभी तक नहीं आई।",
+      "references": [
+        "Sorry, we're still missing one dish."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Problems with the order",
+      "native": "क्या मुझे एक साफ़ काँटा मिल सकता है, प्लीज़?",
+      "references": [
+        "Could I get a clean fork, please?"
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Problems with the order",
+      "native": "मछली का स्वाद थोड़ा अजीब है।",
+      "references": [
+        "The fish tastes a bit strange."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Problems with the order",
+      "native": "क्या आप इसे वापस किचन में ले जाएँगे?",
+      "references": [
+        "Could you take this back to the kitchen?"
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Paying the bill",
+      "native": "क्या हमें बिल मिल सकता है, प्लीज़?",
+      "references": [
+        "Could we get the check, please?"
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Paying the bill",
+      "native": "क्या हम अलग-अलग पैसे दे सकते हैं?",
+      "references": [
+        "Can we pay separately?"
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Paying the bill",
+      "native": "यह बिल मैं दूँगा, मेरी तरफ़ से।",
+      "references": [
+        "I'll get this one, it's my treat."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Paying the bill",
+      "native": "क्या सर्विस चार्ज शामिल है?",
+      "references": [
+        "Is the service charge included?"
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Paying the bill",
+      "native": "क्या आप क्रेडिट कार्ड लेते हैं?",
+      "references": [
+        "Do you take credit cards?"
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Paying the bill",
+      "native": "मुझे लगता है बिल में कोई गलती है।",
+      "references": [
+        "I think there's a mistake on the bill."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "Paying the bill",
+      "native": "हमने मिठाई ऑर्डर नहीं की थी।",
+      "references": [
+        "We didn't order the dessert."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "Paying the bill",
+      "native": "चलो बिल बराबर बाँट लेते हैं।",
+      "references": [
+        "Let's split the bill evenly."
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Paying the bill",
+      "native": "क्या आप कार्ड मशीन यहाँ ला सकते हैं?",
+      "references": [
+        "Could you bring the card machine over?"
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Paying the bill",
+      "native": "सब कुछ बहुत स्वादिष्ट था, शुक्रिया।",
+      "references": [
+        "Everything was delicious, thank you."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Takeout and delivery",
+      "native": "मैं डिलीवरी के लिए एक पिज़्ज़ा ऑर्डर करना चाहता हूँ।",
+      "references": [
+        "I'd like to order a pizza for delivery."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Takeout and delivery",
+      "native": "डिलीवरी में कितना समय लगेगा?",
+      "references": [
+        "How long will the delivery take?"
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Takeout and delivery",
+      "native": "क्या मैं इसे बीस मिनट में आकर ले सकता हूँ?",
+      "references": [
+        "Can I pick it up in twenty minutes?"
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Takeout and delivery",
+      "native": "मेरा पता बाईस, पार्क स्ट्रीट है।",
+      "references": [
+        "My address is twenty two Park Street."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Takeout and delivery",
+      "native": "क्या आप उसमें एक्स्ट्रा चीज़ डाल सकते हैं?",
+      "references": [
+        "Could you add extra cheese to that?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Takeout and delivery",
+      "native": "प्लीज़ नैपकिन देना मत भूलिए।",
+      "references": [
+        "Please don't forget the napkins."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "Takeout and delivery",
+      "native": "क्या डिलीवरी के लिए कोई न्यूनतम ऑर्डर है?",
+      "references": [
+        "Is there a minimum order for delivery?"
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "Takeout and delivery",
+      "native": "मेरा खाना ठंडा और देर से आया।",
+      "references": [
+        "My food arrived cold and late."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Takeout and delivery",
+      "native": "क्या मुझे नूडल्स पैक करके मिल सकते हैं?",
+      "references": [
+        "Could I get the noodles to take away?"
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Takeout and delivery",
+      "native": "मैं अपने ऑर्डर के बारे में पूछने के लिए फ़ोन कर रहा हूँ।",
+      "references": [
+        "I'm calling to check on my order."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Grocery shopping",
+      "native": "अंडे कहाँ मिलेंगे?",
+      "references": [
+        "Where can I find the eggs?"
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Grocery shopping",
+      "native": "क्या आप यहाँ ताज़ी ब्रेड बेचते हैं?",
+      "references": [
+        "Do you sell fresh bread here?"
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Grocery shopping",
+      "native": "क्या मुझे आधा किलो टमाटर मिल सकते हैं?",
+      "references": [
+        "Could I have half a kilo of tomatoes?"
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Grocery shopping",
+      "native": "क्या इन सेबों पर छूट है?",
+      "references": [
+        "Are these apples on sale?"
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Grocery shopping",
+      "native": "यह दूध कब ख़राब होगा?",
+      "references": [
+        "When does this milk expire?"
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Grocery shopping",
+      "native": "क्या मुझे एक प्लास्टिक की थैली मिल सकती है, प्लीज़?",
+      "references": [
+        "Can I get a plastic bag, please?"
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Grocery shopping",
+      "native": "आज मैं अपने थैले ख़ुद लाया हूँ।",
+      "references": [
+        "I brought my own bags today."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Grocery shopping",
+      "native": "क्या यह बिलिंग की लाइन है?",
+      "references": [
+        "Is this the line for the checkout?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Grocery shopping",
+      "native": "क्या आपके पास पके हुए एवोकाडो हैं?",
+      "references": [
+        "Do you have any ripe avocados?"
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Grocery shopping",
+      "native": "हमारे चावल और कॉफ़ी लगभग ख़त्म हो गए हैं।",
+      "references": [
+        "We're almost out of rice and coffee."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Cooking at home",
+      "native": "आज रात खाने में क्या बनाएँ?",
+      "references": [
+        "What should we make for dinner tonight?"
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Cooking at home",
+      "native": "क्या तुम मेरे लिए प्याज़ काट दोगे?",
+      "references": [
+        "Could you cut the onions for me?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Cooking at home",
+      "native": "पानी उबल रहा है, अब पास्ता डाल दो।",
+      "references": [
+        "The water is boiling, add the pasta now."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Cooking at home",
+      "native": "इसे लगभग दस मिनट पकने दो।",
+      "references": [
+        "Let it cook for about ten minutes."
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Cooking at home",
+      "native": "क्या तुम इसे चखकर बताओगे कि नमक चाहिए या नहीं?",
+      "references": [
+        "Can you taste this and tell me if it needs salt?"
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Cooking at home",
+      "native": "ओवन को दो सौ डिग्री पर पहले से गरम कर लो।",
+      "references": [
+        "Preheat the oven to two hundred degrees."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Cooking at home",
+      "native": "मैंने फिर से चावल जला दिए।",
+      "references": [
+        "I burned the rice again."
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Cooking at home",
+      "native": "क्या तुम खाने की मेज़ लगा दोगे, प्लीज़?",
+      "references": [
+        "Could you set the table, please?"
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Cooking at home",
+      "native": "यह रेसिपी जितनी दिखती है उससे आसान है।",
+      "references": [
+        "This recipe is easier than it looks."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Cooking at home",
+      "native": "खाना तैयार है, आ जाओ!",
+      "references": [
+        "Dinner is ready, come and eat!"
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Ordering food",
+      "native": "जहाँ तक मेरी बात है, यह शहर का सबसे अच्छा पिज़्ज़ा है।",
+      "references": [
+        "As far as I'm concerned, this is the best pizza in town."
+      ],
+      "starter_pattern": "As far as… (is/am/are) concerned,…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Dietary needs",
+      "native": "जहाँ तक मेरे डॉक्टर की बात है, मुझे कम नमक खाना चाहिए।",
+      "references": [
+        "As far as my doctor is concerned, I should eat less salt."
+      ],
+      "starter_pattern": "As far as… (is/am/are) concerned,…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Booking a table",
+      "native": "मैं उनका नया मेन्यू आज़माने का इंतज़ार कर रहा हूँ।",
+      "references": [
+        "I'm looking forward to trying their new menu."
+      ],
+      "starter_pattern": "I'm looking forward to…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Cooking at home",
+      "native": "मैं आज रात तुम्हारे साथ खाना बनाने का इंतज़ार कर रहा हूँ।",
+      "references": [
+        "I'm looking forward to cooking dinner with you tonight."
+      ],
+      "starter_pattern": "I'm looking forward to…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Grocery shopping",
+      "native": "इतनी ब्रेड ख़रीदने का क्या फ़ायदा अगर कोई खाता ही नहीं?",
+      "references": [
+        "What's the use of buying so much bread if nobody eats it?"
+      ],
+      "starter_pattern": "What's the use of…?"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Takeout and delivery",
+      "native": "डिलीवरी के पैसे देने का क्या फ़ायदा अगर खाना ठंडा आता है?",
+      "references": [
+        "What's the use of paying for delivery if the food arrives cold?"
+      ],
+      "starter_pattern": "What's the use of…?"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Cooking at home",
+      "native": "चाकू से सावधान रहना, यह बहुत तेज़ है।",
+      "references": [
+        "Be careful with the knife, it's very sharp."
+      ],
+      "starter_pattern": "Be careful with…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "At the cafe",
+      "native": "अपनी कॉफ़ी से सावधान रहना, यह बहुत गरम है।",
+      "references": [
+        "Be careful with your coffee, it's really hot."
+      ],
+      "starter_pattern": "Be careful with…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Problems with the order",
+      "native": "हमारा खाना आने में इतनी देर क्यों हो रही है?",
+      "references": [
+        "How come our food is taking so long?"
+      ],
+      "starter_pattern": "How come…?"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Paying the bill",
+      "native": "इस बार बिल पिछली बार से इतना ज़्यादा क्यों है?",
+      "references": [
+        "How come the bill is so much higher than last time?"
+      ],
+      "starter_pattern": "How come…?"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Ordering food",
+      "native": "मुझे बिल्कुल नहीं पता क्या ऑर्डर करूँ, सब कुछ बहुत अच्छा लग रहा है।",
+      "references": [
+        "I have no idea what to order, everything looks so good."
+      ],
+      "starter_pattern": "I have no idea…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "Cooking at home",
+      "native": "मुझे बिल्कुल नहीं पता कि चिकन कितनी देर पकाना है।",
+      "references": [
+        "I have no idea how long to cook the chicken."
+      ],
+      "starter_pattern": "I have no idea…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Problems with the order",
+      "native": "हम बीस मिनट से अपनी ड्रिंक्स का इंतज़ार कर रहे हैं।",
+      "references": [
+        "We have been waiting for our drinks for twenty minutes."
+      ],
+      "starter_pattern": "I have been…"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Drinks",
+      "native": "आजकल मैं कम कॉफ़ी पी रहा हूँ।",
+      "references": [
+        "I have been drinking less coffee lately."
+      ],
+      "starter_pattern": "I have been…"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Takeout and delivery",
+      "native": "आज रात थाई खाना क्यों न मँगाएँ?",
+      "references": [
+        "Why not order some Thai food tonight?"
+      ],
+      "starter_pattern": "Why not…?"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Grocery shopping",
+      "native": "अगर बड़ा पैकेट सस्ता है तो वही क्यों न लें?",
+      "references": [
+        "Why not buy the bigger bag if it's cheaper?"
+      ],
+      "starter_pattern": "Why not…?"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Ordering food",
+      "native": "कहते हैं कि उनका सूप शहर में सबसे अच्छा है।",
+      "references": [
+        "It's said that their soup is the best in the city."
+      ],
+      "starter_pattern": "It's said that…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Drinks",
+      "native": "कहते हैं कि ग्रीन टी सेहत के लिए अच्छी होती है।",
+      "references": [
+        "It's said that green tea is good for your health."
+      ],
+      "starter_pattern": "It's said that…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Takeout and delivery",
+      "native": "मेरी ही गलती है कि मैंने इतना ज़्यादा खाना मँगा लिया।",
+      "references": [
+        "It's my fault for ordering so much food."
+      ],
+      "starter_pattern": "It's my fault for…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Paying the bill",
+      "native": "मेरी ही गलती है कि मैं अपना बटुआ घर पर भूल गया।",
+      "references": [
+        "It's my fault for forgetting my wallet at home."
+      ],
+      "starter_pattern": "It's my fault for…"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "_comment": [
+    "eSpeak-NG's raw output, captured on a real device. Empty until then --",
+    "see test/espeak_fixture_test.dart, which skips itself while it is.",
+    "",
+    "To fill it: run the app on a phone, open the TTS debugger, press",
+    "'Copy fixture JSON', and paste the clipboard over this file. The button",
+    "phonemizes every word in `phrases` below through the unnormalized",
+    "backend, which is exactly what this fixture is.",
+    "",
+    "Do not hand-write entries. The point of the file is that it is what the",
+    "native library actually said; invented IPA would test the fixture, not",
+    "eSpeak."
+  ],
+  "phrases": [
+    "Hello world!",
+    "the cat sat on a mat",
+    "It costs $5.99",
+    "thirty little water bottles",
+    "The rain in Spain stays mainly in the plain"
+  ],
+  "words": {}
+}

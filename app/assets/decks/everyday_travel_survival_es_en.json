@@ -1,0 +1,988 @@
+{
+  "name": "Travel & survival",
+  "source": "starter",
+  "native_lang": "es",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Asking for directions",
+      "native": "Disculpe, ¿dónde está la estación de metro más cercana?",
+      "references": [
+        "Excuse me, where is the nearest subway station?"
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Asking for directions",
+      "native": "¿Cómo llego al centro de la ciudad desde aquí?",
+      "references": [
+        "How do I get to the city center from here?"
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Asking for directions",
+      "native": "¿Está lejos de aquí o puedo ir caminando?",
+      "references": [
+        "Is it far from here, or can I walk?"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Asking for directions",
+      "native": "¿Me lo podría mostrar en el mapa?",
+      "references": [
+        "Could you show me on the map?"
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Asking for directions",
+      "native": "Siga recto y gire a la izquierda en el semáforo.",
+      "references": [
+        "Go straight and turn left at the traffic lights."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Asking for directions",
+      "native": "Está en la esquina, al lado del banco.",
+      "references": [
+        "It's on the corner, next to the bank."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Asking for directions",
+      "native": "Creo que me he perdido, ¿me puede ayudar?",
+      "references": [
+        "I think I'm lost, can you help me?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Asking for directions",
+      "native": "¿Por dónde se va a la estación de tren?",
+      "references": [
+        "Which way is the train station?"
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Asking for directions",
+      "native": "¿Cuánto se tarda en llegar caminando?",
+      "references": [
+        "How long does it take to walk there?"
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Asking for directions",
+      "native": "¿Hay alguna farmacia por aquí?",
+      "references": [
+        "Is there a pharmacy around here?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Public transport",
+      "native": "¿Qué autobús va al aeropuerto?",
+      "references": [
+        "Which bus goes to the airport?"
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Public transport",
+      "native": "¿Dónde puedo comprar un billete de tren?",
+      "references": [
+        "Where can I buy a ticket for the train?"
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Public transport",
+      "native": "Un billete de ida y vuelta a Boston, por favor.",
+      "references": [
+        "A return ticket to Boston, please."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Public transport",
+      "native": "¿Este tren para en la Estación Central?",
+      "references": [
+        "Does this train stop at Central Station?"
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Public transport",
+      "native": "¿Cada cuánto pasa el autobús?",
+      "references": [
+        "How often does the bus come?"
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Public transport",
+      "native": "Disculpe, ¿está ocupado este asiento?",
+      "references": [
+        "Excuse me, is this seat taken?"
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Public transport",
+      "native": "¿A qué hora sale el último tren?",
+      "references": [
+        "What time does the last train leave?"
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Public transport",
+      "native": "¿Tengo que hacer transbordo?",
+      "references": [
+        "Do I need to change trains?"
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Public transport",
+      "native": "¿Me podría avisar cuando lleguemos a mi parada?",
+      "references": [
+        "Could you tell me when we get to my stop?"
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Public transport",
+      "native": "¿Cuánto cuesta un pase de un día para el metro?",
+      "references": [
+        "How much is a day pass for the subway?"
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "At the airport",
+      "native": "¿Dónde está el mostrador de facturación de mi vuelo?",
+      "references": [
+        "Where is the check-in desk for my flight?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "At the airport",
+      "native": "Quisiera un asiento de ventanilla, por favor.",
+      "references": [
+        "I'd like a window seat, please."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "At the airport",
+      "native": "¿Puedo llevar esta bolsa conmigo en el avión?",
+      "references": [
+        "Can I take this bag on the plane with me?"
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "At the airport",
+      "native": "Mi vuelo tiene un retraso de dos horas.",
+      "references": [
+        "My flight has been delayed by two hours."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "At the airport",
+      "native": "¿De qué puerta sale el vuelo a Londres?",
+      "references": [
+        "Which gate does the flight to London leave from?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "At the airport",
+      "native": "Aquí tiene mi pasaporte y mi tarjeta de embarque.",
+      "references": [
+        "Here's my passport and boarding pass."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "At the airport",
+      "native": "No tengo nada que declarar.",
+      "references": [
+        "I have nothing to declare."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "At the airport",
+      "native": "¿Dónde puedo recoger mi equipaje?",
+      "references": [
+        "Where can I pick up my luggage?"
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "At the airport",
+      "native": "Mi maleta no ha llegado.",
+      "references": [
+        "My suitcase didn't arrive."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "At the airport",
+      "native": "Estoy aquí de vacaciones por dos semanas.",
+      "references": [
+        "I'm here on vacation for two weeks."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "At the hotel",
+      "native": "Tengo una reserva a nombre de García.",
+      "references": [
+        "I have a reservation under the name Garcia."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "At the hotel",
+      "native": "¿Tienen habitaciones disponibles para esta noche?",
+      "references": [
+        "Do you have any rooms available for tonight?"
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "At the hotel",
+      "native": "¿A qué hora es la salida mañana?",
+      "references": [
+        "What time is check-out tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "At the hotel",
+      "native": "¿El desayuno está incluido en el precio?",
+      "references": [
+        "Is breakfast included in the price?"
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "At the hotel",
+      "native": "¿Me podría dar una habitación con vista al mar?",
+      "references": [
+        "Could I get a room with a view of the sea?"
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "At the hotel",
+      "native": "El aire acondicionado de mi habitación no funciona.",
+      "references": [
+        "The air conditioning in my room isn't working."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "At the hotel",
+      "native": "¿Me podría despertar con una llamada a las seis?",
+      "references": [
+        "Could you give me a wake-up call at six?"
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "At the hotel",
+      "native": "¿Puedo dejar mis maletas aquí después de la salida?",
+      "references": [
+        "Can I leave my bags here after check-out?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "At the hotel",
+      "native": "¿Cuál es la contraseña del wifi?",
+      "references": [
+        "What's the password for the wifi?"
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "At the hotel",
+      "native": "¿Me podría traer unas toallas más, por favor?",
+      "references": [
+        "Could I have some extra towels, please?"
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Taxis and rides",
+      "native": "¿Me podría llamar un taxi, por favor?",
+      "references": [
+        "Could you call a taxi for me, please?"
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Taxis and rides",
+      "native": "Lléveme a esta dirección, por favor.",
+      "references": [
+        "Take me to this address, please."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Taxis and rides",
+      "native": "¿Cuánto costará ir al centro?",
+      "references": [
+        "How much will it cost to get downtown?"
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Taxis and rides",
+      "native": "¿Puede poner el taxímetro, por favor?",
+      "references": [
+        "Can you turn on the meter, please?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Taxis and rides",
+      "native": "Pare aquí, por favor, aquí está bien.",
+      "references": [
+        "Please stop here, this is fine."
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Taxis and rides",
+      "native": "¿Podría esperarme aquí cinco minutos?",
+      "references": [
+        "Could you wait here for five minutes?"
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Taxis and rides",
+      "native": "Tengo prisa, ¿podría ir un poco más rápido?",
+      "references": [
+        "I'm in a hurry, could you go a bit faster?"
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Taxis and rides",
+      "native": "¿Puedo pagar con tarjeta?",
+      "references": [
+        "Can I pay by card?"
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "Taxis and rides",
+      "native": "Quédese con el cambio, gracias.",
+      "references": [
+        "Keep the change, thank you."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "Taxis and rides",
+      "native": "Mi conductor llega en tres minutos.",
+      "references": [
+        "My driver is arriving in three minutes."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Money and shopping",
+      "native": "¿Cuánto cuesta esto?",
+      "references": [
+        "How much does this cost?"
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Money and shopping",
+      "native": "¿Aceptan tarjetas de crédito aquí?",
+      "references": [
+        "Do you accept credit cards here?"
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Money and shopping",
+      "native": "¿Dónde puedo cambiar dinero?",
+      "references": [
+        "Where can I exchange some money?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Money and shopping",
+      "native": "¿Hay un cajero automático por aquí cerca?",
+      "references": [
+        "Is there an ATM near here?"
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Money and shopping",
+      "native": "¿Me lo puedo probar, por favor?",
+      "references": [
+        "Can I try this on, please?"
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Money and shopping",
+      "native": "¿Tiene esto en una talla más pequeña?",
+      "references": [
+        "Do you have this in a smaller size?"
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Money and shopping",
+      "native": "Es un poco caro para mí.",
+      "references": [
+        "That's a little too expensive for me."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Money and shopping",
+      "native": "¿Me podría dar el recibo, por favor?",
+      "references": [
+        "Could I get a receipt, please?"
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Money and shopping",
+      "native": "Quisiera devolver esto, no me queda bien.",
+      "references": [
+        "I'd like to return this, it doesn't fit."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Money and shopping",
+      "native": "Solo estoy mirando, gracias.",
+      "references": [
+        "I'm just looking, thank you."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Emergencies",
+      "native": "¡Ayuda! ¡Que alguien llame a una ambulancia!",
+      "references": [
+        "Help! Somebody call an ambulance!"
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Emergencies",
+      "native": "Por favor, llame a la policía ahora mismo.",
+      "references": [
+        "Please call the police right now."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Emergencies",
+      "native": "Alguien me robó la cartera en el tren.",
+      "references": [
+        "Someone stole my wallet on the train."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Emergencies",
+      "native": "Ha habido un accidente en la carretera.",
+      "references": [
+        "There has been an accident on the road."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Emergencies",
+      "native": "He perdido mi pasaporte.",
+      "references": [
+        "I have lost my passport."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Emergencies",
+      "native": "¿Dónde está el hospital más cercano?",
+      "references": [
+        "Where is the nearest hospital?"
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "Emergencies",
+      "native": "Mi amigo está herido y necesita un médico.",
+      "references": [
+        "My friend is hurt and needs a doctor."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "Emergencies",
+      "native": "¿Hay alguien aquí que hable español?",
+      "references": [
+        "Is there anyone here who speaks Spanish?"
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Emergencies",
+      "native": "Necesito contactar con mi embajada.",
+      "references": [
+        "I need to contact my embassy."
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Emergencies",
+      "native": "¡Hay un incendio en el edificio!",
+      "references": [
+        "There's a fire in the building!"
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "At the pharmacy and doctor",
+      "native": "Necesito algo para el dolor de cabeza.",
+      "references": [
+        "I need something for a headache."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "At the pharmacy and doctor",
+      "native": "Tengo fiebre desde ayer.",
+      "references": [
+        "I have had a fever since yesterday."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "At the pharmacy and doctor",
+      "native": "Me duele el estómago después de comer.",
+      "references": [
+        "My stomach hurts after eating."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "At the pharmacy and doctor",
+      "native": "Soy alérgico a la penicilina.",
+      "references": [
+        "I'm allergic to penicillin."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "At the pharmacy and doctor",
+      "native": "¿Necesito receta para este medicamento?",
+      "references": [
+        "Do I need a prescription for this medicine?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "At the pharmacy and doctor",
+      "native": "¿Cuántas veces al día debo tomar esto?",
+      "references": [
+        "How many times a day should I take this?"
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "At the pharmacy and doctor",
+      "native": "Quisiera pedir una cita con un médico.",
+      "references": [
+        "I'd like to make an appointment with a doctor."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "At the pharmacy and doctor",
+      "native": "Me corté la mano y no deja de sangrar.",
+      "references": [
+        "I cut my hand and it won't stop bleeding."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "At the pharmacy and doctor",
+      "native": "Creo que me torcí el tobillo.",
+      "references": [
+        "I think I twisted my ankle."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "At the pharmacy and doctor",
+      "native": "¿Tiene algo para el dolor de garganta?",
+      "references": [
+        "Do you have anything for a sore throat?"
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Phone and internet",
+      "native": "¿Dónde puedo comprar una tarjeta SIM local?",
+      "references": [
+        "Where can I buy a local SIM card?"
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Phone and internet",
+      "native": "Mi teléfono está casi sin batería.",
+      "references": [
+        "My phone battery is almost dead."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Phone and internet",
+      "native": "¿Hay algún sitio donde pueda cargar mi teléfono?",
+      "references": [
+        "Is there somewhere I can charge my phone?"
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Phone and internet",
+      "native": "¿Hay wifi gratis en esta cafetería?",
+      "references": [
+        "Is there free wifi in this cafe?"
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Phone and internet",
+      "native": "La conexión a internet es muy lenta aquí.",
+      "references": [
+        "The internet connection is very slow here."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Phone and internet",
+      "native": "¿Me prestas tu teléfono un minuto?",
+      "references": [
+        "Can I borrow your phone for a minute?"
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Phone and internet",
+      "native": "Aquí no tengo cobertura.",
+      "references": [
+        "I don't have any signal here."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Phone and internet",
+      "native": "¿Me podrías dar tu número de teléfono?",
+      "references": [
+        "Could you give me your phone number?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Phone and internet",
+      "native": "Ahora te mando mi ubicación.",
+      "references": [
+        "I'll send you my location now."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Phone and internet",
+      "native": "¿Este plan incluye datos móviles?",
+      "references": [
+        "Does this plan include mobile data?"
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Sightseeing",
+      "native": "¿Cuáles son los mejores lugares para visitar en esta ciudad?",
+      "references": [
+        "What are the best places to visit in this city?"
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Sightseeing",
+      "native": "¿A qué hora abre el museo?",
+      "references": [
+        "What time does the museum open?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Sightseeing",
+      "native": "¿Cuánto cuesta la entrada?",
+      "references": [
+        "How much is the entrance fee?"
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Sightseeing",
+      "native": "¿Hay descuentos para estudiantes?",
+      "references": [
+        "Are there any discounts for students?"
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Sightseeing",
+      "native": "¿Nos podría sacar una foto, por favor?",
+      "references": [
+        "Could you take a picture of us, please?"
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Sightseeing",
+      "native": "¿Hay alguna visita guiada en inglés?",
+      "references": [
+        "Is there a guided tour in English?"
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Sightseeing",
+      "native": "¿Se pueden sacar fotos dentro?",
+      "references": [
+        "Am I allowed to take photos inside?"
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Sightseeing",
+      "native": "¿Dónde puedo conseguir un mapa de la ciudad?",
+      "references": [
+        "Where can I get a map of the city?"
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Sightseeing",
+      "native": "¿Es seguro caminar por aquí de noche?",
+      "references": [
+        "Is it safe to walk around here at night?"
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Sightseeing",
+      "native": "¿Me puede recomendar un buen lugar para ver el atardecer?",
+      "references": [
+        "Can you recommend a good place to watch the sunset?"
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Sightseeing",
+      "native": "Donde hay playa, siempre hay un buen restaurante de mariscos.",
+      "references": [
+        "Where there's a beach, there's always a good seafood restaurant."
+      ],
+      "starter_pattern": "Where there is… there is…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Taxis and rides",
+      "native": "Donde hay un hotel grande, normalmente hay una parada de taxis.",
+      "references": [
+        "Where there's a big hotel, there's usually a taxi stand."
+      ],
+      "starter_pattern": "Where there is… there is…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "At the hotel",
+      "native": "La habitación es tan bonita como en las fotos.",
+      "references": [
+        "The room is as nice as it looked in the photos."
+      ],
+      "starter_pattern": "He is as… as…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Public transport",
+      "native": "El metro de esta ciudad es tan rápido como un taxi.",
+      "references": [
+        "The subway in this city is as fast as a taxi."
+      ],
+      "starter_pattern": "He is as… as…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "At the hotel",
+      "native": "Sírvase café en el vestíbulo todas las mañanas.",
+      "references": [
+        "Help yourself to coffee in the lobby every morning."
+      ],
+      "starter_pattern": "Help yourself to…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Sightseeing",
+      "native": "Tome un mapa gratis en la entrada.",
+      "references": [
+        "Help yourself to a free map at the entrance."
+      ],
+      "starter_pattern": "Help yourself to…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "At the airport",
+      "native": "La fila del control de seguridad era tan larga que casi pierdo el vuelo.",
+      "references": [
+        "The line at security was so long that I almost missed my flight."
+      ],
+      "starter_pattern": "He is so… that…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Taxis and rides",
+      "native": "El conductor fue tan simpático que le di una buena propina.",
+      "references": [
+        "The driver was so friendly that I gave him a big tip."
+      ],
+      "starter_pattern": "He is so… that…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Sightseeing",
+      "native": "¿Cuál es tu lugar favorito para visitar en esta ciudad?",
+      "references": [
+        "What's your favorite place to visit in this city?"
+      ],
+      "starter_pattern": "What's your favorite…?"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Money and shopping",
+      "native": "¿Cuál es tu mercado favorito para comprar recuerdos?",
+      "references": [
+        "What's your favorite market for souvenirs?"
+      ],
+      "starter_pattern": "What's your favorite…?"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Sightseeing",
+      "native": "El museo no abre hasta las diez de la mañana.",
+      "references": [
+        "The museum doesn't open until ten in the morning."
+      ],
+      "starter_pattern": "Not… until…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "At the pharmacy and doctor",
+      "native": "No tome este medicamento hasta que haya comido algo.",
+      "references": [
+        "Don't take this medicine until you have eaten something."
+      ],
+      "starter_pattern": "Not… until…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "At the hotel",
+      "native": "No estoy muy contento con la habitación, huele a tabaco.",
+      "references": [
+        "I'm not really happy with the room, it smells of smoke."
+      ],
+      "starter_pattern": "I'm not really happy with…"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Phone and internet",
+      "native": "No estoy muy contento con esta tarjeta SIM, siempre pierde la señal.",
+      "references": [
+        "I'm not really happy with this SIM card, it keeps losing signal."
+      ],
+      "starter_pattern": "I'm not really happy with…"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Public transport",
+      "native": "Solo tienes que pasar tu tarjeta para subir al autobús.",
+      "references": [
+        "You only have to tap your card in order to get on the bus."
+      ],
+      "starter_pattern": "You only have to… in order to…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Phone and internet",
+      "native": "Solo tienes que escanear este código para conectarte al wifi.",
+      "references": [
+        "You only have to scan this code in order to connect to the wifi."
+      ],
+      "starter_pattern": "You only have to… in order to…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "At the airport",
+      "native": "Se retrase o no el vuelo, deberíamos llegar temprano.",
+      "references": [
+        "Whether or not the flight is delayed, we should get there early."
+      ],
+      "starter_pattern": "Whether or not…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Emergencies",
+      "native": "Sea grave o no, llame al número de emergencias.",
+      "references": [
+        "Whether or not it's serious, call the emergency number."
+      ],
+      "starter_pattern": "Whether or not…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Asking for directions",
+      "native": "Qué pena que el puente esté cerrado, tenemos que dar la vuelta.",
+      "references": [
+        "It's too bad that the bridge is closed, we have to go around."
+      ],
+      "starter_pattern": "It's too bad that…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Money and shopping",
+      "native": "Qué pena que esta tienda no acepte tarjetas.",
+      "references": [
+        "It's too bad that this shop doesn't take cards."
+      ],
+      "starter_pattern": "It's too bad that…"
+    }
+  ]
+}

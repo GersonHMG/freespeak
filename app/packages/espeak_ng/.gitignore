@@ -1,0 +1,5 @@
+# CMake's per-ABI build tree, regenerated on every Android build.
+android/.cxx/
+
+# The untrimmed espeak-ng-data, kept locally to rebuild the trimmed zip.
+assets/espeak_ng_data_full.zip.bak

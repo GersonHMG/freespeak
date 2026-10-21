@@ -1,0 +1,121 @@
+id	text
+1	Disculpe, ¿dónde está la estación de metro más cercana?
+2	¿Cómo llego al centro de la ciudad desde aquí?
+3	¿Está lejos de aquí o puedo ir caminando?
+4	¿Me lo podría mostrar en el mapa?
+5	Siga recto y gire a la izquierda en el semáforo.
+6	Está en la esquina, al lado del banco.
+7	Creo que me he perdido, ¿me puede ayudar?
+8	¿Por dónde se va a la estación de tren?
+9	¿Cuánto se tarda en llegar caminando?
+10	¿Hay alguna farmacia por aquí?
+11	¿Qué autobús va al aeropuerto?
+12	¿Dónde puedo comprar un billete de tren?
+13	Un billete de ida y vuelta a Boston, por favor.
+14	¿Este tren para en la Estación Central?
+15	¿Cada cuánto pasa el autobús?
+16	Disculpe, ¿está ocupado este asiento?
+17	¿A qué hora sale el último tren?
+18	¿Tengo que hacer transbordo?
+19	¿Me podría avisar cuando lleguemos a mi parada?
+20	¿Cuánto cuesta un pase de un día para el metro?
+21	¿Dónde está el mostrador de facturación de mi vuelo?
+22	Quisiera un asiento de ventanilla, por favor.
+23	¿Puedo llevar esta bolsa conmigo en el avión?
+24	Mi vuelo tiene un retraso de dos horas.
+25	¿De qué puerta sale el vuelo a Londres?
+26	Aquí tiene mi pasaporte y mi tarjeta de embarque.
+27	No tengo nada que declarar.
+28	¿Dónde puedo recoger mi equipaje?
+29	Mi maleta no ha llegado.
+30	Estoy aquí de vacaciones por dos semanas.
+31	Tengo una reserva a nombre de García.
+32	¿Tienen habitaciones disponibles para esta noche?
+33	¿A qué hora es la salida mañana?
+34	¿El desayuno está incluido en el precio?
+35	¿Me podría dar una habitación con vista al mar?
+36	El aire acondicionado de mi habitación no funciona.
+37	¿Me podría despertar con una llamada a las seis?
+38	¿Puedo dejar mis maletas aquí después de la salida?
+39	¿Cuál es la contraseña del wifi?
+40	¿Me podría traer unas toallas más, por favor?
+41	¿Me podría llamar un taxi, por favor?
+42	Lléveme a esta dirección, por favor.
+43	¿Cuánto costará ir al centro?
+44	¿Puede poner el taxímetro, por favor?
+45	Pare aquí, por favor, aquí está bien.
+46	¿Podría esperarme aquí cinco minutos?
+47	Tengo prisa, ¿podría ir un poco más rápido?
+48	¿Puedo pagar con tarjeta?
+49	Quédese con el cambio, gracias.
+50	Mi conductor llega en tres minutos.
+51	¿Cuánto cuesta esto?
+52	¿Aceptan tarjetas de crédito aquí?
+53	¿Dónde puedo cambiar dinero?
+54	¿Hay un cajero automático por aquí cerca?
+55	¿Me lo puedo probar, por favor?
+56	¿Tiene esto en una talla más pequeña?
+57	Es un poco caro para mí.
+58	¿Me podría dar el recibo, por favor?
+59	Quisiera devolver esto, no me queda bien.
+60	Solo estoy mirando, gracias.
+61	¡Ayuda! ¡Que alguien llame a una ambulancia!
+62	Por favor, llame a la policía ahora mismo.
+63	Alguien me robó la cartera en el tren.
+64	Ha habido un accidente en la carretera.
+65	He perdido mi pasaporte.
+66	¿Dónde está el hospital más cercano?
+67	Mi amigo está herido y necesita un médico.
+68	¿Hay alguien aquí que hable español?
+69	Necesito contactar con mi embajada.
+70	¡Hay un incendio en el edificio!
+71	Necesito algo para el dolor de cabeza.
+72	Tengo fiebre desde ayer.
+73	Me duele el estómago después de comer.
+74	Soy alérgico a la penicilina.
+75	¿Necesito receta para este medicamento?
+76	¿Cuántas veces al día debo tomar esto?
+77	Quisiera pedir una cita con un médico.
+78	Me corté la mano y no deja de sangrar.
+79	Creo que me torcí el tobillo.
+80	¿Tiene algo para el dolor de garganta?
+81	¿Dónde puedo comprar una tarjeta SIM local?
+82	Mi teléfono está casi sin batería.
+83	¿Hay algún sitio donde pueda cargar mi teléfono?
+84	¿Hay wifi gratis en esta cafetería?
+85	La conexión a internet es muy lenta aquí.
+86	¿Me prestas tu teléfono un minuto?
+87	Aquí no tengo cobertura.
+88	¿Me podrías dar tu número de teléfono?
+89	Ahora te mando mi ubicación.
+90	¿Este plan incluye datos móviles?
+91	¿Cuáles son los mejores lugares para visitar en esta ciudad?
+92	¿A qué hora abre el museo?
+93	¿Cuánto cuesta la entrada?
+94	¿Hay descuentos para estudiantes?
+95	¿Nos podría sacar una foto, por favor?
+96	¿Hay alguna visita guiada en inglés?
+97	¿Se pueden sacar fotos dentro?
+98	¿Dónde puedo conseguir un mapa de la ciudad?
+99	¿Es seguro caminar por aquí de noche?
+100	¿Me puede recomendar un buen lugar para ver el atardecer?
+101	Donde hay playa, siempre hay un buen restaurante de mariscos.
+102	Donde hay un hotel grande, normalmente hay una parada de taxis.
+103	La habitación es tan bonita como en las fotos.
+104	El metro de esta ciudad es tan rápido como un taxi.
+105	Sírvase café en el vestíbulo todas las mañanas.
+106	Tome un mapa gratis en la entrada.
+107	La fila del control de seguridad era tan larga que casi pierdo el vuelo.
+108	El conductor fue tan simpático que le di una buena propina.
+109	¿Cuál es tu lugar favorito para visitar en esta ciudad?
+110	¿Cuál es tu mercado favorito para comprar recuerdos?
+111	El museo no abre hasta las diez de la mañana.
+112	No tome este medicamento hasta que haya comido algo.
+113	No estoy muy contento con la habitación, huele a tabaco.
+114	No estoy muy contento con esta tarjeta SIM, siempre pierde la señal.
+115	Solo tienes que pasar tu tarjeta para subir al autobús.
+116	Solo tienes que escanear este código para conectarte al wifi.
+117	Se retrase o no el vuelo, deberíamos llegar temprano.
+118	Sea grave o no, llame al número de emergencias.
+119	Qué pena que el puente esté cerrado, tenemos que dar la vuelta.
+120	Qué pena que esta tienda no acepte tarjetas.

@@ -1,0 +1,988 @@
+{
+  "name": "Food & ordering",
+  "source": "starter",
+  "native_lang": "zh",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Booking a table",
+      "native": "我想订一张四个人的桌子。",
+      "references": [
+        "I'd like to book a table for four people."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Booking a table",
+      "native": "今晚八点还有空桌吗？",
+      "references": [
+        "Do you have a table available for tonight at eight?"
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Booking a table",
+      "native": "我们可以坐在外面的露台上吗？",
+      "references": [
+        "Could we sit outside on the terrace?"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Booking a table",
+      "native": "预订用的是约翰逊的名字。",
+      "references": [
+        "The reservation is under the name Johnson."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Booking a table",
+      "native": "能给我们一张靠窗的桌子吗？",
+      "references": [
+        "Can we get a table by the window?"
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Booking a table",
+      "native": "等位要等多久？",
+      "references": [
+        "How long is the wait for a table?"
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Booking a table",
+      "native": "我们没有预订，可以吗？",
+      "references": [
+        "We don't have a reservation, is that okay?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Booking a table",
+      "native": "我需要取消明天的预订。",
+      "references": [
+        "I need to cancel my reservation for tomorrow."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Booking a table",
+      "native": "我们能把预订改到七点半吗？",
+      "references": [
+        "Could we move our booking to seven thirty?"
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Booking a table",
+      "native": "里面有安静一点的桌子吗？",
+      "references": [
+        "Is there a quiet table in the back?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Ordering food",
+      "native": "请给我们看一下菜单。",
+      "references": [
+        "Could we see the menu, please?"
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Ordering food",
+      "native": "今天你推荐什么？",
+      "references": [
+        "What do you recommend today?"
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Ordering food",
+      "native": "我想我可以点菜了。",
+      "references": [
+        "I think I'm ready to order."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Ordering food",
+      "native": "我要鸡肉配米饭，谢谢。",
+      "references": [
+        "I'll have the chicken with rice, please."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Ordering food",
+      "native": "沙拉可以作为前菜先上吗？",
+      "references": [
+        "Could I get the salad as a starter?"
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Ordering food",
+      "native": "牛排配什么？",
+      "references": [
+        "What comes with the steak?"
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Ordering food",
+      "native": "我的牛排要三分熟，谢谢。",
+      "references": [
+        "I'd like my steak medium rare, please."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Ordering food",
+      "native": "酱汁可以另外放吗？",
+      "references": [
+        "Can I have the sauce on the side?"
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Ordering food",
+      "native": "我要和我朋友一样的。",
+      "references": [
+        "I'll have the same as my friend."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Ordering food",
+      "native": "能再给我们一些面包吗？",
+      "references": [
+        "Could we get some more bread, please?"
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Dietary needs",
+      "native": "我吃素，有什么不含肉的菜？",
+      "references": [
+        "I'm vegetarian, what do you have without meat?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Dietary needs",
+      "native": "这道菜里有坚果吗？",
+      "references": [
+        "Does this dish have any nuts in it?"
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Dietary needs",
+      "native": "我对贝类海鲜过敏。",
+      "references": [
+        "I'm allergic to shellfish."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Dietary needs",
+      "native": "这个汤是用鸡汤做的吗？",
+      "references": [
+        "Is this soup made with chicken stock?"
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "Dietary needs",
+      "native": "你们有无麸质的选择吗？",
+      "references": [
+        "Do you have any gluten free options?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "Dietary needs",
+      "native": "这个可以不放奶酪吗？",
+      "references": [
+        "Can you make this without cheese?"
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Dietary needs",
+      "native": "我不吃猪肉，这里面有猪肉吗？",
+      "references": [
+        "I don't eat pork, is there pork in this?"
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Dietary needs",
+      "native": "这个很辣吗？",
+      "references": [
+        "Is this very spicy?"
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Dietary needs",
+      "native": "能做得稍微不那么辣吗？",
+      "references": [
+        "Could you make it a little less spicy?"
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Dietary needs",
+      "native": "你们有不含乳制品的东西吗？",
+      "references": [
+        "Do you have anything that's dairy free?"
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Drinks",
+      "native": "能给我一杯水吗？",
+      "references": [
+        "Could I get a glass of water, please?"
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Drinks",
+      "native": "你们有什么啤酒？",
+      "references": [
+        "What kind of beer do you have?"
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Drinks",
+      "native": "我要一杯红酒。",
+      "references": [
+        "I'll have a glass of red wine."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Drinks",
+      "native": "能给我一杯不加冰的柠檬水吗？",
+      "references": [
+        "Could I get a lemonade with no ice?"
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Drinks",
+      "native": "这里的自来水能直接喝吗？",
+      "references": [
+        "Is the tap water safe to drink here?"
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Drinks",
+      "native": "你们有鲜榨果汁吗？",
+      "references": [
+        "Do you have any fresh juice?"
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "Drinks",
+      "native": "请给我们这桌再来一轮。",
+      "references": [
+        "Another round for the table, please."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "Drinks",
+      "native": "我可以看一下酒单吗？",
+      "references": [
+        "Can I see the wine list?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Drinks",
+      "native": "我要开车，所以给我一杯汽水就行。",
+      "references": [
+        "I'm driving, so just a soda for me."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Drinks",
+      "native": "能帮我续杯吗？",
+      "references": [
+        "Could I have a refill, please?"
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "At the cafe",
+      "native": "我要一杯大杯加奶的咖啡。",
+      "references": [
+        "Can I get a large coffee with milk?"
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "At the cafe",
+      "native": "我要一杯卡布奇诺，带走。",
+      "references": [
+        "I'd like a cappuccino to go."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "At the cafe",
+      "native": "你们有燕麦奶吗？",
+      "references": [
+        "Do you have oat milk?"
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "At the cafe",
+      "native": "能给我一块那个巧克力蛋糕吗？",
+      "references": [
+        "Could I get a slice of that chocolate cake?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "At the cafe",
+      "native": "在这里喝还是带走？",
+      "references": [
+        "Is this for here or to go?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "At the cafe",
+      "native": "我在这里喝，谢谢。",
+      "references": [
+        "I'll drink it here, thank you."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "At the cafe",
+      "native": "能多加一份浓缩咖啡吗？",
+      "references": [
+        "Can I get an extra shot of espresso?"
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "At the cafe",
+      "native": "你们有无糖的东西吗？",
+      "references": [
+        "Do you have anything without sugar?"
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "At the cafe",
+      "native": "早餐三明治里有什么？",
+      "references": [
+        "What's in the breakfast sandwich?"
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "At the cafe",
+      "native": "能帮我把可颂热一下吗？",
+      "references": [
+        "Could you warm up the croissant for me?"
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Problems with the order",
+      "native": "不好意思，这不是我点的。",
+      "references": [
+        "Excuse me, this isn't what I ordered."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Problems with the order",
+      "native": "我觉得我的汤有点凉了。",
+      "references": [
+        "I think my soup is a little cold."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Problems with the order",
+      "native": "我们已经等了快一个小时了。",
+      "references": [
+        "We have been waiting for almost an hour."
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Problems with the order",
+      "native": "能帮我们查一下我们的菜吗？",
+      "references": [
+        "Could you check on our order, please?"
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Problems with the order",
+      "native": "我的菜里有一根头发。",
+      "references": [
+        "There's a hair in my food."
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Problems with the order",
+      "native": "这块牛排煎老了，我点的是五分熟。",
+      "references": [
+        "This steak is overcooked, I asked for medium."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Problems with the order",
+      "native": "不好意思，我们还有一道菜没上。",
+      "references": [
+        "Sorry, we're still missing one dish."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Problems with the order",
+      "native": "能给我一把干净的叉子吗？",
+      "references": [
+        "Could I get a clean fork, please?"
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Problems with the order",
+      "native": "这条鱼吃起来有点怪。",
+      "references": [
+        "The fish tastes a bit strange."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Problems with the order",
+      "native": "能把这个拿回厨房吗？",
+      "references": [
+        "Could you take this back to the kitchen?"
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Paying the bill",
+      "native": "请帮我们结账。",
+      "references": [
+        "Could we get the check, please?"
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Paying the bill",
+      "native": "我们可以分开付吗？",
+      "references": [
+        "Can we pay separately?"
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Paying the bill",
+      "native": "这次我来，我请客。",
+      "references": [
+        "I'll get this one, it's my treat."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Paying the bill",
+      "native": "服务费包含在内吗？",
+      "references": [
+        "Is the service charge included?"
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Paying the bill",
+      "native": "你们收信用卡吗？",
+      "references": [
+        "Do you take credit cards?"
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Paying the bill",
+      "native": "我觉得账单上有个错误。",
+      "references": [
+        "I think there's a mistake on the bill."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "Paying the bill",
+      "native": "我们没有点甜点。",
+      "references": [
+        "We didn't order the dessert."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "Paying the bill",
+      "native": "我们平摊吧。",
+      "references": [
+        "Let's split the bill evenly."
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Paying the bill",
+      "native": "能把刷卡机拿过来吗？",
+      "references": [
+        "Could you bring the card machine over?"
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Paying the bill",
+      "native": "一切都很好吃，谢谢。",
+      "references": [
+        "Everything was delicious, thank you."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Takeout and delivery",
+      "native": "我想订一个披萨外卖。",
+      "references": [
+        "I'd like to order a pizza for delivery."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Takeout and delivery",
+      "native": "外卖要多久才能送到？",
+      "references": [
+        "How long will the delivery take?"
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Takeout and delivery",
+      "native": "我二十分钟后来取可以吗？",
+      "references": [
+        "Can I pick it up in twenty minutes?"
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Takeout and delivery",
+      "native": "我的地址是公园街二十二号。",
+      "references": [
+        "My address is twenty two Park Street."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Takeout and delivery",
+      "native": "能再多加点奶酪吗？",
+      "references": [
+        "Could you add extra cheese to that?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Takeout and delivery",
+      "native": "请别忘了放餐巾纸。",
+      "references": [
+        "Please don't forget the napkins."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "Takeout and delivery",
+      "native": "外卖有起送金额吗？",
+      "references": [
+        "Is there a minimum order for delivery?"
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "Takeout and delivery",
+      "native": "我的外卖送来的时候又凉又晚。",
+      "references": [
+        "My food arrived cold and late."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Takeout and delivery",
+      "native": "面条能打包带走吗？",
+      "references": [
+        "Could I get the noodles to take away?"
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Takeout and delivery",
+      "native": "我打电话来问一下我的订单。",
+      "references": [
+        "I'm calling to check on my order."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Grocery shopping",
+      "native": "鸡蛋在哪里？",
+      "references": [
+        "Where can I find the eggs?"
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Grocery shopping",
+      "native": "你们这里卖新鲜面包吗？",
+      "references": [
+        "Do you sell fresh bread here?"
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Grocery shopping",
+      "native": "能给我半公斤西红柿吗？",
+      "references": [
+        "Could I have half a kilo of tomatoes?"
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Grocery shopping",
+      "native": "这些苹果在打折吗？",
+      "references": [
+        "Are these apples on sale?"
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Grocery shopping",
+      "native": "这瓶牛奶什么时候过期？",
+      "references": [
+        "When does this milk expire?"
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Grocery shopping",
+      "native": "能给我一个塑料袋吗？",
+      "references": [
+        "Can I get a plastic bag, please?"
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Grocery shopping",
+      "native": "我今天自己带了袋子。",
+      "references": [
+        "I brought my own bags today."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Grocery shopping",
+      "native": "这是结账的队吗？",
+      "references": [
+        "Is this the line for the checkout?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Grocery shopping",
+      "native": "你们有熟了的牛油果吗？",
+      "references": [
+        "Do you have any ripe avocados?"
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Grocery shopping",
+      "native": "我们的米和咖啡快没了。",
+      "references": [
+        "We're almost out of rice and coffee."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Cooking at home",
+      "native": "我们今晚做什么吃？",
+      "references": [
+        "What should we make for dinner tonight?"
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Cooking at home",
+      "native": "你能帮我切一下洋葱吗？",
+      "references": [
+        "Could you cut the onions for me?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Cooking at home",
+      "native": "水开了，现在把意面放进去。",
+      "references": [
+        "The water is boiling, add the pasta now."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Cooking at home",
+      "native": "煮大概十分钟。",
+      "references": [
+        "Let it cook for about ten minutes."
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Cooking at home",
+      "native": "你能尝一下，告诉我要不要加盐吗？",
+      "references": [
+        "Can you taste this and tell me if it needs salt?"
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Cooking at home",
+      "native": "把烤箱预热到两百度。",
+      "references": [
+        "Preheat the oven to two hundred degrees."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Cooking at home",
+      "native": "我又把米饭烧糊了。",
+      "references": [
+        "I burned the rice again."
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Cooking at home",
+      "native": "你能摆一下餐具吗？",
+      "references": [
+        "Could you set the table, please?"
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Cooking at home",
+      "native": "这个食谱比看起来简单。",
+      "references": [
+        "This recipe is easier than it looks."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Cooking at home",
+      "native": "晚饭好了，快来吃吧！",
+      "references": [
+        "Dinner is ready, come and eat!"
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Ordering food",
+      "native": "在我看来，这是城里最好吃的披萨。",
+      "references": [
+        "As far as I'm concerned, this is the best pizza in town."
+      ],
+      "starter_pattern": "As far as… (is/am/are) concerned,…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Dietary needs",
+      "native": "按我医生的说法，我应该少吃盐。",
+      "references": [
+        "As far as my doctor is concerned, I should eat less salt."
+      ],
+      "starter_pattern": "As far as… (is/am/are) concerned,…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Booking a table",
+      "native": "我很期待尝尝他们的新菜单。",
+      "references": [
+        "I'm looking forward to trying their new menu."
+      ],
+      "starter_pattern": "I'm looking forward to…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Cooking at home",
+      "native": "我很期待今晚和你一起做晚饭。",
+      "references": [
+        "I'm looking forward to cooking dinner with you tonight."
+      ],
+      "starter_pattern": "I'm looking forward to…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Grocery shopping",
+      "native": "没人吃的话，买这么多面包有什么用？",
+      "references": [
+        "What's the use of buying so much bread if nobody eats it?"
+      ],
+      "starter_pattern": "What's the use of…?"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Takeout and delivery",
+      "native": "饭菜送来都凉了，付外卖费有什么用？",
+      "references": [
+        "What's the use of paying for delivery if the food arrives cold?"
+      ],
+      "starter_pattern": "What's the use of…?"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Cooking at home",
+      "native": "小心刀，非常锋利。",
+      "references": [
+        "Be careful with the knife, it's very sharp."
+      ],
+      "starter_pattern": "Be careful with…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "At the cafe",
+      "native": "小心你的咖啡，很烫。",
+      "references": [
+        "Be careful with your coffee, it's really hot."
+      ],
+      "starter_pattern": "Be careful with…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Problems with the order",
+      "native": "我们的菜怎么这么久还没上？",
+      "references": [
+        "How come our food is taking so long?"
+      ],
+      "starter_pattern": "How come…?"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Paying the bill",
+      "native": "这次的账单怎么比上次贵这么多？",
+      "references": [
+        "How come the bill is so much higher than last time?"
+      ],
+      "starter_pattern": "How come…?"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Ordering food",
+      "native": "我完全不知道该点什么，看起来都很好吃。",
+      "references": [
+        "I have no idea what to order, everything looks so good."
+      ],
+      "starter_pattern": "I have no idea…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "Cooking at home",
+      "native": "我完全不知道鸡肉要煮多久。",
+      "references": [
+        "I have no idea how long to cook the chicken."
+      ],
+      "starter_pattern": "I have no idea…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Problems with the order",
+      "native": "我们的饮料已经等了二十分钟了。",
+      "references": [
+        "We have been waiting for our drinks for twenty minutes."
+      ],
+      "starter_pattern": "I have been…"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Drinks",
+      "native": "我最近咖啡喝得少了。",
+      "references": [
+        "I have been drinking less coffee lately."
+      ],
+      "starter_pattern": "I have been…"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Takeout and delivery",
+      "native": "今晚何不点泰国菜？",
+      "references": [
+        "Why not order some Thai food tonight?"
+      ],
+      "starter_pattern": "Why not…?"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Grocery shopping",
+      "native": "大袋的更便宜的话，何不买大袋的？",
+      "references": [
+        "Why not buy the bigger bag if it's cheaper?"
+      ],
+      "starter_pattern": "Why not…?"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Ordering food",
+      "native": "据说他们的汤是全城最好喝的。",
+      "references": [
+        "It's said that their soup is the best in the city."
+      ],
+      "starter_pattern": "It's said that…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Drinks",
+      "native": "据说绿茶对健康有好处。",
+      "references": [
+        "It's said that green tea is good for your health."
+      ],
+      "starter_pattern": "It's said that…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Takeout and delivery",
+      "native": "都怪我点了这么多菜。",
+      "references": [
+        "It's my fault for ordering so much food."
+      ],
+      "starter_pattern": "It's my fault for…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Paying the bill",
+      "native": "都怪我把钱包忘在家里了。",
+      "references": [
+        "It's my fault for forgetting my wallet at home."
+      ],
+      "starter_pattern": "It's my fault for…"
+    }
+  ]
+}

@@ -1,0 +1,988 @@
+{
+  "name": "Work & meetings",
+  "source": "starter",
+  "native_lang": "hi",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Starting a meeting",
+      "native": "सभी को गुड मॉर्निंग, चलिए शुरू करते हैं।",
+      "references": [
+        "Good morning everyone, let's get started."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Starting a meeting",
+      "native": "आज कॉल में शामिल होने के लिए धन्यवाद।",
+      "references": [
+        "Thanks for joining the call today."
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Starting a meeting",
+      "native": "क्या सब आ गए हैं, या हम किसी का इंतज़ार कर रहे हैं?",
+      "references": [
+        "Is everyone here, or are we waiting for someone?"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Starting a meeting",
+      "native": "इस मीटिंग का मुख्य मक़सद लॉन्च की योजना बनाना है।",
+      "references": [
+        "The main goal of this meeting is to plan the launch."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Starting a meeting",
+      "native": "चलिए बारी-बारी से सब एक छोटा अपडेट दें।",
+      "references": [
+        "Let's go around and give a quick update."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Starting a meeting",
+      "native": "आज एजेंडा पर तीन बातें हैं।",
+      "references": [
+        "We have three things on the agenda today."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Starting a meeting",
+      "native": "क्या सबको मेरी स्क्रीन दिख रही है?",
+      "references": [
+        "Can everyone see my screen?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Starting a meeting",
+      "native": "मैं यह मीटिंग छोटी रखूँगा।",
+      "references": [
+        "I'll keep this meeting short."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Starting a meeting",
+      "native": "आज नोट्स कौन लेना चाहेगा?",
+      "references": [
+        "Who would like to take notes today?"
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Starting a meeting",
+      "native": "शुरू करने से पहले, कोई सवाल है?",
+      "references": [
+        "Before we begin, are there any questions?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Giving updates",
+      "native": "मैंने कल दोपहर रिपोर्ट पूरी कर ली।",
+      "references": [
+        "I finished the report yesterday afternoon."
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Giving updates",
+      "native": "हम अभी भी नए डिज़ाइन पर काम कर रहे हैं।",
+      "references": [
+        "We're still working on the new design."
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Giving updates",
+      "native": "प्रोजेक्ट अगले शुक्रवार तक के लिए सही रास्ते पर है।",
+      "references": [
+        "The project is on track for next Friday."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Giving updates",
+      "native": "सर्वर में हमें एक समस्या आ गई।",
+      "references": [
+        "We ran into a problem with the server."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Giving updates",
+      "native": "मैंने लगभग आधी टेस्टिंग कर ली है।",
+      "references": [
+        "I'm about halfway through the testing."
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Giving updates",
+      "native": "इस महीने बिक्री दस प्रतिशत बढ़ी।",
+      "references": [
+        "Sales went up by ten percent this month."
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Giving updates",
+      "native": "मैं क्लाइंट के फ़ीडबैक का इंतज़ार कर रहा हूँ।",
+      "references": [
+        "I'm waiting for feedback from the client."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Giving updates",
+      "native": "इस हफ़्ते मेरी तरफ़ से कुछ नया नहीं है।",
+      "references": [
+        "There's nothing new on my side this week."
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Giving updates",
+      "native": "हम शेड्यूल से थोड़ा पीछे हैं।",
+      "references": [
+        "We're a little behind schedule."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Giving updates",
+      "native": "अच्छी ख़बर यह है कि बग ठीक हो गया है।",
+      "references": [
+        "The good news is that the bug is fixed."
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Asking for clarification",
+      "native": "क्या आप इसे थोड़ा और विस्तार से समझा सकते हैं?",
+      "references": [
+        "Could you explain that in more detail?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Asking for clarification",
+      "native": "इससे आपका असल में क्या मतलब है?",
+      "references": [
+        "What exactly do you mean by that?"
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Asking for clarification",
+      "native": "बस पक्का करने के लिए, डेडलाइन सोमवार है?",
+      "references": [
+        "Just to be clear, the deadline is Monday?"
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Asking for clarification",
+      "native": "क्या आप मुझे एक उदाहरण दे सकते हैं?",
+      "references": [
+        "Could you give me an example?"
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "Asking for clarification",
+      "native": "माफ़ कीजिए, मुझसे आख़िरी हिस्सा छूट गया।",
+      "references": [
+        "Sorry, I missed the last part."
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "Asking for clarification",
+      "native": "इस काम की ज़िम्मेदारी किसकी है?",
+      "references": [
+        "Who's responsible for this task?"
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Asking for clarification",
+      "native": "तो अगर मैं सही समझा, हमें और समय चाहिए।",
+      "references": [
+        "So if I understand correctly, we need more time."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Asking for clarification",
+      "native": "क्या आप यह मुझे लिखकर भेज सकते हैं?",
+      "references": [
+        "Could you send that to me in writing?"
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Asking for clarification",
+      "native": "इस प्रोजेक्ट का बजट क्या है?",
+      "references": [
+        "What's the budget for this project?"
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Asking for clarification",
+      "native": "इसका हमारी टीम पर क्या असर पड़ेगा?",
+      "references": [
+        "How does this affect our team?"
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Polite opinions",
+      "native": "मेरी राय में, हमें थोड़ा और इंतज़ार करना चाहिए।",
+      "references": [
+        "In my opinion, we should wait a little longer."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Polite opinions",
+      "native": "मैं आपकी बात समझता हूँ, लेकिन मेरा एक अलग विचार है।",
+      "references": [
+        "I see your point, but I have a different idea."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Polite opinions",
+      "native": "माफ़ कीजिए, लेकिन मैं उस योजना से सहमत नहीं हूँ।",
+      "references": [
+        "I'm afraid I don't agree with that plan."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Polite opinions",
+      "native": "यह बहुत बढ़िया विचार है, चलिए इसे आज़माते हैं।",
+      "references": [
+        "That's a great idea, let's try it."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Polite opinions",
+      "native": "क्या हमने लागत के बारे में सोचा है?",
+      "references": [
+        "Have we thought about the costs?"
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Polite opinions",
+      "native": "मेरा सुझाव है कि पहले हम क्लाइंट से पूछ लें।",
+      "references": [
+        "I'd suggest we ask the client first."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "Polite opinions",
+      "native": "मुझे लगता है हम यहाँ कुछ भूल रहे हैं।",
+      "references": [
+        "I think we're missing something here."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "Polite opinions",
+      "native": "क्या हम इसे किसी और नज़रिए से देख सकते हैं?",
+      "references": [
+        "Could we look at this from another angle?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Polite opinions",
+      "native": "इस मामले में मैं सारा के साथ हूँ।",
+      "references": [
+        "I'm with Sarah on this one."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Polite opinions",
+      "native": "यह काम कर सकता है, लेकिन इसमें थोड़ा जोखिम है।",
+      "references": [
+        "That might work, but it's a little risky."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Scheduling",
+      "native": "क्या आप गुरुवार सुबह फ़्री हैं?",
+      "references": [
+        "Are you available on Thursday morning?"
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Scheduling",
+      "native": "क्या हम अपनी कॉल अगले हफ़्ते रख सकते हैं?",
+      "references": [
+        "Can we reschedule our call to next week?"
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Scheduling",
+      "native": "मैं आपको कैलेंडर इनवाइट भेज दूँगा।",
+      "references": [
+        "I'll send you a calendar invite."
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Scheduling",
+      "native": "क्या तीन बजे आपके लिए ठीक रहेगा?",
+      "references": [
+        "Does three o'clock work for you?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Scheduling",
+      "native": "आज मेरा पूरा दिन बुक है, कल कैसा रहेगा?",
+      "references": [
+        "I'm fully booked today, how about tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Scheduling",
+      "native": "चलिए एक फ़ॉलो-अप मीटिंग रख लेते हैं।",
+      "references": [
+        "Let's set up a follow-up meeting."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Scheduling",
+      "native": "माफ़ कीजिए, उस समय मेरी कोई और मीटिंग है।",
+      "references": [
+        "Sorry, I have a conflict at that time."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Scheduling",
+      "native": "मीटिंग को कमरा नंबर पाँच में शिफ़्ट कर दिया गया है।",
+      "references": [
+        "The meeting has been moved to room five."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "Scheduling",
+      "native": "आपको क्या लगता है, मीटिंग कितनी देर चलेगी?",
+      "references": [
+        "How long do you think the meeting will take?"
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "Scheduling",
+      "native": "अगले सोमवार मैं ऑफ़िस में नहीं रहूँगा।",
+      "references": [
+        "I'll be out of the office next Monday."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Calls and video",
+      "native": "क्या आपको मेरी आवाज़ ठीक से आ रही है?",
+      "references": [
+        "Can you hear me okay?"
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Calls and video",
+      "native": "माफ़ कीजिए, आप म्यूट पर हैं।",
+      "references": [
+        "Sorry, you're on mute."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Calls and video",
+      "native": "आपका वीडियो अटक गया है, क्या आप इसे बंद करके फिर चालू करेंगे?",
+      "references": [
+        "Your video is frozen, could you turn it off and on?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Calls and video",
+      "native": "मुझे लगता है एक सेकंड के लिए कनेक्शन चला गया था।",
+      "references": [
+        "I think we lost the connection for a second."
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Calls and video",
+      "native": "क्या सब अपना माइक्रोफ़ोन म्यूट कर देंगे, प्लीज़?",
+      "references": [
+        "Could everyone mute their microphones, please?"
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Calls and video",
+      "native": "आपकी तरफ़ बहुत शोर आ रहा है।",
+      "references": [
+        "There's a lot of background noise on your side."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Calls and video",
+      "native": "मैं अब अपनी स्क्रीन शेयर करने जा रहा हूँ।",
+      "references": [
+        "I'm going to share my screen now."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Calls and video",
+      "native": "मैं आपको पाँच मिनट में वापस कॉल करता हूँ।",
+      "references": [
+        "Let me call you back in five minutes."
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Calls and video",
+      "native": "माफ़ कीजिए, मुझे कुछ तकनीकी दिक़्क़तें आ रही हैं।",
+      "references": [
+        "Sorry, I'm having some technical problems."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Calls and video",
+      "native": "क्या आप लिंक चैट में डाल देंगे?",
+      "references": [
+        "Can you drop the link in the chat?"
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Job interviews",
+      "native": "इस इंटरव्यू के लिए बुलाने के लिए धन्यवाद।",
+      "references": [
+        "Thank you for inviting me to this interview."
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Job interviews",
+      "native": "मुझे मार्केटिंग में पाँच साल का अनुभव है।",
+      "references": [
+        "I have five years of experience in marketing."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Job interviews",
+      "native": "मेरी सबसे बड़ी ख़ूबी समस्याएँ सुलझाना है।",
+      "references": [
+        "My biggest strength is solving problems."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Job interviews",
+      "native": "मैं एक नई चुनौती की तलाश में हूँ।",
+      "references": [
+        "I'm looking for a new challenge."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Job interviews",
+      "native": "मैं अकेले और टीम में, दोनों तरह से अच्छा काम करता हूँ।",
+      "references": [
+        "I work well both alone and in a team."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Job interviews",
+      "native": "आपने अपनी पिछली नौकरी क्यों छोड़ी?",
+      "references": [
+        "Why did you leave your last job?"
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "Job interviews",
+      "native": "आप पाँच साल बाद ख़ुद को कहाँ देखते हैं?",
+      "references": [
+        "Where do you see yourself in five years?"
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "Job interviews",
+      "native": "इस भूमिका में एक आम दिन कैसा होता है?",
+      "references": [
+        "What does a typical day look like in this role?"
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Job interviews",
+      "native": "आप कब से काम शुरू कर सकते हैं?",
+      "references": [
+        "When can you start?"
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Job interviews",
+      "native": "मुझे आपकी तरफ़ से जवाब कब तक मिलेगा?",
+      "references": [
+        "When can I expect to hear back from you?"
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Asking colleagues for help",
+      "native": "क्या तुम्हारे पास इसे देखने के लिए एक मिनट है?",
+      "references": [
+        "Do you have a minute to look at this?"
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Asking colleagues for help",
+      "native": "क्या तुम इस स्प्रेडशीट में मेरी मदद कर सकते हो?",
+      "references": [
+        "Could you help me with this spreadsheet?"
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Asking colleagues for help",
+      "native": "मैं इस समस्या में अटक गया हूँ, कोई आइडिया?",
+      "references": [
+        "I'm stuck on this problem, any ideas?"
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Asking colleagues for help",
+      "native": "क्या तुम मेरा ईमेल भेजने से पहले एक बार देख लोगे?",
+      "references": [
+        "Would you mind reviewing my email before I send it?"
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Asking colleagues for help",
+      "native": "इस मसले के बारे में मुझे किससे बात करनी चाहिए?",
+      "references": [
+        "Who should I talk to about this issue?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Asking colleagues for help",
+      "native": "क्या तुम मुझे दिखा सकते हो कि यह टूल कैसे काम करता है?",
+      "references": [
+        "Can you show me how this tool works?"
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "Asking colleagues for help",
+      "native": "क्या तुम शुक्रवार को मेरी जगह संभाल लोगे?",
+      "references": [
+        "Could you cover for me on Friday?"
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "Asking colleagues for help",
+      "native": "अगर तुम्हें मुझसे कुछ चाहिए तो बता देना।",
+      "references": [
+        "Let me know if you need anything from me."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Asking colleagues for help",
+      "native": "मैं तुम्हारा एहसानमंद हूँ, मदद के लिए शुक्रिया।",
+      "references": [
+        "I owe you one, thanks for your help."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Asking colleagues for help",
+      "native": "अगर कोई सवाल हो तो बेझिझक पूछ लेना।",
+      "references": [
+        "Feel free to ask me if you have questions."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Deadlines and tasks",
+      "native": "इस प्रोजेक्ट की डेडलाइन कब है?",
+      "references": [
+        "When is the deadline for this project?"
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Deadlines and tasks",
+      "native": "मुझे यह रिपोर्ट आज दिन ख़त्म होने तक चाहिए।",
+      "references": [
+        "I need this report by the end of the day."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Deadlines and tasks",
+      "native": "मैं इसे बुधवार तक तैयार कर दूँगा।",
+      "references": [
+        "I'll have it ready by Wednesday."
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Deadlines and tasks",
+      "native": "क्या इसे पूरा करने के लिए मुझे कुछ दिन और मिल सकते हैं?",
+      "references": [
+        "Could I get a few more days to finish this?"
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Deadlines and tasks",
+      "native": "अभी यही हमारी सबसे बड़ी प्राथमिकता है।",
+      "references": [
+        "This is our top priority right now."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Deadlines and tasks",
+      "native": "अगर कुछ बदले तो प्लीज़ मुझे बता दीजिए।",
+      "references": [
+        "Please let me know if anything changes."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Deadlines and tasks",
+      "native": "मैं अभी इसी पर काम कर रहा हूँ।",
+      "references": [
+        "I'm working on it as we speak."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Deadlines and tasks",
+      "native": "क्या हम डेडलाइन एक हफ़्ता आगे बढ़ा सकते हैं?",
+      "references": [
+        "Can we push the deadline back a week?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Deadlines and tasks",
+      "native": "माफ़ कीजिए, मैं डेडलाइन तक काम पूरा नहीं कर पाऊँगा।",
+      "references": [
+        "I'm sorry, I won't make the deadline."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Deadlines and tasks",
+      "native": "मैंने अभी-अभी आपको फ़ाइनल वर्ज़न भेजा है।",
+      "references": [
+        "I just sent you the final version."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Closing a meeting",
+      "native": "चलिए यहीं ख़त्म करते हैं।",
+      "references": [
+        "Let's wrap up here."
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Closing a meeting",
+      "native": "संक्षेप में, हम तीन बातों पर सहमत हुए।",
+      "references": [
+        "To sum up, we agreed on three things."
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Closing a meeting",
+      "native": "कॉल के बाद मैं सबको एक सारांश भेज दूँगा।",
+      "references": [
+        "I'll send everyone a summary after the call."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Closing a meeting",
+      "native": "कोई आख़िरी सवाल?",
+      "references": [
+        "Are there any final questions?"
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Closing a meeting",
+      "native": "सबका धन्यवाद, यह सच में बहुत काम का रहा।",
+      "references": [
+        "Thanks everyone, this was really helpful."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Closing a meeting",
+      "native": "अगले हफ़्ते इसी समय फिर मिलते हैं।",
+      "references": [
+        "Let's meet again at the same time next week."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Closing a meeting",
+      "native": "तो अगला क़दम क्लाइंट से बात करना है।",
+      "references": [
+        "So the next step is to talk to the client."
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Closing a meeting",
+      "native": "मुझे लगता है आज के लिए हमने सब कुछ कवर कर लिया।",
+      "references": [
+        "I think we covered everything for today."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Closing a meeting",
+      "native": "प्लीज़ शुक्रवार तक अपना फ़ीडबैक मुझे भेज दीजिए।",
+      "references": [
+        "Please send me your feedback by Friday."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Closing a meeting",
+      "native": "सबका बाक़ी दिन अच्छा रहे।",
+      "references": [
+        "Have a great rest of your day, everyone."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Scheduling",
+      "native": "मैं सोच रहा था कि क्या हम मीटिंग शुक्रवार को कर सकते हैं।",
+      "references": [
+        "I wonder if we could move the meeting to Friday."
+      ],
+      "starter_pattern": "I wonder if…?"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Asking colleagues for help",
+      "native": "मैं सोच रहा था कि क्या तुम इस रिपोर्ट में मेरी मदद कर सकते हो।",
+      "references": [
+        "I wonder if you could help me with this report."
+      ],
+      "starter_pattern": "I wonder if…?"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Polite opinions",
+      "native": "मैं दावे से कह सकता हूँ कि क्लाइंट को नया डिज़ाइन पसंद आएगा।",
+      "references": [
+        "I dare say the client will like the new design."
+      ],
+      "starter_pattern": "I dare say…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Giving updates",
+      "native": "मैं दावे से कह सकता हूँ कि हम समय से पहले काम पूरा कर लेंगे।",
+      "references": [
+        "I dare say we'll finish ahead of schedule."
+      ],
+      "starter_pattern": "I dare say…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Job interviews",
+      "native": "मुझसे मिलने के लिए समय निकालने का धन्यवाद।",
+      "references": [
+        "Thank you for taking the time to meet with me."
+      ],
+      "starter_pattern": "Thank you for…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Closing a meeting",
+      "native": "इस हफ़्ते आप सबकी मेहनत के लिए धन्यवाद।",
+      "references": [
+        "Thank you for all your hard work this week."
+      ],
+      "starter_pattern": "Thank you for…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Job interviews",
+      "native": "क्या आपने पहले कभी किसी टीम को संभाला है?",
+      "references": [
+        "Have you ever managed a team before?"
+      ],
+      "starter_pattern": "Have you ever…?"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Calls and video",
+      "native": "क्या आपने पहले कभी यह वीडियो ऐप इस्तेमाल किया है?",
+      "references": [
+        "Have you ever used this video app before?"
+      ],
+      "starter_pattern": "Have you ever…?"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Giving updates",
+      "native": "मैं आपको नया वर्ज़न दिखाने के लिए बेताब हूँ।",
+      "references": [
+        "I can't wait to show you the new version."
+      ],
+      "starter_pattern": "I cannot wait to…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Starting a meeting",
+      "native": "मैं आज आप सबके आइडिया सुनने के लिए बेताब हूँ।",
+      "references": [
+        "I can't wait to hear your ideas today."
+      ],
+      "starter_pattern": "I cannot wait to…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Deadlines and tasks",
+      "native": "आपको ये आँकड़े टीम के बाहर किसी से शेयर नहीं करने हैं।",
+      "references": [
+        "You're not to share these numbers outside the team."
+      ],
+      "starter_pattern": "You are not to…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "Calls and video",
+      "native": "आपको बिना इजाज़त के यह कॉल रिकॉर्ड नहीं करनी है।",
+      "references": [
+        "You're not to record this call without permission."
+      ],
+      "starter_pattern": "You are not to…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Calls and video",
+      "native": "आज मेरे माइक्रोफ़ोन को क्या हो गया है?",
+      "references": [
+        "What's the matter with my microphone today?"
+      ],
+      "starter_pattern": "What's the matter with…?"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Asking colleagues for help",
+      "native": "प्रिंटर को फिर से क्या हो गया?",
+      "references": [
+        "What's the matter with the printer again?"
+      ],
+      "starter_pattern": "What's the matter with…?"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Polite opinions",
+      "native": "मैं यह कहना चाह रहा हूँ कि हमें और समय चाहिए।",
+      "references": [
+        "What I'm trying to say is that we need more time."
+      ],
+      "starter_pattern": "What I'm trying to say is…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Asking for clarification",
+      "native": "मैं यह कहना चाह रहा हूँ कि बजट बहुत कम है।",
+      "references": [
+        "What I'm trying to say is that the budget is too small."
+      ],
+      "starter_pattern": "What I'm trying to say is…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Job interviews",
+      "native": "मुझे ऐसी नौकरियाँ बहुत पसंद हैं जहाँ मैं नई चीज़ें सीख सकूँ।",
+      "references": [
+        "I really go for jobs where I can learn new things."
+      ],
+      "starter_pattern": "I really go for…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Polite opinions",
+      "native": "मुझे इस तरह के सादे डिज़ाइन बहुत पसंद हैं।",
+      "references": [
+        "I really go for simple designs like this one."
+      ],
+      "starter_pattern": "I really go for…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Giving updates",
+      "native": "पिछले महीने की तुलना में बिक्री काफ़ी बेहतर है।",
+      "references": [
+        "Compared to last month, sales are much better."
+      ],
+      "starter_pattern": "Compared to…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Deadlines and tasks",
+      "native": "पिछले प्रोजेक्ट की तुलना में यह डेडलाइन बहुत तंग है।",
+      "references": [
+        "Compared to the last project, this deadline is very tight."
+      ],
+      "starter_pattern": "Compared to…"
+    }
+  ]
+}

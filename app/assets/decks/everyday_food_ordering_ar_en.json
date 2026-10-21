@@ -1,0 +1,988 @@
+{
+  "name": "Food & ordering",
+  "source": "starter",
+  "native_lang": "ar",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Booking a table",
+      "native": "أريد أن أحجز طاولة لأربعة أشخاص.",
+      "references": [
+        "I'd like to book a table for four people."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Booking a table",
+      "native": "هل لديكم طاولة متاحة الليلة في الثامنة؟",
+      "references": [
+        "Do you have a table available for tonight at eight?"
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Booking a table",
+      "native": "هل يمكننا الجلوس في الخارج على الشرفة؟",
+      "references": [
+        "Could we sit outside on the terrace?"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Booking a table",
+      "native": "الحجز باسم جونسون.",
+      "references": [
+        "The reservation is under the name Johnson."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Booking a table",
+      "native": "هل يمكننا الحصول على طاولة بجانب النافذة؟",
+      "references": [
+        "Can we get a table by the window?"
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Booking a table",
+      "native": "كم مدة الانتظار للحصول على طاولة؟",
+      "references": [
+        "How long is the wait for a table?"
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Booking a table",
+      "native": "ليس لدينا حجز، هل هذا مقبول؟",
+      "references": [
+        "We don't have a reservation, is that okay?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Booking a table",
+      "native": "أحتاج إلى إلغاء حجزي ليوم غد.",
+      "references": [
+        "I need to cancel my reservation for tomorrow."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Booking a table",
+      "native": "هل يمكننا تغيير موعد الحجز إلى السابعة والنصف؟",
+      "references": [
+        "Could we move our booking to seven thirty?"
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Booking a table",
+      "native": "هل توجد طاولة هادئة في الخلف؟",
+      "references": [
+        "Is there a quiet table in the back?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Ordering food",
+      "native": "هل يمكننا رؤية قائمة الطعام، من فضلك؟",
+      "references": [
+        "Could we see the menu, please?"
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Ordering food",
+      "native": "ماذا تنصحنا اليوم؟",
+      "references": [
+        "What do you recommend today?"
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Ordering food",
+      "native": "أظن أنني مستعد للطلب.",
+      "references": [
+        "I think I'm ready to order."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Ordering food",
+      "native": "سآخذ الدجاج مع الأرز، من فضلك.",
+      "references": [
+        "I'll have the chicken with rice, please."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Ordering food",
+      "native": "هل يمكنني أخذ السلطة كمقبلات؟",
+      "references": [
+        "Could I get the salad as a starter?"
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Ordering food",
+      "native": "ماذا يأتي مع شريحة اللحم؟",
+      "references": [
+        "What comes with the steak?"
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Ordering food",
+      "native": "أريد شريحة اللحم نصف نيئة، من فضلك.",
+      "references": [
+        "I'd like my steak medium rare, please."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Ordering food",
+      "native": "هل يمكن أن تكون الصلصة على الجانب؟",
+      "references": [
+        "Can I have the sauce on the side?"
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Ordering food",
+      "native": "سآخذ مثل صديقي.",
+      "references": [
+        "I'll have the same as my friend."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Ordering food",
+      "native": "هل يمكننا الحصول على مزيد من الخبز، من فضلك؟",
+      "references": [
+        "Could we get some more bread, please?"
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Dietary needs",
+      "native": "أنا نباتي، ماذا لديكم بدون لحم؟",
+      "references": [
+        "I'm vegetarian, what do you have without meat?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Dietary needs",
+      "native": "هل يحتوي هذا الطبق على مكسرات؟",
+      "references": [
+        "Does this dish have any nuts in it?"
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Dietary needs",
+      "native": "عندي حساسية من المحار والقشريات.",
+      "references": [
+        "I'm allergic to shellfish."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Dietary needs",
+      "native": "هل هذا الحساء مصنوع بمرق الدجاج؟",
+      "references": [
+        "Is this soup made with chicken stock?"
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "Dietary needs",
+      "native": "هل لديكم خيارات خالية من الغلوتين؟",
+      "references": [
+        "Do you have any gluten free options?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "Dietary needs",
+      "native": "هل يمكنكم تحضير هذا بدون جبن؟",
+      "references": [
+        "Can you make this without cheese?"
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Dietary needs",
+      "native": "لا آكل لحم الخنزير، هل يحتوي هذا عليه؟",
+      "references": [
+        "I don't eat pork, is there pork in this?"
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Dietary needs",
+      "native": "هل هذا حار جدًا؟",
+      "references": [
+        "Is this very spicy?"
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Dietary needs",
+      "native": "هل يمكنكم جعله أقل حرارة قليلًا؟",
+      "references": [
+        "Could you make it a little less spicy?"
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Dietary needs",
+      "native": "هل لديكم شيء خالٍ من الألبان؟",
+      "references": [
+        "Do you have anything that's dairy free?"
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Drinks",
+      "native": "هل يمكنني الحصول على كوب ماء، من فضلك؟",
+      "references": [
+        "Could I get a glass of water, please?"
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Drinks",
+      "native": "ما أنواع البيرة الموجودة لديكم؟",
+      "references": [
+        "What kind of beer do you have?"
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Drinks",
+      "native": "سآخذ كأسًا من النبيذ الأحمر.",
+      "references": [
+        "I'll have a glass of red wine."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Drinks",
+      "native": "هل يمكنني الحصول على عصير ليمون بدون ثلج؟",
+      "references": [
+        "Could I get a lemonade with no ice?"
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Drinks",
+      "native": "هل ماء الصنبور هنا آمن للشرب؟",
+      "references": [
+        "Is the tap water safe to drink here?"
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Drinks",
+      "native": "هل لديكم عصير طازج؟",
+      "references": [
+        "Do you have any fresh juice?"
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "Drinks",
+      "native": "جولة أخرى للطاولة، من فضلك.",
+      "references": [
+        "Another round for the table, please."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "Drinks",
+      "native": "هل يمكنني رؤية قائمة النبيذ؟",
+      "references": [
+        "Can I see the wine list?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Drinks",
+      "native": "أنا سأقود، لذلك مشروب غازي فقط لي.",
+      "references": [
+        "I'm driving, so just a soda for me."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Drinks",
+      "native": "هل يمكنك إعادة ملء الكوب، من فضلك؟",
+      "references": [
+        "Could I have a refill, please?"
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "At the cafe",
+      "native": "هل يمكنني الحصول على قهوة كبيرة بالحليب؟",
+      "references": [
+        "Can I get a large coffee with milk?"
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "At the cafe",
+      "native": "أريد كابتشينو سفري.",
+      "references": [
+        "I'd like a cappuccino to go."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "At the cafe",
+      "native": "هل لديكم حليب الشوفان؟",
+      "references": [
+        "Do you have oat milk?"
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "At the cafe",
+      "native": "هل يمكنني الحصول على قطعة من كعكة الشوكولاتة تلك؟",
+      "references": [
+        "Could I get a slice of that chocolate cake?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "At the cafe",
+      "native": "هل هو للشرب هنا أم سفري؟",
+      "references": [
+        "Is this for here or to go?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "At the cafe",
+      "native": "سأشربه هنا، شكرًا.",
+      "references": [
+        "I'll drink it here, thank you."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "At the cafe",
+      "native": "هل يمكنني الحصول على جرعة إضافية من الإسبريسو؟",
+      "references": [
+        "Can I get an extra shot of espresso?"
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "At the cafe",
+      "native": "هل لديكم شيء بدون سكر؟",
+      "references": [
+        "Do you have anything without sugar?"
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "At the cafe",
+      "native": "ماذا يوجد في شطيرة الإفطار؟",
+      "references": [
+        "What's in the breakfast sandwich?"
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "At the cafe",
+      "native": "هل يمكنك تسخين الكرواسون لي؟",
+      "references": [
+        "Could you warm up the croissant for me?"
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Problems with the order",
+      "native": "عفوًا، هذا ليس ما طلبته.",
+      "references": [
+        "Excuse me, this isn't what I ordered."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Problems with the order",
+      "native": "أظن أن حسائي بارد قليلًا.",
+      "references": [
+        "I think my soup is a little cold."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Problems with the order",
+      "native": "ننتظر منذ ساعة تقريبًا.",
+      "references": [
+        "We have been waiting for almost an hour."
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Problems with the order",
+      "native": "هل يمكنك أن تتحقق من طلبنا، من فضلك؟",
+      "references": [
+        "Could you check on our order, please?"
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Problems with the order",
+      "native": "هناك شعرة في طعامي.",
+      "references": [
+        "There's a hair in my food."
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Problems with the order",
+      "native": "شريحة اللحم هذه مطهوة أكثر من اللازم، طلبتها متوسطة.",
+      "references": [
+        "This steak is overcooked, I asked for medium."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Problems with the order",
+      "native": "عذرًا، ما زال ينقصنا طبق واحد.",
+      "references": [
+        "Sorry, we're still missing one dish."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Problems with the order",
+      "native": "هل يمكنني الحصول على شوكة نظيفة، من فضلك؟",
+      "references": [
+        "Could I get a clean fork, please?"
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Problems with the order",
+      "native": "طعم السمك غريب بعض الشيء.",
+      "references": [
+        "The fish tastes a bit strange."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Problems with the order",
+      "native": "هل يمكنك إعادة هذا إلى المطبخ؟",
+      "references": [
+        "Could you take this back to the kitchen?"
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Paying the bill",
+      "native": "الحساب من فضلك.",
+      "references": [
+        "Could we get the check, please?"
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Paying the bill",
+      "native": "هل يمكننا الدفع بشكل منفصل؟",
+      "references": [
+        "Can we pay separately?"
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Paying the bill",
+      "native": "سأدفع أنا هذه المرة، إنها على حسابي.",
+      "references": [
+        "I'll get this one, it's my treat."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Paying the bill",
+      "native": "هل رسوم الخدمة مشمولة؟",
+      "references": [
+        "Is the service charge included?"
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Paying the bill",
+      "native": "هل تقبلون بطاقات الائتمان؟",
+      "references": [
+        "Do you take credit cards?"
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Paying the bill",
+      "native": "أظن أن هناك خطأ في الفاتورة.",
+      "references": [
+        "I think there's a mistake on the bill."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "Paying the bill",
+      "native": "لم نطلب الحلوى.",
+      "references": [
+        "We didn't order the dessert."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "Paying the bill",
+      "native": "لنقسم الحساب بالتساوي.",
+      "references": [
+        "Let's split the bill evenly."
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Paying the bill",
+      "native": "هل يمكنك إحضار جهاز الدفع بالبطاقة؟",
+      "references": [
+        "Could you bring the card machine over?"
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Paying the bill",
+      "native": "كان كل شيء لذيذًا، شكرًا.",
+      "references": [
+        "Everything was delicious, thank you."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Takeout and delivery",
+      "native": "أريد أن أطلب بيتزا للتوصيل.",
+      "references": [
+        "I'd like to order a pizza for delivery."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Takeout and delivery",
+      "native": "كم سيستغرق التوصيل؟",
+      "references": [
+        "How long will the delivery take?"
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Takeout and delivery",
+      "native": "هل يمكنني استلامها بعد عشرين دقيقة؟",
+      "references": [
+        "Can I pick it up in twenty minutes?"
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Takeout and delivery",
+      "native": "عنواني اثنان وعشرون، شارع بارك.",
+      "references": [
+        "My address is twenty two Park Street."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Takeout and delivery",
+      "native": "هل يمكنك إضافة جبن إضافي إليها؟",
+      "references": [
+        "Could you add extra cheese to that?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Takeout and delivery",
+      "native": "من فضلك لا تنسَ المناديل.",
+      "references": [
+        "Please don't forget the napkins."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "Takeout and delivery",
+      "native": "هل هناك حد أدنى للطلب من أجل التوصيل؟",
+      "references": [
+        "Is there a minimum order for delivery?"
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "Takeout and delivery",
+      "native": "وصل طعامي باردًا ومتأخرًا.",
+      "references": [
+        "My food arrived cold and late."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Takeout and delivery",
+      "native": "هل يمكنني أخذ المعكرونة سفري؟",
+      "references": [
+        "Could I get the noodles to take away?"
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Takeout and delivery",
+      "native": "أتصل لأستفسر عن طلبي.",
+      "references": [
+        "I'm calling to check on my order."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Grocery shopping",
+      "native": "أين أجد البيض؟",
+      "references": [
+        "Where can I find the eggs?"
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Grocery shopping",
+      "native": "هل تبيعون خبزًا طازجًا هنا؟",
+      "references": [
+        "Do you sell fresh bread here?"
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Grocery shopping",
+      "native": "هل يمكنني الحصول على نصف كيلو من الطماطم؟",
+      "references": [
+        "Could I have half a kilo of tomatoes?"
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Grocery shopping",
+      "native": "هل هذا التفاح عليه تخفيض؟",
+      "references": [
+        "Are these apples on sale?"
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Grocery shopping",
+      "native": "متى تنتهي صلاحية هذا الحليب؟",
+      "references": [
+        "When does this milk expire?"
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Grocery shopping",
+      "native": "هل يمكنني الحصول على كيس بلاستيكي، من فضلك؟",
+      "references": [
+        "Can I get a plastic bag, please?"
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Grocery shopping",
+      "native": "أحضرت أكياسي معي اليوم.",
+      "references": [
+        "I brought my own bags today."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Grocery shopping",
+      "native": "هل هذا هو طابور الدفع؟",
+      "references": [
+        "Is this the line for the checkout?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Grocery shopping",
+      "native": "هل لديكم أفوكادو ناضج؟",
+      "references": [
+        "Do you have any ripe avocados?"
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Grocery shopping",
+      "native": "الأرز والقهوة على وشك النفاد.",
+      "references": [
+        "We're almost out of rice and coffee."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Cooking at home",
+      "native": "ماذا نطبخ للعشاء الليلة؟",
+      "references": [
+        "What should we make for dinner tonight?"
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Cooking at home",
+      "native": "هل يمكنك تقطيع البصل لي؟",
+      "references": [
+        "Could you cut the onions for me?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Cooking at home",
+      "native": "الماء يغلي، أضف المعكرونة الآن.",
+      "references": [
+        "The water is boiling, add the pasta now."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Cooking at home",
+      "native": "اتركها تُطهى لمدة عشر دقائق تقريبًا.",
+      "references": [
+        "Let it cook for about ten minutes."
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Cooking at home",
+      "native": "هل يمكنك تذوق هذا وإخباري إن كان يحتاج إلى ملح؟",
+      "references": [
+        "Can you taste this and tell me if it needs salt?"
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Cooking at home",
+      "native": "سخّن الفرن مسبقًا على مئتي درجة.",
+      "references": [
+        "Preheat the oven to two hundred degrees."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Cooking at home",
+      "native": "أحرقت الأرز مرة أخرى.",
+      "references": [
+        "I burned the rice again."
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Cooking at home",
+      "native": "هل يمكنك تجهيز المائدة، من فضلك؟",
+      "references": [
+        "Could you set the table, please?"
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Cooking at home",
+      "native": "هذه الوصفة أسهل مما تبدو.",
+      "references": [
+        "This recipe is easier than it looks."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Cooking at home",
+      "native": "العشاء جاهز، تعالوا وكلوا!",
+      "references": [
+        "Dinner is ready, come and eat!"
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Ordering food",
+      "native": "بالنسبة لي، هذه أفضل بيتزا في المدينة.",
+      "references": [
+        "As far as I'm concerned, this is the best pizza in town."
+      ],
+      "starter_pattern": "As far as… (is/am/are) concerned,…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Dietary needs",
+      "native": "بالنسبة لطبيبي، يجب أن آكل ملحًا أقل.",
+      "references": [
+        "As far as my doctor is concerned, I should eat less salt."
+      ],
+      "starter_pattern": "As far as… (is/am/are) concerned,…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Booking a table",
+      "native": "أتطلع إلى تجربة قائمتهم الجديدة.",
+      "references": [
+        "I'm looking forward to trying their new menu."
+      ],
+      "starter_pattern": "I'm looking forward to…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Cooking at home",
+      "native": "أتطلع إلى طبخ العشاء معك الليلة.",
+      "references": [
+        "I'm looking forward to cooking dinner with you tonight."
+      ],
+      "starter_pattern": "I'm looking forward to…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Grocery shopping",
+      "native": "ما فائدة شراء كل هذا الخبز إذا لم يأكله أحد؟",
+      "references": [
+        "What's the use of buying so much bread if nobody eats it?"
+      ],
+      "starter_pattern": "What's the use of…?"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Takeout and delivery",
+      "native": "ما فائدة دفع رسوم التوصيل إذا وصل الطعام باردًا؟",
+      "references": [
+        "What's the use of paying for delivery if the food arrives cold?"
+      ],
+      "starter_pattern": "What's the use of…?"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Cooking at home",
+      "native": "انتبه من السكين، إنه حاد جدًا.",
+      "references": [
+        "Be careful with the knife, it's very sharp."
+      ],
+      "starter_pattern": "Be careful with…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "At the cafe",
+      "native": "انتبه من قهوتك، إنها ساخنة جدًا.",
+      "references": [
+        "Be careful with your coffee, it's really hot."
+      ],
+      "starter_pattern": "Be careful with…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Problems with the order",
+      "native": "كيف يتأخر طعامنا كل هذا الوقت؟",
+      "references": [
+        "How come our food is taking so long?"
+      ],
+      "starter_pattern": "How come…?"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Paying the bill",
+      "native": "كيف أصبحت الفاتورة أعلى بكثير من المرة الماضية؟",
+      "references": [
+        "How come the bill is so much higher than last time?"
+      ],
+      "starter_pattern": "How come…?"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Ordering food",
+      "native": "ليست لديّ أي فكرة عمّا سأطلب، كل شيء يبدو لذيذًا.",
+      "references": [
+        "I have no idea what to order, everything looks so good."
+      ],
+      "starter_pattern": "I have no idea…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "Cooking at home",
+      "native": "ليست لديّ أي فكرة كم من الوقت يجب أن أطهو الدجاج.",
+      "references": [
+        "I have no idea how long to cook the chicken."
+      ],
+      "starter_pattern": "I have no idea…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Problems with the order",
+      "native": "ننتظر مشروباتنا منذ عشرين دقيقة.",
+      "references": [
+        "We have been waiting for our drinks for twenty minutes."
+      ],
+      "starter_pattern": "I have been…"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Drinks",
+      "native": "أشرب قهوة أقل هذه الأيام.",
+      "references": [
+        "I have been drinking less coffee lately."
+      ],
+      "starter_pattern": "I have been…"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Takeout and delivery",
+      "native": "لماذا لا نطلب طعامًا تايلانديًا الليلة؟",
+      "references": [
+        "Why not order some Thai food tonight?"
+      ],
+      "starter_pattern": "Why not…?"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Grocery shopping",
+      "native": "لماذا لا تشتري الكيس الأكبر إذا كان أرخص؟",
+      "references": [
+        "Why not buy the bigger bag if it's cheaper?"
+      ],
+      "starter_pattern": "Why not…?"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Ordering food",
+      "native": "يُقال إن حساءهم هو الأفضل في المدينة.",
+      "references": [
+        "It's said that their soup is the best in the city."
+      ],
+      "starter_pattern": "It's said that…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Drinks",
+      "native": "يُقال إن الشاي الأخضر مفيد للصحة.",
+      "references": [
+        "It's said that green tea is good for your health."
+      ],
+      "starter_pattern": "It's said that…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Takeout and delivery",
+      "native": "الذنب ذنبي لأنني طلبت كل هذا الطعام.",
+      "references": [
+        "It's my fault for ordering so much food."
+      ],
+      "starter_pattern": "It's my fault for…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Paying the bill",
+      "native": "الذنب ذنبي لأنني نسيت محفظتي في البيت.",
+      "references": [
+        "It's my fault for forgetting my wallet at home."
+      ],
+      "starter_pattern": "It's my fault for…"
+    }
+  ]
+}

@@ -1,0 +1,988 @@
+{
+  "name": "Phrasal verbs",
+  "source": "starter",
+  "native_lang": "fr",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "figure out",
+      "native": "Je n'arrive pas à comprendre comment marche cette machine.",
+      "references": [
+        "I can't figure out how this machine works."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "figure out",
+      "native": "On doit trouver un meilleur plan.",
+      "references": [
+        "We need to figure out a better plan."
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "run into",
+      "native": "Je suis tombé sur mon ancien professeur au supermarché.",
+      "references": [
+        "I ran into my old teacher at the supermarket."
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "run into",
+      "native": "On a eu quelques problèmes avec la voiture.",
+      "references": [
+        "We ran into some problems with the car."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "put up with",
+      "native": "Je ne supporte plus ce bruit.",
+      "references": [
+        "I can't put up with this noise anymore."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "put up with",
+      "native": "Elle encaisse beaucoup de choses au travail.",
+      "references": [
+        "She puts up with a lot at work."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "look forward to",
+      "native": "J'ai hâte de te revoir.",
+      "references": [
+        "I'm looking forward to seeing you again."
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "look forward to",
+      "native": "Dans l'attente de votre réponse.",
+      "references": [
+        "We look forward to hearing from you."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "give up",
+      "native": "N'abandonne pas, tu y es presque.",
+      "references": [
+        "Don't give up, you're almost there."
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "give up",
+      "native": "Il a enfin arrêté de fumer l'année dernière.",
+      "references": [
+        "He finally gave up smoking last year."
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "pick up",
+      "native": "Tu peux venir me chercher à l'aéroport ?",
+      "references": [
+        "Can you pick me up from the airport?"
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "pick up",
+      "native": "J'ai appris un peu d'espagnol pendant mon voyage.",
+      "references": [
+        "I picked up a little Spanish on my trip."
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "turn down",
+      "native": "Tu pourrais baisser la musique, s'il te plaît ?",
+      "references": [
+        "Could you turn down the music, please?"
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "turn down",
+      "native": "Elle a refusé l'offre d'emploi.",
+      "references": [
+        "She turned down the job offer."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "come up with",
+      "native": "On doit trouver une nouvelle idée.",
+      "references": [
+        "We need to come up with a new idea."
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "come up with",
+      "native": "Qui a eu l'idée de ce nom ?",
+      "references": [
+        "Who came up with this name?"
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "find out",
+      "native": "Je viens d'apprendre que le magasin est fermé.",
+      "references": [
+        "I just found out that the store is closed."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "find out",
+      "native": "Je vais me renseigner sur l'heure du départ du train.",
+      "references": [
+        "Let me find out what time the train leaves."
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "get along with",
+      "native": "Je m'entends bien avec mes voisins.",
+      "references": [
+        "I get along well with my neighbors."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "get along with",
+      "native": "Tu t'entends bien avec ton frère ?",
+      "references": [
+        "Do you get along with your brother?"
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "look after",
+      "native": "Tu pourrais garder mon chien ce week-end ?",
+      "references": [
+        "Could you look after my dog this weekend?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "look after",
+      "native": "Elle s'occupe de sa grand-mère tous les jours.",
+      "references": [
+        "She looks after her grandmother every day."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "look up",
+      "native": "Je vais chercher le mot dans le dictionnaire.",
+      "references": [
+        "I'll look up the word in the dictionary."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "look up",
+      "native": "Je vais chercher l'adresse sur mon téléphone.",
+      "references": [
+        "Let me look up the address on my phone."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "set up",
+      "native": "Tu peux m'aider à configurer mon nouvel ordinateur portable ?",
+      "references": [
+        "Can you help me set up my new laptop?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "set up",
+      "native": "Ils ont créé leur propre entreprise l'année dernière.",
+      "references": [
+        "They set up their own company last year."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "take off",
+      "native": "Enlève tes chaussures avant d'entrer, s'il te plaît.",
+      "references": [
+        "Please take off your shoes before you come in."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "take off",
+      "native": "Notre avion décolle à neuf heures du matin.",
+      "references": [
+        "Our plane takes off at nine in the morning."
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "show up",
+      "native": "Il ne s'est pas présenté à la réunion.",
+      "references": [
+        "He didn't show up for the meeting."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "show up",
+      "native": "Elle arrive toujours en retard en cours.",
+      "references": [
+        "She always shows up late to class."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "call off",
+      "native": "Ils ont annulé le match à cause de la pluie.",
+      "references": [
+        "They called off the game because of the rain."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "call off",
+      "native": "On a dû annuler le mariage.",
+      "references": [
+        "We had to call off the wedding."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "carry on",
+      "native": "Désolé de t'interrompre, continue, je t'en prie.",
+      "references": [
+        "Sorry for interrupting, please carry on."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "carry on",
+      "native": "On a continué à marcher jusqu'à la tombée de la nuit.",
+      "references": [
+        "We carried on walking until it got dark."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "check in",
+      "native": "On doit s'enregistrer à l'hôtel avant six heures.",
+      "references": [
+        "We need to check in at the hotel before six."
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "check in",
+      "native": "Tu peux t'enregistrer en ligne la veille de ton vol.",
+      "references": [
+        "You can check in online the day before your flight."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "check out",
+      "native": "Tu devrais aller voir ce nouveau restaurant.",
+      "references": [
+        "You should check out that new restaurant."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "check out",
+      "native": "À quelle heure doit-on quitter l'hôtel ?",
+      "references": [
+        "What time do we have to check out of the hotel?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "fill out",
+      "native": "Remplissez ce formulaire et signez-le, s'il vous plaît.",
+      "references": [
+        "Please fill out this form and sign it."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "fill out",
+      "native": "J'ai rempli la candidature hier soir.",
+      "references": [
+        "I filled out the application last night."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "get over",
+      "native": "J'ai mis des semaines à me remettre de la grippe.",
+      "references": [
+        "It took me weeks to get over the flu."
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "get over",
+      "native": "Il ne s'est toujours pas remis de la rupture.",
+      "references": [
+        "He still hasn't gotten over the breakup."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "go on",
+      "native": "Qu'est-ce qui se passe ici ?",
+      "references": [
+        "What's going on here?"
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "go on",
+      "native": "Continue, je t'écoute.",
+      "references": [
+        "Please go on, I'm listening."
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "hang out",
+      "native": "Tu veux qu'on se voie ce week-end ?",
+      "references": [
+        "Do you want to hang out this weekend?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "hang out",
+      "native": "On traînait au parc après l'école.",
+      "references": [
+        "We used to hang out at the park after school."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "hold on",
+      "native": "Attends une seconde, je reviens tout de suite.",
+      "references": [
+        "Hold on a second, I'll be right back."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "hold on",
+      "native": "Tiens-toi bien, la route est pleine de bosses.",
+      "references": [
+        "Hold on tight, the road is bumpy."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "keep up with",
+      "native": "C'est difficile de suivre toutes les actualités.",
+      "references": [
+        "It's hard to keep up with all the news."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "keep up with",
+      "native": "Ralentis, je n'arrive pas à te suivre.",
+      "references": [
+        "Slow down, I can't keep up with you."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "let down",
+      "native": "Je te promets que je ne te décevrai pas.",
+      "references": [
+        "I promise I won't let you down."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "let down",
+      "native": "J'ai vraiment été déçu par la fin du film.",
+      "references": [
+        "I felt really let down by the ending of the movie."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "look into",
+      "native": "La responsable a dit qu'elle allait se pencher sur le problème.",
+      "references": [
+        "The manager said she would look into the problem."
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "look into",
+      "native": "On envisage d'acheter une nouvelle voiture.",
+      "references": [
+        "We're looking into buying a new car."
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "make up",
+      "native": "Il a inventé une excuse pour son retard.",
+      "references": [
+        "He made up an excuse for being late."
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "make up",
+      "native": "Ils se sont disputés, mais ils se sont réconciliés le lendemain.",
+      "references": [
+        "They had a fight, but they made up the next day."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "point out",
+      "native": "Merci d'avoir relevé mon erreur.",
+      "references": [
+        "Thanks for pointing out my mistake."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "point out",
+      "native": "Elle a fait remarquer que le magasin était fermé le dimanche.",
+      "references": [
+        "She pointed out that the store was closed on Sundays."
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "put off",
+      "native": "Arrête de remettre tes devoirs à plus tard.",
+      "references": [
+        "Stop putting off your homework."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "put off",
+      "native": "On a reporté le voyage à l'été prochain.",
+      "references": [
+        "We put off the trip until next summer."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "run out of",
+      "native": "On n'a de nouveau plus de lait.",
+      "references": [
+        "We have run out of milk again."
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "run out of",
+      "native": "Je manque de temps, je dois me dépêcher.",
+      "references": [
+        "I'm running out of time, I need to hurry."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "sort out",
+      "native": "Ne t'inquiète pas, on réglera ça demain.",
+      "references": [
+        "Don't worry, we'll sort it out tomorrow."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "sort out",
+      "native": "Je dois mettre de l'ordre dans mes papiers avant de partir.",
+      "references": [
+        "I need to sort out my papers before I travel."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "take care of",
+      "native": "Tu peux t'occuper des enfants ce soir ?",
+      "references": [
+        "Can you take care of the kids tonight?"
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "take care of",
+      "native": "Je m'occupe de l'addition.",
+      "references": [
+        "I'll take care of the bill."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "throw away",
+      "native": "Ne jette pas cette boîte, j'en ai encore besoin.",
+      "references": [
+        "Don't throw away that box, I still need it."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "throw away",
+      "native": "J'ai jeté tous mes vieux vêtements.",
+      "references": [
+        "I threw away all my old clothes."
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "turn up",
+      "native": "Tu pourrais monter un peu le volume ?",
+      "references": [
+        "Could you turn up the volume a little?"
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "turn up",
+      "native": "Mes clés perdues ont refait surface dans la poche de ma veste.",
+      "references": [
+        "My lost keys turned up in my jacket pocket."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "work out",
+      "native": "Je fais du sport à la salle trois fois par semaine.",
+      "references": [
+        "I work out at the gym three times a week."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "work out",
+      "native": "Ne t'inquiète pas, tout va bien se passer.",
+      "references": [
+        "Don't worry, everything will work out fine."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "break down",
+      "native": "Notre voiture est tombée en panne sur l'autoroute.",
+      "references": [
+        "Our car broke down on the highway."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "break down",
+      "native": "Elle a fondu en larmes en apprenant la nouvelle.",
+      "references": [
+        "She broke down in tears when she heard the news."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "bring up",
+      "native": "S'il te plaît, n'aborde pas la politique au dîner.",
+      "references": [
+        "Please don't bring up politics at dinner."
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "bring up",
+      "native": "Elle a été élevée par ses grands-parents.",
+      "references": [
+        "She was brought up by her grandparents."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "calm down",
+      "native": "Calme-toi, ce n'est pas grave.",
+      "references": [
+        "Calm down, it's not a big deal."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "calm down",
+      "native": "Le bébé a mis une heure à se calmer.",
+      "references": [
+        "It took the baby an hour to calm down."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "catch up",
+      "native": "Prenons un café bientôt pour se raconter les nouvelles.",
+      "references": [
+        "Let's get coffee and catch up soon."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "catch up",
+      "native": "J'ai manqué une semaine de cours et je dois rattraper mon retard.",
+      "references": [
+        "I missed a week of class and need to catch up."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "cheer up",
+      "native": "Courage, demain sera un meilleur jour.",
+      "references": [
+        "Cheer up, tomorrow will be a better day."
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "cheer up",
+      "native": "Cette chanson me remonte toujours le moral.",
+      "references": [
+        "This song always cheers me up."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "drop off",
+      "native": "Tu peux me déposer à la gare ?",
+      "references": [
+        "Can you drop me off at the station?"
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "drop off",
+      "native": "J'ai déposé le colis à la poste.",
+      "references": [
+        "I dropped off the package at the post office."
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "end up",
+      "native": "On a fini par rester à la maison tout le week-end.",
+      "references": [
+        "We ended up staying at home all weekend."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "end up",
+      "native": "Si tu continues comme ça, tu vas finir par te blesser.",
+      "references": [
+        "If you keep doing that, you'll end up hurt."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "get back",
+      "native": "Quand est-ce que tu es rentré de voyage ?",
+      "references": [
+        "When did you get back from your trip?"
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "get back",
+      "native": "Je reviens vers toi d'ici la fin de la semaine.",
+      "references": [
+        "I'll get back to you by the end of the week."
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "go over",
+      "native": "Revoyons le plan encore une fois.",
+      "references": [
+        "Let's go over the plan one more time."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "go over",
+      "native": "Tu pourrais relire ma dissertation avant que je la rende ?",
+      "references": [
+        "Could you go over my essay before I hand it in?"
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "grow up",
+      "native": "J'ai grandi dans une petite ville au bord de la mer.",
+      "references": [
+        "I grew up in a small town by the sea."
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "grow up",
+      "native": "Qu'est-ce que tu veux faire quand tu seras grand ?",
+      "references": [
+        "What do you want to be when you grow up?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "pass out",
+      "native": "Il faisait tellement chaud qu'un homme s'est évanoui dans le train.",
+      "references": [
+        "It was so hot that a man passed out on the train."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "pass out",
+      "native": "La professeure a distribué les examens à neuf heures.",
+      "references": [
+        "The teacher passed out the exams at nine."
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "slow down",
+      "native": "Ralentis, s'il te plaît, tu conduis trop vite.",
+      "references": [
+        "Please slow down, you're driving too fast."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "slow down",
+      "native": "Le médecin m'a dit de lever le pied et de me reposer.",
+      "references": [
+        "The doctor told me to slow down and rest."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "try on",
+      "native": "Je peux essayer ces chaussures dans une pointure au-dessus ?",
+      "references": [
+        "Can I try on these shoes in a bigger size?"
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "try on",
+      "native": "Elle a essayé cinq robes avant d'en choisir une.",
+      "references": [
+        "She tried on five dresses before she chose one."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "wake up",
+      "native": "D'habitude, je me réveille à six heures et demie.",
+      "references": [
+        "I usually wake up at six thirty."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "wake up",
+      "native": "Réveille-moi avant de partir, s'il te plaît.",
+      "references": [
+        "Please wake me up before you leave."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "show up",
+      "native": "Je ne peux pas m'empêcher de m'inquiéter quand tu arrives en retard.",
+      "references": [
+        "I can't help worrying when you show up late."
+      ],
+      "starter_pattern": "I can't help…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "make up",
+      "native": "Je ne peux pas m'empêcher de rire quand il invente des histoires idiotes.",
+      "references": [
+        "I can't help laughing when he makes up silly stories."
+      ],
+      "starter_pattern": "I can't help…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "work out",
+      "native": "Plus tu fais de sport, plus tu auras d'énergie.",
+      "references": [
+        "The more you work out, the more energy you'll have."
+      ],
+      "starter_pattern": "The more… the more…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "put off",
+      "native": "Plus je repousse mes devoirs, plus je suis stressé.",
+      "references": [
+        "The more I put off my homework, the more stressed I get."
+      ],
+      "starter_pattern": "The more… the more…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "give up",
+      "native": "Sans toi, j'aurais abandonné.",
+      "references": [
+        "If it hadn't been for you, I'd have given up."
+      ],
+      "starter_pattern": "If it hadn't been for…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "figure out",
+      "native": "Sans ma mère, je n'aurais jamais compris.",
+      "references": [
+        "If it hadn't been for my mom, I wouldn't have figured it out."
+      ],
+      "starter_pattern": "If it hadn't been for…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "throw away",
+      "native": "Comment oses-tu jeter mes lettres !",
+      "references": [
+        "How dare you throw away my letters!"
+      ],
+      "starter_pattern": "How dare you…!"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "bring up",
+      "native": "Comment oses-tu parler de mon ex au dîner !",
+      "references": [
+        "How dare you bring up my ex at dinner!"
+      ],
+      "starter_pattern": "How dare you…!"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "call off",
+      "native": "On a annulé le voyage, mais ça ne veut pas dire qu'on ne peut pas y aller l'année prochaine.",
+      "references": [
+        "We called off the trip, but this doesn't mean that we can't go next year."
+      ],
+      "starter_pattern": "But this doesn't mean that…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "grow up",
+      "native": "Elle a grandi à Paris, mais ça ne veut pas dire qu'elle parle français.",
+      "references": [
+        "She grew up in Paris, but this doesn't mean that she speaks French."
+      ],
+      "starter_pattern": "But this doesn't mean that…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "get over",
+      "native": "Combien de temps faut-il pour se remettre d'un rhume ?",
+      "references": [
+        "How long does it take to get over a cold?"
+      ],
+      "starter_pattern": "How long does it take…?"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "set up",
+      "native": "Combien de temps faut-il pour installer la nouvelle imprimante ?",
+      "references": [
+        "How long does it take to set up the new printer?"
+      ],
+      "starter_pattern": "How long does it take…?"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "wake up",
+      "native": "Ça va peut-être te surprendre, mais je me réveille à cinq heures tous les jours.",
+      "references": [
+        "It may surprise you, but I wake up at five every day."
+      ],
+      "starter_pattern": "It may surprise you, but…"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "get along with",
+      "native": "Ça va peut-être te surprendre, mais je m'entends bien avec mon patron maintenant.",
+      "references": [
+        "It may surprise you, but I get along with my boss now."
+      ],
+      "starter_pattern": "It may surprise you, but…"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "show up",
+      "native": "On est arrivés au restaurant pour découvrir qu'il était fermé.",
+      "references": [
+        "We showed up at the restaurant only to find it was closed."
+      ],
+      "starter_pattern": "… only to find…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "look up",
+      "native": "J'ai cherché l'adresse pour découvrir qu'elle était fausse.",
+      "references": [
+        "I looked up the address only to find it was wrong."
+      ],
+      "starter_pattern": "… only to find…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "hang out",
+      "native": "Et si on se retrouvait chez moi ce soir ?",
+      "references": [
+        "How about we hang out at my place tonight?"
+      ],
+      "starter_pattern": "How about…?"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "check out",
+      "native": "Et si on allait voir ce nouveau café ?",
+      "references": [
+        "How about checking out that new cafe?"
+      ],
+      "starter_pattern": "How about…?"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "break down",
+      "native": "Qu'est-ce que tu ferais si ta voiture tombait en panne la nuit ?",
+      "references": [
+        "What would you do if your car broke down at night?"
+      ],
+      "starter_pattern": "What would you do if…?"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "run out of",
+      "native": "Qu'est-ce que tu ferais si tu te retrouvais sans argent à l'étranger ?",
+      "references": [
+        "What would you do if you ran out of money abroad?"
+      ],
+      "starter_pattern": "What would you do if…?"
+    }
+  ]
+}

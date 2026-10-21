@@ -1,0 +1,988 @@
+{
+  "name": "Work & meetings",
+  "source": "starter",
+  "native_lang": "zh",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "Starting a meeting",
+      "native": "大家早上好，我们开始吧。",
+      "references": [
+        "Good morning everyone, let's get started."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "Starting a meeting",
+      "native": "谢谢大家今天参加电话会议。",
+      "references": [
+        "Thanks for joining the call today."
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Starting a meeting",
+      "native": "人都到齐了吗，还是我们在等谁？",
+      "references": [
+        "Is everyone here, or are we waiting for someone?"
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Starting a meeting",
+      "native": "这次会议的主要目的是规划产品发布。",
+      "references": [
+        "The main goal of this meeting is to plan the launch."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "Starting a meeting",
+      "native": "我们轮流快速汇报一下进展吧。",
+      "references": [
+        "Let's go around and give a quick update."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "Starting a meeting",
+      "native": "今天的议程上有三件事。",
+      "references": [
+        "We have three things on the agenda today."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Starting a meeting",
+      "native": "大家能看到我的屏幕吗？",
+      "references": [
+        "Can everyone see my screen?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Starting a meeting",
+      "native": "这次会议我会尽量简短。",
+      "references": [
+        "I'll keep this meeting short."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "Starting a meeting",
+      "native": "今天谁愿意做会议记录？",
+      "references": [
+        "Who would like to take notes today?"
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "Starting a meeting",
+      "native": "开始之前，大家有什么问题吗？",
+      "references": [
+        "Before we begin, are there any questions?"
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "Giving updates",
+      "native": "我昨天下午把报告写完了。",
+      "references": [
+        "I finished the report yesterday afternoon."
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "Giving updates",
+      "native": "我们还在做新的设计。",
+      "references": [
+        "We're still working on the new design."
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "Giving updates",
+      "native": "项目按计划能在下周五完成。",
+      "references": [
+        "The project is on track for next Friday."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "Giving updates",
+      "native": "我们的服务器出了点问题。",
+      "references": [
+        "We ran into a problem with the server."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "Giving updates",
+      "native": "测试我大概做了一半。",
+      "references": [
+        "I'm about halfway through the testing."
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "Giving updates",
+      "native": "这个月销售额增长了百分之十。",
+      "references": [
+        "Sales went up by ten percent this month."
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Giving updates",
+      "native": "我在等客户的反馈。",
+      "references": [
+        "I'm waiting for feedback from the client."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Giving updates",
+      "native": "这周我这边没有什么新进展。",
+      "references": [
+        "There's nothing new on my side this week."
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "Giving updates",
+      "native": "我们的进度有点落后。",
+      "references": [
+        "We're a little behind schedule."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "Giving updates",
+      "native": "好消息是那个漏洞已经修好了。",
+      "references": [
+        "The good news is that the bug is fixed."
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Asking for clarification",
+      "native": "你能再详细解释一下吗？",
+      "references": [
+        "Could you explain that in more detail?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Asking for clarification",
+      "native": "你这么说具体是什么意思？",
+      "references": [
+        "What exactly do you mean by that?"
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Asking for clarification",
+      "native": "我确认一下，截止日期是周一吗？",
+      "references": [
+        "Just to be clear, the deadline is Monday?"
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Asking for clarification",
+      "native": "你能给我举个例子吗？",
+      "references": [
+        "Could you give me an example?"
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "Asking for clarification",
+      "native": "不好意思，我错过了最后一部分。",
+      "references": [
+        "Sorry, I missed the last part."
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "Asking for clarification",
+      "native": "这项任务由谁负责？",
+      "references": [
+        "Who's responsible for this task?"
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Asking for clarification",
+      "native": "所以如果我没理解错的话，我们需要更多时间。",
+      "references": [
+        "So if I understand correctly, we need more time."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Asking for clarification",
+      "native": "你能把这个用书面形式发给我吗？",
+      "references": [
+        "Could you send that to me in writing?"
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Asking for clarification",
+      "native": "这个项目的预算是多少？",
+      "references": [
+        "What's the budget for this project?"
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Asking for clarification",
+      "native": "这对我们团队有什么影响？",
+      "references": [
+        "How does this affect our team?"
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Polite opinions",
+      "native": "我认为我们应该再等一等。",
+      "references": [
+        "In my opinion, we should wait a little longer."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Polite opinions",
+      "native": "我明白你的观点，但我有不同的想法。",
+      "references": [
+        "I see your point, but I have a different idea."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Polite opinions",
+      "native": "恐怕我不同意那个计划。",
+      "references": [
+        "I'm afraid I don't agree with that plan."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Polite opinions",
+      "native": "这个主意太好了，我们试试吧。",
+      "references": [
+        "That's a great idea, let's try it."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Polite opinions",
+      "native": "我们考虑过成本吗？",
+      "references": [
+        "Have we thought about the costs?"
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Polite opinions",
+      "native": "我建议我们先问问客户。",
+      "references": [
+        "I'd suggest we ask the client first."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "Polite opinions",
+      "native": "我觉得我们漏掉了什么。",
+      "references": [
+        "I think we're missing something here."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "Polite opinions",
+      "native": "我们能换个角度来看这个问题吗？",
+      "references": [
+        "Could we look at this from another angle?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Polite opinions",
+      "native": "这件事上我同意莎拉的看法。",
+      "references": [
+        "I'm with Sarah on this one."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Polite opinions",
+      "native": "这也许可行，但有点冒险。",
+      "references": [
+        "That might work, but it's a little risky."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Scheduling",
+      "native": "你周四上午有空吗？",
+      "references": [
+        "Are you available on Thursday morning?"
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Scheduling",
+      "native": "我们能把电话会议改到下周吗？",
+      "references": [
+        "Can we reschedule our call to next week?"
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Scheduling",
+      "native": "我给你发个日历邀请。",
+      "references": [
+        "I'll send you a calendar invite."
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Scheduling",
+      "native": "三点钟你方便吗？",
+      "references": [
+        "Does three o'clock work for you?"
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Scheduling",
+      "native": "我今天日程排满了，明天怎么样？",
+      "references": [
+        "I'm fully booked today, how about tomorrow?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Scheduling",
+      "native": "我们安排一次后续会议吧。",
+      "references": [
+        "Let's set up a follow-up meeting."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Scheduling",
+      "native": "不好意思，那个时间我有别的安排。",
+      "references": [
+        "Sorry, I have a conflict at that time."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Scheduling",
+      "native": "会议改到五号会议室了。",
+      "references": [
+        "The meeting has been moved to room five."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "Scheduling",
+      "native": "你觉得会议要开多久？",
+      "references": [
+        "How long do you think the meeting will take?"
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "Scheduling",
+      "native": "下周一我不在办公室。",
+      "references": [
+        "I'll be out of the office next Monday."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "Calls and video",
+      "native": "你能听清我说话吗？",
+      "references": [
+        "Can you hear me okay?"
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "Calls and video",
+      "native": "不好意思，你开了静音。",
+      "references": [
+        "Sorry, you're on mute."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Calls and video",
+      "native": "你的视频卡住了，能关掉再打开吗？",
+      "references": [
+        "Your video is frozen, could you turn it off and on?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Calls and video",
+      "native": "我觉得刚才断线了一秒。",
+      "references": [
+        "I think we lost the connection for a second."
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Calls and video",
+      "native": "请大家把麦克风静音，好吗？",
+      "references": [
+        "Could everyone mute their microphones, please?"
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Calls and video",
+      "native": "你那边背景噪音很大。",
+      "references": [
+        "There's a lot of background noise on your side."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Calls and video",
+      "native": "我现在来共享我的屏幕。",
+      "references": [
+        "I'm going to share my screen now."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Calls and video",
+      "native": "我五分钟后给你回电话。",
+      "references": [
+        "Let me call you back in five minutes."
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Calls and video",
+      "native": "不好意思，我这边有点技术问题。",
+      "references": [
+        "Sorry, I'm having some technical problems."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Calls and video",
+      "native": "你能把链接发到聊天里吗？",
+      "references": [
+        "Can you drop the link in the chat?"
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Job interviews",
+      "native": "谢谢您邀请我来面试。",
+      "references": [
+        "Thank you for inviting me to this interview."
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Job interviews",
+      "native": "我有五年的市场营销经验。",
+      "references": [
+        "I have five years of experience in marketing."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Job interviews",
+      "native": "我最大的优势是解决问题。",
+      "references": [
+        "My biggest strength is solving problems."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Job interviews",
+      "native": "我在寻找新的挑战。",
+      "references": [
+        "I'm looking for a new challenge."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Job interviews",
+      "native": "我既能独立工作，也能很好地团队合作。",
+      "references": [
+        "I work well both alone and in a team."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Job interviews",
+      "native": "你为什么离开上一份工作？",
+      "references": [
+        "Why did you leave your last job?"
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "Job interviews",
+      "native": "你觉得五年后的自己会是什么样？",
+      "references": [
+        "Where do you see yourself in five years?"
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "Job interviews",
+      "native": "这个职位典型的一天是什么样的？",
+      "references": [
+        "What does a typical day look like in this role?"
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Job interviews",
+      "native": "你什么时候可以入职？",
+      "references": [
+        "When can you start?"
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Job interviews",
+      "native": "我大概什么时候能收到你们的回复？",
+      "references": [
+        "When can I expect to hear back from you?"
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Asking colleagues for help",
+      "native": "你有空帮我看一下这个吗？",
+      "references": [
+        "Do you have a minute to look at this?"
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Asking colleagues for help",
+      "native": "你能帮我弄一下这个电子表格吗？",
+      "references": [
+        "Could you help me with this spreadsheet?"
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Asking colleagues for help",
+      "native": "我卡在这个问题上了，你有什么想法吗？",
+      "references": [
+        "I'm stuck on this problem, any ideas?"
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Asking colleagues for help",
+      "native": "我发邮件之前，你介意帮我看一下吗？",
+      "references": [
+        "Would you mind reviewing my email before I send it?"
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Asking colleagues for help",
+      "native": "这个问题我应该找谁谈？",
+      "references": [
+        "Who should I talk to about this issue?"
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Asking colleagues for help",
+      "native": "你能教我这个工具怎么用吗？",
+      "references": [
+        "Can you show me how this tool works?"
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "Asking colleagues for help",
+      "native": "周五你能帮我顶一下班吗？",
+      "references": [
+        "Could you cover for me on Friday?"
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "Asking colleagues for help",
+      "native": "如果需要我做什么，告诉我一声。",
+      "references": [
+        "Let me know if you need anything from me."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Asking colleagues for help",
+      "native": "我欠你一个人情，谢谢你的帮忙。",
+      "references": [
+        "I owe you one, thanks for your help."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Asking colleagues for help",
+      "native": "有问题随时问我。",
+      "references": [
+        "Feel free to ask me if you have questions."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "Deadlines and tasks",
+      "native": "这个项目的截止日期是什么时候？",
+      "references": [
+        "When is the deadline for this project?"
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "Deadlines and tasks",
+      "native": "我今天下班前需要这份报告。",
+      "references": [
+        "I need this report by the end of the day."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "Deadlines and tasks",
+      "native": "我周三之前会准备好。",
+      "references": [
+        "I'll have it ready by Wednesday."
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "Deadlines and tasks",
+      "native": "我能再多要几天来完成这个吗？",
+      "references": [
+        "Could I get a few more days to finish this?"
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "Deadlines and tasks",
+      "native": "这是我们目前的头等大事。",
+      "references": [
+        "This is our top priority right now."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "Deadlines and tasks",
+      "native": "如果有什么变化，请告诉我。",
+      "references": [
+        "Please let me know if anything changes."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Deadlines and tasks",
+      "native": "我正在做。",
+      "references": [
+        "I'm working on it as we speak."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Deadlines and tasks",
+      "native": "我们能把截止日期推迟一周吗？",
+      "references": [
+        "Can we push the deadline back a week?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "Deadlines and tasks",
+      "native": "对不起，我赶不上截止日期了。",
+      "references": [
+        "I'm sorry, I won't make the deadline."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "Deadlines and tasks",
+      "native": "我刚把最终版本发给你了。",
+      "references": [
+        "I just sent you the final version."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "Closing a meeting",
+      "native": "我们就到这里吧。",
+      "references": [
+        "Let's wrap up here."
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "Closing a meeting",
+      "native": "总结一下，我们达成了三点共识。",
+      "references": [
+        "To sum up, we agreed on three things."
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Closing a meeting",
+      "native": "会后我会给大家发一份总结。",
+      "references": [
+        "I'll send everyone a summary after the call."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Closing a meeting",
+      "native": "还有最后的问题吗？",
+      "references": [
+        "Are there any final questions?"
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Closing a meeting",
+      "native": "谢谢大家，今天收获很大。",
+      "references": [
+        "Thanks everyone, this was really helpful."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Closing a meeting",
+      "native": "我们下周同一时间再开会吧。",
+      "references": [
+        "Let's meet again at the same time next week."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "Closing a meeting",
+      "native": "所以下一步是和客户沟通。",
+      "references": [
+        "So the next step is to talk to the client."
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "Closing a meeting",
+      "native": "我觉得今天的内容都讲完了。",
+      "references": [
+        "I think we covered everything for today."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "Closing a meeting",
+      "native": "请在周五之前把你们的反馈发给我。",
+      "references": [
+        "Please send me your feedback by Friday."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "Closing a meeting",
+      "native": "祝大家今天剩下的时间愉快。",
+      "references": [
+        "Have a great rest of your day, everyone."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Scheduling",
+      "native": "不知道我们能不能把会议改到周五。",
+      "references": [
+        "I wonder if we could move the meeting to Friday."
+      ],
+      "starter_pattern": "I wonder if…?"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Asking colleagues for help",
+      "native": "不知道你能不能帮我看看这份报告。",
+      "references": [
+        "I wonder if you could help me with this report."
+      ],
+      "starter_pattern": "I wonder if…?"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Polite opinions",
+      "native": "我敢说客户会喜欢新设计的。",
+      "references": [
+        "I dare say the client will like the new design."
+      ],
+      "starter_pattern": "I dare say…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Giving updates",
+      "native": "我敢说我们会提前完成。",
+      "references": [
+        "I dare say we'll finish ahead of schedule."
+      ],
+      "starter_pattern": "I dare say…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Job interviews",
+      "native": "谢谢您抽时间和我见面。",
+      "references": [
+        "Thank you for taking the time to meet with me."
+      ],
+      "starter_pattern": "Thank you for…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "Closing a meeting",
+      "native": "谢谢大家这周的辛苦付出。",
+      "references": [
+        "Thank you for all your hard work this week."
+      ],
+      "starter_pattern": "Thank you for…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Job interviews",
+      "native": "你以前管理过团队吗？",
+      "references": [
+        "Have you ever managed a team before?"
+      ],
+      "starter_pattern": "Have you ever…?"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Calls and video",
+      "native": "你以前用过这个视频软件吗？",
+      "references": [
+        "Have you ever used this video app before?"
+      ],
+      "starter_pattern": "Have you ever…?"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Giving updates",
+      "native": "我迫不及待想给你们看看新版本。",
+      "references": [
+        "I can't wait to show you the new version."
+      ],
+      "starter_pattern": "I cannot wait to…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Starting a meeting",
+      "native": "我迫不及待想听听大家今天的想法。",
+      "references": [
+        "I can't wait to hear your ideas today."
+      ],
+      "starter_pattern": "I cannot wait to…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Deadlines and tasks",
+      "native": "你们不许把这些数据透露给团队以外的人。",
+      "references": [
+        "You're not to share these numbers outside the team."
+      ],
+      "starter_pattern": "You are not to…"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "Calls and video",
+      "native": "未经允许，你们不许录这次通话。",
+      "references": [
+        "You're not to record this call without permission."
+      ],
+      "starter_pattern": "You are not to…"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Calls and video",
+      "native": "我的麦克风今天怎么了？",
+      "references": [
+        "What's the matter with my microphone today?"
+      ],
+      "starter_pattern": "What's the matter with…?"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Asking colleagues for help",
+      "native": "打印机怎么又出问题了？",
+      "references": [
+        "What's the matter with the printer again?"
+      ],
+      "starter_pattern": "What's the matter with…?"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Polite opinions",
+      "native": "我想说的是，我们需要更多时间。",
+      "references": [
+        "What I'm trying to say is that we need more time."
+      ],
+      "starter_pattern": "What I'm trying to say is…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Asking for clarification",
+      "native": "我想说的是，预算太少了。",
+      "references": [
+        "What I'm trying to say is that the budget is too small."
+      ],
+      "starter_pattern": "What I'm trying to say is…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Job interviews",
+      "native": "我很喜欢能学到新东西的工作。",
+      "references": [
+        "I really go for jobs where I can learn new things."
+      ],
+      "starter_pattern": "I really go for…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Polite opinions",
+      "native": "我很喜欢像这样简洁的设计。",
+      "references": [
+        "I really go for simple designs like this one."
+      ],
+      "starter_pattern": "I really go for…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Giving updates",
+      "native": "和上个月相比，销售额好多了。",
+      "references": [
+        "Compared to last month, sales are much better."
+      ],
+      "starter_pattern": "Compared to…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "Deadlines and tasks",
+      "native": "和上一个项目相比，这次的截止日期很紧。",
+      "references": [
+        "Compared to the last project, this deadline is very tight."
+      ],
+      "starter_pattern": "Compared to…"
+    }
+  ]
+}

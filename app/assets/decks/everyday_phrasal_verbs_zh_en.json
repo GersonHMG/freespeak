@@ -1,0 +1,988 @@
+{
+  "name": "Phrasal verbs",
+  "source": "starter",
+  "native_lang": "zh",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "figure out",
+      "native": "我搞不懂这台机器是怎么运作的。",
+      "references": [
+        "I can't figure out how this machine works."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "figure out",
+      "native": "我们得想出一个更好的计划。",
+      "references": [
+        "We need to figure out a better plan."
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "run into",
+      "native": "我在超市碰到了我以前的老师。",
+      "references": [
+        "I ran into my old teacher at the supermarket."
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "run into",
+      "native": "我们的车出了点问题。",
+      "references": [
+        "We ran into some problems with the car."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "put up with",
+      "native": "我再也受不了这个噪音了。",
+      "references": [
+        "I can't put up with this noise anymore."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "put up with",
+      "native": "她在工作中忍受了很多。",
+      "references": [
+        "She puts up with a lot at work."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "look forward to",
+      "native": "我很期待再见到你。",
+      "references": [
+        "I'm looking forward to seeing you again."
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "look forward to",
+      "native": "我们期待您的回复。",
+      "references": [
+        "We look forward to hearing from you."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "give up",
+      "native": "别放弃，你快成功了。",
+      "references": [
+        "Don't give up, you're almost there."
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "give up",
+      "native": "他去年终于戒烟了。",
+      "references": [
+        "He finally gave up smoking last year."
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "pick up",
+      "native": "你能来机场接我吗？",
+      "references": [
+        "Can you pick me up from the airport?"
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "pick up",
+      "native": "我在旅行中学会了一点西班牙语。",
+      "references": [
+        "I picked up a little Spanish on my trip."
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "turn down",
+      "native": "你能把音乐关小一点吗？",
+      "references": [
+        "Could you turn down the music, please?"
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "turn down",
+      "native": "她拒绝了那份工作邀请。",
+      "references": [
+        "She turned down the job offer."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "come up with",
+      "native": "我们需要想出一个新点子。",
+      "references": [
+        "We need to come up with a new idea."
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "come up with",
+      "native": "这个名字是谁想出来的？",
+      "references": [
+        "Who came up with this name?"
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "find out",
+      "native": "我刚发现那家店关门了。",
+      "references": [
+        "I just found out that the store is closed."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "find out",
+      "native": "我查一下火车几点开。",
+      "references": [
+        "Let me find out what time the train leaves."
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "get along with",
+      "native": "我和邻居们相处得很好。",
+      "references": [
+        "I get along well with my neighbors."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "get along with",
+      "native": "你和你哥哥相处得好吗？",
+      "references": [
+        "Do you get along with your brother?"
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "look after",
+      "native": "这个周末你能帮我照看一下狗吗？",
+      "references": [
+        "Could you look after my dog this weekend?"
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "look after",
+      "native": "她每天照顾她的奶奶。",
+      "references": [
+        "She looks after her grandmother every day."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "look up",
+      "native": "我会在词典里查这个词。",
+      "references": [
+        "I'll look up the word in the dictionary."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "look up",
+      "native": "我用手机查一下地址。",
+      "references": [
+        "Let me look up the address on my phone."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "set up",
+      "native": "你能帮我设置一下我的新笔记本电脑吗？",
+      "references": [
+        "Can you help me set up my new laptop?"
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "set up",
+      "native": "他们去年创办了自己的公司。",
+      "references": [
+        "They set up their own company last year."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "take off",
+      "native": "进来之前请把鞋脱掉。",
+      "references": [
+        "Please take off your shoes before you come in."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "take off",
+      "native": "我们的飞机早上九点起飞。",
+      "references": [
+        "Our plane takes off at nine in the morning."
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "show up",
+      "native": "他没来参加会议。",
+      "references": [
+        "He didn't show up for the meeting."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "show up",
+      "native": "她上课总是迟到。",
+      "references": [
+        "She always shows up late to class."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "call off",
+      "native": "因为下雨，他们取消了比赛。",
+      "references": [
+        "They called off the game because of the rain."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "call off",
+      "native": "我们不得不取消了婚礼。",
+      "references": [
+        "We had to call off the wedding."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "carry on",
+      "native": "抱歉打断你，请继续。",
+      "references": [
+        "Sorry for interrupting, please carry on."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "carry on",
+      "native": "我们一直走到天黑。",
+      "references": [
+        "We carried on walking until it got dark."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "check in",
+      "native": "我们得在六点前到酒店办理入住。",
+      "references": [
+        "We need to check in at the hotel before six."
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "check in",
+      "native": "你可以在航班前一天在线值机。",
+      "references": [
+        "You can check in online the day before your flight."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "check out",
+      "native": "你应该去试试那家新餐厅。",
+      "references": [
+        "You should check out that new restaurant."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "check out",
+      "native": "我们几点得从酒店退房？",
+      "references": [
+        "What time do we have to check out of the hotel?"
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "fill out",
+      "native": "请填写这张表格并签名。",
+      "references": [
+        "Please fill out this form and sign it."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "fill out",
+      "native": "我昨晚填好了申请表。",
+      "references": [
+        "I filled out the application last night."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "get over",
+      "native": "我花了好几个星期才从流感中恢复过来。",
+      "references": [
+        "It took me weeks to get over the flu."
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "get over",
+      "native": "他还没走出分手的阴影。",
+      "references": [
+        "He still hasn't gotten over the breakup."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "go on",
+      "native": "这里发生什么事了？",
+      "references": [
+        "What's going on here?"
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "go on",
+      "native": "请继续说，我在听。",
+      "references": [
+        "Please go on, I'm listening."
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "hang out",
+      "native": "这个周末想一起出去玩吗？",
+      "references": [
+        "Do you want to hang out this weekend?"
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "hang out",
+      "native": "我们以前放学后常在公园里玩。",
+      "references": [
+        "We used to hang out at the park after school."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "hold on",
+      "native": "等一下，我马上回来。",
+      "references": [
+        "Hold on a second, I'll be right back."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "hold on",
+      "native": "抓紧了，这路很颠。",
+      "references": [
+        "Hold on tight, the road is bumpy."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "keep up with",
+      "native": "要跟上所有新闻很难。",
+      "references": [
+        "It's hard to keep up with all the news."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "keep up with",
+      "native": "慢一点，我跟不上你了。",
+      "references": [
+        "Slow down, I can't keep up with you."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "let down",
+      "native": "我保证不会让你失望。",
+      "references": [
+        "I promise I won't let you down."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "let down",
+      "native": "这部电影的结局让我很失望。",
+      "references": [
+        "I felt really let down by the ending of the movie."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "look into",
+      "native": "经理说她会调查这个问题。",
+      "references": [
+        "The manager said she would look into the problem."
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "look into",
+      "native": "我们正在考虑买一辆新车。",
+      "references": [
+        "We're looking into buying a new car."
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "make up",
+      "native": "他编了个借口来解释迟到。",
+      "references": [
+        "He made up an excuse for being late."
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "make up",
+      "native": "他们吵了一架，但第二天就和好了。",
+      "references": [
+        "They had a fight, but they made up the next day."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "point out",
+      "native": "谢谢你指出我的错误。",
+      "references": [
+        "Thanks for pointing out my mistake."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "point out",
+      "native": "她指出那家店星期天不开门。",
+      "references": [
+        "She pointed out that the store was closed on Sundays."
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "put off",
+      "native": "别再拖着不写作业了。",
+      "references": [
+        "Stop putting off your homework."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "put off",
+      "native": "我们把旅行推迟到了明年夏天。",
+      "references": [
+        "We put off the trip until next summer."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "run out of",
+      "native": "我们的牛奶又喝完了。",
+      "references": [
+        "We have run out of milk again."
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "run out of",
+      "native": "我时间快不够了，得抓紧。",
+      "references": [
+        "I'm running out of time, I need to hurry."
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "sort out",
+      "native": "别担心，我们明天再解决。",
+      "references": [
+        "Don't worry, we'll sort it out tomorrow."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "sort out",
+      "native": "出门旅行前我得整理一下我的文件。",
+      "references": [
+        "I need to sort out my papers before I travel."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "take care of",
+      "native": "今晚你能照顾一下孩子们吗？",
+      "references": [
+        "Can you take care of the kids tonight?"
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "take care of",
+      "native": "账单我来付。",
+      "references": [
+        "I'll take care of the bill."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "throw away",
+      "native": "别把那个盒子扔了，我还要用。",
+      "references": [
+        "Don't throw away that box, I still need it."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "throw away",
+      "native": "我把旧衣服全扔了。",
+      "references": [
+        "I threw away all my old clothes."
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "turn up",
+      "native": "你能把音量调大一点吗？",
+      "references": [
+        "Could you turn up the volume a little?"
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "turn up",
+      "native": "我丢的钥匙在夹克口袋里找到了。",
+      "references": [
+        "My lost keys turned up in my jacket pocket."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "work out",
+      "native": "我每周去健身房锻炼三次。",
+      "references": [
+        "I work out at the gym three times a week."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "work out",
+      "native": "别担心，一切都会好起来的。",
+      "references": [
+        "Don't worry, everything will work out fine."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "break down",
+      "native": "我们的车在高速公路上抛锚了。",
+      "references": [
+        "Our car broke down on the highway."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "break down",
+      "native": "她听到消息后哭了出来。",
+      "references": [
+        "She broke down in tears when she heard the news."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "bring up",
+      "native": "吃饭的时候请别提政治。",
+      "references": [
+        "Please don't bring up politics at dinner."
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "bring up",
+      "native": "她是爷爷奶奶带大的。",
+      "references": [
+        "She was brought up by her grandparents."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "calm down",
+      "native": "冷静点，这没什么大不了的。",
+      "references": [
+        "Calm down, it's not a big deal."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "calm down",
+      "native": "宝宝过了一个小时才安静下来。",
+      "references": [
+        "It took the baby an hour to calm down."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "catch up",
+      "native": "我们找时间喝杯咖啡聊聊近况吧。",
+      "references": [
+        "Let's get coffee and catch up soon."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "catch up",
+      "native": "我缺了一周的课，得把进度补上。",
+      "references": [
+        "I missed a week of class and need to catch up."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "cheer up",
+      "native": "开心点，明天会更好。",
+      "references": [
+        "Cheer up, tomorrow will be a better day."
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "cheer up",
+      "native": "这首歌总能让我开心起来。",
+      "references": [
+        "This song always cheers me up."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "drop off",
+      "native": "你能顺路把我放在车站吗？",
+      "references": [
+        "Can you drop me off at the station?"
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "drop off",
+      "native": "我把包裹送到邮局了。",
+      "references": [
+        "I dropped off the package at the post office."
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "end up",
+      "native": "结果我们整个周末都待在家里。",
+      "references": [
+        "We ended up staying at home all weekend."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "end up",
+      "native": "你再这样下去，最后会受伤的。",
+      "references": [
+        "If you keep doing that, you'll end up hurt."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "get back",
+      "native": "你旅行什么时候回来的？",
+      "references": [
+        "When did you get back from your trip?"
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "get back",
+      "native": "我这周末之前回复你。",
+      "references": [
+        "I'll get back to you by the end of the week."
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "go over",
+      "native": "我们再把计划过一遍吧。",
+      "references": [
+        "Let's go over the plan one more time."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "go over",
+      "native": "我交论文之前你能帮我看一遍吗？",
+      "references": [
+        "Could you go over my essay before I hand it in?"
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "grow up",
+      "native": "我在海边的一个小镇长大。",
+      "references": [
+        "I grew up in a small town by the sea."
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "grow up",
+      "native": "你长大以后想做什么？",
+      "references": [
+        "What do you want to be when you grow up?"
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "pass out",
+      "native": "天太热了，有个男人在火车上晕倒了。",
+      "references": [
+        "It was so hot that a man passed out on the train."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "pass out",
+      "native": "老师九点发了试卷。",
+      "references": [
+        "The teacher passed out the exams at nine."
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "slow down",
+      "native": "请开慢一点，你开得太快了。",
+      "references": [
+        "Please slow down, you're driving too fast."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "slow down",
+      "native": "医生让我放慢节奏，好好休息。",
+      "references": [
+        "The doctor told me to slow down and rest."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "try on",
+      "native": "这双鞋我能试大一号的吗？",
+      "references": [
+        "Can I try on these shoes in a bigger size?"
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "try on",
+      "native": "她试了五条裙子才选定一条。",
+      "references": [
+        "She tried on five dresses before she chose one."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "wake up",
+      "native": "我通常六点半起床。",
+      "references": [
+        "I usually wake up at six thirty."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "wake up",
+      "native": "你走之前请叫醒我。",
+      "references": [
+        "Please wake me up before you leave."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "show up",
+      "native": "你一迟到，我就忍不住担心。",
+      "references": [
+        "I can't help worrying when you show up late."
+      ],
+      "starter_pattern": "I can't help…"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "make up",
+      "native": "他一编那些傻故事，我就忍不住笑。",
+      "references": [
+        "I can't help laughing when he makes up silly stories."
+      ],
+      "starter_pattern": "I can't help…"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "work out",
+      "native": "你锻炼得越多，精力就越充沛。",
+      "references": [
+        "The more you work out, the more energy you'll have."
+      ],
+      "starter_pattern": "The more… the more…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "put off",
+      "native": "我越拖着作业不做，压力就越大。",
+      "references": [
+        "The more I put off my homework, the more stressed I get."
+      ],
+      "starter_pattern": "The more… the more…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "give up",
+      "native": "要不是因为你，我早就放弃了。",
+      "references": [
+        "If it hadn't been for you, I'd have given up."
+      ],
+      "starter_pattern": "If it hadn't been for…"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "figure out",
+      "native": "要不是我妈，我根本想不出来。",
+      "references": [
+        "If it hadn't been for my mom, I wouldn't have figured it out."
+      ],
+      "starter_pattern": "If it hadn't been for…"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "throw away",
+      "native": "你竟敢把我的信扔掉！",
+      "references": [
+        "How dare you throw away my letters!"
+      ],
+      "starter_pattern": "How dare you…!"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "bring up",
+      "native": "你竟敢在吃饭的时候提我前任！",
+      "references": [
+        "How dare you bring up my ex at dinner!"
+      ],
+      "starter_pattern": "How dare you…!"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "call off",
+      "native": "我们取消了这次旅行，但这并不意味着明年不能去。",
+      "references": [
+        "We called off the trip, but this doesn't mean that we can't go next year."
+      ],
+      "starter_pattern": "But this doesn't mean that…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "grow up",
+      "native": "她在巴黎长大，但这并不意味着她会说法语。",
+      "references": [
+        "She grew up in Paris, but this doesn't mean that she speaks French."
+      ],
+      "starter_pattern": "But this doesn't mean that…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "get over",
+      "native": "感冒要多久才能好？",
+      "references": [
+        "How long does it take to get over a cold?"
+      ],
+      "starter_pattern": "How long does it take…?"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "set up",
+      "native": "设置新打印机要多长时间？",
+      "references": [
+        "How long does it take to set up the new printer?"
+      ],
+      "starter_pattern": "How long does it take…?"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "wake up",
+      "native": "说出来你可能会惊讶，我每天五点起床。",
+      "references": [
+        "It may surprise you, but I wake up at five every day."
+      ],
+      "starter_pattern": "It may surprise you, but…"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "get along with",
+      "native": "说出来你可能会惊讶，我现在和老板相处得很好。",
+      "references": [
+        "It may surprise you, but I get along with my boss now."
+      ],
+      "starter_pattern": "It may surprise you, but…"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "show up",
+      "native": "我们到了餐厅，结果发现它关门了。",
+      "references": [
+        "We showed up at the restaurant only to find it was closed."
+      ],
+      "starter_pattern": "… only to find…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "look up",
+      "native": "我查了地址，结果发现是错的。",
+      "references": [
+        "I looked up the address only to find it was wrong."
+      ],
+      "starter_pattern": "… only to find…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "hang out",
+      "native": "今晚来我家玩怎么样？",
+      "references": [
+        "How about we hang out at my place tonight?"
+      ],
+      "starter_pattern": "How about…?"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "check out",
+      "native": "去那家新咖啡馆看看怎么样？",
+      "references": [
+        "How about checking out that new cafe?"
+      ],
+      "starter_pattern": "How about…?"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "break down",
+      "native": "如果你的车半夜抛锚了，你会怎么办？",
+      "references": [
+        "What would you do if your car broke down at night?"
+      ],
+      "starter_pattern": "What would you do if…?"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "run out of",
+      "native": "如果你在国外没钱了，你会怎么办？",
+      "references": [
+        "What would you do if you ran out of money abroad?"
+      ],
+      "starter_pattern": "What would you do if…?"
+    }
+  ]
+}

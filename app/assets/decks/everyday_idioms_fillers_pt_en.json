@@ -1,0 +1,988 @@
+{
+  "name": "Idioms & fillers",
+  "source": "starter",
+  "native_lang": "pt",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "No worries",
+      "native": "Sem problemas, posso esperar mais alguns minutos.",
+      "references": [
+        "No worries, I can wait a few more minutes."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "No worries",
+      "native": "Tranquilo, a gente pode fazer amanhã.",
+      "references": [
+        "No worries at all, we can do it tomorrow."
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Fair enough",
+      "native": "Justo, você passou o dia inteiro trabalhando.",
+      "references": [
+        "Fair enough, you have been working all day."
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Fair enough",
+      "native": "Se você estiver cansado demais para vir, tudo bem.",
+      "references": [
+        "If you're too tired to come, fair enough."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "I'm on it",
+      "native": "O relatório está atrasado? Beleza, já estou cuidando disso.",
+      "references": [
+        "The report is late? Okay, I'm on it."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "I'm on it",
+      "native": "Não se preocupa com a louça, deixa comigo.",
+      "references": [
+        "Don't worry about the dishes, I'm on it."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Kind of",
+      "native": "Estou meio com fome, e você?",
+      "references": [
+        "I'm kind of hungry, are you?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Kind of",
+      "native": "O filme foi meio chato, para ser sincero.",
+      "references": [
+        "The movie was kind of boring, to be honest."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "To be honest",
+      "native": "Para ser sincero, não gostei da comida.",
+      "references": [
+        "To be honest, I didn't like the food."
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "To be honest",
+      "native": "Para ser sincero, esqueci completamente.",
+      "references": [
+        "To be honest, I forgot all about it."
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "By the way",
+      "native": "Aliás, sua irmã ligou hoje de manhã.",
+      "references": [
+        "By the way, your sister called this morning."
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "By the way",
+      "native": "Aliás, você recebeu meu e-mail?",
+      "references": [
+        "By the way, did you get my email?"
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "You know what",
+      "native": "Quer saber? Vamos só pedir uma pizza.",
+      "references": [
+        "You know what, let's just order pizza."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "You know what",
+      "native": "Quer saber? Acho que você tem razão.",
+      "references": [
+        "You know what, I think you're right."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "I mean",
+      "native": "Eu gosto, quer dizer, não é perfeito.",
+      "references": [
+        "I like it, I mean, it's not perfect."
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "I mean",
+      "native": "É longe, quer dizer, muito longe.",
+      "references": [
+        "It's far away, I mean, really far."
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Anyway",
+      "native": "Enfim, chega de falar de mim.",
+      "references": [
+        "Anyway, that's enough about me."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Anyway",
+      "native": "Enfim, eu já devia ir.",
+      "references": [
+        "Anyway, I should get going now."
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "It's up to you",
+      "native": "Pizza ou macarrão? Você que sabe.",
+      "references": [
+        "Pizza or pasta? It's up to you."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "It's up to you",
+      "native": "Podemos ir agora ou mais tarde, você que sabe.",
+      "references": [
+        "We can leave now or later, it's up to you."
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Never mind",
+      "native": "Deixa pra lá, achei minhas chaves.",
+      "references": [
+        "Never mind, I found my keys."
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Never mind",
+      "native": "Ah, deixa pra lá, não é importante.",
+      "references": [
+        "Oh, never mind, it's not important."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Sounds good",
+      "native": "Almoço ao meio-dia? Por mim, tudo bem.",
+      "references": [
+        "Lunch at noon? Sounds good to me."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Sounds good",
+      "native": "Parece bom, vamos nessa.",
+      "references": [
+        "That sounds good, let's do it."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "I'll keep that in mind",
+      "native": "Obrigado pelo conselho, vou levar isso em conta.",
+      "references": [
+        "Thanks for the advice, I'll keep that in mind."
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "I'll keep that in mind",
+      "native": "A loja fecha cedo aos domingos, leve isso em conta.",
+      "references": [
+        "The store closes early on Sundays, keep that in mind."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Piece of cake",
+      "native": "A prova foi moleza.",
+      "references": [
+        "The exam was a piece of cake."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Piece of cake",
+      "native": "Não se preocupa, consertar isso é moleza.",
+      "references": [
+        "Don't worry, fixing this is a piece of cake."
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Break the ice",
+      "native": "Ele contou uma piada para quebrar o gelo.",
+      "references": [
+        "He told a joke to break the ice."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Break the ice",
+      "native": "Jogos são uma boa forma de quebrar o gelo nas festas.",
+      "references": [
+        "Games are a good way to break the ice at parties."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Under the weather",
+      "native": "Hoje estou meio indisposto.",
+      "references": [
+        "I'm feeling a bit under the weather today."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Under the weather",
+      "native": "Ela ficou em casa porque estava meio indisposta.",
+      "references": [
+        "She stayed home because she was under the weather."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Hit the road",
+      "native": "Está ficando tarde, a gente devia pegar a estrada.",
+      "references": [
+        "It's getting late, we should hit the road."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Hit the road",
+      "native": "Pegamos a estrada cedo para fugir do trânsito.",
+      "references": [
+        "We hit the road early to avoid the traffic."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Call it a day",
+      "native": "Estamos todos cansados, vamos encerrar por hoje.",
+      "references": [
+        "We're all tired, let's call it a day."
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Call it a day",
+      "native": "Terminei meu trabalho, então vou encerrar por hoje.",
+      "references": [
+        "I finished my work, so I'm calling it a day."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "On the same page",
+      "native": "Vamos garantir que todo mundo está alinhado.",
+      "references": [
+        "Let's make sure we're all on the same page."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "On the same page",
+      "native": "Acho que não estamos alinhados sobre isso.",
+      "references": [
+        "I don't think we're on the same page about this."
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Better late than never",
+      "native": "Você finalmente chegou, antes tarde do que nunca.",
+      "references": [
+        "You finally arrived, better late than never."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Better late than never",
+      "native": "Comecei a aprender inglês aos cinquenta, antes tarde do que nunca.",
+      "references": [
+        "I started learning English at fifty, better late than never."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Cost an arm and a leg",
+      "native": "Aquele celular novo custa os olhos da cara.",
+      "references": [
+        "That new phone costs an arm and a leg."
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Cost an arm and a leg",
+      "native": "Consertar o telhado custou os olhos da cara.",
+      "references": [
+        "Fixing the roof cost us an arm and a leg."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Once in a blue moon",
+      "native": "Só como fast food uma vez na vida, outra na morte.",
+      "references": [
+        "I only eat fast food once in a blue moon."
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Once in a blue moon",
+      "native": "Ele liga para os pais muito de vez em quando.",
+      "references": [
+        "He calls his parents once in a blue moon."
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Get the hang of",
+      "native": "Dirigir é difícil no começo, mas você vai pegar o jeito.",
+      "references": [
+        "Driving is hard at first, but you'll get the hang of it."
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Get the hang of",
+      "native": "Finalmente estou pegando o jeito deste jogo.",
+      "references": [
+        "I'm finally getting the hang of this game."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Sleep on it",
+      "native": "Você não precisa decidir agora, pensa com calma até amanhã.",
+      "references": [
+        "You don't have to decide now, sleep on it."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Sleep on it",
+      "native": "Deixa eu pensar com calma e te digo amanhã.",
+      "references": [
+        "Let me sleep on it and tell you tomorrow."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "The last straw",
+      "native": "Ele se atrasou de novo, e essa foi a gota d'água.",
+      "references": [
+        "He was late again, and that was the last straw."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "The last straw",
+      "native": "Perder as chaves foi a gota d'água hoje.",
+      "references": [
+        "Losing my keys was the last straw today."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "In the same boat",
+      "native": "Não se preocupa, estamos todos no mesmo barco.",
+      "references": [
+        "Don't worry, we're all in the same boat."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "In the same boat",
+      "native": "Eu também perdi o emprego, então estamos no mesmo barco.",
+      "references": [
+        "I lost my job too, so we're in the same boat."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Keep an eye on",
+      "native": "Pode ficar de olho na minha bolsa por um minuto?",
+      "references": [
+        "Could you keep an eye on my bag for a minute?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Keep an eye on",
+      "native": "Fica de olho nas crianças enquanto eu cozinho.",
+      "references": [
+        "Keep an eye on the kids while I cook."
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Make up your mind",
+      "native": "Anda logo e decide.",
+      "references": [
+        "Hurry up and make up your mind."
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Make up your mind",
+      "native": "Não consigo me decidir sobre qual comprar.",
+      "references": [
+        "I can't make up my mind about which one to buy."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Out of the blue",
+      "native": "Meu velho amigo me ligou do nada.",
+      "references": [
+        "My old friend called me out of the blue."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Out of the blue",
+      "native": "A ideia surgiu do nada.",
+      "references": [
+        "The idea came to me out of the blue."
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Take it easy",
+      "native": "Vai com calma, você tem trabalhado demais.",
+      "references": [
+        "Take it easy, you have been working too hard."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Take it easy",
+      "native": "Neste fim de semana vamos só relaxar.",
+      "references": [
+        "We're just going to take it easy this weekend."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Ring a bell",
+      "native": "O nome dele não me é estranho, mas não lembro dele.",
+      "references": [
+        "His name rings a bell, but I can't remember him."
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Ring a bell",
+      "native": "Essa música te lembra alguma coisa?",
+      "references": [
+        "Does this song ring a bell?"
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Speak of the devil",
+      "native": "Falando no diabo, lá vem o Tom.",
+      "references": [
+        "Speak of the devil, here comes Tom now."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Speak of the devil",
+      "native": "A gente estava falando de você agora mesmo, falando no diabo.",
+      "references": [
+        "We were just talking about you, speak of the devil."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Beat around the bush",
+      "native": "Para de enrolar e me fala a verdade.",
+      "references": [
+        "Stop beating around the bush and tell me the truth."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Beat around the bush",
+      "native": "Ele nunca enrola, é muito direto.",
+      "references": [
+        "He never beats around the bush, he's very direct."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "A blessing in disguise",
+      "native": "Perder aquele ônibus foi uma bênção disfarçada.",
+      "references": [
+        "Missing that bus was a blessing in disguise."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "A blessing in disguise",
+      "native": "Perder aquele emprego foi uma bênção disfarçada.",
+      "references": [
+        "Losing that job was a blessing in disguise."
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Cut corners",
+      "native": "Se você fizer nas coxas, o trabalho não vai durar.",
+      "references": [
+        "If you cut corners, the work won't last."
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Cut corners",
+      "native": "Não podemos economizar na segurança.",
+      "references": [
+        "We can't cut corners on safety."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Easier said than done",
+      "native": "Só relaxar? Falar é fácil, fazer é que é difícil.",
+      "references": [
+        "Just relax? That's easier said than done."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Easier said than done",
+      "native": "Economizar dinheiro é mais fácil falar do que fazer.",
+      "references": [
+        "Saving money is easier said than done."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Get out of hand",
+      "native": "A festa saiu do controle depois da meia-noite.",
+      "references": [
+        "The party got out of hand after midnight."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Get out of hand",
+      "native": "Não deixa o problema sair do controle.",
+      "references": [
+        "Don't let the problem get out of hand."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Hang in there",
+      "native": "Aguenta firme, as provas estão quase acabando.",
+      "references": [
+        "Hang in there, the exams are almost over."
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Hang in there",
+      "native": "Eu sei que é difícil, mas aguenta firme.",
+      "references": [
+        "I know it's hard, but hang in there."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "It's not rocket science",
+      "native": "Ah, qual é, não é nenhum bicho de sete cabeças.",
+      "references": [
+        "Come on, it's not rocket science."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "It's not rocket science",
+      "native": "Cozinhar arroz não é nenhum bicho de sete cabeças.",
+      "references": [
+        "Cooking rice isn't rocket science."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Let it slide",
+      "native": "Você se atrasou de novo, mas desta vez vou deixar passar.",
+      "references": [
+        "You're late again, but I'll let it slide this time."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Let it slide",
+      "native": "Foi um erro pequeno, então deixei passar.",
+      "references": [
+        "It was a small mistake, so I let it slide."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "My bad",
+      "native": "Ah, era o seu lugar? Foi mal.",
+      "references": [
+        "Oh, that was your seat? My bad."
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "My bad",
+      "native": "Foi mal, mandei o e-mail para a pessoa errada.",
+      "references": [
+        "My bad, I sent the email to the wrong person."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "No big deal",
+      "native": "Você esqueceu? Não tem problema.",
+      "references": [
+        "You forgot? It's no big deal."
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "No big deal",
+      "native": "Perder o jogo não foi nada demais.",
+      "references": [
+        "Losing the game was no big deal."
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "On second thought",
+      "native": "Pensando bem, vou querer a sopa.",
+      "references": [
+        "On second thought, I'll have the soup."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "On second thought",
+      "native": "Pensando bem, vamos ficar em casa hoje à noite.",
+      "references": [
+        "On second thought, let's stay home tonight."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Pull someone's leg",
+      "native": "Relaxa, só estou te zoando.",
+      "references": [
+        "Relax, I'm just pulling your leg."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Pull someone's leg",
+      "native": "Você está falando sério ou está me zoando?",
+      "references": [
+        "Are you serious or are you pulling my leg?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "So far so good",
+      "native": "Como está o emprego novo? Até agora, tudo bem.",
+      "references": [
+        "How is the new job? So far so good."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "So far so good",
+      "native": "A viagem está ótima; até agora, tudo bem.",
+      "references": [
+        "The trip has been great so far, so good."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "That makes two of us",
+      "native": "Você está cansado? Somos dois.",
+      "references": [
+        "You're tired? That makes two of us."
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "That makes two of us",
+      "native": "Você também não entende? Somos dois.",
+      "references": [
+        "You don't understand it either? That makes two of us."
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Tell me about it",
+      "native": "Esse trânsito está horrível. Nem me fala.",
+      "references": [
+        "This traffic is terrible. Tell me about it."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Tell me about it",
+      "native": "Está muito quente hoje. Nem me fala.",
+      "references": [
+        "It's so hot today. Tell me about it."
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Up in the air",
+      "native": "Nossos planos para o verão ainda estão no ar.",
+      "references": [
+        "Our plans for the summer are still up in the air."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Up in the air",
+      "native": "A data da reunião ainda está no ar.",
+      "references": [
+        "The date of the meeting is still up in the air."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "What a small world",
+      "native": "Você conhece meu primo? O mundo é pequeno.",
+      "references": [
+        "You know my cousin? What a small world."
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "What a small world",
+      "native": "A gente estudou na mesma escola? O mundo é pequeno.",
+      "references": [
+        "We went to the same school? What a small world."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "You can say that again",
+      "native": "Este café está incrível. Falou tudo.",
+      "references": [
+        "This coffee is amazing. You can say that again."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "You can say that again",
+      "native": "A prova foi muito difícil. Falou tudo.",
+      "references": [
+        "The test was really hard. You can say that again."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Beat around the bush",
+      "native": "Por que você está enrolando?",
+      "references": [
+        "What are you beating around the bush for?"
+      ],
+      "starter_pattern": "What… for?"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Take it easy",
+      "native": "Por que você está tão estressado? Vai com calma.",
+      "references": [
+        "What are you so stressed for? Take it easy."
+      ],
+      "starter_pattern": "What… for?"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Pull someone's leg",
+      "native": "Ou ele está te zoando, ou está falando sério.",
+      "references": [
+        "He's either pulling your leg or he's serious."
+      ],
+      "starter_pattern": "He is either… or…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Call it a day",
+      "native": "Ou a gente encerra por hoje, ou trabalha a noite toda.",
+      "references": [
+        "Either we call it a day or we work all night."
+      ],
+      "starter_pattern": "He is either… or…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Under the weather",
+      "native": "Você parece indisposto, o que posso fazer por você?",
+      "references": [
+        "You look under the weather, what can I do for you?"
+      ],
+      "starter_pattern": "What can I do for…?"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "No worries",
+      "native": "Sem problemas, o que posso fazer por você hoje?",
+      "references": [
+        "No worries, what can I do for you today?"
+      ],
+      "starter_pattern": "What can I do for…?"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Keep an eye on",
+      "native": "Eu queria que você ficasse de olho nas crianças.",
+      "references": [
+        "I'd like you to keep an eye on the kids."
+      ],
+      "starter_pattern": "I'd like you to…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Sleep on it",
+      "native": "Eu queria que você pensasse com calma antes de decidir.",
+      "references": [
+        "I'd like you to sleep on it before you decide."
+      ],
+      "starter_pattern": "I'd like you to…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Cost an arm and a leg",
+      "native": "Por um lado custa os olhos da cara, por outro lado dura para sempre.",
+      "references": [
+        "On one hand it costs an arm and a leg, on the other hand it lasts forever."
+      ],
+      "starter_pattern": "On one hand… on the other hand…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Up in the air",
+      "native": "Por um lado eu quero ir, por outro lado nossos planos ainda estão no ar.",
+      "references": [
+        "On one hand I want to go, on the other hand our plans are still up in the air."
+      ],
+      "starter_pattern": "On one hand… on the other hand…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Make up your mind",
+      "native": "Por favor, decida o quanto antes.",
+      "references": [
+        "Please make up your mind as soon as possible."
+      ],
+      "starter_pattern": "… as… as possible"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "On the same page",
+      "native": "Vamos nos alinhar o mais rápido possível.",
+      "references": [
+        "Let's get on the same page as quickly as possible."
+      ],
+      "starter_pattern": "… as… as possible"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Call it a day",
+      "native": "Que tal a gente encerrar por hoje?",
+      "references": [
+        "What do you say we call it a day?"
+      ],
+      "starter_pattern": "What do you say…?"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Hit the road",
+      "native": "Que tal a gente pegar a estrada cedo amanhã?",
+      "references": [
+        "What do you say we hit the road early tomorrow?"
+      ],
+      "starter_pattern": "What do you say…?"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Get the hang of",
+      "native": "Depois que você pega o jeito, é moleza.",
+      "references": [
+        "Once you get the hang of it, it's a piece of cake."
+      ],
+      "starter_pattern": "Once you…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Break the ice",
+      "native": "Depois que você quebra o gelo, o resto é fácil.",
+      "references": [
+        "Once you break the ice, the rest is easy."
+      ],
+      "starter_pattern": "Once you…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Piece of cake",
+      "native": "Aposto que a prova vai ser moleza.",
+      "references": [
+        "I bet the test will be a piece of cake."
+      ],
+      "starter_pattern": "I bet…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Ring a bell",
+      "native": "Aposto que o nome dele vai te lembrar alguma coisa.",
+      "references": [
+        "I bet his name will ring a bell."
+      ],
+      "starter_pattern": "I bet…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Cut corners",
+      "native": "Cansei de gente que faz as coisas nas coxas.",
+      "references": [
+        "I've had enough of people cutting corners."
+      ],
+      "starter_pattern": "I've had enough of…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "The last straw",
+      "native": "Cansei disso, foi a gota d'água.",
+      "references": [
+        "I've had enough of this, it's the last straw."
+      ],
+      "starter_pattern": "I've had enough of…"
+    }
+  ]
+}

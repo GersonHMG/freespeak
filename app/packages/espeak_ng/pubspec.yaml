@@ -1,0 +1,33 @@
+name: espeak_ng
+description: >-
+  eSpeak-NG as a phonemizer for lingo_node: the native library, the data files
+  it reads, and the thin FFI needed to turn a word into IPA. Nothing else.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.13.2
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  ffi: ^2.2.0
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      # No platform channel and no plugin class: the Dart side talks to the
+      # native library directly, so all Flutter has to do is build and bundle
+      # it. `ffiPlugin` is what says so.
+      android:
+        ffiPlugin: true
+      ios:
+        ffiPlugin: true
+
+  assets:
+    - assets/espeak_ng_data.zip

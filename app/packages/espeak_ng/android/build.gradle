@@ -1,0 +1,55 @@
+// Builds libespeak-ng.so and nothing else. No Kotlin, no plugin class: this
+// is an FFI-only plugin, so Gradle's whole job is to compile the C in
+// ../third_party and let Flutter bundle the result.
+group = 'dev.lingonode.espeak_ng'
+version = '1.0'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.11.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    namespace = 'dev.lingonode.espeak_ng'
+    compileSdk = 36
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    defaultConfig {
+        minSdk = 24
+        externalNativeBuild {
+            cmake {
+                arguments '-DANDROID_STL=c++_shared'
+            }
+        }
+        // Matches what the app already ships for onnxruntime and vosk.
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86_64'
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path 'src/main/CMakeLists.txt'
+            // Version omitted so AGP uses the SDK's own CMake. CMakeLists
+            // needs 3.18+; every SDK-bundled CMake satisfies that.
+        }
+    }
+}

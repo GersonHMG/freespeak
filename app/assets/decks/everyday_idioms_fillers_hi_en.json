@@ -1,0 +1,988 @@
+{
+  "name": "Idioms & fillers",
+  "source": "starter",
+  "native_lang": "hi",
+  "target_lang": "en",
+  "notes": [
+    {
+      "source_ref": "1",
+      "pattern": "No worries",
+      "native": "कोई बात नहीं, मैं कुछ मिनट और इंतज़ार कर सकता हूँ।",
+      "references": [
+        "No worries, I can wait a few more minutes."
+      ]
+    },
+    {
+      "source_ref": "2",
+      "pattern": "No worries",
+      "native": "बिल्कुल कोई बात नहीं, हम यह कल कर सकते हैं।",
+      "references": [
+        "No worries at all, we can do it tomorrow."
+      ]
+    },
+    {
+      "source_ref": "3",
+      "pattern": "Fair enough",
+      "native": "ठीक है, तुम पूरे दिन से काम कर रहे हो।",
+      "references": [
+        "Fair enough, you have been working all day."
+      ]
+    },
+    {
+      "source_ref": "4",
+      "pattern": "Fair enough",
+      "native": "अगर तुम आने के लिए बहुत थके हो, तो कोई बात नहीं।",
+      "references": [
+        "If you're too tired to come, fair enough."
+      ]
+    },
+    {
+      "source_ref": "5",
+      "pattern": "I'm on it",
+      "native": "रिपोर्ट लेट है? ठीक है, मैं देखता हूँ।",
+      "references": [
+        "The report is late? Okay, I'm on it."
+      ]
+    },
+    {
+      "source_ref": "6",
+      "pattern": "I'm on it",
+      "native": "बर्तनों की चिंता मत करो, मैं संभाल लूँगा।",
+      "references": [
+        "Don't worry about the dishes, I'm on it."
+      ]
+    },
+    {
+      "source_ref": "7",
+      "pattern": "Kind of",
+      "native": "मुझे थोड़ी-थोड़ी भूख लगी है, तुम्हें?",
+      "references": [
+        "I'm kind of hungry, are you?"
+      ]
+    },
+    {
+      "source_ref": "8",
+      "pattern": "Kind of",
+      "native": "सच कहूँ तो फ़िल्म थोड़ी बोरिंग थी।",
+      "references": [
+        "The movie was kind of boring, to be honest."
+      ]
+    },
+    {
+      "source_ref": "9",
+      "pattern": "To be honest",
+      "native": "सच कहूँ तो मुझे खाना अच्छा नहीं लगा।",
+      "references": [
+        "To be honest, I didn't like the food."
+      ]
+    },
+    {
+      "source_ref": "10",
+      "pattern": "To be honest",
+      "native": "सच कहूँ तो मैं बिल्कुल भूल गया।",
+      "references": [
+        "To be honest, I forgot all about it."
+      ]
+    },
+    {
+      "source_ref": "11",
+      "pattern": "By the way",
+      "native": "वैसे, आज सुबह तुम्हारी बहन का फ़ोन आया था।",
+      "references": [
+        "By the way, your sister called this morning."
+      ]
+    },
+    {
+      "source_ref": "12",
+      "pattern": "By the way",
+      "native": "वैसे, क्या तुम्हें मेरा ईमेल मिला?",
+      "references": [
+        "By the way, did you get my email?"
+      ]
+    },
+    {
+      "source_ref": "13",
+      "pattern": "You know what",
+      "native": "पता है क्या, चलो बस पिज़्ज़ा मँगा लेते हैं।",
+      "references": [
+        "You know what, let's just order pizza."
+      ]
+    },
+    {
+      "source_ref": "14",
+      "pattern": "You know what",
+      "native": "पता है क्या, मुझे लगता है तुम सही हो।",
+      "references": [
+        "You know what, I think you're right."
+      ]
+    },
+    {
+      "source_ref": "15",
+      "pattern": "I mean",
+      "native": "मुझे पसंद है, मेरा मतलब, यह परफ़ेक्ट नहीं है।",
+      "references": [
+        "I like it, I mean, it's not perfect."
+      ]
+    },
+    {
+      "source_ref": "16",
+      "pattern": "I mean",
+      "native": "वह दूर है, मेरा मतलब, बहुत दूर।",
+      "references": [
+        "It's far away, I mean, really far."
+      ]
+    },
+    {
+      "source_ref": "17",
+      "pattern": "Anyway",
+      "native": "ख़ैर, मेरे बारे में इतना काफ़ी है।",
+      "references": [
+        "Anyway, that's enough about me."
+      ]
+    },
+    {
+      "source_ref": "18",
+      "pattern": "Anyway",
+      "native": "ख़ैर, अब मुझे चलना चाहिए।",
+      "references": [
+        "Anyway, I should get going now."
+      ]
+    },
+    {
+      "source_ref": "19",
+      "pattern": "It's up to you",
+      "native": "पिज़्ज़ा या पास्ता? तुम पर है।",
+      "references": [
+        "Pizza or pasta? It's up to you."
+      ]
+    },
+    {
+      "source_ref": "20",
+      "pattern": "It's up to you",
+      "native": "हम अभी निकल सकते हैं या बाद में, तुम पर है।",
+      "references": [
+        "We can leave now or later, it's up to you."
+      ]
+    },
+    {
+      "source_ref": "21",
+      "pattern": "Never mind",
+      "native": "छोड़ो, मुझे मेरी चाबियाँ मिल गईं।",
+      "references": [
+        "Never mind, I found my keys."
+      ]
+    },
+    {
+      "source_ref": "22",
+      "pattern": "Never mind",
+      "native": "अरे, छोड़ो, यह ज़रूरी नहीं है।",
+      "references": [
+        "Oh, never mind, it's not important."
+      ]
+    },
+    {
+      "source_ref": "23",
+      "pattern": "Sounds good",
+      "native": "दोपहर बारह बजे लंच? मेरे लिए ठीक है।",
+      "references": [
+        "Lunch at noon? Sounds good to me."
+      ]
+    },
+    {
+      "source_ref": "24",
+      "pattern": "Sounds good",
+      "native": "अच्छा लग रहा है, चलो ऐसा करते हैं।",
+      "references": [
+        "That sounds good, let's do it."
+      ]
+    },
+    {
+      "source_ref": "25",
+      "pattern": "I'll keep that in mind",
+      "native": "सलाह के लिए शुक्रिया, मैं इसे ध्यान में रखूँगा।",
+      "references": [
+        "Thanks for the advice, I'll keep that in mind."
+      ]
+    },
+    {
+      "source_ref": "26",
+      "pattern": "I'll keep that in mind",
+      "native": "दुकान रविवार को जल्दी बंद होती है, यह ध्यान में रखना।",
+      "references": [
+        "The store closes early on Sundays, keep that in mind."
+      ]
+    },
+    {
+      "source_ref": "27",
+      "pattern": "Piece of cake",
+      "native": "परीक्षा तो बाएँ हाथ का खेल थी।",
+      "references": [
+        "The exam was a piece of cake."
+      ]
+    },
+    {
+      "source_ref": "28",
+      "pattern": "Piece of cake",
+      "native": "चिंता मत करो, इसे ठीक करना बाएँ हाथ का खेल है।",
+      "references": [
+        "Don't worry, fixing this is a piece of cake."
+      ]
+    },
+    {
+      "source_ref": "29",
+      "pattern": "Break the ice",
+      "native": "उसने माहौल हल्का करने के लिए एक चुटकुला सुनाया।",
+      "references": [
+        "He told a joke to break the ice."
+      ]
+    },
+    {
+      "source_ref": "30",
+      "pattern": "Break the ice",
+      "native": "पार्टियों में झिझक तोड़ने के लिए गेम अच्छा तरीक़ा हैं।",
+      "references": [
+        "Games are a good way to break the ice at parties."
+      ]
+    },
+    {
+      "source_ref": "31",
+      "pattern": "Under the weather",
+      "native": "आज मेरी तबीयत थोड़ी ठीक नहीं है।",
+      "references": [
+        "I'm feeling a bit under the weather today."
+      ]
+    },
+    {
+      "source_ref": "32",
+      "pattern": "Under the weather",
+      "native": "वह घर पर रही क्योंकि उसकी तबीयत ठीक नहीं थी।",
+      "references": [
+        "She stayed home because she was under the weather."
+      ]
+    },
+    {
+      "source_ref": "33",
+      "pattern": "Hit the road",
+      "native": "देर हो रही है, हमें निकलना चाहिए।",
+      "references": [
+        "It's getting late, we should hit the road."
+      ]
+    },
+    {
+      "source_ref": "34",
+      "pattern": "Hit the road",
+      "native": "ट्रैफ़िक से बचने के लिए हम जल्दी निकल पड़े।",
+      "references": [
+        "We hit the road early to avoid the traffic."
+      ]
+    },
+    {
+      "source_ref": "35",
+      "pattern": "Call it a day",
+      "native": "हम सब थक गए हैं, आज के लिए इतना ही।",
+      "references": [
+        "We're all tired, let's call it a day."
+      ]
+    },
+    {
+      "source_ref": "36",
+      "pattern": "Call it a day",
+      "native": "मेरा काम ख़त्म हो गया, तो आज के लिए बस।",
+      "references": [
+        "I finished my work, so I'm calling it a day."
+      ]
+    },
+    {
+      "source_ref": "37",
+      "pattern": "On the same page",
+      "native": "चलो पक्का कर लें कि हम सब एक ही बात समझ रहे हैं।",
+      "references": [
+        "Let's make sure we're all on the same page."
+      ]
+    },
+    {
+      "source_ref": "38",
+      "pattern": "On the same page",
+      "native": "मुझे नहीं लगता कि इस बारे में हमारी सोच एक है।",
+      "references": [
+        "I don't think we're on the same page about this."
+      ]
+    },
+    {
+      "source_ref": "39",
+      "pattern": "Better late than never",
+      "native": "आख़िरकार तुम आ गए, देर आए दुरुस्त आए।",
+      "references": [
+        "You finally arrived, better late than never."
+      ]
+    },
+    {
+      "source_ref": "40",
+      "pattern": "Better late than never",
+      "native": "मैंने पचास साल की उम्र में अंग्रेज़ी सीखना शुरू किया, देर आए दुरुस्त आए।",
+      "references": [
+        "I started learning English at fifty, better late than never."
+      ]
+    },
+    {
+      "source_ref": "41",
+      "pattern": "Cost an arm and a leg",
+      "native": "वह नया फ़ोन बहुत ही महँगा है।",
+      "references": [
+        "That new phone costs an arm and a leg."
+      ]
+    },
+    {
+      "source_ref": "42",
+      "pattern": "Cost an arm and a leg",
+      "native": "छत की मरम्मत में हमारा बहुत पैसा लग गया।",
+      "references": [
+        "Fixing the roof cost us an arm and a leg."
+      ]
+    },
+    {
+      "source_ref": "43",
+      "pattern": "Once in a blue moon",
+      "native": "मैं फ़ास्ट फ़ूड कभी-कभार ही खाता हूँ।",
+      "references": [
+        "I only eat fast food once in a blue moon."
+      ]
+    },
+    {
+      "source_ref": "44",
+      "pattern": "Once in a blue moon",
+      "native": "वह अपने माता-पिता को ईद का चाँद होकर फ़ोन करता है।",
+      "references": [
+        "He calls his parents once in a blue moon."
+      ]
+    },
+    {
+      "source_ref": "45",
+      "pattern": "Get the hang of",
+      "native": "शुरू में ड्राइविंग मुश्किल है, लेकिन तुम्हें इसकी आदत पड़ जाएगी।",
+      "references": [
+        "Driving is hard at first, but you'll get the hang of it."
+      ]
+    },
+    {
+      "source_ref": "46",
+      "pattern": "Get the hang of",
+      "native": "आख़िरकार मुझे इस गेम की समझ आने लगी है।",
+      "references": [
+        "I'm finally getting the hang of this game."
+      ]
+    },
+    {
+      "source_ref": "47",
+      "pattern": "Sleep on it",
+      "native": "तुम्हें अभी फ़ैसला नहीं करना है, रात भर सोच लो।",
+      "references": [
+        "You don't have to decide now, sleep on it."
+      ]
+    },
+    {
+      "source_ref": "48",
+      "pattern": "Sleep on it",
+      "native": "मुझे रात भर सोचने दो, कल बताता हूँ।",
+      "references": [
+        "Let me sleep on it and tell you tomorrow."
+      ]
+    },
+    {
+      "source_ref": "49",
+      "pattern": "The last straw",
+      "native": "वह फिर से देर से आया, और यह आख़िरी हद थी।",
+      "references": [
+        "He was late again, and that was the last straw."
+      ]
+    },
+    {
+      "source_ref": "50",
+      "pattern": "The last straw",
+      "native": "चाबियाँ खोना आज के लिए आख़िरी हद थी।",
+      "references": [
+        "Losing my keys was the last straw today."
+      ]
+    },
+    {
+      "source_ref": "51",
+      "pattern": "In the same boat",
+      "native": "चिंता मत करो, हम सब एक ही नाव में सवार हैं।",
+      "references": [
+        "Don't worry, we're all in the same boat."
+      ]
+    },
+    {
+      "source_ref": "52",
+      "pattern": "In the same boat",
+      "native": "मेरी भी नौकरी चली गई, तो हम एक ही नाव में हैं।",
+      "references": [
+        "I lost my job too, so we're in the same boat."
+      ]
+    },
+    {
+      "source_ref": "53",
+      "pattern": "Keep an eye on",
+      "native": "क्या तुम एक मिनट के लिए मेरे बैग पर नज़र रखोगे?",
+      "references": [
+        "Could you keep an eye on my bag for a minute?"
+      ]
+    },
+    {
+      "source_ref": "54",
+      "pattern": "Keep an eye on",
+      "native": "जब तक मैं खाना बनाऊँ, बच्चों पर नज़र रखना।",
+      "references": [
+        "Keep an eye on the kids while I cook."
+      ]
+    },
+    {
+      "source_ref": "55",
+      "pattern": "Make up your mind",
+      "native": "जल्दी करो और फ़ैसला कर लो।",
+      "references": [
+        "Hurry up and make up your mind."
+      ]
+    },
+    {
+      "source_ref": "56",
+      "pattern": "Make up your mind",
+      "native": "मैं तय नहीं कर पा रहा कि कौन-सा ख़रीदूँ।",
+      "references": [
+        "I can't make up my mind about which one to buy."
+      ]
+    },
+    {
+      "source_ref": "57",
+      "pattern": "Out of the blue",
+      "native": "मेरे पुराने दोस्त ने अचानक मुझे फ़ोन किया।",
+      "references": [
+        "My old friend called me out of the blue."
+      ]
+    },
+    {
+      "source_ref": "58",
+      "pattern": "Out of the blue",
+      "native": "यह आइडिया अचानक मेरे दिमाग़ में आया।",
+      "references": [
+        "The idea came to me out of the blue."
+      ]
+    },
+    {
+      "source_ref": "59",
+      "pattern": "Take it easy",
+      "native": "आराम से, तुम बहुत ज़्यादा काम कर रहे हो।",
+      "references": [
+        "Take it easy, you have been working too hard."
+      ]
+    },
+    {
+      "source_ref": "60",
+      "pattern": "Take it easy",
+      "native": "इस वीकेंड हम बस आराम करेंगे।",
+      "references": [
+        "We're just going to take it easy this weekend."
+      ]
+    },
+    {
+      "source_ref": "61",
+      "pattern": "Ring a bell",
+      "native": "उसका नाम सुना-सुना लगता है, पर मुझे वह याद नहीं।",
+      "references": [
+        "His name rings a bell, but I can't remember him."
+      ]
+    },
+    {
+      "source_ref": "62",
+      "pattern": "Ring a bell",
+      "native": "क्या यह गाना सुना-सुना लगता है?",
+      "references": [
+        "Does this song ring a bell?"
+      ]
+    },
+    {
+      "source_ref": "63",
+      "pattern": "Speak of the devil",
+      "native": "शैतान का नाम लिया और शैतान हाज़िर, वह रहा टॉम।",
+      "references": [
+        "Speak of the devil, here comes Tom now."
+      ]
+    },
+    {
+      "source_ref": "64",
+      "pattern": "Speak of the devil",
+      "native": "हम अभी तुम्हारी ही बात कर रहे थे, नाम लिया और तुम हाज़िर।",
+      "references": [
+        "We were just talking about you, speak of the devil."
+      ]
+    },
+    {
+      "source_ref": "65",
+      "pattern": "Beat around the bush",
+      "native": "घुमा-फिराकर बात करना बंद करो और सच बताओ।",
+      "references": [
+        "Stop beating around the bush and tell me the truth."
+      ]
+    },
+    {
+      "source_ref": "66",
+      "pattern": "Beat around the bush",
+      "native": "वह कभी घुमा-फिराकर बात नहीं करता, वह बहुत सीधा है।",
+      "references": [
+        "He never beats around the bush, he's very direct."
+      ]
+    },
+    {
+      "source_ref": "67",
+      "pattern": "A blessing in disguise",
+      "native": "वह बस छूटना एक तरह से अच्छा ही हुआ।",
+      "references": [
+        "Missing that bus was a blessing in disguise."
+      ]
+    },
+    {
+      "source_ref": "68",
+      "pattern": "A blessing in disguise",
+      "native": "वह नौकरी जाना एक तरह से अच्छा ही हुआ।",
+      "references": [
+        "Losing that job was a blessing in disguise."
+      ]
+    },
+    {
+      "source_ref": "69",
+      "pattern": "Cut corners",
+      "native": "अगर तुम काम में कोताही करोगे, तो वह टिकेगा नहीं।",
+      "references": [
+        "If you cut corners, the work won't last."
+      ]
+    },
+    {
+      "source_ref": "70",
+      "pattern": "Cut corners",
+      "native": "हम सुरक्षा में कोई कोताही नहीं कर सकते।",
+      "references": [
+        "We can't cut corners on safety."
+      ]
+    },
+    {
+      "source_ref": "71",
+      "pattern": "Easier said than done",
+      "native": "बस आराम करूँ? कहना आसान है, करना मुश्किल।",
+      "references": [
+        "Just relax? That's easier said than done."
+      ]
+    },
+    {
+      "source_ref": "72",
+      "pattern": "Easier said than done",
+      "native": "पैसे बचाना कहना आसान है, करना मुश्किल।",
+      "references": [
+        "Saving money is easier said than done."
+      ]
+    },
+    {
+      "source_ref": "73",
+      "pattern": "Get out of hand",
+      "native": "आधी रात के बाद पार्टी बेक़ाबू हो गई।",
+      "references": [
+        "The party got out of hand after midnight."
+      ]
+    },
+    {
+      "source_ref": "74",
+      "pattern": "Get out of hand",
+      "native": "समस्या को हाथ से निकलने मत दो।",
+      "references": [
+        "Don't let the problem get out of hand."
+      ]
+    },
+    {
+      "source_ref": "75",
+      "pattern": "Hang in there",
+      "native": "डटे रहो, परीक्षाएँ लगभग ख़त्म होने वाली हैं।",
+      "references": [
+        "Hang in there, the exams are almost over."
+      ]
+    },
+    {
+      "source_ref": "76",
+      "pattern": "Hang in there",
+      "native": "मुझे पता है यह मुश्किल है, लेकिन डटे रहो।",
+      "references": [
+        "I know it's hard, but hang in there."
+      ]
+    },
+    {
+      "source_ref": "77",
+      "pattern": "It's not rocket science",
+      "native": "अरे यार, यह कोई रॉकेट साइंस नहीं है।",
+      "references": [
+        "Come on, it's not rocket science."
+      ]
+    },
+    {
+      "source_ref": "78",
+      "pattern": "It's not rocket science",
+      "native": "चावल पकाना कोई रॉकेट साइंस नहीं है।",
+      "references": [
+        "Cooking rice isn't rocket science."
+      ]
+    },
+    {
+      "source_ref": "79",
+      "pattern": "Let it slide",
+      "native": "तुम फिर से लेट हो, लेकिन इस बार मैं जाने देता हूँ।",
+      "references": [
+        "You're late again, but I'll let it slide this time."
+      ]
+    },
+    {
+      "source_ref": "80",
+      "pattern": "Let it slide",
+      "native": "वह छोटी-सी गलती थी, इसलिए मैंने जाने दिया।",
+      "references": [
+        "It was a small mistake, so I let it slide."
+      ]
+    },
+    {
+      "source_ref": "81",
+      "pattern": "My bad",
+      "native": "अरे, वह तुम्हारी सीट थी? मेरी गलती।",
+      "references": [
+        "Oh, that was your seat? My bad."
+      ]
+    },
+    {
+      "source_ref": "82",
+      "pattern": "My bad",
+      "native": "मेरी गलती, मैंने ईमेल गलत आदमी को भेज दिया।",
+      "references": [
+        "My bad, I sent the email to the wrong person."
+      ]
+    },
+    {
+      "source_ref": "83",
+      "pattern": "No big deal",
+      "native": "तुम भूल गए? कोई बड़ी बात नहीं।",
+      "references": [
+        "You forgot? It's no big deal."
+      ]
+    },
+    {
+      "source_ref": "84",
+      "pattern": "No big deal",
+      "native": "मैच हारना कोई बड़ी बात नहीं थी।",
+      "references": [
+        "Losing the game was no big deal."
+      ]
+    },
+    {
+      "source_ref": "85",
+      "pattern": "On second thought",
+      "native": "दोबारा सोचने पर, मैं सूप लूँगा।",
+      "references": [
+        "On second thought, I'll have the soup."
+      ]
+    },
+    {
+      "source_ref": "86",
+      "pattern": "On second thought",
+      "native": "दोबारा सोचने पर, चलो आज रात घर पर ही रहते हैं।",
+      "references": [
+        "On second thought, let's stay home tonight."
+      ]
+    },
+    {
+      "source_ref": "87",
+      "pattern": "Pull someone's leg",
+      "native": "आराम से, मैं बस तुम्हारी टाँग खींच रहा हूँ।",
+      "references": [
+        "Relax, I'm just pulling your leg."
+      ]
+    },
+    {
+      "source_ref": "88",
+      "pattern": "Pull someone's leg",
+      "native": "तुम सच में कह रहे हो या मेरी टाँग खींच रहे हो?",
+      "references": [
+        "Are you serious or are you pulling my leg?"
+      ]
+    },
+    {
+      "source_ref": "89",
+      "pattern": "So far so good",
+      "native": "नई नौकरी कैसी है? अभी तक तो सब ठीक है।",
+      "references": [
+        "How is the new job? So far so good."
+      ]
+    },
+    {
+      "source_ref": "90",
+      "pattern": "So far so good",
+      "native": "यात्रा बहुत बढ़िया रही है, अभी तक सब ठीक है।",
+      "references": [
+        "The trip has been great so far, so good."
+      ]
+    },
+    {
+      "source_ref": "91",
+      "pattern": "That makes two of us",
+      "native": "तुम थके हो? मैं भी।",
+      "references": [
+        "You're tired? That makes two of us."
+      ]
+    },
+    {
+      "source_ref": "92",
+      "pattern": "That makes two of us",
+      "native": "तुम्हें भी समझ नहीं आया? मुझे भी नहीं।",
+      "references": [
+        "You don't understand it either? That makes two of us."
+      ]
+    },
+    {
+      "source_ref": "93",
+      "pattern": "Tell me about it",
+      "native": "यह ट्रैफ़िक बहुत बुरा है। बिल्कुल सही कहा।",
+      "references": [
+        "This traffic is terrible. Tell me about it."
+      ]
+    },
+    {
+      "source_ref": "94",
+      "pattern": "Tell me about it",
+      "native": "आज कितनी गर्मी है। बिल्कुल सही कहा।",
+      "references": [
+        "It's so hot today. Tell me about it."
+      ]
+    },
+    {
+      "source_ref": "95",
+      "pattern": "Up in the air",
+      "native": "गर्मियों के लिए हमारी योजनाएँ अभी तय नहीं हैं।",
+      "references": [
+        "Our plans for the summer are still up in the air."
+      ]
+    },
+    {
+      "source_ref": "96",
+      "pattern": "Up in the air",
+      "native": "मीटिंग की तारीख़ अभी तय नहीं है।",
+      "references": [
+        "The date of the meeting is still up in the air."
+      ]
+    },
+    {
+      "source_ref": "97",
+      "pattern": "What a small world",
+      "native": "तुम मेरे चचेरे भाई को जानते हो? दुनिया कितनी छोटी है।",
+      "references": [
+        "You know my cousin? What a small world."
+      ]
+    },
+    {
+      "source_ref": "98",
+      "pattern": "What a small world",
+      "native": "हम एक ही स्कूल में पढ़े थे? दुनिया कितनी छोटी है।",
+      "references": [
+        "We went to the same school? What a small world."
+      ]
+    },
+    {
+      "source_ref": "99",
+      "pattern": "You can say that again",
+      "native": "यह कॉफ़ी कमाल की है। बिल्कुल सही बात।",
+      "references": [
+        "This coffee is amazing. You can say that again."
+      ]
+    },
+    {
+      "source_ref": "100",
+      "pattern": "You can say that again",
+      "native": "परीक्षा सच में बहुत मुश्किल थी। बिल्कुल सही बात।",
+      "references": [
+        "The test was really hard. You can say that again."
+      ]
+    },
+    {
+      "source_ref": "101",
+      "pattern": "Beat around the bush",
+      "native": "तुम घुमा-फिराकर बात क्यों कर रहे हो?",
+      "references": [
+        "What are you beating around the bush for?"
+      ],
+      "starter_pattern": "What… for?"
+    },
+    {
+      "source_ref": "102",
+      "pattern": "Take it easy",
+      "native": "तुम इतने तनाव में क्यों हो? आराम से।",
+      "references": [
+        "What are you so stressed for? Take it easy."
+      ],
+      "starter_pattern": "What… for?"
+    },
+    {
+      "source_ref": "103",
+      "pattern": "Pull someone's leg",
+      "native": "या तो वह तुम्हारी टाँग खींच रहा है या वह गंभीर है।",
+      "references": [
+        "He's either pulling your leg or he's serious."
+      ],
+      "starter_pattern": "He is either… or…"
+    },
+    {
+      "source_ref": "104",
+      "pattern": "Call it a day",
+      "native": "या तो आज के लिए यहीं रुकते हैं या पूरी रात काम करते हैं।",
+      "references": [
+        "Either we call it a day or we work all night."
+      ],
+      "starter_pattern": "He is either… or…"
+    },
+    {
+      "source_ref": "105",
+      "pattern": "Under the weather",
+      "native": "तुम्हारी तबीयत ठीक नहीं लग रही, मैं तुम्हारे लिए क्या कर सकता हूँ?",
+      "references": [
+        "You look under the weather, what can I do for you?"
+      ],
+      "starter_pattern": "What can I do for…?"
+    },
+    {
+      "source_ref": "106",
+      "pattern": "No worries",
+      "native": "कोई बात नहीं, आज मैं आपके लिए क्या कर सकता हूँ?",
+      "references": [
+        "No worries, what can I do for you today?"
+      ],
+      "starter_pattern": "What can I do for…?"
+    },
+    {
+      "source_ref": "107",
+      "pattern": "Keep an eye on",
+      "native": "मैं चाहता हूँ कि तुम बच्चों पर नज़र रखो।",
+      "references": [
+        "I'd like you to keep an eye on the kids."
+      ],
+      "starter_pattern": "I'd like you to…"
+    },
+    {
+      "source_ref": "108",
+      "pattern": "Sleep on it",
+      "native": "मैं चाहता हूँ कि तुम फ़ैसला करने से पहले रात भर सोच लो।",
+      "references": [
+        "I'd like you to sleep on it before you decide."
+      ],
+      "starter_pattern": "I'd like you to…"
+    },
+    {
+      "source_ref": "109",
+      "pattern": "Cost an arm and a leg",
+      "native": "एक तरफ़ यह बहुत महँगा है, दूसरी तरफ़ यह हमेशा चलता है।",
+      "references": [
+        "On one hand it costs an arm and a leg, on the other hand it lasts forever."
+      ],
+      "starter_pattern": "On one hand… on the other hand…"
+    },
+    {
+      "source_ref": "110",
+      "pattern": "Up in the air",
+      "native": "एक तरफ़ मैं जाना चाहता हूँ, दूसरी तरफ़ हमारी योजनाएँ अभी तय नहीं हैं।",
+      "references": [
+        "On one hand I want to go, on the other hand our plans are still up in the air."
+      ],
+      "starter_pattern": "On one hand… on the other hand…"
+    },
+    {
+      "source_ref": "111",
+      "pattern": "Make up your mind",
+      "native": "प्लीज़ जितनी जल्दी हो सके फ़ैसला कर लो।",
+      "references": [
+        "Please make up your mind as soon as possible."
+      ],
+      "starter_pattern": "… as… as possible"
+    },
+    {
+      "source_ref": "112",
+      "pattern": "On the same page",
+      "native": "चलो जितनी जल्दी हो सके एक ही सोच पर आ जाएँ।",
+      "references": [
+        "Let's get on the same page as quickly as possible."
+      ],
+      "starter_pattern": "… as… as possible"
+    },
+    {
+      "source_ref": "113",
+      "pattern": "Call it a day",
+      "native": "क्या कहते हो, आज के लिए यहीं ख़त्म करें?",
+      "references": [
+        "What do you say we call it a day?"
+      ],
+      "starter_pattern": "What do you say…?"
+    },
+    {
+      "source_ref": "114",
+      "pattern": "Hit the road",
+      "native": "क्या कहते हो, कल सुबह जल्दी निकलें?",
+      "references": [
+        "What do you say we hit the road early tomorrow?"
+      ],
+      "starter_pattern": "What do you say…?"
+    },
+    {
+      "source_ref": "115",
+      "pattern": "Get the hang of",
+      "native": "एक बार तुम्हें इसकी आदत पड़ गई, तो यह बाएँ हाथ का खेल है।",
+      "references": [
+        "Once you get the hang of it, it's a piece of cake."
+      ],
+      "starter_pattern": "Once you…"
+    },
+    {
+      "source_ref": "116",
+      "pattern": "Break the ice",
+      "native": "एक बार झिझक टूट गई, तो बाक़ी आसान है।",
+      "references": [
+        "Once you break the ice, the rest is easy."
+      ],
+      "starter_pattern": "Once you…"
+    },
+    {
+      "source_ref": "117",
+      "pattern": "Piece of cake",
+      "native": "मैं शर्त लगाता हूँ कि परीक्षा बाएँ हाथ का खेल होगी।",
+      "references": [
+        "I bet the test will be a piece of cake."
+      ],
+      "starter_pattern": "I bet…"
+    },
+    {
+      "source_ref": "118",
+      "pattern": "Ring a bell",
+      "native": "मैं शर्त लगाता हूँ कि उसका नाम तुम्हें सुना-सुना लगेगा।",
+      "references": [
+        "I bet his name will ring a bell."
+      ],
+      "starter_pattern": "I bet…"
+    },
+    {
+      "source_ref": "119",
+      "pattern": "Cut corners",
+      "native": "मैं काम में कोताही करने वाले लोगों से तंग आ गया हूँ।",
+      "references": [
+        "I've had enough of people cutting corners."
+      ],
+      "starter_pattern": "I've had enough of…"
+    },
+    {
+      "source_ref": "120",
+      "pattern": "The last straw",
+      "native": "मैं इससे तंग आ गया हूँ, यह आख़िरी हद है।",
+      "references": [
+        "I've had enough of this, it's the last straw."
+      ],
+      "starter_pattern": "I've had enough of…"
+    }
+  ]
+}
