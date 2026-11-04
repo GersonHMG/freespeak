@@ -1,0 +1,389 @@
+<title>FreeSpeak Progress Panels</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+<style>
+/* Layout: a draft board. Tabs pick one variation (phone) or both side by side (wide),
+   each rendered inside an app-like screen so it reads like the real My Progress tab. */
+:root {
+  /* App palette, from lingo_theme.dart (light) */
+  --bg: #EDECF6;
+  --surface: #FFFFFF;
+  --ink: #1C1C2E;
+  --muted: #8A8A9E;
+  --line: #E4E3EF;
+  --track: #EDEDF5;
+  --indigo: #4B5583;
+  --indigo-cont: #E1E0F5;
+  --teal: #1CC4D1;
+  --teal-ink: #0B8A94;
+  /* Score bands (score_band.dart / score_palette.dart) */
+  --perfect: #1E9E63;
+  --partial: #B26A00;
+  --wrong: #BA1A1A;
+  --shadow: 0 6px 16px rgba(28, 28, 46, 0.06);
+  --font: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #13131D; --surface: #1F1F2D; --ink: #ECECF5; --muted: #9C9CB2;
+    --line: #2E2E40; --track: #2A2A3C; --indigo: #7F8BC9; --indigo-cont: #2D3050;
+    --teal: #1CC4D1; --teal-ink: #5FDDE6;
+    --perfect: #4CC98A; --partial: #F0A54A; --wrong: #FF8A8E;
+    --shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #13131D; --surface: #1F1F2D; --ink: #ECECF5; --muted: #9C9CB2;
+  --line: #2E2E40; --track: #2A2A3C; --indigo: #7F8BC9; --indigo-cont: #2D3050;
+  --teal: #1CC4D1; --teal-ink: #5FDDE6;
+  --perfect: #4CC98A; --partial: #F0A54A; --wrong: #FF8A8E;
+  --shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.45;
+}
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-block: 20px 40px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid;
+  gap: 18px;
+}
+button, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; }
+
+/* ---------- Draft board chrome ---------- */
+.top { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: end; justify-content: space-between; }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+h1 { margin: 2px 0 0; font-size: 22px; font-weight: 800; text-wrap: balance; }
+.top p { margin: 4px 0 0; color: var(--muted); max-width: 60ch; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.seg { display: inline-flex; background: var(--surface); border-radius: 100px; padding: 3px; box-shadow: var(--shadow); }
+.seg button {
+  border: 0; background: transparent; padding: 6px 12px; border-radius: 100px;
+  font-size: 13px; font-weight: 600; color: var(--muted); cursor: pointer;
+}
+.seg button[aria-pressed="true"] { background: var(--indigo-cont); color: var(--ink); }
+select {
+  background: var(--surface); border: 0; border-radius: 100px; padding: 8px 12px;
+  font-size: 13px; font-weight: 600; box-shadow: var(--shadow); cursor: pointer; max-width: 100%;
+}
+.tabs { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 2px; }
+.tabs button {
+  flex: none; border: 1px solid var(--line); background: transparent; border-radius: 100px;
+  padding: 8px 14px; font-size: 13px; font-weight: 700; color: var(--muted); cursor: pointer;
+}
+.tabs button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+
+.stage { display: grid; gap: 24px; grid-template-columns: minmax(0, 420px); justify-content: center; }
+.stage.all { grid-template-columns: repeat(auto-fit, minmax(300px, 420px)); }
+.col { display: grid; gap: 10px; align-content: start; min-width: 0; }
+.col-head h2 { margin: 0; font-size: 15px; font-weight: 800; }
+.col-head p { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+.screen {
+  border: 1px solid var(--line); border-radius: 30px; padding: 16px 14px 18px;
+  background: var(--bg); min-width: 0;
+}
+@media (max-width: 480px) {
+  .screen { border: 0; padding: 0; }
+}
+
+/* ---------- Panel (the thing that would ship) ---------- */
+.panel {
+  background: var(--surface); border-radius: 26px; box-shadow: var(--shadow);
+  padding: 18px 16px 16px; display: grid; gap: 14px; min-width: 0;
+}
+.p-head { display: flex; justify-content: space-between; gap: 10px; align-items: start; }
+.p-label { font-size: 13px; color: var(--muted); }
+.p-title { font-size: 18px; font-weight: 700; margin-top: 2px; text-wrap: balance; }
+.chart { width: 100%; height: auto; display: block; overflow: visible; }
+.chart text { font-family: var(--font); fill: var(--muted); }
+.hit { fill: transparent; cursor: pointer; outline: none; }
+.hit:focus-visible { fill: var(--track); }
+.num { font-variant-numeric: tabular-nums; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 12px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 10px; height: 10px; border-radius: 3px; display: inline-block; flex: none; }
+.sw.perfect, .seg-bar .perfect { background: var(--perfect); }
+.sw.partial, .seg-bar .partial { background: var(--partial); }
+.sw.wrong, .seg-bar .wrong { background: var(--wrong); }
+.sw.hatch { background: repeating-linear-gradient(45deg, var(--muted) 0 2px, transparent 2px 4px); }
+.sw.line { width: 16px; height: 3px; border-radius: 2px; background: var(--teal); }
+.sw.vol { width: 6px; height: 12px; border-radius: 2px; background: var(--indigo); opacity: .6; }
+.how { font-size: 12px; color: var(--muted); }
+
+.mini-seg { display: inline-flex; background: var(--track); border-radius: 100px; padding: 2px; flex: none; }
+.mini-seg button {
+  border: 0; background: transparent; border-radius: 100px; padding: 4px 10px;
+  font-size: 12px; font-weight: 700; color: var(--muted); cursor: pointer;
+}
+.mini-seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+
+.detail {
+  background: var(--bg); border-radius: 16px; padding: 10px 12px;
+  display: grid; gap: 4px; font-size: 13px; min-height: 44px;
+}
+.detail .d-top { display: flex; justify-content: space-between; gap: 8px; }
+.detail .d-date { font-weight: 700; }
+.detail .chips { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.detail .chip { display: inline-flex; align-items: center; gap: 5px; font-weight: 600; }
+.detail .muted { color: var(--muted); }
+
+.compare { display: grid; grid-template-columns: 1fr auto 1fr; gap: 8px; align-items: center; }
+.stat { background: var(--bg); border-radius: 16px; padding: 10px 12px; }
+.stat .k { font-size: 12px; color: var(--muted); }
+.stat .v { font-size: 20px; font-weight: 800; }
+.stat .v small { font-size: 12px; font-weight: 600; color: var(--muted); }
+.stat .n { font-size: 11px; color: var(--muted); }
+.arrow { color: var(--teal-ink); font-weight: 800; font-size: 18px; }
+
+/* B */
+.score-row { display: flex; align-items: end; gap: 12px; flex-wrap: wrap; }
+.big { font-size: 46px; font-weight: 800; line-height: 1; letter-spacing: -.02em; }
+.big small { font-size: 16px; font-weight: 700; color: var(--muted); letter-spacing: 0; }
+.pill {
+  display: inline-flex; align-items: center; gap: 4px; border-radius: 100px; padding: 4px 10px;
+  font-size: 12px; font-weight: 700;
+  background: color-mix(in srgb, var(--teal) 16%, transparent); color: var(--teal-ink);
+}
+.band-pill { background: color-mix(in srgb, currentColor 14%, transparent); }
+.list { display: grid; gap: 2px; }
+.row {
+  display: grid; grid-template-columns: 82px minmax(0, 1fr) 34px; gap: 10px; align-items: center;
+  padding: 7px 8px; border-radius: 12px; border: 0; background: transparent; text-align: left; cursor: pointer; width: 100%;
+}
+.row[aria-current="true"] { background: var(--indigo-cont); }
+.row .rd { font-size: 12.5px; font-weight: 600; }
+.row .rd small { display: block; font-size: 11px; font-weight: 500; color: var(--muted); }
+.row .rs { font-size: 14px; font-weight: 800; text-align: right; }
+.row .rs.low { color: var(--muted) !important; font-weight: 600; }
+.row.rest .rd, .row.rest .rs { color: var(--muted); }
+.seg-bar { display: flex; height: 10px; border-radius: 100px; overflow: hidden; background: var(--track); gap: 2px; }
+.seg-bar.low { opacity: .45; }
+.seg-bar i { display: block; height: 100%; }
+.rest-bar { height: 10px; border-radius: 100px; border: 1.5px dashed var(--line); }
+.link-btn { border: 0; background: transparent; color: var(--teal-ink); font-weight: 700; font-size: 13px; padding: 6px 0; cursor: pointer; justify-self: start; }
+
+.notes { max-width: 70ch; color: var(--muted); font-size: 13px; justify-self: center; text-align: center; }
+.notes b { color: var(--ink); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .seg-bar i, .bar-rect { transition: opacity .2s; }
+}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">FreeSpeak · design draft</div>
+      <h1>Progress panel</h1>
+      <p>How a learner's Wrong / Partial / Perfect results improve day by day. Tap any day in a panel to see its breakdown.</p>
+    </div>
+    <div class="controls">
+      <select id="dataset" aria-label="Sample data"></select>
+      <div class="seg" role="group" aria-label="Theme" id="theme">
+        <button type="button" data-theme-set="system">System</button>
+        <button type="button" data-theme-set="light">Light</button>
+        <button type="button" data-theme-set="dark">Dark</button>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="stage" id="stage"></main>
+
+  <p class="notes">Sample data, not real practice history. <b>Score</b> = Perfect 100, Partial 50, Wrong 0, averaged over every answer in the period, so a busy day counts for more than a light one. Colours use the app's 80 / 60 score-band cutoffs. Days with fewer than 5 answers are drawn faded.</p>
+</div>
+
+<script>
+(() => {
+  // [perfect, partial, wrong] per day, oldest first; null = no practice that day.
+  const PRESETS = {
+    uneven: { label: "14 days · busy and light days", days: [
+      [0,0,5],[0,2,3],[1,4,0],[2,10,18],[1,1,0],null,[12,20,8],
+      [3,1,0],[15,22,13],[20,15,5],[2,0,0],[18,10,4],[1,2,3],[30,12,4]] },
+    climb: { label: "14 days · steady climb", days: [
+      [0,0,5],[0,2,3],[1,4,0],[1,3,2],[2,3,1],null,[3,2,1],
+      [3,3,0],[4,2,1],[4,3,0],null,[5,2,0],[6,1,1],[7,1,0]] },
+    week: { label: "7 days · first week", days: [
+      [0,0,5],[0,2,3],[1,4,0],[2,3,0],[2,3,1],[3,2,1],[4,2,0]] },
+    bumpy: { label: "14 days · with a slump", days: [
+      [0,0,5],[0,2,3],[1,4,0],[2,3,1],[1,2,4],null,null,
+      [1,3,2],[3,3,1],[4,2,1],[3,4,0],[5,2,1],[5,3,0],[6,2,0]] },
+  };
+  const TODAY = Date.UTC(2026, 10, 4); // the drafts pretend "today" is Wed 4 Nov 2026
+  const DAY = 864e5;
+  const MIN_ANSWERS = 5; // below this a day's mix is too small to read much into
+  const WD = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+  const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const GRADES = [["perfect","Perfect"],["partial","Partial"],["wrong","Wrong"]];
+
+  const state = { data: "uneven", bAll: false, sel: {} };
+
+  const fmt = d => `${WD[d.getUTCDay()]} ${d.getUTCDate()} ${MON[d.getUTCMonth()]}`;
+  const short = d => `${d.getUTCDate()} ${MON[d.getUTCMonth()]}`;
+  const band = s => s >= 80 ? "perfect" : s >= 60 ? "partial" : "wrong";
+  const bandWord = s => s >= 80 ? "Mostly perfect" : s >= 60 ? "Getting there" : "Needs work";
+  const niceTop = m => [4, 6, 8, 10, 12, 16, 20, 30, 40, 50, 60, 80, 100, 150, 200].find(t => t >= m) ?? Math.ceil(m / 100) * 100;
+
+  function build(key) {
+    const arr = PRESETS[key].days, n = arr.length;
+    return arr.map((v, i) => {
+      const date = new Date(TODAY - (n - 1 - i) * DAY);
+      if (!v) return { i, date, rest: true };
+      const [perfect, partial, wrong] = v, total = perfect + partial + wrong;
+      return { i, date, perfect, partial, wrong, total, low: total < MIN_ANSWERS,
+        score: Math.round((perfect * 100 + partial * 50) / total) };
+    });
+  }
+  // All answers in a run of days added together: each answer weighs the same,
+  // so a 50-answer day outweighs a 2-answer day 25 to 1.
+  function pool(list) {
+    const p = { perfect: 0, partial: 0, wrong: 0, total: 0 };
+    list.forEach(d => { if (!d.rest) GRADES.forEach(([g]) => { p[g] += d[g]; p.total += d[g]; }); });
+    if (!p.total) return null;
+    p.score = Math.round((p.perfect * 100 + p.partial * 50) / p.total);
+    return p;
+  }
+  const practised = days => days.filter(d => !d.rest);
+  const selOf = (key, days) => state.sel[key] ?? practised(days).at(-1).i;
+  // The comparison window: a week when there's enough history, else 3 days.
+  const windowOf = days => days.length >= 10 ? 7 : 3;
+  const winLabel = w => w === 7 ? "7 days" : `${w} days`;
+
+  function renderB(days) {
+    const n = days.length, sel = selOf("B", days), p = practised(days), w = windowOf(days);
+    const first = pool(days.slice(0, w)), last = pool(days.slice(-w));
+    // Score over the trailing window, every answer weighted equally.
+    const roll = days.map(d => pool(days.slice(Math.max(0, d.i - w + 1), d.i + 1)));
+    const maxT = Math.max(...p.map(d => d.total));
+    // Score plot on top; under it a short strip of answers-per-day bars, then the dates.
+    const W = 320, H = 214, pl = 26, pr = 12, pt = 16, pb = 62, pw = W - pl - pr, ph = H - pt - pb;
+    const x = i => pl + (n === 1 ? pw / 2 : i / (n - 1) * pw), y = v => pt + ph - v / 100 * ph;
+    const vTop = y(0) + 12, vH = 26, vMax = niceTop(maxT), vw = Math.min(10, pw / n * 0.5);
+    let svg = `<defs><linearGradient id="bFill" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="var(--teal)" stop-opacity=".26"/><stop offset="1" stop-color="var(--teal)" stop-opacity="0"/></linearGradient></defs>`;
+    // Faint score-band zones: <60 wrong, 60–79 partial, 80+ perfect.
+    [[80, 100, "perfect"], [60, 80, "partial"], [0, 60, "wrong"]].forEach(([a, b, g]) => {
+      svg += `<rect x="${pl}" y="${y(b)}" width="${pw}" height="${y(a) - y(b)}" fill="var(--${g})" opacity=".07"/>`;
+    });
+    [0, 60, 80, 100].forEach(t => {
+      svg += `<line x1="${pl}" x2="${W - pr}" y1="${y(t)}" y2="${y(t)}" stroke="var(--line)" stroke-dasharray="${t ? "2 3" : "0"}"/>`;
+      svg += `<text x="${pl - 6}" y="${y(t) + 3.5}" font-size="10" text-anchor="end">${t}</text>`;
+    });
+    const rp = days.filter(d => roll[d.i]).map(d => [x(d.i), y(roll[d.i].score)]);
+    svg += `<path d="M${rp[0][0]},${y(0)} ${rp.map(q => `L${q[0]},${q[1]}`).join(" ")} L${rp.at(-1)[0]},${y(0)} Z" fill="url(#bFill)"/>`;
+    svg += `<path d="M${rp.map(q => q.join(",")).join(" L")}" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>`;
+    const sd = days[sel];
+    svg += `<line x1="${x(sel)}" x2="${x(sel)}" y1="${pt}" y2="${vTop + vH}" stroke="var(--ink)" stroke-opacity=".18"/>`;
+    // Answers per day, so the reader can see which days carry the most weight.
+    svg += `<text x="${pl - 6}" y="${vTop + 7}" font-size="9" text-anchor="end">${vMax}</text>`;
+    svg += `<line x1="${pl}" x2="${W - pr}" y1="${vTop + vH}" y2="${vTop + vH}" stroke="var(--line)"/>`;
+    p.forEach(d => {
+      const h = Math.max(1.5, d.total / vMax * vH), on = d.i === sel;
+      svg += `<rect x="${x(d.i) - vw / 2}" y="${vTop + vH - h}" width="${vw}" height="${h}" rx="2" fill="var(--indigo)" opacity="${on ? 0.9 : 0.35}"/>`;
+    });
+    if (!days[sel].rest) {
+      const d = days[sel], h = Math.max(1.5, d.total / vMax * vH), right = x(sel) > W - pr - 24;
+      svg += `<text x="${x(sel) + (right ? -vw / 2 - 3 : vw / 2 + 3)}" y="${vTop + vH - h + 8}" font-size="9" font-weight="700" text-anchor="${right ? "end" : "start"}" style="fill:var(--ink)">${d.total}</text>`;
+    }
+    if (roll[sel]) {
+      // Label sits above the line's point, kept inside the plot at both ends.
+      const ry = y(roll[sel].score), tx = Math.min(Math.max(x(sel), pl + 10), W - pr - 10);
+      svg += `<circle cx="${x(sel)}" cy="${ry}" r="4.5" fill="var(--surface)" stroke="var(--teal)" stroke-width="2.5"/>`;
+      svg += `<text x="${tx}" y="${Math.max(ry - 10, 10)}" font-size="11" font-weight="800" text-anchor="middle" style="fill:var(--teal-ink)">${roll[sel].score}</text>`;
+    }
+    days.forEach(d => {
+      if (d.i === 0 || d.i === n - 1 || d.i === sel)
+        svg += `<text x="${x(d.i)}" y="${H - 6}" font-size="10" text-anchor="${d.i === 0 ? "start" : d.i === n - 1 ? "end" : "middle"}"${d.i === sel ? ' style="fill:var(--ink);font-weight:700"' : ""}>${d.i === n - 1 ? "Today" : short(d.date)}</text>`;
+      const sw = pw / Math.max(n - 1, 1);
+      svg += `<rect class="hit" data-pick="B" data-i="${d.i}" tabindex="0" role="button" aria-label="${fmt(d.date)}" x="${x(d.i) - sw / 2}" y="0" width="${sw}" height="${H}"/>`;
+    });
+
+    const rows = [...days].reverse(), shown = state.bAll ? rows : rows.slice(0, 7);
+    const list = shown.map(d => {
+      const cur = d.i === sel ? ' aria-current="true"' : "";
+      const when = d.i === n - 1 ? "Today" : fmt(d.date);
+      if (d.rest) return `<button type="button" class="row rest" data-pick="B" data-i="${d.i}"${cur}><span class="rd">${when}<small>No practice</small></span><span class="rest-bar"></span><span class="rs">–</span></button>`;
+      return `<button type="button" class="row" data-pick="B" data-i="${d.i}"${cur}><span class="rd">${when}<small class="num">${d.total} answers</small></span>
+        <span class="seg-bar${d.low ? " low" : ""}">${GRADES.map(([g]) => d[g] ? `<i class="${g}" style="flex:${d[g]}"></i>` : "").join("")}</span>
+        <span class="rs num${d.low ? " low" : ""}" style="color:var(--${band(d.score)})">${d.score}</span></button>`;
+    }).join("");
+    const delta = last.score - first.score;
+
+    return `<section class="panel" aria-label="Quality score">
+      <div><div class="p-label">Score · last ${winLabel(w)}</div>
+      <div class="score-row" style="margin-top:6px">
+        <div class="big num" style="color:var(--${band(last.score)})">${last.score}<small> / 100</small></div>
+        <div style="display:grid;gap:6px;padding-bottom:4px">
+          <span class="pill num">${delta >= 0 ? "▲" : "▼"} ${Math.abs(delta)} vs first ${winLabel(w)}</span>
+          <span class="pill band-pill" style="color:var(--${band(last.score)})">${bandWord(last.score)}</span>
+        </div>
+      </div></div>
+      <svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${w}-day score from ${roll[0].score} to ${last.score}">${svg}</svg>
+      <div class="legend">
+        <span><i class="sw line"></i>${w}-day score</span>
+        <span><i class="sw vol"></i>Answers that day</span>
+      </div>
+      <div class="how">The line adds up every answer in the last ${winLabel(w)}, so a 2-answer day barely moves it and a 50-answer day moves it a lot.</div>
+      <div class="list">${list}</div>
+      ${days.length > 7 ? `<button type="button" class="link-btn" data-ball>${state.bAll ? "Show last 7 days" : `Show all ${days.length} days`}</button>` : ""}
+    </section>`;
+  }
+
+  const stage = document.getElementById("stage");
+  function render() {
+    stage.innerHTML = `<div class="col"><div class="screen">${renderB(build(state.data))}</div></div>`;
+  }
+
+  stage.addEventListener("click", e => {
+    const pick = e.target.closest("[data-pick]");
+    if (pick) { state.sel[pick.dataset.pick] = +pick.dataset.i; return rerender(pick); }
+    if (e.target.closest("[data-ball]")) { state.bAll = !state.bAll; render(); }
+  });
+  stage.addEventListener("keydown", e => {
+    const pick = e.target.closest("rect[data-pick]");
+    if (pick && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); pick.dispatchEvent(new MouseEvent("click", { bubbles: true })); }
+  });
+  // Re-render, then put keyboard focus back on the same day.
+  function rerender(el) {
+    const sel = `[data-pick="${el.dataset.pick}"][data-i="${el.dataset.i}"]`, tag = el.tagName;
+    render();
+    const again = [...stage.querySelectorAll(sel)].find(n => n.tagName === tag);
+    if (again && document.activeElement !== document.body) again.focus({ preventScroll: true });
+  }
+
+
+  const ds = document.getElementById("dataset");
+  ds.innerHTML = Object.entries(PRESETS).map(([k, p]) => `<option value="${k}">${p.label}</option>`).join("");
+  ds.addEventListener("change", () => { state.data = ds.value; state.sel = {}; render(); });
+
+  function setTheme(t) {
+    if (t === "system") document.documentElement.removeAttribute("data-theme");
+    else document.documentElement.setAttribute("data-theme", t);
+    document.querySelectorAll("#theme button").forEach(b => b.setAttribute("aria-pressed", b.dataset.themeSet === t));
+    try { localStorage.setItem("fs-theme", t); } catch (_) {}
+  }
+  document.getElementById("theme").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (b) setTheme(b.dataset.themeSet);
+  });
+  let saved = "system";
+  try { saved = localStorage.getItem("fs-theme") || "system"; } catch (_) {}
+  setTheme(saved);
+  render();
+})();
+</script>

@@ -161,6 +161,28 @@ class DeckStore {
     return counts;
   }
 
+  /// Every grade given at or after [since], as (grade, when) -- the raw
+  /// material [loadGradeTrend] (lib/data/grade_trend.dart) buckets into days.
+  /// Custom sessions included, the same as [gradeCounts].
+  Future<List<(Grade grade, DateTime at)>> gradesSince(DateTime since) async {
+    final db = await _db;
+    final rows = await db.query(
+      'reviews',
+      columns: ['grade', 'reviewed_at'],
+      where: 'reviewed_at >= ?',
+      whereArgs: [since.millisecondsSinceEpoch],
+    );
+    final byName = Grade.values.asNameMap();
+    return [
+      for (final row in rows)
+        if (byName[row['grade']] case final grade?)
+          (
+            grade,
+            DateTime.fromMillisecondsSinceEpoch(row['reviewed_at']! as int),
+          ),
+    ];
+  }
+
   /// Every card graded at least once, across all decks, most recently
   /// practised first: what [gradeCounts] adds up, card by card.
   Future<List<PractisedCard>> practisedCards() async {

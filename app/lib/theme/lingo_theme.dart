@@ -35,6 +35,11 @@ class LingoColors {
   static Color get onErrorContainer => _pick(0xFFE0575B, 0xFFFF8A8E);
   static Color get navInactive => _pick(0xFFB7B7C9, 0xFF5E5E76);
 
+  /// The brand teal (the app icon's), for the score trend's line, and a
+  /// deeper / lighter shade of it that reads as text on [surface].
+  static Color get teal => const Color(0xFF1CC4D1);
+  static Color get tealInk => _pick(0xFF0B8A94, 0xFF5FDDE6);
+
   /// The streak pill's fill and its flame/text.
   static Color get streakContainer => _pick(0xFFF5E4DA, 0xFF3D2A20);
   static Color get streak => _pick(0xFFB55A2C, 0xFFF0A070);

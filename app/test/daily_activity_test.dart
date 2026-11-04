@@ -150,83 +150,16 @@ void main() {
     expect(result.cardsPerDay, [2, 0, 1, 0, 0, 0, 0]);
   });
 
-  group('computeYearActivity', () {
-    final now = DateTime(2024, 3, 10, 12); // the 70th day of a leap year
-
-    test('buckets the year by day, a card once a day', () {
-      final year = computeYearActivity([
-        ('a', DateTime(2024, 3, 9, 9)),
-        ('a', DateTime(2024, 3, 9, 18)),
-        ('b', DateTime(2024, 3, 9, 20)),
-        ('a', DateTime(2024, 3, 10, 8)),
-        ('z', DateTime(2023, 12, 31, 23)), // last year: left out
-      ], 2024, now: now);
-
-      expect(year.cardsOn(DateTime(2024, 3, 9)), 2);
-      expect(year.cardsOn(DateTime(2024, 3, 10, 22)), 1);
-      expect(year.cardsOn(DateTime(2023, 12, 31)), 0);
-      expect(year.totalCards, 3);
-      expect(year.daysPracticed, 2);
-      expect(year.dailyAverage, 2); // 3 cards over 2 days, rounded
-    });
-
-    test('days learned counts the days so far, all of a past year', () {
-      final reads = [
-        for (var d = 1; d <= 7; d++) ('a', DateTime(2024, 1, d)),
-      ];
-      expect(computeYearActivity(reads, 2024, now: now).daysElapsed, 70);
-      expect(computeYearActivity(reads, 2024, now: now).daysLearnedPercent, 10);
-      expect(
-        computeYearActivity(reads, 2024, now: DateTime(2025, 6)).daysElapsed,
-        366,
-      );
-      expect(computeYearActivity([], 2025, now: now).daysElapsed, 0);
-      expect(computeYearActivity([], 2025, now: now).daysLearnedPercent, 0);
-    });
-
-    test('the longest streak is the longest run within the year', () {
-      final year = computeYearActivity([
-        for (var d = 1; d <= 3; d++) ('a', DateTime(2024, 1, d)),
-        for (var d = 20; d <= 24; d++) ('a', DateTime(2024, 2, d)),
-        ('a', DateTime(2024, 3, 1)),
-      ], 2024, now: now);
-      expect(year.longestStreak, 5);
-    });
-
-    test('the best day and the months', () {
-      final year = computeYearActivity([
-        ('a', DateTime(2024, 1, 5)),
-        ('a', DateTime(2024, 2, 1)),
-        ('b', DateTime(2024, 2, 1)),
-        ('a', DateTime(2024, 2, 9)),
-        ('b', DateTime(2024, 2, 9)), // ties 1 Feb: the earlier one wins
-      ], 2024, now: now);
-
-      expect(year.bestDay?.key, DateTime(2024, 2, 1));
-      expect(year.bestDay?.value, 2);
-      expect(year.months[0], (cards: 1, days: 1));
-      expect(year.months[1], (cards: 4, days: 2));
-      expect(year.months[2], (cards: 0, days: 0));
-      expect(computeYearActivity([], 2024, now: now).bestDay, isNull);
-    });
-
-    test('a streak runs on across a daylight-saving change', () {
-      // Spring forward in Europe (31 March) and the US (10 March), so
-      // whichever zone the test runs in, one of the gaps is 23 hours.
-      final reads = [
-        for (var d = 8; d <= 12; d++) ('a', DateTime(2024, 3, d)),
-        for (var d = 29; d <= 31; d++) ('a', DateTime(2024, 3, d)),
-        ('a', DateTime(2024, 4, 1)),
-      ];
-      expect(
-        computeYearActivity(reads, 2024, now: DateTime(2024, 5)).longestStreak,
-        5,
-      );
-      expect(
-        computeDailyActivity(reads, now: DateTime(2024, 4, 1, 12))
-            .currentStreak,
-        4,
-      );
-    });
+  test('a streak runs on across a daylight-saving change', () {
+    // Spring forward in Europe (31 March) and the US (10 March), so
+    // whichever zone the test runs in, one of the gaps is 23 hours.
+    final reads = [
+      for (var d = 8; d <= 12; d++) ('a', DateTime(2024, 3, d)),
+      for (var d = 29; d <= 31; d++) ('a', DateTime(2024, 3, d)),
+      ('a', DateTime(2024, 4, 1)),
+    ];
+    final result = computeDailyActivity(reads, now: DateTime(2024, 4, 1, 12));
+    expect(result.bestStreak, 5);
+    expect(result.currentStreak, 4);
   });
 }

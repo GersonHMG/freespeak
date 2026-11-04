@@ -6,7 +6,7 @@ import 'package:lingo_node/decks/deck_models.dart';
 import 'package:lingo_node/decks/deck_store.dart';
 import 'package:lingo_node/decks/deck_store_scope.dart';
 import 'package:lingo_node/screens/my_progress_screen.dart';
-import 'package:lingo_node/widgets/activity_heatmap.dart';
+import 'package:lingo_node/widgets/score_trend_chart.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 void main() {
@@ -95,20 +95,20 @@ void main() {
       expect(find.textContaining(gone), findsNothing);
     }
 
-    // The year as a heatmap: today's 3 cards are the average, and a
-    // one-day streak both longest and current.
-    expect(find.text('ACTIVITY'), findsOneWidget);
-    expect(find.text('${DateTime.now().year}'), findsOneWidget);
-    expect(find.byTooltip('Previous year'), findsNothing); // this year only
-    expect(find.text('cards a day on average'), findsOneWidget);
-    expect(find.text('1 day'), findsNWidgets(2));
-    // Its squares are not buttons: the whole card opens the details.
-    await tester.tap(find.byType(ActivityHeatmap));
+    // The score trend: today's 3 grades (Wrong, Partial, Perfect) average
+    // 50. The whole card opens the day-by-day breakdown.
+    expect(find.text('SCORE · LAST 3 DAYS'), findsOneWidget);
+    expect(find.text('50 / 100', findRichText: true), findsOneWidget);
+    expect(find.text('Needs work'), findsNothing); // no band word
+    expect(find.byType(ScoreTrendChart), findsOneWidget);
+    expect(find.text('ACTIVITY'), findsNothing);
+    await tester.tap(find.text('SCORE · LAST 3 DAYS'));
     await tester.pumpAndSettle();
-    expect(find.text('BY MONTH'), findsOneWidget);
-    expect(find.text('cards this year'), findsOneWidget);
-    expect(find.text('3'), findsWidgets); // today's cards, the best day
-    expect(find.textContaining('best day, '), findsOneWidget);
+    expect(find.text('DAY BY DAY'), findsOneWidget);
+    expect(find.text('3 answers'), findsOneWidget);
+    // The headline again, and today's own row with its score.
+    expect(find.text('50 / 100', findRichText: true), findsOneWidget);
+    expect(find.text('50'), findsOneWidget);
     await tester.pageBack();
     await tester.pumpAndSettle();
 

@@ -9,6 +9,7 @@ import '../../data/practice_history_scope.dart';
 import '../../pronunciation/pronunciation_scope.dart';
 import '../../tts/phonon_tts_scope.dart';
 import 'pronunciation_debug_screen.dart';
+import 'score_trend_debug_screen.dart';
 import 'tts_debug_screen.dart';
 import 'tts_reference_screen.dart';
 import 'word_map_debug_screen.dart';
@@ -64,6 +65,12 @@ class DebugMenu extends StatelessWidget {
                 context,
                 WordMapDebugScreen(detector: detector, tts: tts),
               ),
+            ),
+            _DebugMenuTile(
+              icon: Icons.show_chart_rounded,
+              title: 'Score Trend',
+              subtitle: 'The Progress score card with sample data',
+              onTap: () => _push(context, const ScoreTrendDebugScreen()),
             ),
             const Divider(height: 1),
             _DebugMenuTile(

@@ -1,5 +1,5 @@
 // The Progress tab: the streak, this week's cards against the daily goal,
-// the year's activity, and the pronunciation side. No flashcard jargon -- "mature",
+// the score trend, and the pronunciation side. No flashcard jargon -- "mature",
 // "retention", "reviews" -- on screen.
 //
 // Every number derives from the two stores; the whole body rebuilds on
@@ -16,12 +16,11 @@ import '../decks/deck_store_scope.dart';
 import '../scoring/score_band.dart';
 import '../scoring/score_palette.dart';
 import '../theme/lingo_theme.dart';
-import '../widgets/activity_heatmap.dart';
 import '../widgets/cards_per_day_card.dart';
 import '../widgets/grade_buttons.dart';
-import 'activity_screen.dart';
 import 'practised_cards_screen.dart';
 import 'revisit_screen.dart';
+import 'score_trend_screen.dart';
 
 class MyProgressScreen extends StatelessWidget {
   const MyProgressScreen({super.key});
@@ -73,7 +72,7 @@ class _Body extends StatelessWidget {
         const SizedBox(height: 20),
         _WeekCard(stats: stats),
         const SizedBox(height: 12),
-        _ActivityCard(currentStreak: stats.currentStreak),
+        ScoreTrendCard(trend: stats.gradeTrend),
         const SizedBox(height: 12),
         _GradesCard(grades: stats.grades),
         const SizedBox(height: 12),
@@ -171,160 +170,6 @@ class _WeekCard extends StatelessWidget {
           _Fact(
             icon: Icons.emoji_events_rounded,
             text: 'Best streak ${stats.bestStreak}',
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-/// This year's practice as a heatmap (ActivityHeatmap), and under it the
-/// daily average, the share of days practised, and the longest and current
-/// streaks. The whole card is one tap target: it opens ActivityScreen, with
-/// every number about the year.
-class _ActivityCard extends StatefulWidget {
-  const _ActivityCard({required this.currentStreak});
-
-  final int currentStreak;
-
-  @override
-  State<_ActivityCard> createState() => _ActivityCardState();
-}
-
-class _ActivityCardState extends State<_ActivityCard> {
-  /// Loaded once, and again only when the parent rebuilds -- which it does
-  /// on new practice.
-  Future<YearActivity>? _activity;
-
-  @override
-  void didChangeDependencies() {
-    super.didChangeDependencies();
-    _load();
-  }
-
-  @override
-  void didUpdateWidget(_ActivityCard oldWidget) {
-    super.didUpdateWidget(oldWidget);
-    _load();
-  }
-
-  void _load() => _activity = loadYearActivity(
-    PracticeHistoryScope.of(context),
-    DateTime.now().year,
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    final today = DateTime.now();
-    return FutureBuilder<YearActivity>(
-      future: _activity,
-      builder: (context, snapshot) {
-        final activity = snapshot.data;
-        return DecoratedBox(
-          decoration: lingoCardDecoration(),
-          child: Material(
-            type: MaterialType.transparency,
-            child: InkWell(
-              borderRadius: BorderRadius.circular(26),
-              onTap: activity == null
-                  ? null
-                  : () => Navigator.of(context).push(
-                      MaterialPageRoute<void>(
-                        builder: (_) => ActivityScreen(
-                          activity: activity,
-                          currentStreak: widget.currentStreak,
-                        ),
-                      ),
-                    ),
-              child: Padding(
-                padding: const EdgeInsets.all(20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        const Expanded(child: _Heading('ACTIVITY')),
-                        Text(
-                          '${today.year}',
-                          style: lingoFont(size: 14, weight: FontWeight.w700),
-                        ),
-                        Icon(
-                          Icons.chevron_right_rounded,
-                          color: LingoColors.navInactive,
-                        ),
-                      ],
-                    ),
-                    const SizedBox(height: 12),
-                    if (activity == null)
-                      const SizedBox(
-                        height: 80,
-                        child: Center(child: CircularProgressIndicator()),
-                      )
-                    else ...[
-                      ActivityHeatmap(activity: activity, today: today),
-                      const SizedBox(height: 14),
-                      Divider(height: 1, color: LingoColors.ringTrack),
-                      const SizedBox(height: 14),
-                      Row(
-                        children: [
-                          _Stat(
-                            value: '${activity.dailyAverage}',
-                            label: 'cards a day on average',
-                          ),
-                          _Stat(
-                            value: '${activity.daysLearnedPercent}%',
-                            label: 'of days practised',
-                          ),
-                        ],
-                      ),
-                      const SizedBox(height: 14),
-                      Row(
-                        children: [
-                          _Stat(
-                            value: _days(activity.longestStreak),
-                            label: 'longest streak',
-                          ),
-                          _Stat(
-                            value: _days(widget.currentStreak),
-                            label: 'current streak',
-                          ),
-                        ],
-                      ),
-                    ],
-                  ],
-                ),
-              ),
-            ),
-          ),
-        );
-      },
-    );
-  }
-
-  static String _days(int n) => '$n ${n == 1 ? 'day' : 'days'}';
-}
-
-/// A number over its label, half a row wide.
-class _Stat extends StatelessWidget {
-  const _Stat({required this.value, required this.label});
-
-  final String value;
-  final String label;
-
-  @override
-  Widget build(BuildContext context) {
-    return Expanded(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(value, style: lingoFont(size: 20, weight: FontWeight.w800)),
-          Text(
-            label,
-            style: lingoFont(
-              size: 12,
-              weight: FontWeight.w500,
-              color: LingoColors.mutedInk,
-            ),
           ),
         ],
       ),
