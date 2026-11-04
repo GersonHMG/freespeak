@@ -157,7 +157,7 @@ abstract class _ModelRun {
 
 /// Vosk: the reference is the text it transcribes from the TTS.
 class _VoskModelRun extends _ModelRun {
-  _VoskModelRun() : super('Vosk', 'words');
+  _VoskModelRun() : super('ASR', 'words');
 
   String? _referenceText;
 
@@ -186,7 +186,7 @@ class _VoskModelRun extends _ModelRun {
       reference.text,
     )).overall;
     if (transcript.text.trim().isEmpty) {
-      throw StateError('Vosk heard no words in the TTS.');
+      throw StateError('The recognizer heard no words in the TTS.');
     }
     _referenceText = transcript.text;
   }

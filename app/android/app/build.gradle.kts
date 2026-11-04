@@ -36,6 +36,7 @@ android {
         // flag during build.
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+        manifestPlaceholders["appLabel"] = "Free Speak"
     }
 
     signingConfigs {
@@ -50,6 +51,14 @@ android {
     }
 
     buildTypes {
+        // Debug builds install next to the Play Store app instead of over it.
+        // The Play copy is signed with Google's app-signing key, so a local
+        // build can never update it -- and `flutter run`, when the update is
+        // refused, uninstalls it first, taking the learner's progress with it.
+        debug {
+            applicationIdSuffix = ".dev"
+            manifestPlaceholders["appLabel"] = "Free Speak Dev"
+        }
         release {
             signingConfig = if (keystorePropertiesFile.exists()) {
                 signingConfigs.getByName("release")
@@ -59,21 +68,11 @@ android {
             proguardFiles("proguard-rules.pro")
         }
     }
-
-    // JNA's own arm64 libjnidispatch.so is built with an old NDK that Play
-    // flags for 16 KB devices. src/main/jniLibs carries a rebuild with NDK
-    // r28 (see third_party/jnidispatch), and app sources come first in the
-    // merge, so pickFirst keeps ours over the one in the JNA aar.
-    packaging {
-        jniLibs {
-            pickFirsts += "lib/arm64-v8a/libjnidispatch.so"
-        }
-    }
 }
 
 // Release builds ship 64-bit ARM only. Plugin native libs (ONNX Runtime,
-// Vosk) come for every ABI regardless of --target-platform, and the 32-bit
-// ARM and x86_64 copies cost ~57 MB of APK. An `ndk.abiFilters` in the
+// sherpa-onnx) come for every ABI regardless of --target-platform, and the
+// 32-bit ARM and x86_64 copies cost ~57 MB of APK. An `ndk.abiFilters` in the
 // release block does not work: the Flutter Gradle plugin adds its own
 // filters for every target platform, and filters are unioned. Excluding at
 // packaging time runs after that merge. Debug and profile keep every ABI, so

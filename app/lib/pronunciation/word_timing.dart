@@ -41,7 +41,7 @@ class WordTiming {
 /// separately from `timedWords.length`: a recognizer's own word-splitting does
 /// not always match a plain whitespace split (contractions, hyphenation), and
 /// when the two counts disagree there is no reliable way to say which timed
-/// segment is which spoken word. [VoskAsr] cannot trip this -- its text is the
+/// segment is which spoken word. [SherpaAsr] cannot trip this -- its text is the
 /// join of its timed words -- but the Whisper recognizer it replaced did,
 /// routinely, which is what this guard was written for. Rather than pair them by position and risk
 /// cutting the wrong word's audio, nothing here is trusted at all —

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import '../data/daily_activity.dart';
 import '../data/practice_history_scope.dart';
+import '../pronunciation/asr.dart' show scoringFailureMessage;
 import '../pronunciation/pronunciation_result.dart';
 import '../pronunciation/pronunciation_scope.dart';
 import '../pronunciation/recorder.dart';
@@ -249,7 +250,7 @@ class _SessionScreenState extends State<SessionScreen> {
       setState(() => _isScoring = false);
       // Most often the recognizer's weights are still downloading on a first
       // run, which is worth saying rather than failing silently.
-      _showMessage('Could not score that attempt. Try again in a moment.');
+      _showMessage(scoringFailureMessage(err));
     }
   }
 

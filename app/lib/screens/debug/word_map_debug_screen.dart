@@ -11,7 +11,7 @@
 // case those boundaries turn out to be wrong -- picking any other point to
 // play from.
 //
-// The recognizer is the detector's own [VoskAsr], so what this screen shows
+// The recognizer is the detector's own [SherpaAsr], so what this screen shows
 // is exactly what practice scoring works from.
 
 import 'dart:async';
@@ -176,7 +176,7 @@ class _WordMapDebugScreenState extends State<WordMapDebugScreen> {
       _transcript = null;
       _duration = null;
       _scrubMs = 0;
-      _status = 'Transcribing with Vosk...';
+      _status = 'Transcribing...';
     });
     final (recordingPath, transcript) = await widget.detector.transcribe(path);
     if (!mounted) return;
@@ -336,7 +336,7 @@ class _WordMapDebugScreenState extends State<WordMapDebugScreen> {
             if (transcript != null) ...[
               const SizedBox(height: 8),
               Text(
-                'Vosk heard: "${transcript.text}"',
+                'Heard: "${transcript.text}"',
                 style: theme.textTheme.bodyMedium,
               ),
               const SizedBox(height: 16),

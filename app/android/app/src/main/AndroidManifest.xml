@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Recording the learner speaking the phrase, for pronunciation scoring. -->
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-    <!-- VoskAsr downloads the model on first use if the zip is not bundled
-         as an asset. See VoskAsr._build. -->
+    <!-- Speech-recognition models are downloaded from Settings rather than
+         bundled. See AsrModelStore. -->
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
-        android:label="Free Speak"
+        android:label="${appLabel}"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -46,6 +46,11 @@
         <intent>
             <action android:name="android.intent.action.PROCESS_TEXT"/>
             <data android:mimeType="text/plain"/>
+        </intent>
+        <!-- About's "Source code on GitHub" opens in the browser. -->
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:scheme="https"/>
         </intent>
     </queries>
 </manifest>

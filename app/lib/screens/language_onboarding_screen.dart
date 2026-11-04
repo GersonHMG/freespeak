@@ -2,10 +2,13 @@ import 'package:flutter/material.dart';
 
 import '../decks/deck_store_scope.dart';
 import '../decks/seed_deck.dart';
+import '../pronunciation/asr_model_scope.dart';
+import '../pronunciation/asr_models.dart';
 import '../theme/lingo_theme.dart';
 import '../widgets/language_list.dart';
 import 'add_card_screen.dart';
 import 'home_screen.dart';
+import 'speech_model_setup_screen.dart';
 
 /// The first-launch question: what language does the learner speak?
 ///
@@ -15,6 +18,9 @@ import 'home_screen.dart';
 /// yet, and an empty Recall card on Home with no explanation would read as
 /// broken. Either way the choice is saved, so this is asked once; Settings
 /// changes it later.
+///
+/// Then, unless a speech model is already on the phone, the
+/// [SpeechModelSetupScreen] asks for one before Home.
 class LanguageOnboardingScreen extends StatefulWidget {
   const LanguageOnboardingScreen({super.key});
 
@@ -58,9 +64,23 @@ class _LanguageOnboardingScreenState extends State<LanguageOnboardingScreen> {
     }
   }
 
-  void _goHome() => Navigator.of(context).pushReplacement(
-    MaterialPageRoute<void>(builder: (_) => const HomeScreen()),
-  );
+  void _goHome() {
+    final navigator = Navigator.of(context);
+    void home() => navigator.pushReplacement(
+      MaterialPageRoute<void>(builder: (_) => const HomeScreen()),
+    );
+
+    final models = AsrModelScope.maybeOf(context);
+    if (models == null || models.isDownloaded(selectedAsrModel.value)) {
+      home();
+      return;
+    }
+    navigator.pushReplacement(
+      MaterialPageRoute<void>(
+        builder: (_) => SpeechModelSetupScreen(store: models, onDone: home),
+      ),
+    );
+  }
 
   Future<void> _addFirstCard(int deckId) async {
     await Navigator.of(context).push(

@@ -215,7 +215,7 @@ Future<String> ensureAsrWav(String path) async {
 /// Returns the raw bytes of [path]'s `data` chunk -- 16-bit PCM samples with
 /// no header -- for a recognizer that wants samples rather than a file.
 ///
-/// [VoskAsr] is the caller: `acceptWaveformBytes` takes headerless PCM16, and
+/// [SherpaAsr] is the caller: it converts headerless PCM16 to floats, and
 /// handing it a whole WAV would feed the RIFF header in as audio. Stripping a
 /// fixed 44 bytes would be wrong for the same reason [_parseLayout] exists --
 /// prod1.wav's LIST chunk sits between the header and the samples.

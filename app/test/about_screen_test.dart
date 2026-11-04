@@ -17,7 +17,7 @@ void main() {
     expect(find.text('Credits'), findsOneWidget);
     for (final name in [
       'Phonon by Gradium',
-      'Vosk by Alpha Cephei',
+      'sherpa-onnx by Next-gen Kaldi',
       'Tatoeba',
     ]) {
       await tester.scrollUntilVisible(find.text(name), 200);
@@ -43,5 +43,13 @@ void main() {
         reason: '${credit.licenseAsset} is not declared in pubspec.yaml',
       );
     }
+  });
+
+  testWidgets('About links to the source code on GitHub', (tester) async {
+    await tester.pumpWidget(const MaterialApp(home: AboutScreen()));
+
+    await tester.scrollUntilVisible(find.text('Source code on GitHub'), 200);
+    expect(find.text('github.com/GersonHMG/freespeak'), findsOneWidget);
+    expect(kSourceCodeUrl, 'https://github.com/GersonHMG/freespeak');
   });
 }

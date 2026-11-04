@@ -23,6 +23,7 @@ import 'package:flutter/material.dart';
 
 import '../data/practice_history_scope.dart';
 import '../data/practice_history_store.dart';
+import '../pronunciation/asr.dart' show scoringFailureMessage;
 import '../pronunciation/phrase_tokens.dart';
 import '../pronunciation/pronunciation_result.dart';
 import '../pronunciation/pronunciation_scope.dart';
@@ -310,7 +311,7 @@ class _PracticeScreenState extends State<PracticeScreen> {
       debugPrint('[PracticeScreen] scoring failed: $err');
       if (!mounted) return;
       setState(() => _isScoring = false);
-      _showMessage('Could not score that attempt. Try again in a moment.');
+      _showMessage(scoringFailureMessage(err));
     }
   }
 

@@ -3,12 +3,12 @@
 // Worth having as its own interface: the recognizer is the only part of this
 // feature with a hard external dependency, and the rest of the pipeline is
 // pure Dart that must not have to care. That earned its keep -- the app
-// shipped on whisper_kit and now scores with Vosk, and nothing below this
-// seam noticed. [VoskAsr] is the implementation.
+// shipped on whisper_kit, then Vosk, and now scores with sherpa-onnx, and
+// nothing below this seam noticed. [SherpaAsr] is the implementation.
 
 /// Sample rate every implementation is fed at, and that the recorder captures
-/// at. 16 kHz is what Vosk's small models are built for;
-/// recording at it avoids a resample.
+/// at. 16 kHz is what Whisper and Parakeet are built for; recording at it
+/// avoids a resample.
 const int kAsrSampleRate = 16000;
 
 /// One word as the recognizer heard it, and where it sits in the recording.
@@ -30,7 +30,7 @@ class TimedWord {
   final Duration end;
 
   /// How sure the recognizer is of this word, 0-1, or null when it does not
-  /// say. Vosk reports it per word (`conf`); the Recall clarity score
+  /// say. Parakeet reports it per token (see [SherpaAsr]); the Recall clarity score
   /// (lib/decks/clarity.dart) is built from it.
   final double? confidence;
 
@@ -48,8 +48,8 @@ class Transcript {
   final String text;
 
   /// One entry per word of [text], in order — empty when word timing was not
-  /// requested, or could not be lined up with [text] ([VoskAsr] cannot hit
-  /// the latter, since its text is built from these words). Never assume `words.length` matches a
+  /// requested, could not be lined up with [text], or the recognizer reports
+  /// none (Whisper). Never assume `words.length` matches a
   /// word count derived from [text]; check it, the way [MispronounceDetector]
   /// does before relying on it.
   final List<TimedWord> words;
@@ -75,3 +75,20 @@ abstract class Asr {
 
   Future<void> dispose();
 }
+
+/// Thrown by [Asr.ready] and [Asr.transcribe] when the model picked in
+/// Settings has not been downloaded yet -- on a fresh install, until the
+/// learner downloads one.
+class AsrModelMissing implements Exception {
+  const AsrModelMissing(this.modelName);
+
+  final String modelName;
+
+  @override
+  String toString() => '$modelName is not downloaded';
+}
+
+/// What to tell the learner when scoring an attempt threw [err].
+String scoringFailureMessage(Object err) => err is AsrModelMissing
+    ? 'Download a speech model in Settings to score your speaking.'
+    : 'Could not score that attempt. Try again in a moment.';

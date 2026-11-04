@@ -7,9 +7,12 @@ import '../data/practice_history_store.dart';
 import '../decks/deck_store.dart';
 import '../decks/deck_store_scope.dart';
 import '../decks/recall_settings.dart';
+import '../pronunciation/asr_model_scope.dart';
+import '../pronunciation/asr_model_store.dart';
+import '../pronunciation/asr_models.dart';
 import '../pronunciation/mispronounce_detector.dart';
 import '../pronunciation/pronunciation_scope.dart';
-import '../pronunciation/vosk_asr.dart';
+import '../pronunciation/sherpa_asr.dart';
 import '../tts/phonon_tts.dart';
 import '../tts/phonon_tts_scope.dart';
 import '../theme/theme_setting.dart';
@@ -28,8 +31,9 @@ class LoadingScreen extends StatefulWidget {
 
 class _LoadingScreenState extends State<LoadingScreen> {
   final PhononTts _tts = PhononTts();
+  final AsrModelStore _asrModels = AsrModelStore();
   late final MispronounceDetector _detector = MispronounceDetector(
-    asr: VoskAsr(),
+    asr: SherpaAsr(store: _asrModels),
     // Both sides of the comparison must speak the same dialect of IPA, so the
     // scorer borrows the synthesizer's own phonemizer rather than bringing a
     // second one that would disagree with it about, say, the flap in "water".
@@ -91,11 +95,19 @@ class _LoadingScreenState extends State<LoadingScreen> {
       debugPrint('Failed to read the Recall settings: $err');
     }
 
-    // Deliberately not awaited. On the first run after an install the
-    // recognizer's weights are still being unzipped out of the bundle (~40 MB,
-    // seconds), and holding the whole app on the loader for that would mean a
-    // first run that cannot even hear the phrase before it can score one. The
-    // record button reports its own readiness instead.
+    try {
+      await loadAsrModelSetting(_decks);
+      await _asrModels.refresh();
+    } catch (err) {
+      debugPrint('Failed to read the speech model setting: $err');
+    }
+
+    // Deliberately not awaited. Loading the recognizer's weights takes
+    // seconds (hundreds of MB for the larger models), and holding the whole
+    // app on the loader for that would mean a first run that cannot even
+    // hear the phrase before it can score one. On a fresh install there is
+    // nothing to load until a model is downloaded from Settings, and this
+    // simply fails.
     unawaited(
       _detector.ready().catchError((Object err) {
         debugPrint('Failed to load speech recognizer: $err');
@@ -109,6 +121,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
   void dispose() {
     _tts.dispose();
     _detector.dispose();
+    _asrModels.dispose();
     _decks.dispose();
     _history.dispose();
     super.dispose();
@@ -121,29 +134,33 @@ class _LoadingScreenState extends State<LoadingScreen> {
         tts: _tts,
         child: PronunciationScope(
           detector: _detector,
-          child: PracticeHistoryScope(
-            store: _history,
-            child: DeckStoreScope(
-              store: _decks,
-              // A nested Navigator, rather than pushing on the app-level one,
-              // so that routes pushed from HomeScreen (e.g. SessionScreen)
-              // stay inside these scopes instead of escaping them as sibling
-              // routes.
-              //
-              // The system back button only ever asks the app-level
-              // Navigator, which holds nothing but this screen -- so without
-              // the handler, back would close the app from any depth. It
-              // hands the pop down to the nested Navigator instead, which
-              // also lets the screens' own PopScopes (leave-session dialogs)
-              // see it.
-              child: NavigatorPopHandler(
-                onPopWithResult: (_) => _navigatorKey.currentState?.maybePop(),
-                child: Navigator(
-                  key: _navigatorKey,
-                  onGenerateRoute: (settings) => MaterialPageRoute(
-                    builder: (_) => _askLanguage
-                        ? const LanguageOnboardingScreen()
-                        : const HomeScreen(),
+          child: AsrModelScope(
+            store: _asrModels,
+            child: PracticeHistoryScope(
+              store: _history,
+              child: DeckStoreScope(
+                store: _decks,
+                // A nested Navigator, rather than pushing on the app-level one,
+                // so that routes pushed from HomeScreen (e.g. SessionScreen)
+                // stay inside these scopes instead of escaping them as sibling
+                // routes.
+                //
+                // The system back button only ever asks the app-level
+                // Navigator, which holds nothing but this screen -- so without
+                // the handler, back would close the app from any depth. It
+                // hands the pop down to the nested Navigator instead, which
+                // also lets the screens' own PopScopes (leave-session dialogs)
+                // see it.
+                child: NavigatorPopHandler(
+                  onPopWithResult: (_) =>
+                      _navigatorKey.currentState?.maybePop(),
+                  child: Navigator(
+                    key: _navigatorKey,
+                    onGenerateRoute: (settings) => MaterialPageRoute(
+                      builder: (_) => _askLanguage
+                          ? const LanguageOnboardingScreen()
+                          : const HomeScreen(),
+                    ),
                   ),
                 ),
               ),

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../data/credits.dart';
 import '../theme/lingo_theme.dart';
@@ -71,6 +73,8 @@ class AboutScreen extends StatelessWidget {
             const SizedBox(height: 24),
             const _CreditsCard(),
             const SizedBox(height: 12),
+            const _SourceCodeRow(),
+            const SizedBox(height: 12),
             const _LicensesRow(),
           ],
         ),
@@ -126,13 +130,79 @@ class _CreditsCard extends StatelessWidget {
   }
 }
 
+/// Where Free Speak's own source lives.
+const String kSourceCodeUrl = 'https://github.com/GersonHMG/freespeak';
+
+/// Opens the GitHub repository in the browser. Without one to open it in,
+/// the address is copied instead, so the tap still gets the learner there.
+class _SourceCodeRow extends StatelessWidget {
+  const _SourceCodeRow();
+
+  Future<void> _open(BuildContext context) async {
+    final messenger = ScaffoldMessenger.of(context);
+    var opened = false;
+    try {
+      opened = await launchUrl(
+        Uri.parse(kSourceCodeUrl),
+        mode: LaunchMode.externalApplication,
+      );
+    } catch (err) {
+      debugPrint('[AboutScreen] opening $kSourceCodeUrl failed: $err');
+    }
+    if (opened) return;
+    await Clipboard.setData(const ClipboardData(text: kSourceCodeUrl));
+    messenger.showSnackBar(
+      const SnackBar(content: Text('Link copied: $kSourceCodeUrl')),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) => _LinkRow(
+    icon: Icons.code_rounded,
+    title: 'Source code on GitHub',
+    subtitle: 'github.com/GersonHMG/freespeak',
+    trailing: Icons.open_in_new_rounded,
+    onTap: () => _open(context),
+  );
+}
+
 /// Opens Flutter's licence page: the credits' full licence texts and every
 /// Dart package's.
 class _LicensesRow extends StatelessWidget {
   const _LicensesRow();
 
   @override
+  Widget build(BuildContext context) => _LinkRow(
+    icon: Icons.description_outlined,
+    title: 'Open-source licenses',
+    onTap: () => showLicensePage(
+      context: context,
+      applicationName: 'Free Speak',
+      applicationLegalese: 'Free software under the GNU GPL v3.',
+    ),
+  );
+}
+
+/// A tappable card row: an icon in a disc, a title (and maybe a subtitle),
+/// and a trailing hint of where the tap goes.
+class _LinkRow extends StatelessWidget {
+  const _LinkRow({
+    required this.icon,
+    required this.title,
+    required this.onTap,
+    this.subtitle,
+    this.trailing = Icons.chevron_right_rounded,
+  });
+
+  final IconData icon;
+  final String title;
+  final String? subtitle;
+  final IconData trailing;
+  final VoidCallback onTap;
+
+  @override
   Widget build(BuildContext context) {
+    final subtitle = this.subtitle;
     return Material(
       color: LingoColors.surface,
       borderRadius: BorderRadius.circular(22),
@@ -140,11 +210,7 @@ class _LicensesRow extends StatelessWidget {
       shadowColor: LingoColors.ink.withValues(alpha: 0.06),
       child: InkWell(
         borderRadius: BorderRadius.circular(22),
-        onTap: () => showLicensePage(
-          context: context,
-          applicationName: 'Free Speak',
-          applicationLegalese: 'Free software under the GNU GPL v3.',
-        ),
+        onTap: onTap,
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
           child: Row(
@@ -152,20 +218,30 @@ class _LicensesRow extends StatelessWidget {
               CircleAvatar(
                 radius: 20,
                 backgroundColor: LingoColors.indigoContainer,
-                child: Icon(
-                  Icons.description_outlined,
-                  size: 20,
-                  color: LingoColors.indigo,
-                ),
+                child: Icon(icon, size: 20, color: LingoColors.indigo),
               ),
               const SizedBox(width: 16),
               Expanded(
-                child: Text(
-                  'Open-source licenses',
-                  style: lingoFont(size: 16, weight: FontWeight.w600),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      title,
+                      style: lingoFont(size: 16, weight: FontWeight.w600),
+                    ),
+                    if (subtitle != null)
+                      Text(
+                        subtitle,
+                        style: lingoFont(
+                          size: 13,
+                          weight: FontWeight.w400,
+                          color: LingoColors.mutedInk,
+                        ),
+                      ),
+                  ],
                 ),
               ),
-              Icon(Icons.chevron_right_rounded, color: LingoColors.navInactive),
+              Icon(trailing, color: LingoColors.navInactive),
             ],
           ),
         ),

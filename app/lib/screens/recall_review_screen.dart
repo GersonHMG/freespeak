@@ -9,6 +9,7 @@ import '../decks/deck_store_scope.dart';
 import '../decks/languages.dart';
 import '../decks/recall_settings.dart';
 import '../decks/review_session.dart';
+import '../pronunciation/asr.dart' show AsrModelMissing, scoringFailureMessage;
 import '../pronunciation/pronunciation_result.dart';
 import '../pronunciation/pronunciation_scope.dart';
 import '../pronunciation/recorder.dart';
@@ -299,7 +300,11 @@ class _RecallReviewScreenState extends State<RecallReviewScreen> {
       debugPrint('[RecallReviewScreen] dictation failed: $err');
       if (!mounted) return;
       setState(() => _isTranscribing = false);
-      _showMessage('Could not hear that. Try again in a moment.');
+      _showMessage(
+        err is AsrModelMissing
+            ? scoringFailureMessage(err)
+            : 'Could not hear that. Try again in a moment.',
+      );
     }
   }
 
@@ -422,7 +427,7 @@ class _RecallReviewScreenState extends State<RecallReviewScreen> {
       debugPrint('[RecallReviewScreen] scoring failed: $err');
       if (!mounted) return;
       setState(() => _isScoring = false);
-      _showMessage('Could not score that attempt. Try again in a moment.');
+      _showMessage(scoringFailureMessage(err));
     }
   }
 

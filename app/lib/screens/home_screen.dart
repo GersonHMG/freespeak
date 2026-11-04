@@ -6,6 +6,7 @@ import '../data/practice_history_scope.dart';
 import '../decks/deck_store_scope.dart';
 import '../theme/lingo_theme.dart';
 import '../widgets/cards_per_day_card.dart';
+import '../widgets/speech_model_banner.dart';
 import '../widgets/tap_sound.dart';
 import 'deck_picker_screen.dart';
 import 'debug/debug_menu.dart';
@@ -107,6 +108,9 @@ class _HomeTab extends StatelessWidget {
                       children: [
                         _TopBar(currentStreak: activity?.currentStreak ?? 0),
                         const SizedBox(height: 20),
+                        const SpeechModelBanner(
+                          padding: EdgeInsets.only(bottom: 20),
+                        ),
                         CardsPerDayCard(
                           cardsPerDay: activity?.cardsPerDay ?? _noCards,
                           goalTarget: dailyGoalTarget,

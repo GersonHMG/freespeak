@@ -48,34 +48,18 @@ dependencies:
   ffi: ^2.2.0              # C strings for the Phonon binding (libptts_ffi)
   path_provider: ^2.1.5    # cache dir for the generated WAV files
   audioplayers: ^6.1.0     # playback of those WAV files
+  url_launcher: ^6.3.1     # About's link to the source code on GitHub
 
   # On-device speech recognition, for scoring what the learner actually said.
   record: ^6.0.0           # captures the attempt as 16 kHz mono WAV
-  vosk_flutter_service: 0.1.3
+  # Whisper and Parakeet through ONNX Runtime. Their weights are not bundled:
+  # the learner downloads the one they pick from Settings (AsrModelStore).
+  sherpa_onnx: ^2.0.1
 
   # Durable per-attempt practice history (PracticeHistoryStore), separate from
   # SessionScore's in-memory per-session totals.
   sqflite: ^2.4.1
   path: ^1.9.0
-
-# permission_handler arrives transitively, via vosk_flutter_service, and is
-# not used by this app directly -- `record` handles the microphone permission.
-#
-# Every permission_handler_android 14.x compiles against Android SDK 37
-# symbols (ACCESS_LOCAL_NETWORK, VERSION_CODES.CINNAMON_BUN) that Flutter's
-# compileSdk of 36 does not provide, so the Gradle build fails inside the
-# package itself. permission_handler 13.x requires _android ^14.0.0, so both
-# halves have to come down together: 12.0.3 pairs with _android 13.x, which
-# builds against SDK 36.
-#
-# Safe because vosk_flutter_service touches only Permission.microphone's
-# status/request/isGranted -- unchanged between 12.x and 13.x -- and only from
-# initSpeechService(), the mic-streaming path this app never calls.
-#
-# Drop both once compileSdk can be raised to 37.
-dependency_overrides:
-  permission_handler: 12.0.3
-  permission_handler_android: 13.0.1
 
 dev_dependencies:
   flutter_test:
@@ -115,13 +99,6 @@ flutter:
     # Phonon (phonon-31m-en, Apache-2.0), ~65 MB, copied out to app support
     # on first launch: its C library reads files, not the asset bundle.
     - assets/models/phonon/
-    # The recognizer's weights, ~40 MB, bundled so a fresh install can score
-    # offline like the rest of the app. VoskAsr falls back to downloading them
-    # if this line is pulled, so a size-sensitive build can trade the APK for a
-    # first run that needs the network. Do not rename the file: ModelLoader
-    # derives both the extraction directory and the folder it expects inside
-    # the archive from this basename.
-    - assets/models/vosk/vosk-model-small-en-us-0.15.zip
     # Fixture carried over from the Expo app's mispronounce_detector tests, for
     # PronunciationDebugScreen. Debug-only in spirit — pull this line (and the
     # file) before a release build ships it in the APK.

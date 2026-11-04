@@ -50,7 +50,7 @@ class DebugMenu extends StatelessWidget {
             _DebugMenuTile(
               icon: Icons.hearing_outlined,
               title: 'TTS Reference',
-              subtitle: 'Vosk vs the TTS audio',
+              subtitle: 'The recognizer vs the TTS audio',
               onTap: () => _push(
                 context,
                 TtsReferenceScreen(detector: detector, tts: tts),
@@ -59,7 +59,7 @@ class DebugMenu extends StatelessWidget {
             _DebugMenuTile(
               icon: Icons.map_outlined,
               title: 'Word Map',
-              subtitle: "Vosk's raw word timing",
+              subtitle: "The recognizer's raw word timing",
               onTap: () => _push(
                 context,
                 WordMapDebugScreen(detector: detector, tts: tts),

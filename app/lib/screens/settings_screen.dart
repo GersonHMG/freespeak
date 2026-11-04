@@ -4,6 +4,9 @@ import '../decks/deck_store_scope.dart';
 import '../decks/languages.dart';
 import '../decks/recall_settings.dart';
 import '../decks/seed_deck.dart';
+import '../pronunciation/asr_model_scope.dart';
+import '../pronunciation/asr_model_store.dart';
+import '../pronunciation/asr_models.dart';
 import '../theme/lingo_theme.dart';
 import '../theme/theme_setting.dart';
 import '../widgets/language_list.dart';
@@ -11,7 +14,8 @@ import '../widgets/mode_badge.dart';
 import 'language_onboarding_screen.dart';
 
 /// Settings: the language the learner speaks, light or night mode, whether
-/// a Recall card speaks when it turns over, and deleting everything. Changing it switches
+/// a Recall card speaks when it turns over, which speech model scores the
+/// learner (and downloading it), and deleting everything. Changing it switches
 /// Home to a deck in that language (see chooseNativeLanguage) -- the old
 /// deck, its cards and their schedules all stay, and switching back picks
 /// them up again.
@@ -62,6 +66,12 @@ class SettingsScreen extends StatelessWidget {
                   const _Label('RECALL CARDS'),
                   const SizedBox(height: 8),
                   const _SpeakOnFlipRow(),
+                  if (AsrModelScope.maybeOf(context) case final models?) ...[
+                    const SizedBox(height: 24),
+                    const _Label('SPEECH RECOGNITION'),
+                    const SizedBox(height: 8),
+                    _SpeechModelList(store: models),
+                  ],
                   const SizedBox(height: 32),
                   const _Label('DATA'),
                   const SizedBox(height: 8),
@@ -150,6 +160,173 @@ class _SpeakOnFlipRow extends StatelessWidget {
   }
 }
 
+/// The speech models scoring can use: one is picked, and each is downloaded
+/// (or deleted) on request -- none ships with the app. Tapping a downloaded
+/// model picks it; a download started while the picked model is missing
+/// picks the new one when it finishes, so a first run needs one tap.
+class _SpeechModelList extends StatelessWidget {
+  const _SpeechModelList({required this.store});
+
+  final AsrModelStore store;
+
+  Future<void> _download(BuildContext context, AsrModel model) async {
+    final decks = DeckStoreScope.of(context);
+    final messenger = ScaffoldMessenger.of(context);
+    try {
+      await store.download(model);
+      if (!store.isDownloaded(selectedAsrModel.value)) {
+        await saveAsrModel(decks, model);
+      }
+    } on AsrDownloadCancelled {
+      return;
+    } catch (err) {
+      debugPrint('[SettingsScreen] downloading ${model.name} failed: $err');
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(
+            'Could not download ${model.name}. Check your connection '
+            'and try again -- it picks up where it stopped.',
+          ),
+        ),
+      );
+    }
+  }
+
+  Future<void> _delete(BuildContext context, AsrModel model) async {
+    final confirmed = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text('Delete ${model.name}?'),
+        content: Text(
+          'This frees ${_megabytes(model.totalBytes)}. You can download it '
+          'again at any time.',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(false),
+            child: const Text('Cancel'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.of(context).pop(true),
+            child: const Text('Delete'),
+          ),
+        ],
+      ),
+    );
+    if (confirmed == true) await store.delete(model);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final decks = DeckStoreScope.of(context);
+    return ListenableBuilder(
+      listenable: Listenable.merge([store, selectedAsrModel]),
+      builder: (context, _) => Material(
+        color: LingoColors.surface,
+        borderRadius: BorderRadius.circular(16),
+        clipBehavior: Clip.antiAlias,
+        child: RadioGroup<String>(
+          groupValue: selectedAsrModel.value.id,
+          onChanged: (id) {
+            final model = asrModelById(id);
+            if (store.isDownloaded(model)) saveAsrModel(decks, model);
+          },
+          child: Column(
+            children: [
+              for (final model in kAsrModels)
+                _SpeechModelTile(
+                  model: model,
+                  downloaded: store.isDownloaded(model),
+                  progress: store.progressOf(model),
+                  onDownload: () => _download(context, model),
+                  onCancel: () => store.cancel(model),
+                  onDelete: () => _delete(context, model),
+                ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _SpeechModelTile extends StatelessWidget {
+  const _SpeechModelTile({
+    required this.model,
+    required this.downloaded,
+    required this.progress,
+    required this.onDownload,
+    required this.onCancel,
+    required this.onDelete,
+  });
+
+  final AsrModel model;
+  final bool downloaded;
+
+  /// 0-1 while downloading.
+  final double? progress;
+  final VoidCallback onDownload;
+  final VoidCallback onCancel;
+  final VoidCallback onDelete;
+
+  @override
+  Widget build(BuildContext context) {
+    final progress = this.progress;
+    final muted = lingoFont(
+      size: 13,
+      weight: FontWeight.w500,
+      color: LingoColors.mutedInk,
+    );
+    return RadioListTile<String>(
+      value: model.id,
+      enabled: downloaded,
+      title: Text(
+        model.name,
+        style: lingoFont(size: 15, weight: FontWeight.w600),
+      ),
+      subtitle: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(model.summary, style: muted),
+          const SizedBox(height: 2),
+          Text(
+            progress != null
+                ? 'Downloading… ${(progress * 100).floor()}% of '
+                      '${_megabytes(model.totalBytes)}'
+                : downloaded
+                ? 'Downloaded · ${_megabytes(model.totalBytes)}'
+                : _megabytes(model.totalBytes),
+            style: muted,
+          ),
+          if (progress != null) ...[
+            const SizedBox(height: 6),
+            LinearProgressIndicator(value: progress),
+          ],
+        ],
+      ),
+      secondary: progress != null
+          ? IconButton(
+              tooltip: 'Stop download',
+              onPressed: onCancel,
+              icon: const Icon(Icons.close_rounded),
+            )
+          : downloaded
+          ? IconButton(
+              tooltip: 'Delete ${model.name}',
+              onPressed: onDelete,
+              icon: const Icon(Icons.delete_outline_rounded),
+            )
+          : IconButton(
+              tooltip: 'Download ${model.name}',
+              onPressed: onDownload,
+              icon: const Icon(Icons.download_rounded),
+            ),
+    );
+  }
+}
+
+String _megabytes(int bytes) => '${(bytes / (1000 * 1000)).round()} MB';
+
 /// "Delete all data": a warning that says what goes, and a Delete button
 /// that only wakes up once "delete" is typed -- a tap alone, or two, is too
 /// easy to make by accident for something that cannot be undone. Afterwards
@@ -171,6 +348,7 @@ class _DeleteAllButton extends StatelessWidget {
     // The theme choice was a setting too, and so was speaking on flip.
     lingoThemeMode.value = ThemeMode.system;
     speakOnFlip.value = true;
+    selectedAsrModel.value = kWhisperTiny;
     navigator.pushAndRemoveUntil(
       MaterialPageRoute<void>(builder: (_) => const LanguageOnboardingScreen()),
       (_) => false,
