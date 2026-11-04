@@ -103,7 +103,7 @@ void main() {
     await tester.tap(find.text('Pronunciation'));
     await tester.pumpAndSettle();
     expect(find.text('Choose a deck'), findsOneWidget);
-    expect(find.text('Everyday sentences'), findsOneWidget);
+    expect(find.text('PRONUNCIATION'), findsOneWidget);
   });
 
   testWidgets('the cards-per-day panel counts today, Recall included', (

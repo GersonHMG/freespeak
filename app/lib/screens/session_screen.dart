@@ -339,7 +339,7 @@ class _SessionScreenState extends State<SessionScreen> {
   /// phrase set at a single large size would overflow that box instead, so
   /// length picks the style instead of one being pinned for every phrase.
   ///
-  /// Thresholds are from the actual dataset (`assets/data_en.csv`): 50
+  /// Thresholds came from the original sentence dataset: 50
   /// characters is its median-ish length and keeps ~85% of phrases at full
   /// size, 80 covers the next ~12%, and 130 covers all but a long tail of
   /// under a hundred outliers -- the one in the screenshot this was written

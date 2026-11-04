@@ -91,18 +91,14 @@ void main() {
     expect((await decks.decks()).map((d) => d.name), contains('Travel'));
   });
 
-  testWidgets('Pronunciation keeps the everyday sentences on top', (
-    tester,
-  ) async {
+  testWidgets('Pronunciation offers only decks', (tester) async {
     await deck('Common phrases', source: DeckSource.starter);
 
     await tester.pumpWidget(app(DeckPurpose.pronunciation));
     await tester.pumpAndSettle();
 
-    expect(
-      tester.getTopLeft(find.text('Everyday sentences')).dy,
-      lessThan(tester.getTopLeft(find.text('YOUR DECKS')).dy),
-    );
+    expect(find.text('Everyday sentences'), findsNothing);
+    expect(find.text('YOUR DECKS'), findsOneWidget);
     expect(find.text('1 deck'), findsOneWidget);
   });
 }

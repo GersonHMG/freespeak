@@ -22,8 +22,7 @@ enum DeckPurpose {
 /// The step between a game mode and playing it: choose the deck. The
 /// learner's own decks come first, with a "Create a deck" row while they
 /// hold no cards yet; the app's bundled decks sit behind one "Premade
-/// decks" row ([PremadeDecksScreen]). Pronunciation also offers the
-/// built-in everyday sentences, so it works with no deck at all.
+/// decks" row ([PremadeDecksScreen]).
 class DeckPickerScreen extends StatelessWidget {
   const DeckPickerScreen({required this.purpose, super.key});
 
@@ -45,10 +44,6 @@ class DeckPickerScreen extends StatelessWidget {
         final ownCards = own.fold(0, (sum, s) => sum + s.cardCount);
         return [
           _title('Choose a deck'),
-          if (purpose == DeckPurpose.pronunciation)
-            _EverydayTile(
-              onTap: () => _open(context, const SessionLoadingScreen()),
-            ),
           const _Section('YOUR DECKS'),
           for (final summary in own) _PickerDeckTile(summary, purpose),
           if (ownCards == 0) ...[
@@ -400,62 +395,4 @@ class _DashedBorder extends CustomPainter {
 
   @override
   bool shouldRepaint(_DashedBorder old) => old.color != color;
-}
-
-/// Pronunciation's deck-free option: the app's own everyday sentences.
-class _EverydayTile extends StatelessWidget {
-  const _EverydayTile({required this.onTap});
-
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 10),
-      child: Material(
-        color: LingoColors.indigoContainer,
-        borderRadius: BorderRadius.circular(18),
-        child: InkWell(
-          borderRadius: BorderRadius.circular(18),
-          onTap: onTap,
-          child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-            child: Row(
-              children: [
-                Icon(
-                  Icons.record_voice_over_rounded,
-                  color: LingoColors.indigo,
-                  size: 26,
-                ),
-                const SizedBox(width: 14),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'Everyday sentences',
-                        style: lingoFont(size: 16, weight: FontWeight.w700),
-                      ),
-                      Text(
-                        'A fresh mix every session',
-                        style: lingoFont(
-                          size: 12,
-                          weight: FontWeight.w500,
-                          color: LingoColors.mutedInk,
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-                Icon(
-                  Icons.chevron_right_rounded,
-                  color: LingoColors.navInactive,
-                ),
-              ],
-            ),
-          ),
-        ),
-      ),
-    );
-  }
 }
