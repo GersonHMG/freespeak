@@ -78,7 +78,7 @@ afterwards.
 
 | Source of the times | Gives | Cost |
 |---|---|---|
-| Speech recognizer (Vosk) on the synthesized audio | Word times | One extra recognition pass per phrase. Recognized words must be matched back to the phrase, and missed words filled in, e.g. by splitting the gap between their neighbours by phoneme count. |
+| Speech recognizer (Parakeet via sherpa-onnx) on the synthesized audio | Word times | One extra recognition pass per phrase. Recognized words must be matched back to the phrase, and missed words filled in, e.g. by splitting the gap between their neighbours by phoneme count. |
 | Phoneme aligner on the synthesized audio | Phoneme times, within about 10–30 ms | A second acoustic model in the APK |
 | Even split of each word's span over its phonemes | Phoneme times, poorly | None, but vowels last several times longer than stops, so syllable cuts land mid-sound |
 
@@ -162,7 +162,8 @@ the existing audio handling (WAV output, clips, time stretch).
 
 - **Size:** the model plus one voice, about **100 MB at most**. Kokoro uses
   92 MB plus a 0.5 MB voice. APK size has already ruled out other models.
-- **Memory:** fits in RAM alongside the Vosk recognizer.
+- **Memory:** fits in RAM alongside the speech recognizer, which can be
+  as large as Parakeet (about 660 MB).
 - **Voice:** one clear American English voice is enough. More voices, a
   British English option, or streaming are not required.
 

@@ -132,7 +132,8 @@ one before it.
 
 ## 7. Accuracy and cost
 
-Word boundaries, judged against Vosk forced alignment on 40 sentences
+Word boundaries, judged against Vosk forced alignment (the recognizer the
+app used when this was measured) on 40 sentences
 (235 boundaries), at the app's pace:
 
 | Mean error | Median | 90th percentile | Within 50 ms |

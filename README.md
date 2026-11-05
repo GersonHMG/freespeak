@@ -109,10 +109,12 @@ FreeSpeak runs on the work of these projects:
 
 - [Phonon](https://gradium.ai/phonon) by Gradium: the voice that reads
   sentences aloud.
-- [Vosk](https://alphacephei.com/vosk/) by Alpha Cephei: offline speech
-  recognition.
-- [Kaldi](https://kaldi-asr.org) and [OpenFst](https://www.openfst.org): the
-  speech toolkit and the finite-state library under Vosk.
+- [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) by Next-gen Kaldi:
+  offline speech recognition.
+- [Whisper](https://github.com/openai/whisper) by OpenAI: the Whisper tiny
+  and small speech models.
+- [Parakeet TDT 0.6B v2](https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2)
+  by NVIDIA: the Parakeet speech model.
 - [eSpeak-NG](https://github.com/espeak-ng/espeak-ng): turning text into the
   phonemes the app shows and scores against.
 
@@ -127,7 +129,8 @@ Third-party parts keep their own licences:
 
 - eSpeak-NG and its data: GPL v3, with parts under Apache-2.0, BSD-2 and the
   Unicode licence.
-- Kaldi and OpenFst: Apache-2.0.
-- The Vosk English model: Apache-2.0.
+- sherpa-onnx: Apache-2.0.
+- The Whisper models: MIT.
+- The Parakeet model: CC BY 4.0.
 - The Phonon model and the ptts runtime: Apache-2.0 / MIT.
 - The Manrope font: SIL Open Font License 1.1.

@@ -21,8 +21,8 @@ Example: the sentence is "I think so" and the learner says "I tink so".
         |                                         |
         v                                         |
   +------------+                                  |
-  |    Vosk    |  speech -> words, and when       |
-  +------------+  each word was said              |
+  | Recognizer |  speech -> words (sherpa-onnx);  |
+  +------------+  Parakeet also gives word times  |
         |                                         |
         |  heard: "i tink so"                     |
         |  (nothing heard -> no score)            |
@@ -53,7 +53,7 @@ Example: the sentence is "I think so" and the learner says "I tink so".
   Word colour    Sentence score   Points              Replay clip
   I      100 %   8 of 9 sounds    89 x difficulty,    tap "think" to
   think   75 %   = 89 %, green,   less on each        hear yourself
-  so     100 %   success sound    retry               (Vosk's times)
+  so     100 %   success sound    retry               (Parakeet only)
 ```
 
 Both sides go through the same eSpeak, so spelling never matters, only
@@ -63,8 +63,13 @@ sounds. The sections below give the exact rules.
 ## 1. Notation
 
 - The reference sentence is the word sequence $w_1, \dots, w_n$.
-- The recognizer returns heard words $v_1, \dots, v_m$, each with a time
-  interval $[s_k, t_k]$ in the recording.
+- The recognizer returns heard words $v_1, \dots, v_m$. It is sherpa-onnx
+  running whichever downloaded model the learner picked in Settings:
+  Whisper tiny, Whisper small or NVIDIA Parakeet v2. Parakeet also gives
+  each word a time interval $[s_k, t_k]$ in the recording; Whisper gives
+  text only. Nothing in the score uses the times (see section 7).
+- If no model has been downloaded yet, nothing is scored and the learner is
+  asked to download one.
 - If $m = 0$, nothing was heard. The attempt gets **no score**, rather than a
   score of 0.
 - $G$ maps a word to its phoneme string over an alphabet $\Sigma$. The same
@@ -217,6 +222,10 @@ $$
 or from no interval when $H_i = \varnothing$. Timing is read from the same
 path as the scores, but nothing in the scores depends on it.
 
+Only Parakeet reports word times. With a Whisper model no word has an
+interval, so the scores and colours are the same but no word can be tapped
+to hear it back.
+
 ## 8. Points
 
 **Difficulty multiplier** $\mu$, from the sentence's word count $n$:
@@ -294,13 +303,17 @@ $G(v_k)$ is a dictionary pronunciation. As a result:
 - The method can only detect a sound error if it changes the word the
   recognizer outputs. For example, *tink* in the worked example is only
   detected if the recognizer writes *tink* and not *think*.
+- Scores depend on the model picked. A larger model hears more accurately,
+  so the same attempt can score differently under Whisper tiny and
+  Parakeet.
 
 Two further limits:
 
 - Numbers are written differently by the two sides (*2:30* in the sentence,
   *two thirty* from the recognizer), so $G$ produces different sounds and
   sentences with digits score low.
-- Both the recognizer and $G$ are US English.
+- $G$ is US English, and every recognizer model is English-only (the
+  Whisper `.en` checkpoints and Parakeet v2).
 
 Scoring the sounds directly from the audio was also tried: goodness of
 pronunciation from a CTC phoneme model, and phoneme recognizers that output
